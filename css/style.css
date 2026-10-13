@@ -294,3 +294,57 @@ button:focus-visible {
     padding: 14px;
   }
 }
+
+/* Final layout for multiple-choice answers */
+.option-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 100%;
+  text-align: right;
+  direction: rtl;
+}
+
+.option-button::before {
+  content: none !important;
+  display: none !important;
+}
+
+.option-letter {
+  display: inline-flex;
+  flex: 0 0 54px;
+  width: 54px;
+  min-width: 54px;
+  min-height: 36px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 8px;
+  background: #d4e8fa;
+  color: #17558c;
+  font-weight: bold;
+  direction: ltr;
+  white-space: nowrap;
+}
+
+.option-text {
+  display: block;
+  flex: 1 1 auto;
+  min-width: 0;
+  color: #243447;
+  text-align: right;
+  line-height: 2;
+  overflow-wrap: anywhere;
+}
+
+.option-button.correct .option-letter {
+  background: #c8ebd1;
+  color: #176b31;
+}
+
+.option-button.incorrect .option-letter {
+  background: #f8d1d1;
+  color: #9b2525;
+}
