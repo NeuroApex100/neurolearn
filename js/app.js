@@ -193,7 +193,7 @@ async function loadTopic(topic, button) {
   correctCount = 0;
 
   try {
-    const response = await fetch(`./${topic.file}`);
+    const response = await fetch(`./data/${topic.file}`);
 
     if (!response.ok) {
       throw new Error(`فایل ${topic.file} پیدا نشد.`);
