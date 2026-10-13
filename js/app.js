@@ -28,21 +28,25 @@ let answeredQuestions = 0;
 let answerLocked = false;
 let requestNumber = 0;
 
+function createElement(tag, className, text) {
+  const element = document.createElement(tag);
+
+  if (className) element.className = className;
+  if (text !== undefined) element.textContent = text;
+
+  return element;
+}
+
 function showError(message) {
+  if (!errorArea) return;
   errorArea.textContent = message;
   errorArea.hidden = false;
 }
 
 function clearError() {
+  if (!errorArea) return;
   errorArea.textContent = "";
   errorArea.hidden = true;
-}
-
-function createElement(tag, className, text) {
-  const element = document.createElement(tag);
-  if (className) element.className = className;
-  if (text !== undefined) element.textContent = text;
-  return element;
 }
 
 function renderTopics() {
@@ -52,14 +56,15 @@ function renderTopics() {
     const button = createElement("button", "topic-button", topic.label);
     button.type = "button";
     button.classList.toggle("active", index === currentTopicIndex);
+
     button.addEventListener("click", () => loadTopic(index));
+
     topicList.appendChild(button);
   });
 }
 
 function updateTopicButtons() {
-  const buttons = topicList.querySelectorAll("button");
-  buttons.forEach((button, index) => {
+  topicList.querySelectorAll("button").forEach((button, index) => {
     button.classList.toggle("active", index === currentTopicIndex);
   });
 }
@@ -117,8 +122,8 @@ async function loadTopic(index) {
 
     currentQuestions = data.questions;
 
-    if (currentQuestions.some(question => !validateQuestion(question))) {
-      throw new Error("ساختار یکی از سؤال‌ها یا گزینه‌های آن صحیح نیست.");
+    if (currentQuestions.some(q => !validateQuestion(q))) {
+      throw new Error("ساختار یکی از سؤال‌ها صحیح نیست.");
     }
 
     if (data.topic_title) {
@@ -131,7 +136,7 @@ async function loadTopic(index) {
     if (currentQuestions.length === 0) {
       questionArea.replaceChildren(
         createElement("h3", "", "هنوز سؤالی اضافه نشده است."),
-        createElement("p", "", "سؤال‌های این فصل در مراحل بعد اضافه خواهند شد.")
+        createElement("p", "", "سؤال‌های این فصل به‌زودی اضافه می‌شوند.")
       );
       return;
     }
@@ -168,46 +173,59 @@ function renderQuestion() {
   const question = currentQuestions[currentQuestionIndex];
   questionArea.replaceChildren();
 
-  const progress = createElement(
-    "p",
-    "question-meta",
-    "سؤال " +
-      (currentQuestionIndex + 1).toLocaleString("fa-IR") +
-      " از " +
-      currentQuestions.length.toLocaleString("fa-IR")
-  );
-
-  const score = createElement(
-    "p",
-    "question-meta",
-    "پاسخ صحیح: " +
-      correctAnswers.toLocaleString("fa-IR") +
-      " از " +
-      answeredQuestions.toLocaleString("fa-IR")
-  );
-
   const card = createElement("div", "question-card");
-  card.appendChild(progress);
-  card.appendChild(score);
+
+  card.appendChild(
+    createElement(
+      "p",
+      "question-meta",
+      "سؤال " +
+        (currentQuestionIndex + 1).toLocaleString("fa-IR") +
+        " از " +
+        currentQuestions.length.toLocaleString("fa-IR")
+    )
+  );
+
+  card.appendChild(
+    createElement(
+      "p",
+      "question-meta score-display",
+      "پاسخ صحیح: " +
+        correctAnswers.toLocaleString("fa-IR") +
+        " از " +
+        answeredQuestions.toLocaleString("fa-IR")
+    )
+  );
 
   if (question.id) {
     card.appendChild(createElement("p", "question-id", question.id));
   }
 
-  card.appendChild(createElement("h3", "question-stem", question.stem));
+  card.appendChild(
+    createElement("h3", "question-stem", question.stem)
+  );
 
   const optionsContainer = createElement("div", "options-list");
   const feedback = createElement("div", "feedback");
   feedback.hidden = true;
 
+  const letters = ["A", "B", "C", "D"];
+
   question.options.forEach((option, index) => {
-    const button = createElement(
-      "button",
-      "option-button",
-      String.fromCharCode(65 + index) + ". " + option
+    const button = createElement("button", "option-button");
+    button.type = "button";
+
+    // حرف گزینه و متن پاسخ در دو عنصر جداگانه هستند.
+    const letter = createElement(
+      "span",
+      "option-letter",
+      letters[index] + " -"
     );
 
-    button.type = "button";
+    const optionText = createElement("span", "option-text", option);
+
+    button.appendChild(letter);
+    button.appendChild(optionText);
 
     button.addEventListener("click", () => {
       if (answerLocked) return;
@@ -224,15 +242,15 @@ function renderQuestion() {
         button.classList.add("incorrect");
       }
 
-      const optionButtons = optionsContainer.querySelectorAll("button");
+      optionsContainer.querySelectorAll("button").forEach(
+        (optionButton, optionIndex) => {
+          optionButton.disabled = true;
 
-      optionButtons.forEach((optionButton, optionIndex) => {
-        optionButton.disabled = true;
-
-        if (optionIndex === question.correctIndex) {
-          optionButton.classList.add("correct");
+          if (optionIndex === question.correctIndex) {
+            optionButton.classList.add("correct");
+          }
         }
-      });
+      );
 
       feedback.replaceChildren();
 
@@ -251,9 +269,12 @@ function renderQuestion() {
       }
 
       if (Array.isArray(question.optionExplanations)) {
-        const explanationList = createElement("div", "option-explanations");
+        const explanationList = createElement(
+          "div",
+          "option-explanations"
+        );
 
-        question.options.forEach((optionText, optionIndex) => {
+        question.options.forEach((option, optionIndex) => {
           const explanationText =
             question.optionExplanations[optionIndex];
 
@@ -263,8 +284,8 @@ function renderQuestion() {
             createElement(
               "p",
               "",
-              String.fromCharCode(65 + optionIndex) +
-                ". " +
+              letters[optionIndex] +
+                " - " +
                 explanationText
             )
           );
@@ -275,7 +296,11 @@ function renderQuestion() {
 
       if (question.examTip) {
         feedback.appendChild(
-          createElement("p", "exam-tip", "نکته آزمونی: " + question.examTip)
+          createElement(
+            "p",
+            "exam-tip",
+            "نکته آزمونی: " + question.examTip
+          )
         );
       }
 
@@ -285,10 +310,10 @@ function renderQuestion() {
         );
       }
 
-      const updatedScore = card.querySelectorAll(".question-meta")[1];
+      const scoreDisplay = card.querySelector(".score-display");
 
-      if (updatedScore) {
-        updatedScore.textContent =
+      if (scoreDisplay) {
+        scoreDisplay.textContent =
           "پاسخ صحیح: " +
           correctAnswers.toLocaleString("fa-IR") +
           " از " +
@@ -339,9 +364,16 @@ function renderSummary() {
     )
   );
 
-  const restartButton = createElement("button", "next-button", "مرور دوباره فصل");
+  const restartButton = createElement(
+    "button",
+    "next-button",
+    "مرور دوباره فصل"
+  );
+
   restartButton.type = "button";
-  restartButton.addEventListener("click", () => loadTopic(currentTopicIndex));
+  restartButton.addEventListener("click", () => {
+    loadTopic(currentTopicIndex);
+  });
 
   questionArea.appendChild(restartButton);
 }
