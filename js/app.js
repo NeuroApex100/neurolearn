@@ -1,4 +1,3 @@
-
 const topics = [
   { file: "01_stroke.json", label: "۱. عروق مغزی (Stroke)" },
   { file: "02_epilepsy.json", label: "۲. صرع و تشنج (Epilepsy)" },
@@ -18,61 +17,182 @@ const count = document.getElementById("question-count");
 const area = document.getElementById("question-area");
 const errorBox = document.getElementById("error-area");
 
-function showMessage(heading, message) {
-  area.className = "empty-state";
-  area.replaceChildren();
+let currentQuestions = [];
+let currentIndex = 0;
+let answeredCount = 0;
+let correctCount = 0;
 
-  const h3 = document.createElement("h3");
-  h3.textContent = heading;
-
-  const p = document.createElement("p");
-  p.textContent = message;
-
-  area.append(h3, p);
+function makeElement(tag, className, text) {
+  const element = document.createElement(tag);
+  if (className) element.className = className;
+  if (text !== undefined) element.textContent = text;
+  return element;
 }
 
-function renderQuestions(questions) {
-  area.className = "";
+function showMessage(heading, message) {
   area.replaceChildren();
+  area.className = "empty-state";
+  area.append(
+    makeElement("h3", "", heading),
+    makeElement("p", "", message)
+  );
+}
 
-  questions.forEach((q, i) => {
-    const card = document.createElement("article");
-    card.className = "question-card";
+function renderQuestion() {
+  area.replaceChildren();
+  area.className = "";
 
-    const meta = document.createElement("div");
-    meta.className = "question-meta";
-    meta.textContent = `سؤال ${(i + 1).toLocaleString("fa-IR")}`;
+  if (!currentQuestions.length) {
+    showMessage(
+      "هنوز سؤالی ثبت نشده است",
+      "در مراحل بعدی سؤالات این فصل را اضافه می‌کنیم."
+    );
+    return;
+  }
 
-    const stem = document.createElement("p");
-    stem.textContent = q.stem || "متن سؤال ثبت نشده است.";
+  const q = currentQuestions[currentIndex];
+  const card = makeElement("article", "question-card");
+  const meta = makeElement(
+    "div",
+    "question-meta",
+    `سؤال ${currentIndex + 1} از ${currentQuestions.length}`
+  );
 
-    const options = document.createElement("div");
-    options.className = "options";
+  const stem = makeElement("p", "question-stem", q.stem);
+  const options = makeElement("div", "options");
+  const feedback = makeElement("div", "answer-feedback");
+  feedback.hidden = true;
 
-    (q.options || []).forEach((option, j) => {
-      const item = document.createElement("div");
-      item.className = "option";
-      item.textContent = `${["الف", "ب", "ج", "د"][j] || ""}) ${option}`;
-      options.appendChild(item);
+  const optionButtons = [];
+
+  (q.options || []).forEach((option, index) => {
+    const button = makeElement(
+      "button",
+      "option option-button",
+      `${["الف", "ب", "ج", "د"][index] || index + 1}) ${option}`
+    );
+    button.type = "button";
+    button.addEventListener("click", () => {
+      if (optionButtons.some(item => item.disabled)) return;
+
+      optionButtons.forEach(item => {
+        item.disabled = true;
+      });
+
+      const isCorrect = index === q.correctIndex;
+
+      if (isCorrect) {
+        button.classList.add("correct");
+        feedback.append(
+          makeElement("h3", "correct-text", "پاسخ شما صحیح است")
+        );
+        correctCount++;
+      } else {
+        button.classList.add("incorrect");
+        if (optionButtons[q.correctIndex]) {
+          optionButtons[q.correctIndex].classList.add("correct");
+        }
+        feedback.append(
+          makeElement("h3", "incorrect-text", "پاسخ شما نادرست است")
+        );
+      }
+
+      answeredCount++;
+
+      if (q.explanation) {
+        feedback.append(
+          makeElement("h4", "", "توضیح پاسخ صحیح"),
+          makeElement("p", "", q.explanation)
+        );
+      }
+
+      if (Array.isArray(q.optionExplanations)) {
+        const heading = makeElement("h4", "", "بررسی گزینه‌ها");
+        const details = makeElement("ul", "option-explanations");
+
+        q.options.forEach((text, i) => {
+          const explanation = q.optionExplanations[i];
+          if (explanation) {
+            details.appendChild(
+              makeElement(
+                "li",
+                "",
+                `${["الف", "ب", "ج", "د"][i] || i + 1}) ${explanation}`
+              )
+            );
+          }
+        });
+
+        if (details.childElementCount) {
+          feedback.append(heading, details);
+        }
+      }
+
+      if (q.examTip) {
+        feedback.append(
+          makeElement("h4", "", "نکته آزمونی"),
+          makeElement("p", "", q.examTip)
+        );
+      }
+
+      if (q.source) {
+        feedback.append(
+          makeElement("h4", "", "منبع"),
+          makeElement("p", "", q.source)
+        );
+      }
+
+      count.textContent =
+        `${correctCount.toLocaleString("fa-IR")} پاسخ صحیح از ` +
+        `${answeredCount.toLocaleString("fa-IR")} پاسخ`;
+
+      feedback.hidden = false;
+      nextButton.hidden = false;
     });
 
-    card.append(meta, stem, options);
-    area.appendChild(card);
+    optionButtons.push(button);
+    options.appendChild(button);
   });
+
+  const nextButton = makeElement(
+    "button",
+    "next-button",
+    currentIndex === currentQuestions.length - 1
+      ? "بازگشت به ابتدای فصل"
+      : "سؤال بعدی"
+  );
+  nextButton.type = "button";
+  nextButton.hidden = true;
+
+  nextButton.addEventListener("click", () => {
+    if (currentIndex === currentQuestions.length - 1) {
+      currentIndex = 0;
+    } else {
+      currentIndex++;
+    }
+    renderQuestion();
+  });
+
+  card.append(meta, stem, options, feedback, nextButton);
+  area.appendChild(card);
 }
 
 async function loadTopic(topic, button) {
-  document.querySelectorAll(".topic-button").forEach((item) => {
+  document.querySelectorAll(".topic-button").forEach(item => {
     item.classList.toggle("active", item === button);
   });
 
   errorBox.hidden = true;
   title.textContent = topic.label;
-  count.textContent = "…";
-  showMessage("در حال بارگذاری", "لطفاً کمی صبر کنید.");
+  count.textContent = "در حال بارگذاری…";
+  showMessage("در حال بارگذاری", "لطفاً صبر کنید.");
+
+  currentQuestions = [];
+  currentIndex = 0;
+  answeredCount = 0;
+  correctCount = 0;
 
   try {
-    // فایل‌های JSON فعلاً در ریشه مخزن هستند.
     const response = await fetch(`./${topic.file}`);
 
     if (!response.ok) {
@@ -80,41 +200,43 @@ async function loadTopic(topic, button) {
     }
 
     const data = await response.json();
-    const questions = Array.isArray(data)
+    currentQuestions = Array.isArray(data)
       ? data
       : (data.questions || []);
 
-    title.textContent = data.topic_title || topic.label;
-    count.textContent = `${questions.length.toLocaleString("fa-IR")} سؤال`;
+    currentQuestions = currentQuestions.filter(q =>
+      q &&
+      typeof q.stem === "string" &&
+      Array.isArray(q.options) &&
+      q.options.length === 4 &&
+      Number.isInteger(q.correctIndex) &&
+      q.correctIndex >= 0 &&
+      q.correctIndex < 4
+    );
 
-    if (questions.length > 0) {
-      renderQuestions(questions);
-    } else {
-      showMessage(
-        "هنوز سؤالی ثبت نشده است",
-        "سؤالات این فصل در مراحل بعدی اضافه خواهند شد."
-      );
-    }
+    title.textContent = data.topic_title || topic.label;
+    count.textContent =
+      `${currentQuestions.length.toLocaleString("fa-IR")} سؤال`;
+
+    renderQuestion();
   } catch (error) {
     count.textContent = "خطا";
     showMessage(
       "بارگذاری فصل ناموفق بود",
-      "نام فایل JSON و قالب محتوای آن را بررسی کنید."
+      "فایل JSON یا اتصال آن را بررسی کنید."
     );
     errorBox.textContent = error.message;
     errorBox.hidden = false;
   }
 }
 
-topics.forEach((topic) => {
-  const button = document.createElement("button");
+topics.forEach(topic => {
+  const button = makeElement("button", "topic-button", topic.label);
   button.type = "button";
-  button.className = "topic-button";
-  button.textContent = topic.label;
   button.addEventListener("click", () => loadTopic(topic, button));
   list.appendChild(button);
 });
 
-if (topics.length > 0) {
+if (topics.length) {
   loadTopic(topics[0], list.firstElementChild);
 }
