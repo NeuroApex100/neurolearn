@@ -1,6 +1,6 @@
 const topics = [
   { file: "01_stroke.json", label: "۱. عروق مغزی (Stroke)" },
-  { file: "02_epilepsy.json", label: "۲. صرع و تشنج (Epilepsy)" },
+  { file: "02_epilepsy.json", label: "۲. صرع و تشنج (Epilepsy)" },ّ
   { file: "03_headache.json", label: "۳. سردرد (Headache)" },
   { file: "04_dementia.json", label: "۴. شناخت و دمانس (Cognition)" },
   { file: "05_coma.json", label: "۵. کما (Coma)" },
