@@ -1,2 +1,0 @@
-
-// NeuroLearn application
