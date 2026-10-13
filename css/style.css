@@ -1,1 +1,267 @@
-/* NeuroLearn styles */
+:root {
+  --bg: #f3f6fb;
+  --panel: #ffffff;
+  --primary: #2359a8;
+  --primary-light: #eaf1fc;
+  --text: #17243a;
+  --muted: #68768b;
+  --border: #dce4ef;
+  --success: #18794e;
+  --danger: #b42318;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Vazirmatn", Tahoma, sans-serif;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+button {
+  font: inherit;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 28px max(5%, calc((100% - 1200px) / 2));
+  background: #183b70;
+  color: white;
+}
+
+.topbar h1 {
+  margin: 4px 0;
+  font-size: clamp(22px, 3vw, 32px);
+}
+
+.subtitle {
+  margin: 0;
+  color: #dbe7fa;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.status {
+  flex-shrink: 0;
+  padding: 5px 12px;
+  border: 1px solid #91acd2;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 22px;
+  width: min(1200px, 92%);
+  margin: 28px auto;
+  align-items: start;
+}
+
+.panel {
+  min-width: 0;
+  padding: 22px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(24, 59, 112, 0.04);
+}
+
+.panel h2 {
+  margin: 0 0 16px;
+  font-size: 19px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 16px;
+}
+
+#topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.topic-button {
+  width: 100%;
+  padding: 10px 12px;
+  text-align: right;
+  color: var(--text);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.topic-button:hover,
+.topic-button:focus-visible {
+  background: var(--primary-light);
+  border-color: var(--primary);
+  outline: none;
+}
+
+.topic-button.active {
+  color: var(--primary);
+  background: var(--primary-light);
+  border-color: var(--primary);
+  font-weight: 700;
+}
+
+.content-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.content-head h2 {
+  margin: 4px 0 0;
+}
+
+.count {
+  flex-shrink: 0;
+  padding: 4px 12px;
+  color: var(--primary);
+  background: var(--primary-light);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.empty-state {
+  margin-top: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  background: #f8faff;
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+}
+
+.empty-state h3 {
+  margin: 0 0 8px;
+}
+
+.empty-state p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.error {
+  margin-top: 14px;
+  padding: 12px;
+  color: var(--danger);
+  background: #fff1f0;
+  border-radius: 8px;
+  overflow-wrap: anywhere;
+}
+
+.question-card {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.question-meta {
+  margin-bottom: 8px;
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.question-card > p {
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+
+.options {
+  display: grid;
+  gap: 10px;
+}
+
+.option {
+  padding: 10px 13px;
+  background: #f7f9fc;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  overflow-wrap: anywhere;
+}
+
+footer {
+  width: min(1200px, 92%);
+  margin: 35px auto 20px;
+  padding: 18px 0;
+  color: var(--muted);
+  text-align: center;
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    align-items: flex-start;
+    padding: 22px 5%;
+  }
+
+  .status {
+    font-size: 11px;
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+    margin-top: 16px;
+  }
+
+  .sidebar {
+    position: static;
+  }
+
+  #topic-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .panel {
+    padding: 16px;
+  }
+
+  .content-head {
+    align-items: flex-start;
+  }
+
+  .count {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 400px) {
+  #topic-list {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    flex-direction: column;
+  }
+}
