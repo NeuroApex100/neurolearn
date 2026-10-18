@@ -1,110 +1,253 @@
 
 "use strict";
 
-const topics = [
-  { file: "01_stroke.json", label: "۱. سکته مغزی (Stroke)" },
-  { file: "02_epilepsy.json", label: "۲. صرع و تشنج (Epilepsy)" },
-  { file: "03_headache.json", label: "۳. سردرد (Headache)" },
-  { file: "04_dementia.json", label: "۴. دمانس (Dementia)" },
-  { file: "05_coma.json", label: "۵. کما و اختلال هوشیاری (Coma)" },
-  { file: "06_demyelination.json", label: "۶. بیماری‌های دمیلینه‌کننده (Demyelination)" },
-  { file: "07_neuroinfection.json", label: "۷. عفونت‌های عصبی (Neuroinfection)" },
-  { file: "08_viral_prion.json", label: "۸. بیماری‌های ویروسی و پریونی" },
-  { file: "09_degenerative.json", label: "۹. بیماری‌های نورودژنراتیو" },
-  { file: "10_sleep.json", label: "۱۰. اختلالات خواب (Sleep Disorders)" }
+const DATA_PATH = "data/";
+const STORAGE_KEY = "neurolearn_progress_v2";
+
+const chapters = [
+  { file: "01_stroke.json", title: "بیماری‌های عروق مغزی و سکته" },
+  { file: "02_epilepsy.json", title: "صرع و اختلالات تشنجی" },
+  { file: "03_headache.json", title: "سردرد" },
+  { file: "04_dementia.json", title: "دمانس و اختلالات حافظه" },
+  { file: "05_coma.json", title: "کما" },
+  { file: "06_demyelination.json", title: "ام‌اس و بیماری‌های دمیلینه‌کننده" },
+  { file: "07_neuroinfection.json", title: "عفونت‌های سیستم عصبی" },
+  { file: "08_viral_prion.json", title: "عفونت‌های ویروسی و پریونی" },
+  { file: "09_degenerative.json", title: "بیماری‌های دژنراتیو" },
+  { file: "10_sleep.json", title: "اختلالات خواب" }
 ];
 
-const topicList = document.getElementById("topic-list");
-const topicTitle = document.getElementById("topic-title");
-const questionCount = document.getElementById("question-count");
-const questionArea = document.getElementById("question-area");
-const errorArea = document.getElementById("error-area");
+const $ = (id) => document.getElementById(id);
 
-let currentTopicIndex = 0;
+const chapterSelect = $("chapterSelect");
+const loadChapterBtn = $("loadChapterBtn");
+const resumeBtn = $("resumeBtn");
+const statusMessage = $("statusMessage");
+
+const quizSection = $("quizSection");
+const chapterTitle = $("chapterTitle");
+const questionCounter = $("questionCounter");
+const progressBar = $("progressBar");
+const questionStem = $("questionStem");
+const optionsContainer = $("optionsContainer");
+
+const feedbackBox = $("feedbackBox");
+const answerFeedback = $("answerFeedback");
+const optionExplanations = $("optionExplanations");
+const examTip = $("examTip");
+
+const previousBtn = $("previousBtn");
+const nextBtn = $("nextBtn");
+const finishBtn = $("finishBtn");
+
+const sessionSummary = $("sessionSummary");
+const summaryAnswered = $("summaryAnswered");
+const summaryCorrect = $("summaryCorrect");
+const summaryPercent = $("summaryPercent");
+const backToQuizBtn = $("backToQuizBtn");
+
+const sessionChart = $("sessionChart");
+const sessionTableBody = $("sessionTableBody");
+const backupBtn = $("backupBtn");
+
+let currentSession = null;
 let currentQuestions = [];
+let currentChapter = null;
 let currentQuestionIndex = 0;
-let correctAnswers = 0;
-let answeredQuestions = 0;
-let answerLocked = false;
-let requestNumber = 0;
+let savedData = loadSavedData();
 
-function createElement(tag, className, text) {
-  const element = document.createElement(tag);
+function loadSavedData() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      return { sessions: {}, history: [] };
+    }
 
-  if (className) element.className = className;
-  if (text !== undefined) element.textContent = text;
-
-  return element;
+    const parsed = JSON.parse(raw);
+    return {
+      sessions: parsed.sessions || {},
+      history: Array.isArray(parsed.history) ? parsed.history : []
+    };
+  } catch (error) {
+    console.warn("Could not read saved progress:", error);
+    return { sessions: {}, history: [] };
+  }
 }
 
-function showError(message) {
-  if (!errorArea) return;
-  errorArea.textContent = message;
-  errorArea.hidden = false;
+function saveData() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(savedData));
+    renderHistory();
+  } catch (error) {
+    console.error("Could not save progress:", error);
+    statusMessage.textContent =
+      "ذخیره‌سازی مرورگر در دسترس نیست؛ فضای ذخیره‌سازی را بررسی کنید.";
+  }
 }
 
-function clearError() {
-  if (!errorArea) return;
-  errorArea.textContent = "";
-  errorArea.hidden = true;
+function setStatus(message) {
+  statusMessage.textContent = message;
 }
 
-function renderTopics() {
-  topicList.replaceChildren();
-
-  topics.forEach((topic, index) => {
-    const button = createElement("button", "topic-button", topic.label);
-    button.type = "button";
-    button.classList.toggle("active", index === currentTopicIndex);
-
-    button.addEventListener("click", () => loadTopic(index));
-
-    topicList.appendChild(button);
-  });
+function getQuestionList(data) {
+  if (Array.isArray(data)) return data;
+  if (data && Array.isArray(data.questions)) return data.questions;
+  return [];
 }
 
-function updateTopicButtons() {
-  topicList.querySelectorAll("button").forEach((button, index) => {
-    button.classList.toggle("active", index === currentTopicIndex);
-  });
+function getQuestionText(question) {
+  return question.stem ||
+    question.question ||
+    question.text ||
+    "متن سؤال موجود نیست.";
 }
 
-function validateQuestion(question) {
-  return (
-    question &&
-    typeof question.stem === "string" &&
-    Array.isArray(question.options) &&
-    question.options.length === 4 &&
-    Number.isInteger(question.correctIndex) &&
-    question.correctIndex >= 0 &&
-    question.correctIndex < 4
-  );
+function getOptions(question) {
+  if (Array.isArray(question.options)) {
+    return question.options.map((option) => {
+      if (typeof option === "string") return option;
+      return option && (option.text || option.label) || "";
+    });
+  }
+
+  return [];
 }
 
-async function loadTopic(index) {
-  if (index < 0 || index >= topics.length) return;
+function getCorrectIndex(question) {
+  let value = question.correctIndex;
 
-  currentTopicIndex = index;
+  if (value === undefined) value = question.answerIndex;
+  if (value === undefined) value = question.correctAnswer;
+
+  if (typeof value === "string") {
+    const letters = ["A", "B", "C", "D"];
+    const letterIndex = letters.indexOf(value.trim().toUpperCase());
+    if (letterIndex !== -1) return letterIndex;
+
+    const number = Number(value);
+    if (Number.isInteger(number)) value = number;
+  }
+
+  if (Number.isInteger(value)) {
+    // این برنامه از اندیس صفرمبنا استفاده می‌کند.
+    return value;
+  }
+
+  return -1;
+}
+
+function getExplanation(question) {
+  return question.explanation ||
+    question.rationale ||
+    question.answerExplanation ||
+    "";
+}
+
+function getOptionExplanation(question, index) {
+  const explanations =
+    question.optionExplanations ||
+    question.wrongOptionExplanations ||
+    [];
+
+  if (Array.isArray(explanations)) {
+    return explanations[index] || "";
+  }
+
+  if (explanations && typeof explanations === "object") {
+    return explanations[index] ||
+      explanations[String.fromCharCode(65 + index)] ||
+      "";
+  }
+
+  return "";
+}
+
+function getExamTip(question) {
+  return question.examTip || question.examTrap || "";
+}
+
+function makeSessionKey(chapter) {
+  return chapter.file;
+}
+
+function startNewSession(chapter, questions) {
+  const key = makeSessionKey(chapter);
+  const oldSession = savedData.sessions[key];
+
+  // اگر نشست نیمه‌تمام وجود دارد، آن را ناخواسته بازنویسی نکن.
+  if (oldSession && !oldSession.completed) {
+    const continueOld = window.confirm(
+      "برای این فصل یک نشست نیمه‌تمام وجود دارد.\n" +
+      "برای ادامه همان نشست، گزینه «ادامه آخرین نشست» را بزنید.\n\n" +
+      "آیا می‌خواهید نشست جدیدی از ابتدا شروع کنید؟"
+    );
+
+    if (!continueOld) {
+      resumeSession(chapter, questions);
+      return;
+    }
+  }
+
+  currentChapter = chapter;
+  currentQuestions = questions;
   currentQuestionIndex = 0;
-  correctAnswers = 0;
-  answeredQuestions = 0;
-  answerLocked = false;
 
-  const thisRequest = ++requestNumber;
-  const topic = topics[index];
+  currentSession = {
+    chapterFile: chapter.file,
+    chapterTitle: chapter.title,
+    startedAt: new Date().toISOString(),
+    currentIndex: 0,
+    answers: {},
+    completed: false
+  };
 
-  updateTopicButtons();
-  clearError();
+  savedData.sessions[key] = currentSession;
+  saveData();
+  sessionSummary.hidden = true;
+  quizSection.hidden = false;
+  renderQuestion();
+  setStatus("نشست جدید آغاز شد. پیشرفت شما به‌صورت خودکار ذخیره می‌شود.");
+}
 
-  topicTitle.textContent = topic.label;
-  questionCount.textContent = "در حال بارگذاری…";
+function resumeSession(chapter, questions) {
+  const key = makeSessionKey(chapter);
+  const session = savedData.sessions[key];
 
-  questionArea.replaceChildren(
-    createElement("p", "loading-message", "در حال بارگذاری سؤال‌ها…")
+  if (!session || session.completed) {
+    setStatus("برای این فصل نشست نیمه‌تمامی پیدا نشد؛ یک نشست جدید شروع کنید.");
+    return;
+  }
+
+  currentChapter = chapter;
+  currentQuestions = questions;
+  currentSession = session;
+
+  currentQuestionIndex = Math.min(
+    Math.max(Number(session.currentIndex) || 0, 0),
+    Math.max(questions.length - 1, 0)
   );
+
+  sessionSummary.hidden = true;
+  quizSection.hidden = false;
+  renderQuestion();
+  setStatus("نشست قبلی بازیابی شد؛ می‌توانید از همان‌جا ادامه دهید.");
+}
+
+async function loadChapter(mode) {
+  const file = chapterSelect.value;
+  const chapter = chapters.find((item) => item.file === file);
+
+  if (!chapter) {
+    setStatus("لطفاً ابتدا یک فصل انتخاب کنید.");
+    return;
+  }
+
+  setStatus("در حال بارگذاری سؤالات...");
+  loadChapterBtn.disabled = true;
+  resumeBtn.disabled = true;
 
   try {
-    const response = await fetch("./data/" + topic.file, {
+    const response = await fetch(DATA_PATH + chapter.file, {
       cache: "no-store"
     });
 
@@ -113,274 +256,358 @@ async function loadTopic(index) {
     }
 
     const data = await response.json();
+    const questions = getQuestionList(data);
 
-    if (thisRequest !== requestNumber) return;
-
-    if (!data || !Array.isArray(data.questions)) {
-      throw new Error("ساختار فایل JSON صحیح نیست.");
+    if (!questions.length) {
+      throw new Error("فایل فصل فاقد فهرست سؤال معتبر است.");
     }
 
-    currentQuestions = data.questions;
+    const unfinished = savedData.sessions[chapter.file];
 
-    if (currentQuestions.some(q => !validateQuestion(q))) {
-      throw new Error("ساختار یکی از سؤال‌ها صحیح نیست.");
+    if (mode === "resume") {
+      if (unfinished && !unfinished.completed) {
+        resumeSession(chapter, questions);
+      } else {
+        setStatus("نشست نیمه‌تمامی برای این فصل پیدا نشد.");
+      }
+    } else {
+      startNewSession(chapter, questions);
     }
-
-    if (data.topic_title) {
-      topicTitle.textContent = data.topic_title;
-    }
-
-    questionCount.textContent =
-      currentQuestions.length.toLocaleString("fa-IR") + " سؤال";
-
-    if (currentQuestions.length === 0) {
-      questionArea.replaceChildren(
-        createElement("h3", "", "هنوز سؤالی اضافه نشده است."),
-        createElement("p", "", "سؤال‌های این فصل به‌زودی اضافه می‌شوند.")
-      );
-      return;
-    }
-
-    renderQuestion();
   } catch (error) {
-    if (thisRequest !== requestNumber) return;
-
-    currentQuestions = [];
-    questionCount.textContent = "خطا در بارگذاری";
-
-    questionArea.replaceChildren(
-      createElement("h3", "", "بارگذاری این فصل ناموفق بود."),
-      createElement(
-        "p",
-        "",
-        "لطفاً مسیر فایل، نام فایل و ساختار JSON را بررسی کنید."
-      )
+    console.error(error);
+    setStatus(
+      "بارگذاری فصل ناموفق بود. مسیر فایل JSON و قالب آن را بررسی کنید."
     );
-
-    showError(
-      "فایل مورد انتظار: data/" +
-      topic.file +
-      " | جزئیات خطا: " +
-      error.message
-    );
+  } finally {
+    loadChapterBtn.disabled = false;
+    resumeBtn.disabled = false;
   }
 }
 
 function renderQuestion() {
-  answerLocked = false;
-  clearError();
+  if (!currentQuestions.length || !currentSession) return;
 
   const question = currentQuestions[currentQuestionIndex];
-  questionArea.replaceChildren();
+  const options = getOptions(question);
+  const savedAnswer = currentSession.answers[currentQuestionIndex];
+  const correctIndex = getCorrectIndex(question);
 
-  const card = createElement("div", "question-card");
+  questionCounter.textContent =
+    `سؤال ${currentQuestionIndex + 1} از ${currentQuestions.length}`;
 
-  card.appendChild(
-    createElement(
-      "p",
-      "question-meta",
-      "سؤال " +
-        (currentQuestionIndex + 1).toLocaleString("fa-IR") +
-        " از " +
-        currentQuestions.length.toLocaleString("fa-IR")
-    )
-  );
+  const answeredCount = Object.keys(currentSession.answers).length;
+  progressBar.style.width =
+    `${Math.min(100, (answeredCount / currentQuestions.length) * 100)}%`;
 
-  card.appendChild(
-    createElement(
-      "p",
-      "question-meta score-display",
-      "پاسخ صحیح: " +
-        correctAnswers.toLocaleString("fa-IR") +
-        " از " +
-        answeredQuestions.toLocaleString("fa-IR")
-    )
-  );
+  questionStem.textContent = getQuestionText(question);
+  optionsContainer.replaceChildren();
 
-  if (question.id) {
-    card.appendChild(createElement("p", "question-id", question.id));
-  }
-
-  card.appendChild(
-    createElement("h3", "question-stem", question.stem)
-  );
-
-  const optionsContainer = createElement("div", "options-list");
-  const feedback = createElement("div", "feedback");
-  feedback.hidden = true;
-
-  const letters = ["A", "B", "C", "D"];
-
-  question.options.forEach((option, index) => {
-    const button = createElement("button", "option-button");
+  options.forEach((optionText, index) => {
+    const button = document.createElement("button");
     button.type = "button";
+    button.className = "option";
 
-    // حرف گزینه و متن پاسخ در دو عنصر جداگانه هستند.
-    const letter = createElement(
-      "span",
-      "option-letter",
-      letters[index] + " -"
-    );
+    const label = document.createElement("span");
+    label.className = "option-label";
+    label.textContent = String.fromCharCode(65 + index) + " —";
 
-    const optionText = createElement("span", "option-text", option);
+    const text = document.createElement("span");
+    text.textContent = optionText;
 
-    button.appendChild(letter);
-    button.appendChild(optionText);
+    button.append(label, text);
 
-    button.addEventListener("click", () => {
-      if (answerLocked) return;
-
-      answerLocked = true;
-      answeredQuestions++;
-
-      const isCorrect = index === question.correctIndex;
-
-      if (isCorrect) {
-        correctAnswers++;
-        button.classList.add("correct");
-      } else {
+    if (savedAnswer) {
+      button.disabled = true;
+      if (index === correctIndex) button.classList.add("correct");
+      if (index === savedAnswer.selectedIndex && !savedAnswer.isCorrect) {
         button.classList.add("incorrect");
       }
-
-      optionsContainer.querySelectorAll("button").forEach(
-        (optionButton, optionIndex) => {
-          optionButton.disabled = true;
-
-          if (optionIndex === question.correctIndex) {
-            optionButton.classList.add("correct");
-          }
-        }
-      );
-
-      feedback.replaceChildren();
-
-      feedback.appendChild(
-        createElement(
-          "h4",
-          "",
-          isCorrect ? "پاسخ صحیح است" : "پاسخ صحیح نیست"
-        )
-      );
-
-      if (question.explanation) {
-        feedback.appendChild(
-          createElement("p", "explanation", question.explanation)
-        );
-      }
-
-      if (Array.isArray(question.optionExplanations)) {
-        const explanationList = createElement(
-          "div",
-          "option-explanations"
-        );
-
-        question.options.forEach((option, optionIndex) => {
-          const explanationText =
-            question.optionExplanations[optionIndex];
-
-          if (!explanationText) return;
-
-          explanationList.appendChild(
-            createElement(
-              "p",
-              "",
-              letters[optionIndex] +
-                " - " +
-                explanationText
-            )
-          );
-        });
-
-        feedback.appendChild(explanationList);
-      }
-
-      if (question.examTip) {
-        feedback.appendChild(
-          createElement(
-            "p",
-            "exam-tip",
-            "نکته آزمونی: " + question.examTip
-          )
-        );
-      }
-
-      if (question.source) {
-        feedback.appendChild(
-          createElement("p", "source", "منبع: " + question.source)
-        );
-      }
-
-      const scoreDisplay = card.querySelector(".score-display");
-
-      if (scoreDisplay) {
-        scoreDisplay.textContent =
-          "پاسخ صحیح: " +
-          correctAnswers.toLocaleString("fa-IR") +
-          " از " +
-          answeredQuestions.toLocaleString("fa-IR");
-      }
-
-      const nextButton = createElement(
-        "button",
-        "next-button",
-        currentQuestionIndex + 1 < currentQuestions.length
-          ? "سؤال بعدی ←"
-          : "پایان فصل"
-      );
-
-      nextButton.type = "button";
-
-      nextButton.addEventListener("click", () => {
-        if (currentQuestionIndex + 1 < currentQuestions.length) {
-          currentQuestionIndex++;
-          renderQuestion();
-        } else {
-          renderSummary();
-        }
-      });
-
-      feedback.appendChild(nextButton);
-      feedback.hidden = false;
-    });
+    } else {
+      button.addEventListener("click", () => selectAnswer(index));
+    }
 
     optionsContainer.appendChild(button);
   });
 
-  card.appendChild(optionsContainer);
-  card.appendChild(feedback);
-  questionArea.appendChild(card);
+  previousBtn.disabled = currentQuestionIndex === 0;
+  nextBtn.textContent =
+    currentQuestionIndex === currentQuestions.length - 1
+      ? "مشاهده آمار نشست"
+      : "سؤال بعدی";
+
+  if (savedAnswer) {
+    showFeedback(question, savedAnswer);
+  } else {
+    feedbackBox.hidden = true;
+  }
+
+  currentSession.currentIndex = currentQuestionIndex;
+  saveData();
 }
 
-function renderSummary() {
-  questionArea.replaceChildren(
-    createElement("h3", "", "این فصل به پایان رسید."),
-    createElement(
-      "p",
-      "",
-      "تعداد پاسخ صحیح: " +
-        correctAnswers.toLocaleString("fa-IR") +
-        " از " +
-        answeredQuestions.toLocaleString("fa-IR")
-    )
-  );
+function selectAnswer(selectedIndex) {
+  if (!currentSession || currentSession.completed) return;
 
-  const restartButton = createElement(
-    "button",
-    "next-button",
-    "مرور دوباره فصل"
-  );
+  const question = currentQuestions[currentQuestionIndex];
 
-  restartButton.type = "button";
-  restartButton.addEventListener("click", () => {
-    loadTopic(currentTopicIndex);
+  if (currentSession.answers[currentQuestionIndex]) return;
+
+  const correctIndex = getCorrectIndex(question);
+  const isCorrect = selectedIndex === correctIndex;
+
+  currentSession.answers[currentQuestionIndex] = {
+    selectedIndex,
+    isCorrect,
+    answeredAt: new Date().toISOString()
+  };
+
+  currentSession.currentIndex = currentQuestionIndex;
+  saveData();
+  renderQuestion();
+
+  setStatus(
+    isCorrect
+      ? "پاسخ شما صحیح است."
+      : "پاسخ شما ثبت شد. توضیح گزینه‌ها را مرور کنید."
+  );
+}
+
+function showFeedback(question, savedAnswer) {
+  feedbackBox.hidden = false;
+
+  const correctIndex = getCorrectIndex(question);
+  const correctText =
+    correctIndex >= 0
+      ? getOptions(question)[correctIndex] || ""
+      : "پاسخ صحیح در فایل مشخص نشده است.";
+
+  answerFeedback.textContent =
+    (savedAnswer.isCorrect ? "آفرین، پاسخ شما صحیح است. " :
+      "پاسخ شما صحیح نیست. ") +
+    "پاسخ صحیح: " + correctText +
+    (getExplanation(question) ? "\n\n" + getExplanation(question) : "");
+
+  optionExplanations.replaceChildren();
+
+  getOptions(question).forEach((option, index) => {
+    const explanation = getOptionExplanation(question, index);
+    if (!explanation) return;
+
+    const item = document.createElement("div");
+    item.className = "option-explanation";
+
+    const strong = document.createElement("strong");
+    strong.textContent = String.fromCharCode(65 + index) + " — ";
+
+    const text = document.createElement("span");
+    text.textContent = explanation;
+
+    item.append(strong, text);
+    optionExplanations.appendChild(item);
   });
 
-  questionArea.appendChild(restartButton);
+  const tip = getExamTip(question);
+  examTip.hidden = !tip;
+  examTip.textContent = tip ? "نکته/تله آزمونی: " + tip : "";
 }
 
-if (topicList && topicTitle && questionCount && questionArea && errorArea) {
-  renderTopics();
-  loadTopic(0);
-} else {
-  console.error("عناصر لازم در index.html پیدا نشدند.");
+function goToQuestion(index) {
+  if (index < 0 || index >= currentQuestions.length) return;
+
+  currentQuestionIndex = index;
+  currentSession.currentIndex = index;
+  saveData();
+  renderQuestion();
 }
+
+function calculateStats(session) {
+  const answers = Object.values(session.answers || {});
+  const answered = answers.length;
+  const correct = answers.filter((answer) => answer.isCorrect).length;
+
+  return {
+    answered,
+    correct,
+    percent: answered ? Math.round((correct / answered) * 100) : 0
+  };
+}
+
+function finishSession() {
+  if (!currentSession || !currentChapter) return;
+
+  const stats = calculateStats(currentSession);
+  const key = makeSessionKey(currentChapter);
+
+  currentSession.completed = true;
+  currentSession.finishedAt = new Date().toISOString();
+  currentSession.stats = stats;
+
+  savedData.sessions[key] = currentSession;
+  savedData.history.push({
+    chapterFile: currentChapter.file,
+    chapterTitle: currentChapter.title,
+    startedAt: currentSession.startedAt,
+    finishedAt: currentSession.finishedAt,
+    answered: stats.answered,
+    correct: stats.correct,
+    percent: stats.percent,
+    totalQuestions: currentQuestions.length
+  });
+
+  // نشست‌های تکمیل‌شده را در تاریخچه نگه می‌داریم؛ نمودار فقط پنج مورد آخر را نشان می‌دهد.
+  saveData();
+
+  summaryAnswered.textContent = stats.answered;
+  summaryCorrect.textContent = stats.correct;
+  summaryPercent.textContent = stats.percent + "٪";
+
+  quizSection.hidden = true;
+  sessionSummary.hidden = false;
+  renderHistory();
+  setStatus("نشست پایان یافت و آمار آن ذخیره شد.");
+}
+
+function renderHistory() {
+  const recent = savedData.history.slice(-5).reverse();
+
+  sessionChart.replaceChildren();
+  sessionTableBody.replaceChildren();
+
+  if (!recent.length) {
+    const empty = document.createElement("p");
+    empty.className = "chart-empty";
+    empty.textContent = "پس از تکمیل اولین نشست، نمودار اینجا نمایش داده می‌شود.";
+    sessionChart.appendChild(empty);
+
+    const row = document.createElement("tr");
+    const cell = document.createElement("td");
+    cell.colSpan = 6;
+    cell.textContent = "هنوز نشستی ثبت نشده است.";
+    row.appendChild(cell);
+    sessionTableBody.appendChild(row);
+    return;
+  }
+
+  recent.slice().reverse().forEach((record, index) => {
+    const item = document.createElement("div");
+    item.className = "chart-item";
+
+    const percent = document.createElement("div");
+    percent.className = "chart-percent";
+    percent.textContent = record.percent + "٪";
+
+    const barArea = document.createElement("div");
+    barArea.className = "chart-bar-area";
+
+    const bar = document.createElement("div");
+    bar.className = "chart-bar";
+    bar.style.height = Math.max(2, record.percent) + "%";
+    bar.title = `${record.chapterTitle}: ${record.percent} درصد`;
+
+    barArea.appendChild(bar);
+
+    const label = document.createElement("div");
+    label.className = "chart-label";
+    label.textContent = record.chapterTitle || `نشست ${index + 1}`;
+
+    item.append(percent, barArea, label);
+    sessionChart.appendChild(item);
+  });
+
+  recent.forEach((record, index) => {
+    const row = document.createElement("tr");
+    const date = record.finishedAt
+      ? new Date(record.finishedAt).toLocaleDateString("fa-IR")
+      : "—";
+
+    [
+      recent.length - index,
+      record.chapterTitle || record.chapterFile || "—",
+      date,
+      record.answered,
+      record.correct,
+      record.percent + "٪"
+    ].forEach((value) => {
+      const cell = document.createElement("td");
+      cell.textContent = String(value);
+      row.appendChild(cell);
+    });
+
+    sessionTableBody.appendChild(row);
+  });
+}
+
+function resumeLatestSession() {
+  const unfinished = Object.values(savedData.sessions)
+    .filter((session) => session && !session.completed)
+    .sort((a, b) =>
+      new Date(b.startedAt || 0) - new Date(a.startedAt || 0)
+    )[0];
+
+  if (!unfinished) {
+    setStatus("نشست نیمه‌تمامی برای ادامه وجود ندارد.");
+    return;
+  }
+
+  chapterSelect.value = unfinished.chapterFile;
+  loadChapter("resume");
+}
+
+function downloadBackup() {
+  const blob = new Blob(
+    [JSON.stringify(savedData, null, 2)],
+    { type: "application/json;charset=utf-8" }
+  );
+
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "neurolearn-backup.json";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function initialize() {
+  chapters.forEach((chapter) => {
+    const option = document.createElement("option");
+    option.value = chapter.file;
+    option.textContent = chapter.title;
+    chapterSelect.appendChild(option);
+  });
+
+  loadChapterBtn.addEventListener("click", () => loadChapter("new"));
+  resumeBtn.addEventListener("click", resumeLatestSession);
+
+  previousBtn.addEventListener("click", () => {
+    goToQuestion(currentQuestionIndex - 1);
+  });
+
+  nextBtn.addEventListener("click", () => {
+    if (currentQuestionIndex === currentQuestions.length - 1) {
+      finishSession();
+    } else {
+      goToQuestion(currentQuestionIndex + 1);
+    }
+  });
+
+  finishBtn.addEventListener("click", () => {
+    const confirmed = window.confirm(
+      "آیا می‌خواهید نشست را پایان دهید و آمار آن ثبت شود؟"
+    );
+    if (confirmed) finishSession();
+  });
+
+  backToQuizBtn.addEventListener("click", () => {
+    sessionSummary.hidden = true;
+    quizSection.hidden = false;
+    renderQuestion();
+  });
+
+  backupBtn.addEventListener("click", downloadBackup);
+
+  renderHistory();
+}
+
+initialize();
