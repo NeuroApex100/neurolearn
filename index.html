@@ -1,9 +1,120 @@
-<!doctype html>
-<html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>NeuroLearn | بانک سؤالات نورولوژی</title><link rel="stylesheet" href="css/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet"></head>
-<body><header class="topbar"><div><p class="eyebrow">NEUROLEARN</p><h1>بانک سؤالات نورولوژی</h1><p class="subtitle">آمادگی آزمون ارتقا و بورد دستیاری</p></div><span class="status">نسخه آزمایشی</span></header>
-<main class="layout"><aside class="panel sidebar"><h2>فصل‌ها</h2><nav id="topic-list" aria-label="فصل‌ها"></nav></aside>
-<section class="panel content"><div class="content-head"><div><p class="eyebrow">QUESTION BANK</p><h2 id="topic-title">در حال بارگذاری…</h2></div><span id="question-count" class="count">۰ سؤال</span></div>
-<div id="question-area" class="empty-state"><h3>ساختار پروژه آماده است</h3><p>در گام بعد، سؤال‌های فصل اول اضافه می‌شوند.</p></div><div id="error-area" class="error" hidden></div></section></main>
-<footer>محتوای آموزشی برای مرور و آمادگی آزمون؛ تصمیم‌گیری بالینی باید بر اساس منابع معتبر و پروتکل محل کار باشد.</footer><script src="js/app.js"></script></body></html>
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeuroLearn | آموزش نورولوژی</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <h1>NeuroLearn</h1>
+    <p>سامانه تمرین و مرور سؤالات نورولوژی</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>انتخاب فصل</h2>
+      <div class="chapter-controls">
+        <select id="chapterSelect" aria-label="انتخاب فصل">
+          <option value="">در حال بارگذاری فصل‌ها...</option>
+        </select>
+        <button id="loadChapterBtn" type="button">شروع فصل</button>
+        <button id="resumeBtn" type="button" class="secondary">
+          ادامه آخرین نشست
+        </button>
+      </div>
+      <p id="statusMessage" role="status" aria-live="polite">
+        برای شروع، یک فصل انتخاب کنید.
+      </p>
+    </section>
+
+    <section id="quizSection" class="panel" hidden>
+      <div class="quiz-heading">
+        <h2 id="chapterTitle">سؤالات فصل</h2>
+        <span id="questionCounter" class="counter">سؤال ۰</span>
+      </div>
+
+      <div class="progress-track" aria-label="پیشرفت فصل">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+
+      <div id="questionStem" class="question-stem"></div>
+      <div id="optionsContainer" class="options-container"></div>
+
+      <div id="feedbackBox" class="feedback-box" hidden>
+        <h3>توضیح پاسخ</h3>
+        <p id="answerFeedback"></p>
+        <div id="optionExplanations"></div>
+        <div id="examTip" class="exam-tip" hidden></div>
+      </div>
+
+      <div class="quiz-actions">
+        <button id="previousBtn" type="button" class="secondary">
+          سؤال قبلی
+        </button>
+        <button id="nextBtn" type="button">
+          سؤال بعدی
+        </button>
+        <button id="finishBtn" type="button" class="finish-button">
+          پایان نشست
+        </button>
+      </div>
+    </section>
+
+    <section id="sessionSummary" class="panel" hidden>
+      <h2>آمار نشست</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span>تعداد پاسخ‌ها</span>
+          <strong id="summaryAnswered">۰</strong>
+        </div>
+        <div class="stat-card">
+          <span>پاسخ‌های صحیح</span>
+          <strong id="summaryCorrect">۰</strong>
+        </div>
+        <div class="stat-card">
+          <span>درصد پاسخ صحیح</span>
+          <strong id="summaryPercent">۰٪</strong>
+        </div>
+      </div>
+      <button id="backToQuizBtn" type="button">بازگشت به سؤالات</button>
+    </section>
+
+    <section class="panel">
+      <h2>عملکرد پنج نشست اخیر</h2>
+      <p class="muted">
+        نمودار درصد پاسخ‌های صحیح در پنج نشست تکمیل‌شده اخیر را نشان می‌دهد.
+      </p>
+      <div id="sessionChart" class="chart" aria-label="نمودار میله‌ای عملکرد نشست‌ها"></div>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>نشست</th>
+              <th>فصل</th>
+              <th>تاریخ</th>
+              <th>پاسخ‌ها</th>
+              <th>صحیح</th>
+              <th>درصد</th>
+            </tr>
+          </thead>
+          <tbody id="sessionTableBody">
+            <tr><td colspan="6">هنوز نشستی ثبت نشده است.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <button id="backupBtn" type="button" class="secondary">
+        دریافت نسخه پشتیبان
+      </button>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    پیشرفت و آمار در همین مرورگر ذخیره می‌شود.
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
