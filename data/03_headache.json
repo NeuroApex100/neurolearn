@@ -1640,6 +1640,426 @@
       "examTip": "Ophthalmoplegic migraine نام قدیمی است؛ اصطلاح فعلی RPON است و Cranial nerve III شایع‌ترین عصب درگیر محسوب می‌شود.",
       "examTrap": "هر سردرد همراه با Ophthalmoplegia را RPON فرض نکنید؛ Aneurysm، به‌ویژه در فلج عصب III، و سایر علل فشاری/التهابی باید رد شوند.",
       "source": "ICHD-3: Recurrent painful ophthalmoplegic neuropathy (RPON)."
+    },
+    {
+      "id": "HA-081",
+      "stem": "دختر ۱۸ ساله‌ای با حملات مکرر اختلال بینایی دوطرفه به شکل کوری کورتیکال گذرا، همراه با Vertigo، Ataxia، Dysarthria و کرختی اندام‌ها به مدت حدود ۱۰ دقیقه مراجعه کرده است. پس از این علائم، سردرد شدید Occipital به مدت ۴ ساعت ایجاد می‌شود. حملات از ۱۶ سالگی تکرار شده‌اند و Brain MRI و Angiography عروق کرانیال طبیعی هستند. محتمل‌ترین تشخیص کدام است؟",
+      "options": [
+        "Migraine with brainstem aura",
+        "حملات Transient ischemic attack (TIA)",
+        "حملات Focal seizure",
+        "سردرد Psychogenic"
+      ],
+      "correctIndex": 0,
+      "explanation": "ترکیب علائم برگشت‌پذیر ساقه مغز مانند Vertigo، Ataxia، Dysarthria و اختلال بینایی دوطرفه، با سردرد پس از آن و سابقه حملات تکرارشونده از نوجوانی، به نفع Migraine with brainstem aura است؛ اصطلاح قدیمی آن Basilar-type migraine است. تشخیص مستلزمرد کردن علل عروقی و سایر علل ثانویه است.",
+      "optionExplanations": [
+        "این تشخیص با علائم برگشت‌پذیر متعدد ساقه مغز و سردرد متعاقب آن سازگار است؛ پاسخ صحیح.",
+        "TIA در این سن و با حملات کلیشه‌ای مکرر طی سال‌ها کمتر محتمل است؛ با این حال در حمله جدید یا الگوی متفاوت باید علل عروقی بررسی شوند.",
+        "تشنج فوکال می‌تواند علائم گذرا ایجاد کند، اما توالی علائم ساقه مغز و سردرد تیپیک پس از آن، در این شرح حال بیشتر به نفع Aura میگرنی است.",
+        "تشخیص Psychogenic صرفاً بر اساس طبیعی بودن MRI مطرح نمی‌شود و شرح حال با Aura میگرنی سازگارتر است."
+      ],
+      "examTip": "در Migraine with brainstem aura، دست‌کم دو علامت برگشت‌پذیر ساقه مغز لازم است و ضعف حرکتی در تعریف آن وجود ندارد.",
+      "examTrap": "در بیمار با علائم عصبی جدید، شروع ناگهانی یا عوامل خطر عروقی، نباید بدون ارزیابی مناسب آن را میگرن فرض کرد.",
+      "source": "ICHD-3: Migraine with brainstem aura."
+    },
+    {
+      "id": "HA-082",
+      "stem": "خانم ۶۵ ساله‌ای با سردرد ناحیه Temporal چپ و ESR بالا بررسی شده است. بیوپسی Left temporal artery طبیعی گزارش شده، اما شک بالینی به Giant cell arteritis همچنان مطرح است. مناسب‌ترین اقدام بعدی کدام است؟",
+      "options": [
+        "Ultrasonography شریان‌های Temporal و Axillary",
+        "درمان با Amitriptyline خوراکی",
+        "تکرار بیوپسی از Right temporal artery",
+        "درمان با Sodium valproate تزریقی"
+      ],
+      "correctIndex": 0,
+      "explanation": "بیوپسی منفی یک‌طرفه Giant cell arteritis را رد نمی‌کند؛ بیماری می‌تواند قطعه‌ای (Skip lesions) باشد. در رویکردهای جدید، در مراکز دارای تجربه، Ultrasonography شریان‌های Temporal و Axillary روش تصویربرداری خط اول است. اگر شک بالینی بالا باقی بماند، بیوپسی سمت مقابل نیز می‌تواند مطرح شود. درمان کورتیکواستروئیدی در صورت شک جدی نباید به تأخیر بیفتد.",
+      "optionExplanations": [
+        "Ultrasonography عروق Temporal و Axillary می‌تواند یافته‌های Halo و التهاب دیواره را نشان دهد؛ پاسخ مناسب در رویکرد امروزی.",
+        "Amitriptyline درمان سردردهای اولیه خاصی است و جایگاهی در درمان واسکولیت شریان تمپورال ندارد.",
+        "بیوپسی سمت مقابل در موارد منتخب پس از بیوپسی منفی قابل انجام است، اما بررسی تصویربرداری عروقی نیز توصیه می‌شود و در این سؤال گزینه D رویکرد مناسب‌تری است.",
+        "Sodium valproate درمان GCA نیست."
+      ],
+      "examTip": "بیوپسی منفی یک‌طرفه، به‌ویژه با شک بالینی بالا، GCA را رد نمی‌کند.",
+      "examTrap": "در شک به GCA همراه با علائم بینایی، شروع فوری درمان برای پیشگیری از نابینایی بر تکمیل بررسی‌ها مقدم است.",
+      "source": "EULAR recommendations for imaging in large-vessel vasculitis, 2023; ACR/VF guideline for GCA."
+    },
+    {
+      "id": "HA-083",
+      "stem": "خانم ۳۰ ساله‌ای با چندین حمله روزانه درد شدید Temporal-orbital چپ به مدت حدود ۱۰ دقیقه مراجعه کرده است. حملات با Conjunctival injection، Rhinorrhea و Horner syndrome همان‌طرف همراه هستند. MRI مغز طبیعی است. درمان انتخابی کدام است؟",
+      "options": [
+        "Indomethacin",
+        "Verapamil",
+        "Prednisolone",
+        "Sodium valproate"
+      ],
+      "correctIndex": 0,
+      "explanation": "حملات یک‌طرفه کوتاه‌مدت (۲ تا ۳۰ دقیقه)، با فراوانی چندین بار در روز و علائم اتونوم همان‌طرف، به نفع Paroxysmal hemicrania است. پاسخ کامل به Indomethacin جزء معیارهای تشخیصی این اختلال محسوب می‌شود.",
+      "optionExplanations": [
+        "Indomethacin درمان شاخص Paroxysmal hemicrania است؛ پاسخ کامل به آن اهمیت تشخیصی دارد.",
+        "Verapamil پیشگیری خط اول Cluster headache است.",
+        "Prednisolone ممکن است در برخی شرایط به‌صورت درمان گذار در Cluster headache به کار رود، اما درمان انتخابی Paroxysmal hemicrania نیست.",
+        "Sodium valproate درمان انتخابی این نوع Trigeminal autonomic cephalalgia نیست."
+      ],
+      "examTip": "مدت حمله ۲ تا ۳۰ دقیقه و تعداد بیش از ۵ حمله در روز، همراه با پاسخ کامل به Indomethacin، به نفع Paroxysmal hemicrania است.",
+      "examTrap": "Horner syndrome و علائم اتونوم به‌تنهایی Cluster headache را ثابت نمی‌کنند؛ مدت و تعداد حملات را بررسی کنید.",
+      "source": "ICHD-3: Paroxysmal hemicrania."
+    },
+    {
+      "id": "HA-084",
+      "stem": "مرد ۴۰ ساله‌ای با سردرد جدید و متفاوت از سردردهای قبلی مراجعه کرده است. درد Retrobital چپ از ۲۰ روز قبل شروع شده و صبح‌ها شدیدتر است. معاینه عصبی، Fundoscopy و فشارخون طبیعی هستند. مناسب‌ترین اقدام برای بررسی علت ثانویه کدام است؟",
+      "options": [
+        "انجام CT scan مغز",
+        "ارجاع صرف به چشم‌پزشک برای اندازه‌گیری Intraocular pressure",
+        "CBC و ESR به‌عنوان تنها بررسی",
+        "تجویز آرام‌بخش و مراجعه مجدد یک ماه بعد"
+      ],
+      "correctIndex": 0,
+      "explanation": "سردرد جدید و پایدار با الگوی متفاوت، نیازمند ارزیابی علت ثانویه است؛ طبیعی بودن معاینه عصبی یا Fundoscopy آن را منتفی نمی‌کند. در شرایط اورژانسی یا وقتی CT در دسترس است، CT مغز می‌تواند بررسی اولیه باشد؛ در بیمار پایدار، MRI معمولاً برای بسیاری از ضایعات ساختاری حساس‌تر است و در صورت تداوم شک ممکن است لازم شود.",
+      "optionExplanations": [
+        "CT مغز یک بررسی اولیه مناسب برای رد برخی علل ساختاری است؛ در شرایط غیراورژانسی MRI ممکن است حساسیت بیشتری داشته باشد.",
+        "اندازه‌گیری فشار داخل چشم در صورت علائم چشمی مناسب است، اما به‌تنهایی ارزیابی کافی برای سردرد جدید نیست.",
+        "CBC و ESR ممکن است بر اساس سن و شرح حال کمک‌کننده باشند، اما جایگزین تصویربرداری در این سناریو نیستند.",
+        "به تعویق انداختن بررسی در سردرد جدید و پایدار مناسب نیست."
+      ],
+      "examTip": "سردرد جدید، پیشرونده یا تغییر الگوی سردرد از Red flagهاست و بررسی علت ثانویه را ایجاب می‌کند.",
+      "examTrap": "طبیعی بودن معاینه عصبی، تومور یا سایر علل ثانویه را به‌طور کامل رد نمی‌کند.",
+      "source": "ACR Appropriateness Criteria: Headache; SNNOOP10 red flags."
+    },
+    {
+      "id": "HA-085",
+      "stem": "مرد ۴۰ ساله‌ای با حملات درد شدید خنجری در ناحیه Orbital و Temporal راست مراجعه کرده است. هر حمله حدود ۱۰ دقیقه طول می‌کشد، روزانه تا ۱۰ بار تکرار می‌شود و با قرمزی و اشک‌ریزش چشم راست همراه است. کدام درمان از گزینه‌های زیر مناسب‌تر است؟",
+      "options": [
+        "Indomethacin",
+        "استنشاق اکسیژن ۱۰۰٪",
+        "Lamotrigine",
+        "Lithium"
+      ],
+      "correctIndex": 0,
+      "explanation": "حملات ۲ تا ۳۰ دقیقه‌ای با فراوانی بالا و علائم اتونوم همان‌طرف، بیشتر با Paroxysmal hemicrania سازگار است و Indomethacin درمان شاخص آن است. اکسیژن درمان حاد Cluster headache است، اما طول حملات Cluster معمولاً ۱۵ تا ۱۸۰ دقیقه است. اگر حملات بسیار کوتاه‌تر و پرتعدادتر باشند، SUNCT/SUNA نیز باید مطرح شوند.",
+      "optionExplanations": [
+        "Indomethacin برای Paroxysmal hemicrania درمان انتخابی و آزمون درمانی تشخیصی است؛ پاسخ صحیح.",
+        "اکسیژن با جریان بالا درمان حاد Cluster headache است؛ مدت ۱۰ دقیقه و فراوانی بالا در این شرح حال بیشتر به نفع Paroxysmal hemicrania است.",
+        "Lamotrigine بیشتر برای پیشگیری SUNCT/SUNA به کار می‌رود.",
+        "Lithium در برخی بیماران مبتلا به Cluster headache، به‌ویژه نوع مزمن، کاربرد دارد."
+      ],
+      "examTip": "در TACها، مدت حمله و تعداد حملات روزانه برای افتراق Cluster، Paroxysmal hemicrania و SUNCT/SUNA کلیدی است.",
+      "examTrap": "اشک‌ریزش و قرمزی چشم به‌تنهایی برای تشخیص Cluster کافی نیست.",
+      "source": "ICHD-3: Paroxysmal hemicrania; Cluster headache; SUNCT."
+    },
+    {
+      "id": "HA-086",
+      "stem": "خانم ۶۰ ساله‌ای با سردردهایی مراجعه کرده که فقط هنگام خواب شبانه یا خواب روزانه ایجاد می‌شوند و بیمار را از خواب بیدار می‌کنند. حملات ۳۰ تا ۴۰ دقیقه طول می‌کشند و علائم اتونوم مانند Lacrimation یا Rhinorrhea وجود ندارد. معاینه عصبی، MRI مغز، ESR و CRP طبیعی هستند. کدام دارو برای پیشگیری در اولویت است؟",
+      "options": [
+        "Methysergide",
+        "Lithium",
+        "Mexiletine",
+        "Phenytoin"
+      ],
+      "correctIndex": 1,
+      "explanation": "شرح حال با Hypnic headache سازگار است: سردردی که فقط در خواب رخ می‌دهد و بیمار را بیدار می‌کند، معمولاً در سنین بالاتر شروع می‌شود و علائم اتونوم برجسته ندارد. Lithium یکی از درمان‌های پیشگیرانه رایج است؛ Caffeine هنگام خواب یا قبل از خواب نیز در برخی بیماران مؤثر است. شواهد درمانی عمدتاً از مطالعات کوچک و سری موارد به دست آمده‌اند.",
+      "optionExplanations": [
+        "Methysergide درمان استاندارد و ترجیحی Hypnic headache نیست و عوارض مهمی دارد.",
+        "Lithium از درمان‌های پیشگیرانه شناخته‌شده Hypnic headache است؛ پاسخ صحیح.",
+        "Mexiletine درمان روتین یا خط اول Hypnic headache محسوب نمی‌شود.",
+        "Phenytoin درمان استاندارد این اختلال نیست."
+      ],
+      "examTip": "Hypnic headache: سردردی که فقط در خواب ایجاد می‌شود و بیمار را بیدار می‌کند؛ معمولاً بدون علائم اتونوم برجسته.",
+      "examTrap": "در سالمندان با سردرد شبانه، پیش از برچسب Hypnic headache باید علل ثانویه مناسب بررسی شوند.",
+      "source": "ICHD-3: Hypnic headache; clinical reviews of hypnic headache treatment."
+    },
+    {
+      "id": "HA-087",
+      "stem": "کدام‌یک از موارد زیر از تظاهرات معمول Trigeminal neuralgia نیست؟",
+      "options": [
+        "درد شدید و حمله‌ای در فک یا چانه",
+        "اختلال بلع",
+        "شروع درد با حرکت صورت، صحبت کردن یا لمس ناحیه Trigger",
+        "Hyperesthesia پایدار صورت به‌عنوان تظاهر شاخص"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trigeminal neuralgia با دردهای ناگهانی، شدید، برق‌آسا و کوتاه‌مدت در قلمرو یک یا چند شاخه عصب Trigeminal مشخص می‌شود. محرک‌های بی‌ضرر مانند لمس صورت، صحبت کردن، جویدن یا مسواک زدن می‌توانند حمله را آغاز کنند. اختلال بلع تظاهر معمول آن نیست.",
+      "optionExplanations": [
+        "درد در قلمرو شاخه‌های V2 یا V3 می‌تواند در فک و چانه احساس شود.",
+        "Dysphagia تظاهر معمول Trigeminal neuralgia نیست و بررسی علت دیگری را می‌طلبد؛ پاسخ صحیح.",
+        "تحریک با لمس، صحبت کردن یا جویدن از ویژگی‌های کلاسیک Trigeminal neuralgia است.",
+        "Hyperesthesia ممکن است در برخی بیماران گزارش شود، اما یافته شاخص تشخیصی نیست؛ نقص حسی عینی باید بررسی علت ثانویه را برانگیزد."
+      ],
+      "examTip": "دردهای ثانیه‌ای، برق‌آسا، یک‌طرفه و Triggerable مشخصه Trigeminal neuralgia هستند.",
+      "examTrap": "وجود نقص حسی عینی یا علائم غیرمعمول، به‌ویژه در بیمار جوان، بررسی Secondary trigeminal neuralgia را ضروری می‌کند.",
+      "source": "ICHD-3: Trigeminal neuralgia."
+    },
+    {
+      "id": "HA-088",
+      "stem": "کدام‌یک از سردردهای زیر معمولاً با دراز کشیدن و قرار گرفتن در وضعیت Supine تشدید نمی‌شود؟",
+      "options": [
+        "ضایعه Neoplasm در Posterior fossa",
+        "سردرد ناشی از Spinal anesthesia",
+        "Idiopathic intracranial hypertension (IIH)",
+        "Subdural hematoma"
+      ],
+      "correctIndex": 1,
+      "explanation": "سردرد ناشی از Dural puncture و نشت CSF معمولاً Orthostatic است؛ در حالت ایستاده یا نشسته تشدید و با دراز کشیدن بهتر می‌شود. در مقابل، افزایش فشار داخل جمجمه ممکن است در حالت خوابیده یا صبح‌ها بدتر شود.",
+      "optionExplanations": [
+        "ضایعات Posterior fossa ممکن است با افزایش فشار داخل جمجمه و تشدید سردرد در وضعیت خوابیده همراه باشند.",
+        "سردرد پس از Spinal anesthesia معمولاً با ایستادن بدتر و با دراز کشیدن بهتر می‌شود؛ بنابراین پاسخ صحیح است.",
+        "در IIH سردرد ممکن است صبحگاهی یا در وضعیت Supine تشدید شود، هرچند این ویژگی اختصاصی نیست.",
+        "Subdural hematoma می‌تواند سردرد پایدار ایجاد کند و گاهی با تغییر وضعیت تشدید شود؛ الگوی آن متغیر است."
+      ],
+      "examTip": "سردرد Orthostatic که با دراز کشیدن بهتر می‌شود، به نفع Low CSF pressure یا CSF leak است.",
+      "examTrap": "الگوی وضعیتی کمک‌کننده است، اما به‌تنهایی برای تشخیص علت سردرد کافی نیست.",
+      "source": "ICHD-3: Post-dural puncture headache; spontaneous intracranial hypotension."
+    },
+    {
+      "id": "HA-089",
+      "stem": "بیماری به‌طور ناگهانی دچار سردرد بسیار شدید شده که ظرف چند ثانیه به اوج شدت رسیده است. کدام‌یک از علل زیر کمتر با Thunderclap headache ارتباط دارد؟",
+      "options": [
+        "Cerebral venous sinus thrombosis",
+        "Cluster headache",
+        "Reversible cerebral vasoconstriction syndrome (RCVS)",
+        "مصرف داروهای Serotonergic"
+      ],
+      "correctIndex": 1,
+      "explanation": "Thunderclap headache با رسیدن درد به حداکثر شدت در کمتر از یک دقیقه تعریف می‌شود. علل مهم آن شامل SAH، RCVS، Cerebral venous sinus thrombosis و برخی داروها یا مواد vasoactive است. Cluster headache معمولاً طی چند دقیقه به اوج می‌رسد و الگوی حملات تکرارشونده ۱۵ تا ۱۸۰ دقیقه‌ای دارد، نه یک Thunderclap کلاسیک.",
+      "optionExplanations": [
+        "CVST می‌تواند با سردرد شدید و گاهی Thunderclap presentation ظاهر شود.",
+        "Cluster headache معمولاً Thunderclap headache واقعی محسوب نمی‌شود؛ پاسخ صحیح.",
+        "RCVS از علل مهم سردردهای Thunderclap عودکننده است.",
+        "داروهای Serotonergic و سایر مواد vasoactive می‌توانند با RCVS و Thunderclap headache مرتبط باشند."
+      ],
+      "examTip": "Thunderclap headache را تا زمان رد SAH و سایر علل عروقی، یک اورژانس تشخیصی تلقی کنید.",
+      "examTrap": "سردردی که در چند ثانیه به اوج می‌رسد را صرفاً به سابقه میگرن یا Cluster نسبت ندهید.",
+      "source": "ICHD-3: Primary thunderclap headache; reviews of thunderclap headache and RCVS."
+    },
+    {
+      "id": "HA-090",
+      "stem": "بیماری با دردهای برق‌آسا در ناحیه Orbital-temporal یک‌طرفه مراجعه کرده است. حملات روزانه ۲۰ تا بیش از ۱۰۰ بار تکرار می‌شوند، از چند ثانیه تا حدود ۴ دقیقه طول می‌کشند و با قرمزی چشم و اشک‌ریزش همان‌طرف همراه هستند. درمان پیشگیرانه مناسب‌تر کدام است؟",
+      "options": [
+        "Indomethacin",
+        "Lamotrigine",
+        "Lithium",
+        "کورتیکواستروئید"
+      ],
+      "correctIndex": 1,
+      "explanation": "حملات کوتاه و پرتعداد یک‌طرفه همراه با Conjunctival injection و Lacrimation با SUNCT (Short-lasting unilateral neuralgiform headache attacks with conjunctival injection and tearing) سازگار است. Lamotrigine از درمان‌های پیشگیرانه رایج و معمولاً انتخاب اول است.",
+      "optionExplanations": [
+        "Indomethacin درمان انتخابی Paroxysmal hemicrania و Hemicrania continua است.",
+        "Lamotrigine از درمان‌های اصلی پیشگیری SUNCT/SUNA است؛ پاسخ صحیح.",
+        "Lithium بیشتر در Cluster headache، به‌ویژه نوع مزمن، کاربرد دارد.",
+        "کورتیکواستروئید درمان پیشگیرانه استاندارد SUNCT نیست."
+      ],
+      "examTip": "SUNCT: حملات کوتاه، پرتعداد، یک‌طرفه با Conjunctival injection و Tearing؛ Lamotrigine درمان پیشگیرانه مهم است.",
+      "examTrap": "اگر فقط یکی از علائم قرمزی چشم یا اشک‌ریزش وجود داشته باشد، ممکن است تشخیص SUNA مطرح شود.",
+      "source": "ICHD-3: SUNCT; treatment reviews of trigeminal autonomic cephalalgias."
+    },
+    {
+      "id": "HA-091",
+      "stem": "خانم ۶۷ ساله‌ای از احساس سوزش زبان و دهان شکایت دارد. مخاط دهان طبیعی است و دیابت یا بیماری سیستمیک شناخته‌شده‌ای ندارد. کدام درمان در صورت تشخیص Burning mouth syndrome می‌تواند مؤثر باشد؟",
+      "options": [
+        "Vitamin B6 به‌صورت تجربی",
+        "Prednisolone",
+        "Clonazepam",
+        "Zinc به‌صورت تجربی"
+      ],
+      "correctIndex": 2,
+      "explanation": "در Burning mouth syndrome، پس از رد علل ثانویه مانند کمبودهای تغذیه‌ای، عفونت، خشکی دهان و بیماری‌های مخاطی، Clonazepam موضعی یا در برخی موارد سیستمیک می‌تواند در کاهش علائم مؤثر باشد. شواهد درمانی محدود و پاسخ بیماران متغیر است.",
+      "optionExplanations": [
+        "Vitamin B6 فقط در صورت اثبات کمبود باید تجویز شود؛ مصرف بی‌رویه خود می‌تواند نوروپاتی ایجاد کند.",
+        "Prednisolone درمان روتین Burning mouth syndrome نیست.",
+        "Clonazepam، به‌ویژه به شکل موضعی، از گزینه‌های درمانی دارای شواهد برای کاهش درد است؛ پاسخ صحیح.",
+        "Zinc در صورت کمبود اثبات‌شده قابل جایگزینی است، اما درمان تجربی استاندارد این سندرم نیست."
+      ],
+      "examTip": "Burning mouth syndrome تشخیصرد کردن است؛ ابتدا علل ثانویه و کمبودهای تغذیه‌ای را بررسی کنید.",
+      "examTrap": "طبیعی بودن مخاط دهان به‌تنهایی برای تشخیص اولیه کافی نیست؛ شرح حال دارویی، خشکی دهان و کمبودها اهمیت دارند.",
+      "source": "ICHD-3: Burning mouth syndrome; systematic reviews of burning mouth syndrome treatments."
+    },
+    {
+      "id": "HA-092",
+      "stem": "خانم ۲۷ ساله‌ای با سردرد ناگهانی و بسیار شدید مراجعه کرده است که در کمتر از یک دقیقه به اوج شدت رسیده و او را از خواب بیدار کرده است. سردرد فعلی از حملات میگرنی قبلی شدیدتر و متفاوت است. معاینه عصبی طبیعی است و علائم مننژیسم یا Papilledema وجود ندارد. اقدام بعدی مناسب کدام است؟",
+      "options": [
+        "EEG",
+        "Brain MRI به‌عنوان تنها بررسی",
+        "Lumbar puncture",
+        "Transcranial Doppler (TCD)"
+      ],
+      "correctIndex": 2,
+      "explanation": "در Thunderclap headache، نخستین اقدام تصویربرداری فوری با Non-contrast brain CT برای بررسی SAH است؛ این گزینه در فهرست سؤال وجود ندارد. اگر CT منفی باشد اما شک بالینی باقی بماند، بسته به زمان انجام CT، کیفیت تصویربرداری و پروتکل مرکز، Lumbar puncture برای بررسی CSF و/یا تصویربرداری عروقی (CTA/MRA) لازم می‌شود. بنابراین گزینه B فقط به‌عنوان اقدام بعد از CT منفی قابل انتخاب است و سؤال در شکل اولیه از نظر گزینه‌ها ناقص است.",
+      "optionExplanations": [
+        "EEG در ارزیابی اولیه Thunderclap headache و رد SAH نقشی ندارد، مگر شواهد تشنج وجود داشته باشد.",
+        "LP پس از CT منفی و در صورت باقی ماندن شک به SAH یکی از اقدامات بعدی است؛ اما در این سؤال CT اولیه در گزینه‌ها ذکر نشده است.",
+        "پس از CT منفی و در صورت باقی ماندن شک به SAH، LP یکی از اقدامات بعدی کلاسیک است؛ پاسخ صحیح در چارچوب سؤال.",
+        "TCD برای ارزیابی برخی اختلالات همودینامیک عروقی کاربرد دارد، اما آزمون ردکننده SAH نیست."
+      ],
+      "examTip": "در Thunderclap headache، CT بدون کنتراست نخستین بررسی است؛ در صورت منفی بودن و باقی ماندن شک، LP و بررسی عروقی را بر اساس زمان و پروتکل در نظر بگیرید.",
+      "examTrap": "طبیعی بودن معاینه عصبی، SAH را رد نمی‌کند. در Thunderclap headache، CT بدون کنتراست نخستین بررسی است؛ LP را بدون در نظر گرفتن CT و زمان شروع سردرد، اقدام نخست تلقی نکنید.",
+      "source": "AHA/ASA guideline for aneurysmal subarachnoid hemorrhage; ACEP clinical policy for acute headache."
+    },
+    {
+      "id": "HA-093",
+      "stem": "کدام‌یک از ساختارهای زیر به‌طور معمول فاقد گیرنده‌های درد (Pain receptors) است؟",
+      "options": [
+        "Middle cerebral artery",
+        "اعصاب Cranial",
+        "Choroid plexus",
+        "Superior sagittal sinus"
+      ],
+      "correctIndex": 2,
+      "explanation": "خود پارانشیم مغز و Choroid plexus به‌طور معمول حساسیت دردزای قابل‌توجهی ندارند. در مقابل، عروق بزرگ داخل جمجمه، سینوس‌های وریدی دورال، مننژ و برخی اعصاب کرانیال دارای ساختارهای حساس به درد هستند.",
+      "optionExplanations": [
+        "Middle cerebral artery و سایر عروق بزرگ داخل جمجمه دارای گیرنده‌ها و آوران‌های حساس به درد هستند.",
+        "برخی اعصاب کرانیال، از جمله شاخه‌های Trigeminal، مسیرهای انتقال درد دارند.",
+        "Choroid plexus ساختار معمولاً حساس به درد نیست؛ پاسخ صحیح.",
+        "Superior sagittal sinus از ساختارهای حساس به درد محسوب می‌شود."
+      ],
+      "examTip": "درد سردرد عمدتاً از تحریک مننژ، عروق و ساختارهای حساس خارج از پارانشیم مغز ناشی می‌شود.",
+      "examTrap": "نبود گیرنده درد در پارانشیم مغز به معنای بی‌اهمیت بودن ضایعات مغزی در ایجاد سردرد نیست؛ ضایعات می‌توانند ساختارهای حساس را تحریک کنند.",
+      "source": "Headache pathophysiology reviews: pain-sensitive intracranial structures."
+    },
+    {
+      "id": "HA-094",
+      "stem": "کدام عبارت درباره ترکیبات Ergotamine در درمان حمله میگرن صحیح‌تر است؟",
+      "options": [
+        "در بارداری قابل استفاده هستند.",
+        "درمان مؤثر آن‌ها حداکثر به نیمی از بیماران محدود است.",
+        "به‌ندرت می‌توانند وازوکانستریکشن شدید و عوارض عروقی از جمله RCVS ایجاد کنند.",
+        "در بیماران مبتلا به بیماری عروق کرونر، در صورت بی‌علامت بودن قابل تجویز هستند."
+      ],
+      "correctIndex": 2,
+      "explanation": "Ergotamine با اثر وازوکانستریکتیو می‌تواند ایسکمی محیطی یا کرونری ایجاد کند و در بارداری و بیماری عروق کرونر منع مصرف دارد. به‌ندرت عوارض عروقی مغزی از جمله RCVS نیز گزارش شده‌اند. به علت عوارض و وجود درمان‌های ایمن‌تر، کاربرد آن محدود شده است.",
+      "optionExplanations": [
+        "Ergotamine در بارداری منع مصرف دارد؛ می‌تواند انقباض عروقی و انقباض رحم ایجاد کند.",
+        "درصد پاسخ ثابت و قابل تعمیمی مانند «حداکثر نیمی از بیماران» مبنای قابل اتکایی برای این گزاره نیست.",
+        "عوارض وازوکانستریکتیو شدید و موارد نادر RCVS گزارش شده‌اند؛ این گزینه صحیح‌تر است.",
+        "بیماری عروق کرونر از موارد منع مصرف Ergotamine است، حتی اگر بیمار در زمان مراجعه بی‌علامت باشد."
+      ],
+      "examTip": "Ergot derivatives و Triptans هر دو می‌توانند وازوکانستریکشن ایجاد کنند و در بیماری عروق کرونر منع مصرف دارند.",
+      "examTrap": "Ergotamine را در بارداری یا بیماری عروق کرونر تجویز نکنید.",
+      "source": "FDA prescribing information for ergotamine; reviews of ergot-related vasoconstrictive complications and RCVS."
+    },
+    {
+      "id": "HA-095",
+      "stem": "بیمار میانسالی از دردهای برق‌آسا و حمله‌ای ۲ تا ۳ ثانیه‌ای در یک سمت صورت شکایت دارد که با صحبت کردن یا غذا خوردن تشدید می‌شود. معاینه نورولوژیک طبیعی است. کدام عبارت درباره درمان این اختلال صحیح‌تر است؟",
+      "options": [
+        "Carbamazepine در همه بیماران درمان قطعی و دائمی است.",
+        "اکثریت بیماران مقاوم به درمان الزاماً به Microvascular decompression نیاز دارند.",
+        "شواهد اثربخشی داروهایی مانند Gabapentin محدودتر از Carbamazepine و Oxcarbazepine است.",
+        "Gamma Knife در حال حاضر درمان انتخابی خط اول همه بیماران است."
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال با Trigeminal neuralgia سازگار است. Carbamazepine و Oxcarbazepine درمان دارویی خط اول هستند، اما درمان قطعی همگانی محسوب نمی‌شوند. برای Gabapentin و برخی داروهای دیگر شواهد ضعیف‌تر است. در موارد مقاوم یا عدم تحمل دارو، روش‌هایی مانند Microvascular decompression، Stereotactic radiosurgery یا روش‌های ضایعه‌ساز بر اساس شرایط بیمار بررسی می‌شوند.",
+      "optionExplanations": [
+        "Carbamazepine در بسیاری از بیماران مؤثر است، اما درمان قطعی و دائمی همه بیماران نیست.",
+        "همه بیماران مقاوم الزاماً به Microvascular decompression نیاز ندارند؛ انتخاب روش به MRI، وضعیت عمومی و ترجیح بیمار بستگی دارد.",
+        "شواهد Gabapentin در مقایسه با Carbamazepine/Oxcarbazepine محدودتر است؛ این گزینه دقیق‌تر است.",
+        "Gamma Knife یکی از گزینه‌های مداخله‌ای است، اما درمان خط اول همه بیماران نیست."
+      ],
+      "examTip": "درمان دارویی خط اول Trigeminal neuralgia معمولاً Carbamazepine یا Oxcarbazepine است.",
+      "examTrap": "قبل از مداخله جراحی، MRI برای بررسی Neurovascular compression و علل ثانویه اهمیت دارد.",
+      "source": "European Academy of Neurology guideline on trigeminal neuralgia, 2019."
+    },
+    {
+      "id": "HA-096",
+      "stem": "خانمی با سابقه Migraine که تحت درمان دارویی است، اخیراً باردار شده و حملات سردرد همچنان ادامه دارند. کدام گروه دارویی در صورت مصرف برای پیشگیری، بیش از همه باید از نظر قطع یا جایگزینی فوری مورد بازبینی قرار گیرد؟",
+      "options": [
+        "Triptans (Serotonin 5-HT1B/1D agonists)",
+        "Tricyclic antidepressants",
+        "Beta-blockers",
+        "داروهای ضدتشنج، به‌ویژه Valproate و Topiramate"
+      ],
+      "correctIndex": 3,
+      "explanation": "در بارداری، Valproate به علت خطر بالای ناهنجاری‌های جنینی و پیامدهای تکاملی ممنوع است و Topiramate نیز با خطر ناهنجاری‌های جنینی و محدودیت‌های جدی همراه است؛ بنابراین داروهای ضدتشنج پیشگیرانه باید فوراً بازبینی شوند. Triptanها، به‌ویژه Sumatriptan، در صورت نیاز و با ارزیابی سود و زیان ممکن است برای درمان حاد استفاده شوند؛ TCA و برخی Beta-blockerها نیز در شرایط منتخب قابل بررسی‌اند.",
+      "optionExplanations": [
+        "Triptanها به‌ویژه Sumatriptan در صورت نیاز ممکن است پس از ارزیابی سود و زیان برای درمان حاد استفاده شوند؛ قطع خودکار همه آن‌ها الزاماً درست نیست.",
+        "TCAها مانند Amitriptyline در برخی شرایط بارداری با ارزیابی فردی قابل استفاده‌اند.",
+        "برخی Beta-blockerها در شرایط منتخب استفاده می‌شوند، هرچند محدودیت‌ها و پایش رشد جنین اهمیت دارد.",
+        "Valproate و Topiramate از داروهای مهمی هستند که در بارداری باید از آن‌ها اجتناب شود یا فوراً بازبینی شوند؛ پاسخ صحیح."
+      ],
+      "examTip": "در بارداری، Valproate و Topiramate برای پیشگیری میگرن انتخاب مناسبی نیستند؛ برنامه دارویی باید با پزشک و بر اساس زمان بارداری بازبینی شود.",
+      "examTrap": "Triptanها را با داروهای پیشگیرانه ضدتشنج یکسان تلقی نکنید؛ Sumatriptan در درمان حاد جایگاه متفاوتی دارد.",
+      "source": "ACOG Clinical Practice Guideline: Headaches in Pregnancy and Postpartum; pregnancy safety reviews for migraine medications."
+    },
+    {
+      "id": "HA-097",
+      "stem": "همه موارد زیر می‌توانند در فهرست علل Thunderclap headache قرار گیرند، به‌جز کدام مورد؟",
+      "options": [
+        "Diffuse cerebral vasoconstriction / RCVS",
+        "Accelerated hypertension",
+        "Perimesencephalic non-aneurysmal subarachnoid hemorrhage",
+        "SUNCT"
+      ],
+      "correctIndex": 3,
+      "explanation": "SUNCT یک Trigeminal autonomic cephalalgia با حملات بسیار کوتاه و پرتعداد است، نه علت کلاسیک Thunderclap headache. در مقابل، RCVS، خونریزی Subarachnoid از نوع Perimesencephalic و بحران شدید فشارخون می‌توانند با سردرد ناگهانی و بسیار شدید تظاهر کنند.",
+      "optionExplanations": [
+        "RCVS از علل مهم Thunderclap headache، گاهی به شکل حملات عودکننده، است.",
+        "افزایش شدید فشارخون می‌تواند با سردرد ناگهانی و شدید همراه باشد و باید زمینه‌های ثانویه بررسی شوند.",
+        "Perimesencephalic non-aneurysmal SAH معمولاً با سردرد ناگهانی شدید تظاهر می‌کند.",
+        "SUNCT یک TAC با حملات کوتاه و پرتعداد است و علت معمول Thunderclap headache نیست؛ پاسخ صحیح."
+      ],
+      "examTip": "در فهرست Thunderclap headache، SAH، RCVS، CVST، دیسکشن شریانی و علل دیگر عروقی را به خاطر بسپارید.",
+      "examTrap": "هر سردرد شدید و یک‌طرفه را Cluster یا SUNCT ندانید؛ سرعت رسیدن به اوج شدت اهمیت دارد.",
+      "source": "ICHD-3; reviews of thunderclap headache differential diagnosis."
+    },
+    {
+      "id": "HA-098",
+      "stem": "خانم جوانی با سردرد متوسط یک‌طرفه، غیرضرباندار و فشارنده مراجعه کرده است. هنگام سردرد فقط Photophobia دارد و از Phonophobia، تهوع یا استفراغ شکایت نمی‌کند. فعالیت فیزیکی سردرد را تشدید نمی‌کند و معاینه عصبی و تصویربرداری طبیعی هستند. کدام دارو برای درمان حمله مناسب‌تر است؟",
+      "options": [
+        "Naratriptan",
+        "Frovatriptan",
+        "Dihydroergotamine",
+        "Naproxen"
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال بیشتر با سردرد تنشی (Tension-type headache) سازگار است تا میگرن: درد فشارنده و غیرضرباندار، عدم تشدید با فعالیت و وجود حداکثر یکی از Photophobia یا Phonophobia. NSAIDهایی مانند Naproxen برای درمان حمله مناسب‌اند؛ Triptanها و Dihydroergotamine برای حمله میگرنی به کار می‌روند.",
+      "optionExplanations": [
+        "Naratriptan برای حملات میگرنی استفاده می‌شود و در Tension-type headache انتخاب مناسبی نیست.",
+        "Frovatriptan یک Triptan با نیمه‌عمر طولانی‌تر برای میگرن است، نه درمان Tension-type headache.",
+        "Dihydroergotamine برای برخی حملات میگرنی مقاوم کاربرد دارد، نه سردرد تنشی.",
+        "Naproxen از NSAIDهای مؤثر برای درمان حاد Tension-type headache است؛ پاسخ صحیح."
+      ],
+      "examTip": "در Tension-type headache، درد فشارنده، عدم تشدید با فعالیت و فقدان تهوع/استفراغ به تشخیص کمک می‌کند.",
+      "examTrap": "وجود Photophobia به‌تنهایی برای تشخیص میگرن کافی نیست؛ معیارهای کامل ICHD را بررسی کنید.",
+      "source": "ICHD-3: Episodic tension-type headache; guidelines for acute tension-type headache treatment."
+    },
+    {
+      "id": "HA-099",
+      "stem": "خانم جوانی با سردرد یک‌طرفه و مقاوم از حدود ۶ ماه قبل مراجعه کرده است. گاهی بدون عامل مشخص، برای چند ساعت تشدید درد همراه با قرمزی چشم همان‌طرف رخ می‌دهد. معاینه عصبی، تصویربرداری مغز و بررسی عروق کاروتید طبیعی هستند. کدام دارو در درمان این سردرد، در مقایسه با سایر گزینه‌ها، کمتر قابل اتکاست؟",
+      "options": [
+        "Topiramate",
+        "Celecoxib",
+        "Indomethacin",
+        "Sumatriptan"
+      ],
+      "correctIndex": 3,
+      "explanation": "سردرد یک‌طرفه مداوم با تشدیدهای دوره‌ای و علائم اتونوم همان‌طرف می‌تواند Hemicrania continua باشد؛ پاسخ کامل به Indomethacin معیار تشخیصی کلیدی است. Sumatriptan معمولاً درمان قابل اتکایی برای زمینه مداوم Hemicrania continua نیست، هرچند تشخیص افتراقی با میگرن و سایر TACها لازم است. Topiramate و Celecoxib در برخی بیماران به‌عنوان جایگزین یا درمان کمکی گزارش شده‌اند، اما شواهد محدودتر از Indomethacin است.",
+      "optionExplanations": [
+        "Topiramate در برخی موارد Hemicrania continua به‌عنوان درمان جایگزین گزارش شده است، هرچند شواهد محدود است.",
+        "Celecoxib در برخی بیماران به‌عنوان جایگزین در صورت عدم تحمل Indomethacin گزارش شده است؛ شواهد آن محدود است.",
+        "Indomethacin درمان شاخص Hemicrania continua است و پاسخ کامل به آن در تشخیص اهمیت دارد.",
+        "Sumatriptan برای حملات میگرنی مؤثر است، اما معمولاً درمان مؤثری برای درد زمینه‌ای Hemicrania continua نیست؛ پاسخ صحیح."
+      ],
+      "examTip": "Hemicrania continua با درد یک‌طرفه مداوم و تشدیدهای همراه با علائم اتونوم شناخته می‌شود؛ پاسخ کامل به Indomethacin بسیار مهم است.",
+      "examTrap": "پیش از تشخیص Hemicrania continua، مداوم بودن درد و پاسخ به دوز درمانی کافی Indomethacin را بررسی کنید.",
+      "source": "ICHD-3: Hemicrania continua; clinical reviews of indomethacin-responsive headaches."
+    },
+    {
+      "id": "HA-100",
+      "stem": "خانم جوانی با سردرد شدید یک‌طرفه همراه با Photophobia، Phonophobia و تهوع مراجعه کرده است. پیش از سردرد، برای چند دقیقه پدیده‌های نورانی زیگزاگی (Scintillation) در میدان بینایی تجربه می‌کند. معاینه عصبی و تصویربرداری مغز طبیعی هستند. کدام عبارت درباره مصرف Triptan در این بیمار صحیح است؟",
+      "options": [
+        "وجود Aura چشمی، مصرف Triptan را به‌طور مطلق ممنوع می‌کند.",
+        "Triptan تزریقی ممنوع است، اما نوع خوراکی یا Nasal باید در مرحله Aura مصرف شود.",
+        "مصرف Triptan در شروع Aura از بروز سردرد جلوگیری می‌کند.",
+        "Triptan قابل استفاده است، اما معمولاً بهتر است در شروع فاز سردرد مصرف شود، نه در مرحله Aura."
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال با Migraine with visual aura سازگار است. وجود Aura به‌تنهایی منع مطلق مصرف Triptan نیست؛ با این حال، شواهد نشان نمی‌دهد که مصرف Triptan در مرحله Aura به‌طور قابل اتکا از سردرد جلوگیری کند. معمولاً توصیه می‌شود دارو در شروع فاز سردرد، به‌ویژه زمانی که درد هنوز خفیف است، مصرف شود. در Migraine with brainstem aura یا Hemiplegic migraine، ملاحظات و محدودیت‌های جداگانه‌ای وجود دارد.",
+      "optionExplanations": [
+        "Aura بینایی به‌تنهایی منع مطلق Triptan نیست؛ پاسخ نادرست است.",
+        "راه تجویز تزریقی، خوراکی یا Nasal به‌تنهایی تعیین‌کننده ممنوعیت نیست؛ مصرف در مرحله Aura معمولاً مزیت اثبات‌شده‌ای ندارد.",
+        "مصرف در شروع Aura به‌طور قابل اتکا از بروز سردرد جلوگیری نمی‌کند؛ پاسخ نادرست است.",
+        "Triptan در Migraine with aura قابل استفاده است، اما زمان معمول توصیه‌شده شروع فاز سردرد است؛ پاسخ صحیح."
+      ],
+      "examTip": "در Migraine with aura، Triptan را معمولاً با شروع سردرد مصرف می‌کنند، نه صرفاً با شروع Aura.",
+      "examTrap": "Migraine with brainstem aura و Hemiplegic migraine را از Aura بینایی معمول جدا کنید؛ محدودیت‌های تجویز ممکن است متفاوت باشد.",
+      "source": "ICHD-3: Migraine with aura; American Headache Society guidance on acute migraine treatment."
     }
   ]
 }
