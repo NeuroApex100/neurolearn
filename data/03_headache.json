@@ -2480,6 +2480,426 @@
       "examTip": "در GCA همراه با علائم بینایی، High-dose corticosteroid را فوراً شروع کنید؛ درمان را برای biopsy به تأخیر نیندازید.",
       "examTrap": "در بیمار با کاهش دید ناشی از GCA، Oral prednisone تنها ممکن است کافی نباشد؛ IV methylprednisolone را فوری مدنظر قرار دهید.",
       "source": "ACR/Vasculitis Foundation guideline for Giant Cell Arteritis; EULAR recommendations for large vessel vasculitis."
+    },
+    {
+      "id": "HA-121",
+      "stem": "حمله‌های درد شدید یک‌طرفه در ناحیه Temporal-orbital راست، هر بار ۵ تا ۱۰ دقیقه و تا ۱۵ بار در روز، همراه با Conjunctival injection، Rhinorrhea و گاهی Partial Horner syndrome رخ می‌دهد. معاینه و MRI طبیعی است. مناسب‌ترین درمان پیشگیرانه کدام است؟",
+      "options": [
+        "Indomethacin",
+        "Verapamil",
+        "Lithium",
+        "Corticosteroid"
+      ],
+      "correctIndex": 0,
+      "explanation": "مدت ۲ تا ۳۰ دقیقه و فراوانی بیش از ۵ حمله در روز همراه با علائم اتونومیک هم‌طرف، بیش از همه Paroxysmal hemicrania را مطرح می‌کند. پاسخ مطلق به دوز درمانی Indomethacin جزء معیار تشخیصی این اختلال است. با توجه به همپوشانی زمانی با SUNA/SUNCT، شرح دقیق مدت حملات و وجود/عدم وجود Conjunctival injection و Lacrimation اهمیت دارد.",
+      "optionExplanations": [
+        "Indomethacin درمان شاخص Paroxysmal hemicrania است و پاسخ کامل به آن از معیارهای تشخیصی محسوب می‌شود.",
+        "Verapamil پیشگیری خط اول Cluster headache است، نه Paroxysmal hemicrania.",
+        "Lithium بیشتر در Chronic cluster headache مطرح است.",
+        "Corticosteroid ممکن است در برخی شرایط به‌عنوان درمان پل در Cluster به‌کار رود، اما پیشگیری پایدار این فنوتیپ نیست."
+      ],
+      "examTip": "حملات ۲–۳۰ دقیقه‌ای، بیش از ۵ بار در روز و پاسخ کامل به Indomethacin به نفع Paroxysmal hemicrania است.",
+      "examTrap": "SUNCT/SUNA می‌تواند حملات کوتاه‌تر و پرتعداد بدهد؛ تشخیص را فقط از روی تعداد حملات نگذارید.",
+      "source": "ICHD-3: Paroxysmal hemicrania; ICHD-3: SUNCT/SUNA."
+    },
+    {
+      "id": "HA-122",
+      "stem": "خانم ۶۰ ساله‌ای به مدت دو ماه، هر شب حدود دو ساعت پس از شروع خواب با سردرد شدید منتشر از خواب بیدار می‌شود. گاهی حمله در همان شب تکرار می‌شود و علامت اتونومیک ندارد؛ معاینه نورولوژیک طبیعی است. در ارزیابی اولیه کدام بررسی اهمیت بیشتری دارد؟",
+      "options": [
+        "پایش ۲۴ ساعته فشار خون",
+        "Polysomnography برای بررسی Sleep apnea",
+        "اندازه‌گیری هورمون‌های هیپوفیز",
+        "اندازه‌گیری فشار CSF"
+      ],
+      "correctIndex": 1,
+      "explanation": "الگو می‌تواند Hypnic headache باشد، اما مدت دوماهه هنوز معیار زمانی ICHD-3 یعنی بیش از سه ماه را کامل نمی‌کند. پیش از تثبیت تشخیص، علل ثانویه سردرد شبانه، به‌ویژه Sleep apnea و Nocturnal hypertension، باید بررسی شوند. در بین گزینه‌ها Polysomnography برای ارزیابی Sleep apnea مناسب‌تر است؛ ارزیابی فشار خون نیز بر اساس شرح حال و ریسک بیمار انجام می‌شود.",
+      "optionExplanations": [
+        "Nocturnal hypertension نیز باید در ارزیابی سردرد شبانه مدنظر باشد، اما Holter فشار خون به‌تنهایی تشخیص Hypnic headache را نمی‌دهد.",
+        "Polysomnography بررسی قطعی Sleep apnea است و در افتراق سردردهای مرتبط با خواب اهمیت دارد.",
+        "اندازه‌گیری هورمون‌های هیپوفیز بدون نشانه بالینی اختصاصی، بررسی روتین اولیه نیست.",
+        "اندازه‌گیری فشار CSF بدون شواهد افزایش یا کاهش فشار داخل جمجمه، اولویت ندارد."
+      ],
+      "examTip": "Hypnic headache فقط حین خواب ایجاد می‌شود و بیمار را بیدار می‌کند؛ پیش از تشخیص، Sleep apnea و Nocturnal hypertension را رد کنید.",
+      "examTrap": "معیار زمانی Hypnic headache در ICHD-3 بیش از ۳ ماه و حداقل ۱۰ روز در ماه است.",
+      "source": "ICHD-3: Hypnic headache; ICHD-3: Sleep apnoea headache."
+    },
+    {
+      "id": "HA-123",
+      "stem": "بیمار ۲۵ ساله مبتلا به Migraine که از Triptan استفاده می‌کند، طی دو هفته چندین حمله سردرد بسیار شدید و تیرکشنده با طول مدت ۱ تا ۲ ساعت داشته است. بین حملات معاینه طبیعی است و Non-contrast CT در یکی از حملات طبیعی گزارش شده است. کدام تشخیص مهم‌تر است که باید فعالانه بررسی شود؟",
+      "options": [
+        "Status migrainosus",
+        "Perimesencephalic hemorrhage",
+        "Reversible cerebral vasoconstriction syndrome (RCVS)",
+        "Cluster headache"
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال برای تشخیص قطعی کافی نیست، اما حملات شدید و عودکننده طی چند روز تا چند هفته در فرد مصرف‌کننده Triptan باید احتمال RCVS را مطرح کند. CT طبیعی، به‌ویژه در مراحل اولیه، RCVS را رد نمی‌کند؛ CTA یا MRA ممکن است در شروع طبیعی باشد و در صورت تداوم شک بالینی، تصویربرداری عروقی تکرار شود. باید SAH و سایر علل ثانویه نیز برحسب زمان شروع و الگوی درد رد شوند.",
+      "optionExplanations": [
+        "Status migrainosus یک حمله ناتوان‌کننده مداوم بیش از ۷۲ ساعت است؛ حملات مجزای ۱–۲ ساعته با فواصل بدون درد با آن تطابق ندارد.",
+        "Perimesencephalic SAH معمولاً با یک رویداد حاد Thunderclap مطرح می‌شود، نه حملات متعدد مجزای دو هفته‌ای؛ با این حال SAH باید بر اساس شرح حال رد شود.",
+        "RCVS می‌تواند با سردردهای شدید عودکننده و مصرف مواد vasoactive از جمله Triptans همراه باشد؛ CT اولیه ممکن است طبیعی باشد.",
+        "Cluster headache معمولاً با درد یک‌طرفه Orbital/temporal و علائم اتونومیک یا Restlessness همراه است؛ این ویژگی‌ها در متن ذکر نشده‌اند."
+      ],
+      "examTip": "در سردردهای شدید عودکننده با مصرف Triptan یا سایر مواد vasoactive، RCVS را در نظر بگیرید؛ CTA/MRA زودهنگام ممکن است طبیعی باشد.",
+      "examTrap": "CT طبیعی، RCVS یا SAH را در همه شرایط رد نمی‌کند؛ تصمیم به LP و تصویربرداری عروقی به زمان شروع و احتمال پیش‌آزمون بستگی دارد.",
+      "source": "ICHD-3: Headache attributed to RCVS; reviews of RCVS and vasoactive medication exposure."
+    },
+    {
+      "id": "HA-124",
+      "stem": "خانم جوانی با Migraine مرتبط با قاعدگی، با وجود درمان پیشگیرانه زمینه‌ای، از چند روز پیش از شروع قاعدگی دچار تشدید حملات می‌شود. کدام دارو در راهبردهای امروزی درمان یا پیشگیری کوتاه‌مدت پیرامون قاعدگی جایگاه استانداردی ندارد؟",
+      "options": [
+        "Sumatriptan",
+        "Zolmitriptan",
+        "Naproxen",
+        "Danazol"
+      ],
+      "correctIndex": 3,
+      "explanation": "Triptans و NSAIDs از درمان‌های مؤثر حمله menstrual migraine هستند و در سیکل‌های منظم می‌توان از short-term perimenstrual prophylaxis با داروهایی مانند Frovatriptan یا Naproxen استفاده کرد. Danazol درمان استاندارد و توصیه‌شده امروزی برای menstrual migraine نیست. Progesterone-only contraception ممکن است در برخی بیماران منتخب و عمدتاً برای کنترل هورمونی/پیشگیری از بارداری مطرح شود، اما معادل یک رژیم اثبات‌شده پیشگیری کوتاه‌مدت پیرامون قاعدگی نیست.",
+      "optionExplanations": [
+        "Sumatriptan برای درمان حاد menstrual migraine شواهد دارد؛ برخی Triptans در پیشگیری کوتاه‌مدت نیز بررسی شده‌اند.",
+        "Zolmitriptan در درمان حاد و در برخی رژیم‌های کوتاه‌مدت پیشگیری پیرامون قاعدگی شواهد دارد.",
+        "Naproxen از گزینه‌های دارای شواهد برای درمان و پیشگیری کوتاه‌مدت پیرامون قاعدگی است.",
+        "Danazol در راهنماهای معاصر درمان استاندارد menstrual migraine محسوب نمی‌شود؛ پاسخ صحیح."
+      ],
+      "examTip": "در menstrual migraine، NSAIDs و Triptans خط اول‌اند؛ برای پیشگیری کوتاه‌مدت در سیکل منظم Frovatriptan یا Naproxen قابل‌بررسی است.",
+      "examTrap": "درمان‌های هورمونی باید با توجه به وجود Aura، ریسک عروقی و نیازهای باروری انتخاب شوند؛ Danazol درمان روتین نیست.",
+      "source": "IHS global practice recommendations for acute migraine treatment, 2024; ICHD-3; menstrual migraine reviews."
+    },
+    {
+      "id": "HA-125",
+      "stem": "بیماری چندین ماه است دچار سردردهای ناگهانی و کوتاه‌مدت در ناحیه Frontal می‌شود که با Cough، خنده یا بلند کردن بار سنگین تحریک می‌شوند. پس از رد علل ثانویه، کدام دارو برای کنترل این حملات مناسب‌تر است؟",
+      "options": [
+        "Indomethacin",
+        "Carbamazepine",
+        "Nortriptyline",
+        "Gabapentin"
+      ],
+      "correctIndex": 0,
+      "explanation": "شرح حال به نفع Primary cough headache یا یک سردرد Valsalva-triggered است؛ با این حال در شروع یا تغییر الگو باید Chiari I malformation، ضایعات حفره خلفی، Aneurysm، RCVS و سایر علل ثانویه بررسی شوند. Indomethacin در بسیاری از بیماران مبتلا به Primary cough headache مؤثر است.",
+      "optionExplanations": [
+        "Indomethacin درمان دارویی کلاسیک و غالباً مؤثر Primary cough headache است؛ پاسخ صحیح.",
+        "Carbamazepine برای Neuralgiaهای حمله‌ای مانند Trigeminal neuralgia کاربرد دارد، نه درمان معمول Primary cough headache.",
+        "Nortriptyline درمان پیشگیرانه رایج در برخی سردردهای مزمن است، اما انتخاب اختصاصی این فنوتیپ نیست.",
+        "Gabapentin ممکن است در برخی دردهای نوروپاتیک استفاده شود، ولی شواهد آن برای Primary cough headache محدودتر است."
+      ],
+      "examTip": "در سردردهای Cough/Valsalva، MRI مغز با توجه ویژه به Posterior fossa و Craniocervical junction اهمیت دارد؛ پس از رد علت ثانویه، Indomethacin را در نظر بگیرید.",
+      "examTrap": "سردرد ناشی از زور زدن را تا رد علل ثانویه، خوش‌خیم فرض نکنید.",
+      "source": "ICHD-3: Primary cough headache; ICHD-3: Primary exercise headache."
+    },
+    {
+      "id": "HA-126",
+      "stem": "خانم ۳۰ ساله‌ای از درد موضعی اطراف چشم چپ شکایت دارد که با حرکت چشم، به‌ویژه نگاه به بالا، تشدید می‌شود و با فشار بر ناحیه Superomedial orbital rim همان درد بازتولید می‌شود. کدام عبارت صحیح‌تر است؟",
+      "options": [
+        "در حدود نیمی از موارد محدودیت حرکات چشم دیده می‌شود.",
+        "تزریق موضعی Corticosteroid در موارد منتخب می‌تواند درد را برطرف کند.",
+        "MRI مغز معمولاً غیرطبیعی است.",
+        "تغییرات Cranial autonomic معمولاً جزء تظاهر غالب است."
+      ],
+      "correctIndex": 1,
+      "explanation": "درد موضعی Trochlear با حساسیت روی ناحیه Trochlea و تشدید با حرکت چشم، به‌ویژه نگاه به بالا یا پایین، با Trochleodynia/Trochleitis سازگار است. تصویربرداری اغلب طبیعی است و تشخیص عمدتاً بالینی است. در موارد مقاوم و پس از رد علل دیگر، تزریق موضعی کورتیکواستروئید در ناحیه Trochlea می‌تواند مؤثر باشد؛ این اقدام باید توسط متخصص آشنا با آناتومی اربیت انجام شود.",
+      "optionExplanations": [
+        "محدودیت واضح حرکات چشم یافته ثابت یا شایع در همه بیماران نیست؛ ممکن است در درد شدید حرکات به‌علت درد محدود شوند.",
+        "تزریق موضعی Corticosteroid در موارد منتخب مقاوم می‌تواند درمان مؤثری باشد؛ پاسخ صحیح.",
+        "MRI معمولاً طبیعی است و ممکن است برای رد ضایعات دیگر درخواست شود.",
+        "علائم اتونومیک کرانیال ویژگی اصلی Trochleodynia نیستند."
+      ],
+      "examTip": "درد نقطه‌ای Superomedial orbit که با حرکت چشم و فشار روی Trochlea تشدید می‌شود، Trochleodynia را مطرح می‌کند.",
+      "examTrap": "پیش از تزریق، تشخیص‌های افتراقی Orbital inflammation، sinus disease و علل عصب‌چشمی را بررسی کنید.",
+      "source": "Reviews on trochleodynia/trochleitis and orbital pain; ICHD-3 differential diagnosis."
+    },
+    {
+      "id": "HA-127",
+      "stem": "کدام ویژگی در افتراق Cluster headache از Paroxysmal hemicrania بیشتر به نفع Cluster headache است؟",
+      "options": [
+        "مدت حمله ۲۰ تا ۳۰ دقیقه",
+        "وجود علائم میگرنی",
+        "تحریک حمله با مصرف الکل در دوره فعال بیماری",
+        "محل درد در Orbital و Frontal region"
+      ],
+      "correctIndex": 2,
+      "explanation": "هر دو اختلال می‌توانند درد Orbital/temporal یک‌طرفه و علائم اتونومیک داشته باشند. مدت حملات Cluster معمولاً ۱۵ تا ۱۸۰ دقیقه و Paroxysmal hemicrania حدود ۲ تا ۳۰ دقیقه است؛ بنابراین مدت ۲۰–۳۰ دقیقه به‌تنهایی افتراق‌دهنده قوی نیست. تحریک حمله با الکل در دوره فعال Cluster شناخته‌شده است و پاسخ مطلق به Indomethacin به نفع Paroxysmal hemicrania است.",
+      "optionExplanations": [
+        "۲۰ تا ۳۰ دقیقه در محدوده هر دو اختلال قرار می‌گیرد و به‌تنهایی افتراق‌دهنده نیست.",
+        "علائم میگرنی ممکن است در Cluster دیده شوند، اما معیار افتراقی اصلی نیستند.",
+        "الکل می‌تواند در دوره فعال Cluster حمله را تحریک کند؛ پاسخ صحیح.",
+        "محل Orbital/Frontal در هر دو اختلال شایع است."
+      ],
+      "examTip": "پاسخ مطلق به Indomethacin مشخصه Paroxysmal hemicrania است؛ Alcohol trigger در دوره فعال بیشتر به نفع Cluster است.",
+      "examTrap": "به مدت حمله، تعداد حملات روزانه، Restlessness و پاسخ به Indomethacin توجه کنید.",
+      "source": "ICHD-3: Cluster headache; ICHD-3: Paroxysmal hemicrania."
+    },
+    {
+      "id": "HA-128",
+      "stem": "مرد ۳۰ ساله ورزشکار پس از بلند کردن وزنه سنگین دچار سردرد شدید شده که طی ۴۵ دقیقه برطرف شده است. CT طبیعی و معاینه بدون یافته غیرطبیعی است و سابقه حملات مشابه پس از ورزش دارد. پس ازرد کردن علل عروقی و ساختاری، کدام درمان پیشگیرانه مناسب‌تر است؟",
+      "options": [
+        "Lumbar puncture مکرر",
+        "Ventriculoperitoneal shunt",
+        "Fluoxetine",
+        "Indomethacin"
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال با Primary exercise headache سازگار است، اما نخستین حمله یا تغییر الگو باید از نظر Subarachnoid hemorrhage، Arterial dissection و RCVS بررسی شود. پس ازرد کردن علل ثانویه، Indomethacin در بسیاری از بیماران برای پیشگیری مؤثر گزارش شده است.",
+      "optionExplanations": [
+        "LP مکرر درمان پیشگیرانه Primary exercise headache نیست؛ LP فقط در ارزیابی تشخیصی منتخب و با توجه به زمان CT و شک بالینی مطرح می‌شود.",
+        "شانت برای این سردرد اولیه اندیکاسیون ندارد.",
+        "Fluoxetine درمان استاندارد این اختلال نیست.",
+        "Indomethacin در بسیاری از موارد Primary exercise headache یا Weightlifter’s headache مؤثر است؛ پاسخ صحیح."
+      ],
+      "examTip": "پس از رد SAH، Dissection و RCVS، Indomethacin می‌تواند برای Primary exercise headache استفاده شود.",
+      "examTrap": "طبیعی بودن CT به‌تنهایی در هر زمان از شروع سردرد برای رد SAH کافی نیست؛ زمان تصویربرداری و شک بالینی مهم‌اند.",
+      "source": "ICHD-3: Primary exercise headache; AHA/neurology reviews of exertional thunderclap headache."
+    },
+    {
+      "id": "HA-129",
+      "stem": "بیماری حملات درد شدید یک‌طرفه حدود یک دقیقه‌ای تا ۳۰ بار در روز دارد که با Conjunctival injection و Lacrimation همراه است. کدام عبارت درباره این بیمار نادرست است؟",
+      "options": [
+        "Indomethacin در اکثر بیماران درمان مؤثر و اختصاصی است.",
+        "IV Lidocaine ممکن است در شرایط مانیتورینگ‌شده حملات را کاهش دهد.",
+        "MRI مغز با توجه به احتمال علل ثانویه باید انجام شود.",
+        "در برخی بیماران بررسی ناحیه Sellar و Pituitary و عملکرد آن مطرح است."
+      ],
+      "correctIndex": 0,
+      "explanation": "فنوتیپ با SUNCT سازگار است: حملات یک‌طرفه ۱ تا ۶۰۰ ثانیه‌ای همراه با Conjunctival injection و Lacrimation. Indomethacin درمان اختصاصی SUNCT نیست؛ Lamotrigine از گزینه‌های پیشگیری رایج است. MRI مغز، با توجه ویژه به Pituitary و Posterior fossa، برای رد علل ثانویه اهمیت دارد. IV Lidocaine ممکن است به‌عنوان درمان انتقالی در محیط بستری و تحت مانیتورینگ قلبی استفاده شود.",
+      "optionExplanations": [
+        "Indomethacin درمان مؤثر معمول SUNCT نیست؛ پاسخ صحیح. Lamotrigine از درمان‌های پیشگیرانه رایج است.",
+        "IV Lidocaine می‌تواند در موارد شدید و مقاوم، به‌صورت بستری و با مانیتورینگ ECG و همودینامیک کمک‌کننده باشد.",
+        "MRI مغز برای رد ضایعات ثانویه از جمله ضایعات Pituitary و Posterior fossa توصیه می‌شود.",
+        "ارزیابی اختصاصی Pituitary در صورت شک بالینی یا یافته تصویربرداری/علائم همراه مناسب است؛ اما تست هورمونی برای همه بیماران به‌صورت مطلق الزامی نیست."
+      ],
+      "examTip": "SUNCT: حملات ۱–۶۰۰ ثانیه‌ای همراه با قرمزی و اشک‌ریزش چشم؛ Lamotrigine برای پیشگیری و IV Lidocaine در شرایط مانیتورینگ‌شده برای موارد منتخب.",
+      "examTrap": "پاسخ به Indomethacin در Paroxysmal hemicrania و Hemicrania continua انتظار می‌رود، نه SUNCT.",
+      "source": "ICHD-3: SUNCT/SUNA; StatPearls: Short-lasting unilateral neuralgiform headache; 2024–2025 reviews."
+    },
+    {
+      "id": "HA-130",
+      "stem": "کدام عبارت درباره Headache attributed to acute rhinosinusitis صحیح‌تر است؟",
+      "options": [
+        "Ethmoid sinusitis معمولاً درد Occipital ایجاد می‌کند.",
+        "Frontal sinusitis ممکن است درد پیشانی ایجاد کند که هنگام صبح برجسته‌تر باشد.",
+        "Sympathomimetic decongestants به‌طور معمول سردرد سینوزیتی را تشدید می‌کنند.",
+        "وجود هر نوع ضخیم‌شدگی مخاط سینوس در CT برای نسبت دادن سردرد به سینوزیت کافی است."
+      ],
+      "correctIndex": 1,
+      "explanation": "سردرد منتسب به Rhinosinusitis باید با شواهد بالینی و زمانی التهاب حاد سینوس همراه باشد و با بهبود سینوزیت بهتر شود. درد Frontal می‌تواند در ناحیه پیشانی و درد Ethmoid بیشتر در ناحیه بین چشم‌ها/مدیال اربیت احساس شود؛ الگوی دقیق محل درد به‌تنهایی تشخیصی نیست. یافته تصویربرداری خفیف و اتفاقی مخاط سینوس، بدون شواهد بالینی، علت سردرد را ثابت نمی‌کند.",
+      "optionExplanations": [
+        "Ethmoid sinusitis بیشتر درد بین چشم‌ها یا ناحیه Medial orbital ایجاد می‌کند، نه Occipital.",
+        "Frontal sinusitis می‌تواند درد پیشانی ایجاد کند و در برخی بیماران هنگام صبح برجسته‌تر باشد؛ پاسخ مورد انتظار آزمونی، با این caveat که الگوی زمانی اختصاصی نیست.",
+        "Decongestantهای موضعی یا خوراکی معمولاً برای کاهش احتقان به‌کار می‌روند؛ مصرف طولانی برخی داروهای موضعی می‌تواند Rebound congestion بدهد، نه اینکه قاعدتاً سردرد را تشدید کند.",
+        "تغییرات تصویربرداری سینوس ممکن است اتفاقی باشد؛ تشخیص نیازمند شواهد بالینی التهاب و رابطه زمانی است."
+      ],
+      "examTip": "برای نسبت دادن سردرد به Rhinosinusitis، شواهد بالینی التهاب سینوس و رابطه زمانی لازم است؛ CT غیرطبیعی به‌تنهایی کافی نیست.",
+      "examTrap": "محل درد سینوسی به‌تنهایی قابل اتکا نیست؛ Migraine اغلب با عنوان اشتباه 'sinus headache' گزارش می‌شود.",
+      "source": "ICHD-3: Headache attributed to acute rhinosinusitis; AAO-HNS sinusitis guidance."
+    },
+    {
+      "id": "HA-131",
+      "stem": "در بیماری مبتلا به Migraine که هم‌زمان Ischemic coronary artery disease و Uncontrolled hypertension دارد، کدام دارو برای حمله حاد توصیه نمی‌شود؟",
+      "options": [
+        "Intranasal Lidocaine",
+        "Ketorolac همراه Lidocaine",
+        "Sumatriptan",
+        "Chlorpromazine"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sumatriptan و سایر Triptans به‌علت اثر Vasoconstrictive در بیمار مبتلا به Ischemic coronary artery disease و نیز در Uncontrolled hypertension ممنوع‌اند. گزینه‌های غیروازوکانستریکتور باید با توجه به وضعیت بالینی و منع مصرف‌های اختصاصی انتخاب شوند.",
+      "optionExplanations": [
+        "Intranasal Lidocaine در برخی سردردها به‌عنوان درمان کمکی مطرح است و منع مصرف اختصاصی ناشی از CAD ندارد.",
+        "Ketorolac و Lidocaine ممکن است در شرایط منتخب استفاده شوند؛ Ketorolac به‌علت ریسک کلیوی، گوارشی و قلبی‌عروقی نیازمند احتیاط است.",
+        "Sumatriptan در Ischemic CAD و Uncontrolled hypertension contraindicated است؛ پاسخ صحیح.",
+        "Chlorpromazine گاهی در اورژانس برای Migraine به‌کار می‌رود، هرچند افت فشار و عوارض اکستراپیرامیدال باید مدنظر باشد."
+      ],
+      "examTip": "Triptans در CAD ایسکمیک و فشار خون کنترل‌نشده ممنوع‌اند؛ درمان غیروازوکانستریکتیو انتخاب کنید.",
+      "examTrap": "NSAIDs نیز در بیماری قلبی، کلیوی، زخم گوارشی و مصرف ضدانعقاد نیازمند ارزیابی خطر هستند.",
+      "source": "FDA/DailyMed Sumatriptan prescribing information; IHS acute migraine recommendations 2024."
+    },
+    {
+      "id": "HA-132",
+      "stem": "مرد جوان وزنه‌برداری چندین بار پس از برداشتن وزنه دچار سردرد Generalized شده است. بررسی علل ثانویه، از جمله SAH، Dissection و RCVS، منفی است. کدام درمان پیشگیرانه مناسب‌تر است؟",
+      "options": [
+        "IV Dihydroergotamine",
+        "Intranasal Lidocaine",
+        "Dexamethasone",
+        "Indomethacin"
+      ],
+      "correctIndex": 3,
+      "explanation": "پس از رد علل ثانویه، الگو با Primary exercise headache سازگار است. Indomethacin در بسیاری از بیماران مؤثر گزارش شده و از گزینه‌های کلاسیک پیشگیری است. این توصیه برای سردرد اولیه پس از بررسی کامل است، نه برای نخستین حمله Thunderclap قبل از بررسی.",
+      "optionExplanations": [
+        "Dihydroergotamine درمان معمول پیشگیرانه Primary exercise headache نیست و در بیماری عروقی منع مصرف دارد.",
+        "Intranasal Lidocaine درمان استاندارد پیشگیری از Weightlifter’s headache نیست.",
+        "Dexamethasone درمان پیشگیرانه استاندارد این اختلال نیست.",
+        "Indomethacin گزینه کلاسیک پیشگیری Primary exercise headache است؛ پاسخ صحیح."
+      ],
+      "examTip": "Weightlifter’s headache پس از رد علل ثانویه، اغلب به Indomethacin پاسخ می‌دهد.",
+      "examTrap": "در اولین حمله، قبل از برچسب Primary exercise headache باید علل عروقی خطرناک بررسی شوند.",
+      "source": "ICHD-3: Primary exercise headache."
+    },
+    {
+      "id": "HA-133",
+      "stem": "مرد ۲۸ ساله‌ای با درد عمیق و غیرضرباندار Orbital راست، همراه با Rhinorrhea و Lacrimation، بدون Aura مراجعه کرده است. حملات در دوره‌های چند هفته‌ای رخ می‌دهند و هر بار حدود ۴۵ دقیقه طول می‌کشند. کدام عبارت تشخیصی صحیح است؟",
+      "options": [
+        "مصرف Alcohol و Nitroglycerin می‌تواند حمله را در دوره فعال تحریک کند.",
+        "Paroxysmal hemicrania و پاسخ مطلق به Indomethacin انتظار می‌رود.",
+        "Hemicrania continua محتمل است، زیرا درد پیوسته است.",
+        "برای تشخیص Cluster باید حتماً MRI اربیت غیرطبیعی باشد."
+      ],
+      "correctIndex": 0,
+      "explanation": "حملات یک‌طرفه Orbital با علائم اتونومیک، طول ۱۵ تا ۱۸۰ دقیقه و دوره‌های خوشه‌ای چند هفته‌ای، با Episodic cluster headache سازگار است. Alcohol و Nitroglycerin می‌توانند در دوره فعال Cluster حمله را تحریک کنند؛ این مواد درمان نیستند. MRI در اولین دوره Cluster یا در فنوتیپ غیرمعمول ممکن است برای رد علت ثانویه درخواست شود، اما MRI اربیت غیرطبیعی شرط تشخیص نیست.",
+      "optionExplanations": [
+        "Alcohol و Nitroglycerin از محرک‌های شناخته‌شده حمله Cluster در دوره فعال هستند؛ پاسخ صحیح پس از اصلاح عبارت گزینه.",
+        "Paroxysmal hemicrania معمولاً حملات ۲–۳۰ دقیقه‌ای و بیش از ۵ بار در روز دارد و پاسخ مطلق به Indomethacin می‌دهد؛ این الگو بیشتر Cluster است.",
+        "Hemicrania continua با درد زمینه‌ای پیوسته و تشدیدهای حمله‌ای تعریف می‌شود؛ در این شرح دردها اپیزودیک‌اند.",
+        "MRI اربیت غیرطبیعی شرط تشخیص نیست؛ تصویربرداری برای رد علل ثانویه و بر اساس تابلوی بالینی انجام می‌شود."
+      ],
+      "examTip": "Cluster headache: حملات ۱۵–۱۸۰ دقیقه‌ای، دوره‌های چند هفته‌ای، علائم اتونومیک؛ Alcohol و Nitroglycerin در دوره فعال محرک‌اند.",
+      "examTrap": "عبارت «برای درمان از الکل و نیتروگلیسیرین استفاده می‌شود» از نظر علمی غلط است؛ این دو محرک حمله‌اند. گزینه برای حفظ مفهوم علمی اصلاح شد.",
+      "source": "ICHD-3: Cluster headache; EAN cluster headache guideline 2023."
+    },
+    {
+      "id": "HA-134",
+      "stem": "خانم ۳۲ ساله‌ای پس از Lumbar puncture دچار سردرد شده است. درد با فشار بر Internal jugular vein تشدید و CSF opening pressure پایین گزارش شده است. کدام عبارت درباره این سردرد صحیح است؟",
+      "options": [
+        "محل درد همیشه ثابت و محدود به Temporal region است.",
+        "سردرد معمولاً با دراز کشیدن به‌سرعت کاهش می‌یابد.",
+        "فشار بر Carotid artery درد را کاهش می‌دهد.",
+        "سردرد چند ساعت پس از ایستادن ایجاد می‌شود و فقط با خوابیدن بهبود نمی‌یابد."
+      ],
+      "correctIndex": 1,
+      "explanation": "شرح حال با Post-dural puncture headache ناشی از CSF leak و Intracranial hypotension سازگار است. ویژگی شاخص، تشدید در وضعیت ایستاده و بهبود در حالت خوابیده است؛ فشار بر ورید ژوگولار ممکن است با افزایش فشار وریدی داخل جمجمه درد را تشدید کند. محل درد می‌تواند متغیر باشد.",
+      "optionExplanations": [
+        "محل درد می‌تواند Frontal، Occipital یا منتشر باشد و محدود به Temporal نیست.",
+        "بهبود با Supine position از ویژگی‌های اصلی Post-dural puncture headache است؛ پاسخ صحیح.",
+        "فشار بر Carotid artery آزمون تشخیصی یا درمانی این سردرد نیست.",
+        "سردرد معمولاً پس از نشستن/ایستادن تشدید می‌شود؛ زمان شروع متغیر است و با دراز کشیدن بهبود می‌یابد."
+      ],
+      "examTip": "Post-dural puncture headache: تشدید Upright و بهبود Supine؛ در موارد پایدار یا شدید، Epidural blood patch درمان مؤثر است.",
+      "examTrap": "فشار پایین CSF کمک‌کننده است، اما اندازه‌گیری opening pressure در همه موارد ضروری یا همیشه پایین نیست.",
+      "source": "ICHD-3: Post-dural puncture headache; multisociety guidelines for PDPH."
+    },
+    {
+      "id": "HA-135",
+      "stem": "کدام‌یک از سردردهای زیر معمولاً بیمار را از خواب بیدار نمی‌کند؟",
+      "options": [
+        "Cluster headache",
+        "Hypnic headache در سالمندان",
+        "Tension-type headache",
+        "Caffeine-withdrawal headache"
+      ],
+      "correctIndex": 2,
+      "explanation": "Tension-type headache معمولاً با بیدار شدن از خواب ارتباط اختصاصی ندارد و اغلب بیمار را از خواب بیدار نمی‌کند. Cluster headache و Hypnic headache به‌طور شناخته‌شده می‌توانند بیمار را از خواب بیدار کنند. Caffeine withdrawal ممکن است پس از کاهش مصرف کافئین رخ دهد و زمان‌بندی آن متغیر است.",
+      "optionExplanations": [
+        "Cluster headache اغلب شبانه است و می‌تواند بیمار را از خواب بیدار کند.",
+        "Hypnic headache تعریفاً فقط در خواب ایجاد می‌شود و بیمار را بیدار می‌کند.",
+        "Tension-type headache معمولاً خواب را از این طریق قطع نمی‌کند؛ پاسخ صحیح.",
+        "Caffeine-withdrawal headache ممکن است صبحگاهی باشد، اما ویژگی ثابت آن بیدار کردن بیمار از خواب نیست."
+      ],
+      "examTip": "Hypnic headache بیمار را از خواب بیدار می‌کند؛ Tension-type headache معمولاً چنین الگوی اختصاصی ندارد.",
+      "examTrap": "سردرد جدید شبانه، به‌ویژه در سالمند، پیش از تشخیص سردرد اولیه نیازمند ارزیابی علل ثانویه است.",
+      "source": "ICHD-3: Hypnic headache; ICHD-3: Caffeine-withdrawal headache."
+    },
+    {
+      "id": "HA-136",
+      "stem": "بیماری از ۱۰ روز قبل دچار سردردی شده که با نشستن و ایستادن ایجاد و با خوابیدن و دراز کشیدن برطرف می‌شود. کدام عبارت صحیح است؟",
+      "options": [
+        "این نوع سردرد فقط پس از Lumbar puncture رخ می‌دهد.",
+        "فشار بر Internal jugular vein معمولاً درد را کاهش می‌دهد.",
+        "CSF opening pressure در تمام بیماران طبیعی است.",
+        "Epidural blood patch یکی از روش‌های درمانی مؤثر است."
+      ],
+      "correctIndex": 3,
+      "explanation": "سردرد Orthostatic با احتمال CSF leak و Spontaneous intracranial hypotension یا Post-dural puncture headache سازگار است. Epidural blood patch درمان شناخته‌شده در PDPH و برخی موارد SIH است؛ در SIH خودبه‌خودی، محل نشت و درمان اختصاصی ممکن است نیازمند ارزیابی تخصصی باشد. این سردرد فقط پس از LP رخ نمی‌دهد و opening pressure می‌تواند طبیعی باشد.",
+      "optionExplanations": [
+        "Spontaneous intracranial hypotension می‌تواند بدون LP و به‌علت نشت خودبه‌خودی CSF رخ دهد.",
+        "فشار بر ورید ژوگولار معمولاً ممکن است درد را تشدید کند، نه کاهش دهد.",
+        "Opening pressure در SIH همیشه پایین نیست و ممکن است طبیعی باشد.",
+        "Epidural blood patch در PDPH و برخی موارد SIH درمان مؤثر است؛ پاسخ صحیح."
+      ],
+      "examTip": "سردرد Orthostatic را با CSF leak مرتبط بدانید؛ Blood patch یکی از درمان‌هاست، اما فشار CSF طبیعی SIH را رد نمی‌کند.",
+      "examTrap": "SIH می‌تواند خودبه‌خودی باشد و با MRI مغز/ستون فقرات و روش‌های تخصصی محل‌یابی نشت بررسی شود.",
+      "source": "ICHD-3: Headache attributed to low CSF pressure; consensus guidelines on spontaneous intracranial hypotension."
+    },
+    {
+      "id": "HA-137",
+      "stem": "بیمار مبتلا به Migraine از ۳–۴ ماه قبل تقریباً هر روز سردرد دارد و روزانه Ibuprofen 400 mg دو بار مصرف می‌کند. معاینه و تصویربرداری طبیعی است. مناسب‌ترین رویکرد درمانی کدام است؟",
+      "options": [
+        "آموزش بیمار، قطع/محدود کردن NSAID بیش‌مصرف‌شده و شروع درمان پیشگیرانه مناسب؛ بستری فقط در موارد منتخب",
+        "افزایش Ibuprofen به ۳–۴ قرص در روز",
+        "جایگزین کردن Butalbital-containing combination به‌جای Ibuprofen",
+        "استفاده روزانه از Triptan برای کنترل سردرد مداوم"
+      ],
+      "correctIndex": 0,
+      "explanation": "مصرف روزانه NSAID همراه با سردرد حداقل ۱۵ روز در ماه برای بیش از سه ماه، احتمال Medication-overuse headache را مطرح می‌کند؛ معیار رسمی NSAID overuse مصرف در ≥۱۵ روز در ماه است. آموزش، محدود کردن/قطع داروی بیش‌مصرف‌شده و شروع یا بهینه‌سازی درمان پیشگیرانه Migraine اصول اصلی‌اند. برای NSAIDها معمولاً withdrawal می‌تواند ناگهانی و سرپایی باشد؛ بستری و taper تدریجی برای همه لازم نیست و بیشتر در مصرف طولانی Opioid، Barbiturate یا شرایط پیچیده مطرح است.",
+      "optionExplanations": [
+        "آموزش، کاهش یا قطع NSAID بیش‌مصرف‌شده و آغاز Preventive therapy بهترین رویکرد است؛ بستری تنها در موارد منتخب لازم می‌شود. این گزینه نزدیک‌ترین پاسخ موجود است.",
+        "افزایش دوز و تداوم NSAID می‌تواند Medication-overuse headache را تشدید کند.",
+        "Butalbital خطر وابستگی و Medication-overuse headache دارد و جایگزین مناسبی نیست.",
+        "Triptan روزانه خطر Medication-overuse headache دارد و برای کنترل روزانه سردرد مزمن مناسب نیست."
+      ],
+      "examTip": "در MOH ناشی از NSAID، آموزش، withdrawal/محدودسازی داروی حاد و شروع Preventive treatment را در نظر بگیرید.",
+      "examTrap": "بستری و taper تدریجی برای همه بیماران لازم نیست؛ NSAID و Triptan غالباً به‌صورت سرپایی قطع/محدود می‌شوند، اما Barbiturate و Opioid ممکن است به taper نیاز داشته باشند.",
+      "source": "EAN guideline on medication-overuse headache 2020; DGN/DMKG S1 guideline 2022; ICHD-3."
+    },
+    {
+      "id": "HA-138",
+      "stem": "بیمار دچار درد جلوی گوش راست است که هنگام باز کردن دهان تشدید می‌شود. فشار دادن دیواره قدامی External auditory canal به سمت جلو، همان درد را بازتولید می‌کند. محتمل‌ترین تشخیص چیست؟",
+      "options": [
+        "Lower cluster headache",
+        "Costen syndrome / Temporomandibular disorder",
+        "Nervus intermedius neuralgia",
+        "Glossopharyngeal neuralgia"
+      ],
+      "correctIndex": 1,
+      "explanation": "درد Preauricular که با باز و بسته کردن فک تشدید می‌شود و با فشار بر ناحیه مفصل Temporomandibular یا دیواره قدامی مجرای گوش بازتولید می‌شود، به نفع Temporomandibular disorder است؛ اصطلاح تاریخی Costen syndrome برای این مجموعه به‌کار رفته است.",
+      "optionExplanations": [
+        "Lower cluster یک فنوتیپ تشخیصی استاندارد برای درد مکانیکی Preauricular نیست.",
+        "Costen syndrome اصطلاح تاریخی مرتبط با Temporomandibular disorder است و با درد Preauricular تحریک‌شونده با حرکت فک سازگار است؛ پاسخ صحیح.",
+        "Nervus intermedius neuralgia معمولاً درد حمله‌ای عمقی در گوش دارد و با تحریک ناحیه گوش برانگیخته می‌شود، نه مشخصاً حرکت فک.",
+        "Glossopharyngeal neuralgia درد حلق، قاعده زبان و گوش را با بلع/سرفه تحریک می‌کند."
+      ],
+      "examTip": "درد Preauricular با حرکت فک و بازتولید درد با فشار ناحیه TMJ، به نفع Temporomandibular disorder است.",
+      "examTrap": "Costen syndrome اصطلاح قدیمی است؛ در طبقه‌بندی امروزی از Temporomandibular disorder استفاده می‌شود.",
+      "source": "ICHD-3: Headache attributed to temporomandibular disorder; orofacial pain diagnostic criteria."
+    },
+    {
+      "id": "HA-139",
+      "stem": "در مورد مکانیسم احتمالی اثر Omega-3 fatty acids در کاهش Migraine، کدام مسیر بیشتر مطرح است؟",
+      "options": [
+        "افزایش Cerebral vasoconstriction",
+        "اصلاح Magnesium deficiency به‌عنوان مکانیسم اصلی",
+        "کاهش Pro-inflammatory mediators/peptides و تعدیل مسیرهای التهابی",
+        "افزایش Glutamate level"
+      ],
+      "correctIndex": 2,
+      "explanation": "فرضیه‌های زیستی درباره Omega-3 شامل تغییر ترکیب اسیدهای چرب غشایی، تعدیل Eicosanoids و کاهش برخی مسیرهای Pro-inflammatory است. شواهد بالینی برای مکمل Omega-3 در Migraine هنوز در حال تکامل است و مکانیسم قطعی یا درمان استاندارد مستقل محسوب نمی‌شود.",
+      "optionExplanations": [
+        "افزایش Vasoconstriction مکانیسم اثبات‌شده یا هدف درمانی Omega-3 در Migraine نیست.",
+        "اصلاح کمبود منیزیم مکانیسم اصلی شناخته‌شده Omega-3 نیست؛ Magnesium خود یک مکمل جداگانه با شواهد پیشگیری از Migraine است.",
+        "تعدیل مسیرهای التهابی و کاهش برخی Mediators/Pro-inflammatory peptides از مکانیسم‌های پیشنهادی است؛ پاسخ صحیح.",
+        "افزایش Glutamate هدف درمانی Omega-3 نیست؛ تحریک‌پذیری گلوتاماترژیک ممکن است در پاتوفیزیولوژی Migraine نقش داشته باشد."
+      ],
+      "examTip": "Omega-3 ممکن است از طریق تغییر پروفایل Eicosanoidها و تعدیل التهاب اثر کند؛ شواهد بالینی هنوز قطعی نیست.",
+      "examTrap": "مکانیسم پیشنهادی را با اثربخشی بالینی قطعی یا توصیه روتین مکمل‌ها اشتباه نگیرید.",
+      "source": "Clinical reviews of omega-3 fatty acids and migraine; dietary fatty acid intervention studies."
+    },
+    {
+      "id": "HA-140",
+      "stem": "خانم ۴۰ ساله‌ای بیش از سه ماه دچار Burning sensation در دهان و زبان است؛ بررسی‌های سیستمیک، گوارشی، نورولوژیک و MRI طبیعی‌اند. کدام گزینه از میان داروهای داده‌شده برای درمان علامتی مناسب‌تر است؟",
+      "options": [
+        "Risperidone",
+        "Propranolol",
+        "Verapamil",
+        "Sertraline"
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال با Burning mouth syndrome (BMS) سازگار است، پس از رد علل موضعی و ثانویه. شواهد درمانی BMS محدود است؛ از میان گزینه‌های داده‌شده Sertraline ممکن است در برخی بیماران به‌عنوان درمان علامتی/همراه درد مزمن یا مؤلفه اضطرابی بررسی شود، اما درمان با بیشترین پشتوانه شواهد در مطالعات، Clonazepam موضعی/خوراکی با احتیاط است که در گزینه‌ها وجود ندارد. بنابراین سؤال از نظر انتخاب درمان ایده‌آل ناقص است.",
+      "optionExplanations": [
+        "Risperidone درمان BMS نیست و می‌تواند عوارض دهانی از جمله Xerostomia ایجاد کند.",
+        "Propranolol درمان استاندارد Burning mouth syndrome نیست.",
+        "Verapamil درمان اثبات‌شده BMS نیست.",
+        "Sertraline از میان گزینه‌های موجود ممکن است در برخی بیماران به‌صورت off-label بررسی شود، اما شواهد آن محدود و ضعیف‌تر از Clonazepam است؛ بهترین گزینه نسبی در فهرست حاضر."
+      ],
+      "examTip": "در BMS ابتدا علل ثانویه مانند Candidiasis، Xerostomia، کمبود آهن/B12/Folate و اختلالات متابولیک را رد کنید؛ Clonazepam موضعی از گزینه‌های دارای شواهد بهتر است.",
+      "examTrap": "در این سؤال Clonazepam در گزینه‌ها وجود ندارد؛ Sertraline صرفاً بهترین گزینه نسبی است، نه درمان دارای شواهد قوی.",
+      "source": "Systematic review/network meta-analysis of Burning Mouth Syndrome treatments; BMS clinical reviews."
     }
   ]
 }
