@@ -2060,6 +2060,426 @@
       "examTip": "در Migraine with aura، Triptan را معمولاً با شروع سردرد مصرف می‌کنند، نه صرفاً با شروع Aura.",
       "examTrap": "Migraine with brainstem aura و Hemiplegic migraine را از Aura بینایی معمول جدا کنید؛ محدودیت‌های تجویز ممکن است متفاوت باشد.",
       "source": "ICHD-3: Migraine with aura; American Headache Society guidance on acute migraine treatment."
+    },
+    {
+      "id": "HA-101",
+      "stem": "بیماری بلافاصله پس از بلند کردن جسم سنگین دچار سردرد بسیار شدید و ناگهانی شده است. این واقعه حدود ۱۸ ساعت پیش از مراجعه رخ داده و سردرد پس از حدود یک ساعت برطرف شده است. در زمان مراجعه، معاینه عصبی و Non-contrast Brain CT طبیعی است. اقدام مناسب بعدی کدام است؟",
+      "options": [
+        "انجام Lumbar puncture و در صورت طبیعی بودن آن، بررسی عروقی با CT Angiography یا در صورت لزوم Digital Subtraction Angiography",
+        "عدم نیاز به بررسی بیشتر و توصیه به پرهیز از بلند کردن اجسام سنگین برای چند هفته",
+        "انجام Lumbar puncture و در صورت طبیعی بودن آن، عدم نیاز به بررسی عروقی مگر در صورت عود علائم",
+        "انجام فوری Cerebral Angiography و در صورت طبیعی بودن، تکرار آنژیوگرافی پس از دو هفته"
+      ],
+      "correctIndex": 0,
+      "explanation": "این شرح حال یک Thunderclap headache مرتبط با فعالیت (exertional headache) است و تا زمان رد علل ثانویه، نباید سردرد اولیه فرض شود. چون CT حدود ۱۸ ساعت پس از شروع انجام شده، حساسیت آن برای رد Subarachnoid hemorrhage به اندازه CT در شش ساعت نخست نیست. پس از CT منفی، Lumbar puncture برای بررسی CSF (از جمله RBC و Xanthochromia) مطرح است؛ برحسب احتمال بالینی و یافته‌ها، CTA و گاهی DSA برای بررسی آنوریسم، Reversible cerebral vasoconstriction syndrome و سایر علل عروقی لازم می‌شود.",
+      "optionExplanations": [
+        "درست‌ترین گزینه موجود است: CT منفی با فاصله بیش از شش ساعت، به‌تنهایی SAH را با اطمینان رد نمی‌کند؛ LP و ارزیابی عروقی بر اساس شک بالینی لازم است.",
+        "نادرست است؛ سردرد ناگهانی حین زور زدن یک Red flag است و طبیعی بودن معاینه یا CT دیرهنگام کافی نیست.",
+        "نادرست است؛ طبیعی بودن LP همه علل عروقی مانند RCVS یا دیسکشن را رد نمی‌کند.",
+        "آنژیوگرافی تهاجمی و تکرار روتین آن پس از دو هفته، بدون اندیکاسیون مشخص، رویکرد استاندارد نیست."
+      ],
+      "examTip": "در Thunderclap headache، CT منفی در بیش از شش ساعت پس از شروع ممکن است به LP و بررسی تکمیلی نیاز داشته باشد.",
+      "examTrap": "برطرف شدن سردرد یا طبیعی بودن معاینه عصبی، علل خطرناک را رد نمی‌کند؛ exertional onset را جدی بگیرید.",
+      "source": "BMJ 2025: Assessment and investigation of thunderclap headache; AHA/ASA guidance on aneurysmal SAH."
+    },
+    {
+      "id": "HA-102",
+      "stem": "کاهش یا قطع حملات سردرد در سه‌ماهه دوم یا سوم بارداری، به‌طور کلاسیک بیشتر با کدام نوع سردرد ارتباط دارد؟",
+      "options": [
+        "Tension-type headache",
+        "Migraine",
+        "SUNCT syndrome",
+        "Trigeminal neuralgia"
+      ],
+      "correctIndex": 1,
+      "explanation": "در بسیاری از زنان مبتلا به Migraine، به‌ویژه Migraine without aura، دفعات یا شدت حملات در سه‌ماهه دوم و سوم بارداری کاهش می‌یابد یا حملات متوقف می‌شوند. این الگو شایع است اما پاتوگنومونیک نیست و در همه بیماران رخ نمی‌دهد؛ Migraine with aura ممکن است همان‌طور باقی بماند یا حتی برای نخستین بار در بارداری ظاهر شود.",
+      "optionExplanations": [
+        "این الگوی بهبود در بارداری ویژگی شاخص Tension-type headache نیست.",
+        "پاسخ صحیح است؛ بهبود میگرن در سه‌ماهه دوم و سوم بارداری شایع است، به‌ویژه در نوع بدون Aura.",
+        "SUNCT به‌طور معمول الگوی وابسته به بارداری با بهبود مشخص ندارد.",
+        "Trigeminal neuralgia با این تغییر فیزیولوژیک به‌طور کلاسیک شناخته نمی‌شود."
+      ],
+      "examTip": "میگرن بدون Aura در بسیاری از بیماران طی سه‌ماهه دوم و سوم بارداری بهتر می‌شود.",
+      "examTrap": "بهبود میگرن در بارداری قطعی یا پاتوگنومونیک نیست و به‌ویژه درباره Migraine with aura نباید تعمیم داده شود.",
+      "source": "ICHD-3: Migraine; ACOG Clinical Practice Guideline: Headaches in Pregnancy and Postpartum."
+    },
+    {
+      "id": "HA-103",
+      "stem": "سردرد ارتواستاتیک (Orthostatic headache) در کدام‌یک از موارد زیر به‌طور معمول دیده نمی‌شود؟",
+      "options": [
+        "پس از Lumbar puncture",
+        "Subdural hematoma",
+        "Idiopathic intracranial hypertension",
+        "Pituitary adenoma"
+      ],
+      "correctIndex": 2,
+      "explanation": "در Idiopathic intracranial hypertension، سردرد اغلب با افزایش فشار داخل جمجمه همراه است و ممکن است با دراز کشیدن یا مانور والسالوا تشدید شود؛ سردرد ارتواستاتیکِ بهترشونده با خوابیدن، الگوی معمول آن نیست. در مقابل، پس از Lumbar puncture و در Spontaneous intracranial hypotension، سردرد کلاسیکاً با ایستادن تشدید و با دراز کشیدن بهتر می‌شود. Subdural collection نیز می‌تواند در زمینه کاهش فشار CSF و سردرد وضعیتی رخ دهد.",
+      "optionExplanations": [
+        "درست است؛ Post-dural puncture headache معمولاً ارتواستاتیک است.",
+        "می‌تواند همراه Intracranial hypotension و نشت CSF با سردرد وضعیتی دیده شود.",
+        "پاسخ صحیح است؛ IIH با سردرد ارتواستاتیکِ کلاسیک مشخص نمی‌شود و معمولاً الگوی افزایش فشار دارد.",
+        "آدنوم هیپوفیز به‌تنهایی علت معمول سردرد ارتواستاتیک نیست؛ مگر شرایط همراه یا عوارض خاص وجود داشته باشد."
+      ],
+      "examTip": "سردردی که با ایستادن بدتر و با دراز کشیدن بهتر می‌شود، کاهش فشار CSF را مطرح می‌کند.",
+      "examTrap": "هر سردرد وضعیتی را به LP نسبت ندهید؛ Spontaneous intracranial hypotension نیز باید در نظر گرفته شود.",
+      "source": "Multidisciplinary consensus guideline for spontaneous intracranial hypotension, JNNP 2023; ICHD-3."
+    },
+    {
+      "id": "HA-104",
+      "stem": "خانم ۳۵ ساله‌ای به‌طور مکرر دچار اختلال بینایی گذرا، سپس Vertigo، Ataxia و Dysarthria می‌شود. این علائم پس از حدود نیم ساعت برطرف شده و با سردرد ضربان‌دار Occipital دنبال می‌شوند. کدام دارو در این بیمار، با توجه به تشخیص محتمل، باید اجتناب شود؟",
+      "options": [
+        "Ergotamine-caffeine",
+        "Methysergide",
+        "Sodium valproate",
+        "Sumatriptan"
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال با Migraine with brainstem aura (اصطلاح قدیمی: basilar-type migraine) سازگار است؛ علائم برگشت‌پذیر ساقه مغز مانند Vertigo، Dysarthria و Ataxia پیش از سردرد رخ می‌دهند. Triptans و Ergot derivatives به‌طور سنتی در این فنوتیپ به علت نگرانی از اثرات وازوکانستریکتور و نبود شواهد ایمنی کافی توصیه نمی‌شوند و برچسب بسیاری از فرآورده‌ها هنوز این محدودیت را دارد. در حمله حاد معمولاً NSAID و داروی ضدتهوع در نظر گرفته می‌شود؛ انتخاب پیشگیری به شرایط بیمار وابسته است.",
+      "optionExplanations": [
+        "Ergot derivatives نیز در این فنوتیپ عموماً اجتناب می‌شوند؛ بنابراین گزینه کلاسیک مورد انتظار نیست.",
+        "داروی قدیمی پیشگیری است و به دلیل عوارض جدی امروزه به‌ندرت استفاده می‌شود؛ اما گزینه شاخص منع مورد سؤال نیست.",
+        "Valproate می‌تواند در پیشگیری از میگرن مؤثر باشد، هرچند محدودیت‌های مهمی از جمله در بارداری دارد.",
+        "پاسخ مورد انتظار آزمونی است؛ Sumatriptan در Migraine with brainstem aura طبق برچسب دارویی و بسیاری از راهنماها توصیه نمی‌شود."
+      ],
+      "examTip": "در Migraine with brainstem aura، از Triptan و Ergot derivatives معمولاً اجتناب می‌شود؛ درمان حاد جایگزین اغلب NSAID به‌همراه antiemetic است.",
+      "examTrap": "این محدودیت مبتنی بر شواهد محدود و نگرانی تاریخی/برچسب دارویی است؛ در عمل تشخیص افتراقی با TIA و سکته گردش خلفی ابتدا باید جدی گرفته شود.",
+      "source": "NCBI StatPearls: Migraine with Brainstem Aura (2025-2026); current triptan prescribing information."
+    },
+    {
+      "id": "HA-105",
+      "stem": "مرد ۴۰ ساله‌ای از دو هفته قبل دچار حملات سردرد یک‌طرفه Orbital شده است که حدود دو ساعت پس از شروع خواب رخ می‌دهند، غیرضربان‌دار و همراه با Conjunctival injection و Lacrimation هستند و حدود ۶۰ تا ۹۰ دقیقه طول می‌کشند. کدام گزینه برای پیشگیری طولانی‌مدت از حملات، نقش استانداردی ندارد و صرفاً ممکن است به‌صورت درمان گذار به‌کار رود؟",
+      "options": [
+        "Corticosteroid",
+        "Verapamil",
+        "Topiramate",
+        "Lithium"
+      ],
+      "correctIndex": 0,
+      "explanation": "ویژگی‌ها بیشتر با Cluster headache سازگارند: درد شدید یک‌طرفه اربیتال با علائم اتونوم همان‌طرف و مدت ۱۵ تا ۱۸۰ دقیقه. Verapamil پیشگیری خط اول است؛ Topiramate و Lithium در موارد منتخب جایگزین‌اند. Corticosteroids مانند Prednisone می‌توانند به‌عنوان transitional/bridge therapy برای کنترل کوتاه‌مدت تا اثر کردن داروی پیشگیری استفاده شوند، اما برای پیشگیری طولانی‌مدت مناسب نیستند.",
+      "optionExplanations": [
+        "پاسخ صحیح است؛ کورتیکواستروئیدها درمان گذار کوتاه‌مدت‌اند، نه پیشگیری پایدار و طولانی‌مدت.",
+        "درست است؛ Verapamil داروی پیشگیری خط اول Cluster headache است.",
+        "می‌تواند در برخی بیماران به‌عنوان داروی پیشگیری جایگزین استفاده شود.",
+        "در Cluster headache مزمن یا مقاوم ممکن است به‌عنوان درمان پیشگیری جایگزین استفاده شود."
+      ],
+      "examTip": "در Cluster headache، Verapamil پیشگیری اصلی و corticosteroid درمان گذار کوتاه‌مدت است.",
+      "examTrap": "استروئیدها بی‌اثر نیستند؛ نکته سؤال تفاوت درمان گذار با پیشگیری طولانی‌مدت است.",
+      "source": "European Academy of Neurology guideline on the treatment of cluster headache; ICHD-3."
+    },
+    {
+      "id": "HA-106",
+      "stem": "در مورد Childhood hemiplegic migraine کدام عبارت صحیح‌تر است؟",
+      "options": [
+        "حملات Hemiplegia همواره با سردرد همراه هستند.",
+        "پس از حملات ممکن است اختلالات حرکتی پایدار یا گذرا، از جمله Dystonia، دیده شود.",
+        "حملات Hemiplegia همیشه یک سمت ثابت بدن را درگیر می‌کنند.",
+        "آنژیوگرافی عروق مغزی در همه بیماران طبیعی است."
+      ],
+      "correctIndex": 1,
+      "explanation": "Hemiplegic migraine با ضعف حرکتی برگشت‌پذیر به‌عنوان Aura شناخته می‌شود. سردرد می‌تواند همراه حمله باشد اما الزاماً در همه حملات وجود ندارد؛ سمت درگیری ممکن است بین حملات تغییر کند. در انواع خانوادگی و به‌ویژه برخی فرم‌های ژنتیکی، علائم عصبی شدید و طولانی و به‌ندرت اختلالات حرکتی مانند Dystonia گزارش شده‌اند. تصویربرداری و آنژیوگرافی معمولاً برای رد علل دیگر انجام می‌شوند و ممکن است در حین حمله تغییرات گذرا نشان دهند.",
+      "optionExplanations": [
+        "نادرست است؛ ضعف حرکتی ممکن است بدون سردرد هم رخ دهد.",
+        "پاسخ صحیح‌تر است؛ اختلالات حرکتی از جمله Dystonia در برخی موارد گزارش شده‌اند، هرچند شایع نیستند.",
+        "نادرست است؛ درگیری می‌تواند در حملات مختلف سمت متفاوتی داشته باشد.",
+        "نادرست است؛ یافته‌های گذرای تصویربرداری/عروقی در برخی حملات ممکن‌اند و تصویربرداری طبیعی شرط تشخیص نیست."
+      ],
+      "examTip": "در Hemiplegic migraine، ضعف حرکتی می‌تواند بین حملات سمت عوض کند و همیشه با سردرد همراه نیست.",
+      "examTrap": "پیش از تشخیص، سکته، تشنج، بیماری متابولیک و سایر علل ضعف حاد باید رد شوند.",
+      "source": "ICHD-3: Hemiplegic migraine; GeneReviews: Familial Hemiplegic Migraine."
+    },
+    {
+      "id": "HA-107",
+      "stem": "کودکی طی یک ماه چندین بار دچار حملات کوتاه‌مدت Vertigo شدید همراه با Pallor شده است. حملات به وضعیت سر وابسته نیستند و معاینه عصبی بین حملات طبیعی است؛ با این حال، Caloric test در سمت چپ غیرطبیعی است. کدام تشخیص محتمل‌تر است؟",
+      "options": [
+        "Vestibular neuritis",
+        "Benign paroxysmal positional vertigo (BPPV)",
+        "Migraine-related episodic vertigo / Vestibular migraine of childhood",
+        "Balo disease"
+      ],
+      "correctIndex": 2,
+      "explanation": "حملات گذرای سرگیجه در کودکان می‌توانند از طیف اختلالات مرتبط با میگرن باشند. Pallor و حملات تکرارشونده بدون وابستگی به وضعیت سر، تشخیص positional vertigo را کمتر محتمل می‌کند. Vestibular neuritis معمولاً یک حمله حاد و مداوم سرگیجه ایجاد می‌کند، نه حملات کوتاه و تکرارشونده. با این حال، معیارهای رسمی Vestibular migraine of childhood و Recurrent vertigo of childhood باید بررسی شوند و Caloric asymmetry به‌تنهایی تشخیصی نیست.",
+      "optionExplanations": [
+        "معمولاً سرگیجه حاد و مداوم چندروزه ایجاد می‌کند؛ با حملات کوتاه و مکرر کمتر سازگار است.",
+        "معمولاً با تغییر وضعیت سر تحریک می‌شود و آزمون positional مانند Dix-Hallpike کمک‌کننده است.",
+        "محتمل‌ترین گزینه موجود است؛ حملات تکرارشونده Vertigo و Pallor در کودک می‌تواند در طیف میگرن باشد.",
+        "بیماری دمیلینه‌کننده نادر است و با این الگوی حملات کوتاه منفرد سازگار نیست."
+      ],
+      "examTip": "در کودک با حملات تکراری Vertigo و Pallor، اختلالات اپیزودیک مرتبط با میگرن را در نظر بگیرید.",
+      "examTrap": "Caloric test غیرطبیعی به‌تنهایی Vestibular migraine را اثبات نمی‌کند؛ اختلالات محیطی و سایر علل باید سنجیده شوند.",
+      "source": "ICHD-3 Appendix: Vestibular migraine of childhood; Bárány Society diagnostic criteria for vestibular migraine of childhood."
+    },
+    {
+      "id": "HA-108",
+      "stem": "مرد ۳۰ ساله‌ای با درد شدید و حمله‌ای تیرکشنده از ناحیه گوش تا حلق مراجعه کرده است. درد با صحبت کردن، جویدن و بلع تحریک می‌شود و اخیراً هنگام بلع غذای سفت با حملات افتادن و کاهش کوتاه‌مدت هوشیاری همراه شده است. بررسی‌های تصویربرداری و EEG طبیعی‌اند. درمان دارویی اولیه مناسب کدام است؟",
+      "options": [
+        "Glossopharyngeal nerve block به‌عنوان درمان اولیه همیشگی",
+        "تزریق Phenol به تنه Trigeminal nerve",
+        "مصرف دوره‌ای NSAID و Sumatriptan هنگام حملات",
+        "Carbamazepine یا Pregabalin"
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال با Glossopharyngeal neuralgia همراه با vagal syncope سازگار است. درد برق‌آسا در گوش، قاعده زبان و حلق که با بلع، جویدن یا صحبت کردن تحریک می‌شود، مشخصه بیماری است. تحریک مسیرهای واگال می‌تواند باعث Bradycardia، افت فشار و سنکوپ شود. درمان دارویی اولیه معمولاً Carbamazepine یا Oxcarbazepine است؛ Gabapentin/Pregabalin نیز در برخی بیماران استفاده می‌شوند. بلوک عصب یا جراحی برای موارد منتخب مقاوم مطرح است.",
+      "optionExplanations": [
+        "بلوک می‌تواند در موارد منتخب مقاوم یا برای کنترل کوتاه‌مدت به‌کار رود، نه درمان دارویی اولیه معمول.",
+        "به Trigeminal neuralgia مربوط است و هدف آناتومیک این بیماری نیست.",
+        "این ترکیب درمان استاندارد Glossopharyngeal neuralgia نیست.",
+        "پاسخ صحیح است؛ داروهای ضدتشنج سدیم‌کانال مانند Carbamazepine درمان اولیه متداول‌اند و Pregabalin نیز گزینه‌ای است."
+      ],
+      "examTip": "Glossopharyngeal neuralgia با درد گوش-حلق تحریک‌شونده با بلع مشخص می‌شود؛ Carbamazepine/Oxcarbazepine درمان دارویی اولیه‌اند.",
+      "examTrap": "سنکوپ حین بلع می‌تواند ناشی از vagal reflex و Bradyarrhythmia باشد؛ ارزیابی قلبی نیز لازم است.",
+      "source": "ICHD-3: Glossopharyngeal neuralgia; clinical reviews on glossopharyngeal neuralgia and vagoglossopharyngeal neuralgia."
+    },
+    {
+      "id": "HA-109",
+      "stem": "زن ۲۲ ساله‌ای از سردردهای تکرارشونده در روزهای پیش از شروع قاعدگی و روزهای ابتدایی آن شکایت دارد. درد گاهی یک‌طرفه و گاهی دوطرفه است و با تهوع، استفراغ و Photophobia همراه می‌شود. کدام درمان برای حمله‌های این بیمار مناسب‌تر است؟",
+      "options": [
+        "NSAID در زمان حمله",
+        "Danazol",
+        "Estradiol به‌عنوان درمان روتین همه حملات",
+        "Zolmitriptan فقط به‌عنوان پیشگیری روزانه"
+      ],
+      "correctIndex": 0,
+      "explanation": "شرح حال با Menstrually related migraine سازگار است. در حملات خفیف تا متوسط، NSAID مانند Naproxen یا Ibuprofen در زمان شروع حمله مناسب است؛ در حملات متوسط تا شدید یا پاسخ ناکافی می‌توان Triptan مانند Zolmitriptan را به‌کار برد. برای حملات قابل پیش‌بینی و مقاوم، کوتاه‌مدت پیشگیری پیرامون قاعدگی با Naproxen یا بعضی Triptanهای طولانی‌اثر مطرح است. Danazol و تجویز روتین Estradiol برای همه بیماران توصیه نمی‌شوند.",
+      "optionExplanations": [
+        "پاسخ صحیح است؛ NSAID در زمان حمله از درمان‌های استاندارد حاد است.",
+        "Danazol درمان معمول یا خط اول میگرن قاعدگی نیست و عوارض قابل توجه دارد.",
+        "استروژن ممکن است در موارد منتخب و با ارزیابی خطرات استفاده شود، اما درمان روتین همه بیماران نیست.",
+        "Zolmitriptan داروی درمان حاد است؛ مصرف روزانه روتین به‌عنوان پیشگیری مناسب نیست و خطر Medication-overuse headache مطرح می‌شود."
+      ],
+      "examTip": "در Menstrual migraine، NSAID یا Triptan برای درمان حاد و در موارد منتخب mini-prophylaxis پیرامون قاعدگی به‌کار می‌رود.",
+      "examTrap": "بین درمان حاد حمله و پیشگیری کوتاه‌مدت پیرامون قاعدگی تفاوت قائل شوید.",
+      "source": "NICE guideline: Headaches in over 12s (updated 2025); International Headache Society recommendations for menstrual migraine."
+    },
+    {
+      "id": "HA-110",
+      "stem": "مرد ۶۵ ساله‌ای از سردردهای دوطرفه‌ای شکایت دارد که فقط هنگام خواب شبانه یا چرت روزانه ایجاد شده و باعث بیدار شدن او می‌شوند. اشک‌ریزش، احتقان بینی و Rhinorrhea ندارد. معاینه عصبی و تصویربرداری مغز طبیعی‌اند. کدام درمان دارویی در میان گزینه‌های زیر مناسب‌تر است؟",
+      "options": [
+        "Propranolol همراه Amitriptyline",
+        "Lithium carbonate (با پایش دقیق)",
+        "Sodium valproate همراه Low-dose prednisolone",
+        "دوره‌های مکرر High-dose prednisolone"
+      ],
+      "correctIndex": 1,
+      "explanation": "الگو با Hypnic headache سازگار است: سردردی که فقط از خواب بیدار می‌کند، اغلب در سن بالای ۵۰ سال شروع می‌شود و معمولاً علائم اتونوم کرانیال ندارد. Lithium در برخی بیماران مؤثر است و از درمان‌های شناخته‌شده این اختلال محسوب می‌شود؛ با این حال، Caffeine پیش از خواب، Melatonin و Indomethacin نیز در برخی موارد استفاده شده‌اند. پیش از تشخیص باید علل ثانویه و اختلالات خواب بررسی شوند. Lithium نیازمند پایش کلیوی، تیروئید و سطح دارو است.",
+      "optionExplanations": [
+        "این ترکیب درمان استاندارد Hypnic headache نیست.",
+        "پاسخ صحیح است؛ Lithium از گزینه‌های شناخته‌شده درمان Hypnic headache است، با توجه به عوارض و نیاز به پایش.",
+        "این ترکیب درمان شناخته‌شده‌ای برای Hypnic headache محسوب نمی‌شود.",
+        "استروئید درمان این سردرد اولیه نیست و مصرف مکرر آن نامناسب است."
+      ],
+      "examTip": "Hypnic headache فقط در خواب رخ می‌دهد و بیمار را بیدار می‌کند؛ Lithium یا Caffeine از گزینه‌های درمانی‌اند.",
+      "examTrap": "Lithium را بدون بررسی عملکرد کلیه، تیروئید، تداخلات دارویی و پایش سطح سرمی تجویز نکنید.",
+      "source": "ICHD-3: Hypnic headache; American Migraine Foundation: Hypnic headache treatment overview."
+    },
+    {
+      "id": "HA-111",
+      "stem": "دختر ۱۰ ساله‌ای از یک هفته قبل دچار درد Periorbital راست همراه با تهوع و استفراغ شده است. پس از کاهش درد، Ptosis و فلج کامل عصب سوم همان سمت ایجاد شده و تاکنون ادامه دارد. بیمار حملات مشابه قبلی را نیز ذکر می‌کند. کدام درمان ممکن است به بهبود Ophthalmoplegia کمک کند؟",
+      "options": [
+        "Naproxen",
+        "Sodium valproate",
+        "Oral prednisolone",
+        "Plasmapheresis"
+      ],
+      "correctIndex": 2,
+      "explanation": "این تابلوی بالینی می‌تواند با Recurrent painful ophthalmoplegic neuropathy (RPON؛ اصطلاح قدیمی: ophthalmoplegic migraine) سازگار باشد، اما در کودک با فلج عصب سوم، ابتدا باید ضایعه فشاری، به‌ویژه Aneurysm یا ضایعه ناحیه Cavernous sinus/orbit، با MRI مناسب و در صورت لزوم تصویربرداری عروقی رد شود. در گزارش‌ها و سری موارد، Corticosteroids ممکن است به تسریع بهبود درد یا Ophthalmoplegia کمک کنند، اما شواهد درمانی محدود و غیرقطعی است.",
+      "optionExplanations": [
+        "NSAID می‌تواند برای درد کمک‌کننده باشد، اما درمان اختصاصی فلج عصب سوم نیست.",
+        "داروی پیشگیری میگرن است و درمان اثبات‌شده برای Ophthalmoplegia ناشی از RPON نیست.",
+        "پاسخ مورد انتظار است؛ در برخی موارد RPON از Corticosteroid استفاده می‌شود، هرچند شواهد محدود است.",
+        "درمان استاندارد RPON نیست."
+      ],
+      "examTip": "اصطلاح جدید Ophthalmoplegic migraine، Recurrent painful ophthalmoplegic neuropathy است؛ استروئیدها گاهی استفاده می‌شوند اما شواهد قطعی نیست.",
+      "examTrap": "فلج عصب سوم، به‌ویژه اگر مردمک درگیر باشد، تا زمان رد آنوریسم یا ضایعه فشاری نباید به RPON نسبت داده شود.",
+      "source": "ICHD-3: Recurrent painful ophthalmoplegic neuropathy; case-series and review literature on RPON treatment."
+    },
+    {
+      "id": "HA-112",
+      "stem": "بیماری با حملات درد تیز و کوتاه‌مدت یک‌طرفه در ناحیه Fronto-temporal همراه با Ptosis و Miosis و حفظ تعریق صورت مراجعه کرده است. در معاینه، کاهش حس در قلمرو V1 و V2 و ضعف خفیف عضلات جونده وجود دارد. همراهی این سندرم با کدام علت کمتر محتمل است؟",
+      "options": [
+        "تومورهای Parasellar",
+        "ضایعات Granulomatous",
+        "تروما",
+        "Herpes zoster"
+      ],
+      "correctIndex": 3,
+      "explanation": "یافته‌ها با Paratrigeminal (Raeder) syndrome سازگارند: درد یک‌طرفه در قلمرو Trigeminal همراه با Horner syndrome ناقص، اغلب بدون Anhidrosis کامل. ضایعات ناحیه Parasellar، Cavernous sinus و ضایعات التهابی/گرانولوماتوز و تروما می‌توانند علل زمینه‌ای باشند. Herpes zoster می‌تواند نوروپاتی‌های دردناک و Horner ایجاد کند، اما در مقایسه با علل ساختاری اطراف قاعده جمجمه، همراهی کلاسیک و شاخص این سندرم نیست؛ بنابراین گزینه کمتر محتمل در سؤال است، نه علت غیرممکن.",
+      "optionExplanations": [
+        "از علل مهم ضایعات اطراف قاعده جمجمه و Parasellar است.",
+        "می‌تواند با درگیری اطراف Cavernous sinus و قاعده جمجمه تابلوی مشابه ایجاد کند.",
+        "آسیب ناحیه قاعده جمجمه یا گردن می‌تواند مسیر سمپاتیک و شاخه‌های Trigeminal را درگیر کند.",
+        "پاسخ مورد انتظار به‌عنوان علت کمتر محتمل است؛ هرچند زوستر می‌تواند نوروپاتی و Horner ایجاد کند."
+      ],
+      "examTip": "Paratrigeminal (Raeder) syndrome را با درد Trigeminal و Partial Horner syndrome به خاطر بسپارید؛ ضایعات Parasellar باید جست‌وجو شوند.",
+      "examTrap": "حفظ تعریق صورت با Horner ناقص می‌تواند به محل ضایعه در مسیر سمپاتیک پس‌گانگلیونی/اطراف قاعده جمجمه کمک کند؛ MRI هدفمند لازم است.",
+      "source": "Clinical reviews of Raeder paratrigeminal syndrome; neuro-ophthalmology references on painful Horner syndrome."
+    },
+    {
+      "id": "HA-113",
+      "stem": "کدام‌یک از سردردهای زیر معمولاً پاسخ درمانی اختصاصی و قابل اتکایی به Indomethacin نمی‌دهد؟",
+      "options": [
+        "SUNCT syndrome",
+        "Chronic paroxysmal hemicrania",
+        "Hemicrania continua",
+        "Cough headache"
+      ],
+      "correctIndex": 0,
+      "explanation": "Indomethacin response از ویژگی‌های تشخیصی بسیار مهم Paroxysmal hemicrania و Hemicrania continua است و در Primary cough headache نیز اغلب مؤثر است. در مقابل، SUNCT (Short-lasting unilateral neuralgiform headache attacks with conjunctival injection and tearing) معمولاً به Indomethacin پاسخ اختصاصی نمی‌دهد؛ Lamotrigine از گزینه‌های پیشگیری رایج آن است.",
+      "optionExplanations": [
+        "پاسخ صحیح است؛ SUNCT معمولاً Indomethacin-responsive نیست و Lamotrigine از درمان‌های پیشگیری رایج است.",
+        "پاسخ کامل به Indomethacin از ویژگی‌های تشخیصی این اختلال است.",
+        "پاسخ کامل به Indomethacin از معیارهای کلیدی تشخیصی است.",
+        "Primary cough headache اغلب به Indomethacin پاسخ می‌دهد."
+      ],
+      "examTip": "Indomethacin-responsive headacheها شامل Hemicrania continua، Paroxysmal hemicrania و بسیاری از Primary cough headacheها هستند.",
+      "examTrap": "SUNCT را با SUNA و Trigeminal neuralgia افتراق دهید؛ حملات بسیار کوتاه و علائم اتونوم چشمی شاخص‌اند.",
+      "source": "ICHD-3: Paroxysmal hemicrania, Hemicrania continua, Primary cough headache, SUNCT."
+    },
+    {
+      "id": "HA-114",
+      "stem": "دختر ۶ ساله‌ای با حملات درد Orbital که یک تا چهار روز طول می‌کشند و معمولاً با استفراغ همراه‌اند مراجعه کرده است. در برخی حملات، پس از برطرف شدن درد، Ptosis و فلج عصب سوم همراه با Mydriasis ایجاد می‌شود. کدام درمان در میان گزینه‌های زیر برای کاهش مدت Ophthalmoplegia مناسب‌تر است؟",
+      "options": [
+        "Sodium valproate",
+        "Corticosteroid",
+        "تزریق Sumatriptan",
+        "Calcium-channel blocker"
+      ],
+      "correctIndex": 1,
+      "explanation": "این تابلوی بالینی احتمال RPON را مطرح می‌کند. پس از رد علل فشاری و عروقی فلج عصب سوم، در برخی گزارش‌ها Corticosteroids با بهبود سریع‌تر درد یا نقص حرکتی همراه بوده‌اند؛ با این حال، کیفیت شواهد پایین است و درمان قطعی مبتنی بر کارآزمایی‌های کنترل‌شده وجود ندارد. داروهای پیشگیری میگرن ممکن است در کاهش حملات درد نقش داشته باشند، اما اثر اثبات‌شده‌ای بر مدت Ophthalmoplegia ندارند.",
+      "optionExplanations": [
+        "ممکن است برای پیشگیری از حملات میگرنی در برخی بیماران استفاده شود، اما درمان مشخص فلج عصب سوم نیست.",
+        "پاسخ مورد انتظار است؛ در RPON گاهی برای کاهش مدت علائم از Corticosteroid استفاده می‌شود، با شواهد محدود.",
+        "درمان استاندارد RPON نیست و در کودک باید با احتیاط فراوان به‌کار رود.",
+        "شواهد کافی برای کاهش مدت Ophthalmoplegia در RPON ندارد."
+      ],
+      "examTip": "در RPON، Corticosteroid گاهی برای تسریع بهبود Ophthalmoplegia استفاده می‌شود، اما شواهد محدود است.",
+      "examTrap": "پیش از تشخیص RPON، Aneurysm و سایر ضایعات فشاری عصب سوم را رد کنید؛ به‌ویژه در Mydriasis.",
+      "source": "ICHD-3: Recurrent painful ophthalmoplegic neuropathy; review literature on corticosteroid treatment in RPON."
+    },
+    {
+      "id": "HA-115",
+      "stem": "مرد ۳۰ ساله‌ای شب‌ها دچار سردرد یک‌طرفه Orbital غیرضربان‌دار می‌شود که با Rhinorrhea، Conjunctival edema، Lacrimation و Miosis همان سمت همراه است و حدود ۶۰ تا ۹۰ دقیقه طول می‌کشد. کدام ساختار در پاتوژنز این بیماری نقش محوری دارد؟",
+      "options": [
+        "تغییرات اولیه جریان خون عروقی",
+        "تحریک ناحیه Midbrain",
+        "فعال‌شدن ناحیه Hypothalamus",
+        "تحریک ناحیه Pons"
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال با Cluster headache سازگار است. شواهد تصویربرداری عملکردی و فیزیولوژیک، نقش مهم Hypothalamus posterior و شبکه‌های هیپوتالاموسی را در تنظیم ریتم شبانه‌روزی و تولید حملات Cluster نشان می‌دهند. فعال‌شدن رفلکس Trigeminal-autonomic نیز علائم اتونوم کرانیال مانند Lacrimation و Rhinorrhea را ایجاد می‌کند.",
+      "optionExplanations": [
+        "نظریه عروقی به‌تنهایی پاتوژنز Cluster headache را توضیح نمی‌دهد.",
+        "Midbrain ممکن است در شبکه‌های درد نقش داشته باشد، اما ساختار محوری کلاسیک Hypothalamus است.",
+        "پاسخ صحیح است؛ Hypothalamus به‌ویژه در ریتم شبانه‌روزی Cluster headache نقش محوری دارد.",
+        "Pons در پردازش درد نقش دارد، اما پاسخ اصلی پاتوژنز مورد سؤال نیست."
+      ],
+      "examTip": "Cluster headache با فعال‌شدن Hypothalamus و مسیر Trigeminal-autonomic ارتباط دارد.",
+      "examTrap": "علائم اتونوم یک‌طرفه و حملات ۱۵ تا ۱۸۰ دقیقه‌ای را از سایر سردردهای اولیه افتراق دهید.",
+      "source": "ICHD-3: Cluster headache; neuroimaging studies of hypothalamic activation in trigeminal autonomic cephalalgias."
+    },
+    {
+      "id": "HA-116",
+      "stem": "خانم ۶۰ ساله‌ای اخیراً دچار سردردهای ضربان‌دار عمدتاً در ناحیه Temporal شده است که شب‌ها تشدید می‌شوند. خستگی و درد عضلات پروگزیمال اندام‌ها نیز دارد. ESR برابر ۵۰ mm/h و کم‌خونی خفیف دارد. کدام بررسی در میان گزینه‌های زیر برای ارزیابی Giant cell arteritis مناسب‌تر است؟",
+      "options": [
+        "Arteriography of external carotid artery",
+        "تکرار ESR به‌تنهایی",
+        "اندازه‌گیری کمی CRP به‌تنهایی",
+        "Ultrasonography of temporal arteries"
+      ],
+      "correctIndex": 3,
+      "explanation": "سن بالای ۵۰ سال، سردرد جدید Temporal، علائم سیستمیک و درد پروگزیمال عضلات احتمال Giant cell arteritis (GCA) و Polymyalgia rheumatica را مطرح می‌کنند. در راهنمای EULAR، Ultrasound شریان‌های Temporal و Axillary در مراکز دارای تجربه، تصویربرداری خط اول است. Temporal artery biopsy همچنان در برخی نظام‌های درمانی و در صورت عدم دسترسی یا نتیجه نامشخص تصویربرداری کاربرد دارد. هیچ‌یک از تست‌ها نباید شروع درمان را در بیمار با شک بالینی بالا به تأخیر بیندازد.",
+      "optionExplanations": [
+        "روش تهاجمی و انتخاب معمول خط اول برای تشخیص GCA نیست.",
+        "ESR شاخص التهابی غیراختصاصی است و تکرار آن به‌تنهایی تشخیص را تأیید یا رد نمی‌کند.",
+        "CRP مفید است، اما به‌تنهایی از تصویربرداری عروقی یا ارزیابی بالینی جامع حساس‌تر/کافی نیست.",
+        "پاسخ صحیح است؛ Ultrasound عروق Temporal و Axillary در مراکز مجرب آزمون تصویربرداری خط اول EULAR است."
+      ],
+      "examTip": "در شک به GCA، Ultrasound شریان‌های Temporal و Axillary در مراکز مجرب توصیه می‌شود؛ درمان را به تأخیر نیندازید.",
+      "examTrap": "ESR طبیعی نیز GCA را کاملاً رد نمی‌کند؛ در بیمار دارای علائم بینایی، درمان فوری اهمیت دارد.",
+      "source": "EULAR recommendations for imaging in large vessel vasculitis, 2023; ACR/Vasculitis Foundation guideline for GCA."
+    },
+    {
+      "id": "HA-117",
+      "stem": "پسر ۱۴ ساله‌ای از حملات تکرارشونده‌ای شکایت دارد که با تاری دید، Vertigo و Dysarthria شروع می‌شوند، پس از حدود ۲۰ دقیقه برطرف می‌شوند و سپس سردرد ضربان‌دار ایجاد می‌شود. کدام عبارت درباره این بیمار صحیح‌تر است؟",
+      "options": [
+        "پدیده بینایی می‌تواند هر دو میدان بینایی را درگیر کند و منشأ قشری داشته باشد.",
+        "این بیماری معمولاً فقط به‌صورت Sporadic رخ می‌دهد.",
+        "برای درمان هر حمله باید Sumatriptan تجویز شود.",
+        "سردرد در این بیماری عمدتاً در ناحیه Fronto-temporal است."
+      ],
+      "correctIndex": 0,
+      "explanation": "علائم برگشت‌پذیر ساقه مغز مانند Vertigo و Dysarthria همراه با علائم بینایی و سردرد، Migraine with brainstem aura را مطرح می‌کند؛ البته ابتدا باید TIA و سایر علل ثانویه رد شوند. اختلال بینایی قشری می‌تواند به‌صورت پدیده‌های دوچشمی/دوطرفه در میدان بینایی ظاهر شود. این بیماری می‌تواند Sporadic یا Familial باشد. Triptans در این فنوتیپ طبق بسیاری از برچسب‌ها و راهنماها توصیه نمی‌شوند و درمان حاد معمولاً بر NSAID و antiemetic استوار است.",
+      "optionExplanations": [
+        "پاسخ صحیح‌تر است؛ علائم بینایی قشری می‌توانند در میدان‌های بینایی هر دو چشم ادراک شوند.",
+        "نادرست است؛ نوع Familial و Sporadic هر دو وجود دارند.",
+        "نادرست است؛ Triptanها در Migraine with brainstem aura معمولاً توصیه نمی‌شوند و در نوجوان باید ارزیابی تخصصی انجام شود.",
+        "محل سردرد متغیر است و الزاماً Fronto-temporal نیست؛ Occipital یا دوطرفه نیز ممکن است."
+      ],
+      "examTip": "وجود Vertigo و Dysarthria برگشت‌پذیر در Aura، Migraine with brainstem aura را مطرح می‌کند؛ این نوع می‌تواند Sporadic یا Familial باشد.",
+      "examTrap": "در نخستین یا حمله غیرمعمول، سکته گردش خلفی و سایر علل ثانویه را صرفاً به دلیل سن پایین کنار نگذارید.",
+      "source": "ICHD-3: Migraine with brainstem aura; NCBI StatPearls: Migraine with Brainstem Aura."
+    },
+    {
+      "id": "HA-118",
+      "stem": "مرد ۳۰ ساله‌ای به علت درد شدید و حمله‌ای در قاعده زبان و گوش مراجعه کرده است که با سرفه و بلع تشدید می‌شود. MRI مغز و Nasopharynx طبیعی است. کدام عبارت درباره Glossopharyngeal neuralgia نادرست است؟",
+      "options": [
+        "رفع درد پس از بی‌حسی موضعی Tonsillar fossa با Lidocaine می‌تواند به تشخیص کمک کند.",
+        "Gamma Knife در همه بیماران بهترین نتیجه درمانی را نسبت به سایر روش‌ها دارد.",
+        "Hoarseness از تظاهرات اصلی و شایع این بیماری است.",
+        "Bradycardia و Syncope ممکن است به‌دنبال تحریک واگ رخ دهند."
+      ],
+      "correctIndex": 1,
+      "explanation": "شرح حال با Glossopharyngeal neuralgia سازگار است. بی‌حسی موضعی ناحیه Tonsillar fossa می‌تواند حملات را موقتاً متوقف کند و به تشخیص کمک کند. به علت ارتباط عصب IX با مسیرهای واگال، Bradycardia، افت فشار و Syncope ممکن است رخ دهند. Hoarseness علامت اصلی یا شایع بیماری منفرد عصب IX نیست، هرچند در درگیری هم‌زمان مسیرهای واگال/حنجره‌ای ممکن است دیده شود. درمان دارویی با Carbamazepine/Oxcarbazepine معمولاً ابتدا امتحان می‌شود؛ در موارد مقاوم، Microvascular decompression و روش‌های رادیوسرجری مانند Gamma Knife بر اساس شرایط انتخاب می‌شوند و هیچ‌کدام برای همه بیماران بهترین نیستند.",
+      "optionExplanations": [
+        "درست است؛ پاسخ موقت به بی‌حسی موضعی می‌تواند یافته حمایتی باشد.",
+        "این عبارت نیز مطلق و نادرست است؛ Gamma Knife یکی از گزینه‌هاست، اما برتری همگانی بر Microvascular decompression ثابت نشده است.",
+        "می‌تواند در صورت درگیری هم‌زمان مسیرهای واگال/حنجره‌ای دیده شود، اما علامت اصلی یا شایع Neuralgia منفرد عصب IX نیست؛ به‌تنهایی بهترین پاسخ سؤال محسوب نمی‌شود.",
+        "درست است؛ تحریک واگال می‌تواند Bradycardia و Syncope ایجاد کند."
+      ],
+      "examTip": "Glossopharyngeal neuralgia می‌تواند با بلع تحریک و با Bradycardia/Syncope همراه شود؛ درمان اولیه معمولاً Carbamazepine/Oxcarbazepine است.",
+      "examTrap": "ادعای برتری همگانی Gamma Knife نادرست است؛ انتخاب بین Microvascular decompression و Radiosurgery به علت زمینه‌ای، سن، وضعیت بیمار و ترجیح درمانی بستگی دارد.",
+      "source": "ICHD-3: Glossopharyngeal neuralgia; neurosurgical reviews comparing microvascular decompression and stereotactic radiosurgery."
+    },
+    {
+      "id": "HA-119",
+      "stem": "مرد ۳۳ ساله‌ای با هر بار چرخش ناگهانی سر دچار درد گردن و Paresthesia زبان می‌شود. محتمل‌ترین محل اختلال در Neck-tongue syndrome کدام است؟",
+      "options": [
+        "Hypoglossal canal",
+        "Carotid sheath",
+        "Atlanto-axial joint/space",
+        "C2 spinal cord segment"
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال کلاسیک Neck-tongue syndrome است: درد یک‌طرفه گردن یا Occipital که با چرخش ناگهانی سر تحریک می‌شود و با بی‌حسی یا پارستزی همان‌طرف زبان همراه است. مکانیسم پیشنهادی، اختلال یا فشردگی گذرای مسیرهای حسی مرتبط با C2 و ارتباطات آناتومیک در ناحیه Atlanto-axial است؛ بنابراین محل مورد انتظار، ناحیه مفصل Atlanto-axial است، نه Hypoglossal canal.",
+      "optionExplanations": [
+        "Hypoglossal canal محل عبور عصب XII است و با این سندرم کلاسیک ارتباط ندارد.",
+        "Carotid sheath محل اصلی پاتوژنز Neck-tongue syndrome نیست.",
+        "پاسخ صحیح است؛ اختلال مکانیکی در ناحیه Atlanto-axial و ارتباطات C2 مطرح است.",
+        "C2 در مکانیسم عصبی نقش دارد، اما محل آناتومیک مورد انتظار در این سؤال، ناحیه Atlanto-axial است."
+      ],
+      "examTip": "Neck-tongue syndrome: درد گردن/Occipital با چرخش سر همراه با پارستزی همان‌طرف زبان؛ ارتباط با C2 و Atlanto-axial مطرح است.",
+      "examTrap": "در صورت علائم پایدار، نقص عصبی یا تروما، علل ساختاری گردن و عروق نیز باید بررسی شوند.",
+      "source": "ICHD-3: Neck-tongue syndrome; clinical reviews of C2-related cervical pain syndromes."
+    },
+    {
+      "id": "HA-120",
+      "stem": "مرد ۶۰ ساله مبتلا به Diabetes mellitus به علت اختلال دید یک‌طرفه مراجعه کرده است. معاینه چشم‌پزشکی نشان‌دهنده Optic disc edema و انسداد Posterior ciliary artery در چشم مبتلاست. بیمار سابقه Ophthalmoplegia گذرا دارد و ESR برابر ۷۰ mm/h گزارش شده است. کدام درمان باید فوراً آغاز شود؟",
+      "options": [
+        "Aspirin به‌تنهایی",
+        "Warfarin",
+        "Intravenous thrombolysis with rtPA",
+        "High-dose corticosteroid therapy"
+      ],
+      "correctIndex": 3,
+      "explanation": "شرح حال به‌شدت به نفع Giant cell arteritis با Arteritic anterior ischemic optic neuropathy و درگیری Posterior ciliary arteries است. این وضعیت یک اورژانس بینایی است و درمان با دوز بالای Glucocorticoid باید فوراً آغاز شود؛ در صورت کاهش دید یا تهدید بینایی، بسیاری از راهنماها Intravenous methylprednisolone را در نظر می‌گیرند و سپس درمان خوراکی ادامه می‌یابد. نباید برای Temporal artery biopsy یا تصویربرداری منتظر ماند. Aspirin ممکن است در شرایط منتخب به‌عنوان درمان کمکی مطرح شود، اما جایگزین استروئید نیست.",
+      "optionExplanations": [
+        "ممکن است در برخی بیماران به‌عنوان درمان کمکی بررسی شود، اما درمان اصلی GCA تهدیدکننده بینایی نیست.",
+        "درمان GCA یا Arteritic optic neuropathy نیست و خطر خونریزی دارد.",
+        "این الگو با انسداد آمبولیک حاد معمول سازگار نیست؛ thrombolysis درمان GCA نیست.",
+        "پاسخ صحیح است؛ درمان فوری High-dose corticosteroid برای جلوگیری از نابینایی چشم مقابل ضروری است؛ در کاهش دید، IV methylprednisolone اغلب ترجیح داده می‌شود."
+      ],
+      "examTip": "در GCA همراه با علائم بینایی، High-dose corticosteroid را فوراً شروع کنید؛ درمان را برای biopsy به تأخیر نیندازید.",
+      "examTrap": "در بیمار با کاهش دید ناشی از GCA، Oral prednisone تنها ممکن است کافی نباشد؛ IV methylprednisolone را فوری مدنظر قرار دهید.",
+      "source": "ACR/Vasculitis Foundation guideline for Giant Cell Arteritis; EULAR recommendations for large vessel vasculitis."
     }
   ]
 }
