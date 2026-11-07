@@ -1,1 +1,69 @@
 
+A{
+  "topic_title": "بیماری‌های دمیلینه (Demyelinating Diseases)",
+  "questions": [
+    {
+      "id": "DM-001",
+      "stem": "کدام‌یک از درمان‌های به‌کاررفته در Neuromyelitis Optica Spectrum Disorder (NMOSD) به‌طور اختصاصی بر B cellها تأثیر می‌گذارد؟",
+      "options": [
+        "Azathioprine",
+        "Mycophenolate mofetil",
+        "Rituximab",
+        "Mitoxantrone"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rituximab یک آنتی‌بادی مونوکلونال ضد CD20 است که B cellهای بالغ را کاهش می‌دهد و سال‌هاست به‌صورت off-label در NMOSD استفاده می‌شود. داروهای جدیدتر هدف‌گیرنده سلول‌های B شامل Inebilizumab (ضد CD19) نیز هستند؛ این دارو در گزینه‌ها وجود ندارد. انتخاب درمان نگهدارنده NMOSD امروزه علاوه بر Rituximab شامل داروهایی مانند Inebilizumab، Satralizumab و مهارکننده‌های Complement است و باید بر اساس AQP4-IgG status، شدت بیماری، دسترسی و شرایط بیمار انجام شود.",
+      "optionExplanations": [
+        "Azathioprine یک antimetabolite و purine synthesis inhibitor است و به‌صورت اختصاصی B cell را هدف نمی‌گیرد.",
+        "Mycophenolate mofetil با مهار inosine monophosphate dehydrogenase، سنتز de novo پورین را در لنفوسیت‌ها مهار می‌کند؛ اختصاصی B cell نیست.",
+        "درست است. Rituximab آنتی‌بادی مونوکلونال ضد CD20 است و با depletion سلول‌های B دارای CD20 عمل می‌کند؛ plasma cellهای بالغ معمولاً CD20 ندارند.",
+        "Mitoxantrone یک cytotoxic immunosuppressant است که بر سلول‌های در حال تکثیر اثر می‌گذارد و درمان اختصاصی ضد B cell محسوب نمی‌شود."
+      ],
+      "examTip": "در NMOSD، Rituximab ضد CD20 و Inebilizumab ضد CD19 هستند. Inebilizumab علاوه بر B cellها، بخشی از plasmablastهای CD19-positive را نیز هدف می‌گیرد.",
+      "examTrap": "Rituximab را با Ocrelizumab یا Ofatumumab که در MS به‌کار می‌روند یکسان‌سازی نکنید؛ اثربخشی و جایگاه داروهای ضد CD20 در NMOSD و MS یکسان نیست.",
+      "source": "Continuum: Neuromyelitis Optica Spectrum Disorder, 2026; NEMOS recommendations, 2023; 2025 Brazilian NMOSD guideline."
+    },
+    {
+      "id": "DM-002",
+      "stem": "در خانم ۳۰ ساله مبتلا به Multiple Sclerosis (MS) با اختلال کنترل مثانه و Nocturia آزاردهنده، در صورتی که علت غالب Nocturnal polyuria باشد، کدام دارو برای کاهش Nocturia مناسب‌تر است؟",
+      "options": [
+        "Prazosin",
+        "Tadalafil",
+        "Desmopressin",
+        "Tamsulosin"
+      ],
+      "correctIndex": 2,
+      "explanation": "در بیمار مبتلا به MS، درمان اختلالات ادراری باید بر اساس مکانیسم غالب انتخاب شود. اگر بررسی‌ها Nocturnal polyuria را نشان دهند، Desmopressin می‌تواند با کاهش دفع شبانه ادرار، Nocturia را کم کند. پیش از تجویز باید الگوی دفع با frequency-volume chart، عملکرد کلیه و Serum sodium ارزیابی شود و خطر Hyponatremia توضیح داده شود. اگر مشکل اصلی Neurogenic detrusor overactivity یا تخلیه ناکامل مثانه باشد، درمان متفاوت خواهد بود.",
+      "optionExplanations": [
+        "Prazosin یک alpha-1 adrenergic blocker است و درمان انتخابی Nocturnal polyuria یا Nocturia ناشی از MS نیست.",
+        "Tadalafil یک phosphodiesterase-5 inhibitor است که در برخی بیماران برای Erectile dysfunction یا Lower urinary tract symptoms استفاده می‌شود؛ برای Nocturnal polyuria درمان ارجح نیست.",
+        "درست است، مشروط بر اینکه علت غالب Nocturnal polyuria باشد. Desmopressin یک Vasopressin V2 receptor agonist است و دفع آب آزاد را کاهش می‌دهد. پایش Serum sodium به‌ویژه به علت خطر Hyponatremia ضروری است.",
+        "Tamsulosin یک alpha-1A adrenergic blocker است که در خروجی مثانه و علائم انسدادی، به‌ویژه در مردان دارای Benign prostatic hyperplasia، کاربرد دارد و درمان اختصاصی Nocturnal polyuria نیست."
+      ],
+      "examTip": "در MS، ابتدا مشخص کنید مشکل Urgency/Neurogenic detrusor overactivity، urinary retention یا Nocturnal polyuria است؛ درمان این سه وضعیت متفاوت است.",
+      "examTrap": "Desmopressin را برای هر نوع Nocturia تجویز نکنید. در زنان و افراد دارای عوامل خطر، Hyponatremia اهمیت ویژه دارد؛ Sodium باید پیش از درمان و پس از شروع طبق پروتکل پایش شود.",
+      "source": "Nocturia in Patients With Multiple Sclerosis, 2019; Canadian Urological Association Best Practice Report on Nocturia, 2022; NeuroGED guideline, 2025."
+    },
+    {
+      "id": "DM-003",
+      "stem": "در خانم ۲۸ ساله با یک‌طرفه Optic neuritis و شک به Multiple Sclerosis (MS)، در MRI چند ضایعه T2-hyperintense دیده شده است. بیمار اخیراً یک دوره Pulse corticosteroid دریافت کرده است. کدام‌یک از یافته‌های زیر معمولاً پس از این درمان پایدارتر باقی می‌ماند؟",
+      "options": [
+        "Gadolinium enhancement ضایعات",
+        "IgG index در CSF",
+        "Oligoclonal bands (OCB) در CSF",
+        "تعداد سلول‌های CSF"
+      ],
+      "correctIndex": 2,
+      "explanation": "Oligoclonal bands نشان‌دهنده پاسخ ایمنی داخل CNS و تولید پایدار IgG به‌صورت intrathecal هستند و معمولاً پس از یک دوره کوتاه corticosteroid همچنان قابل شناسایی باقی می‌مانند. در مقابل، Gadolinium enhancement نشانگر اختلال فعال و گذرای Blood-brain barrier است و ممکن است پس از corticosteroid کاهش یابد. CSF pleocytosis نیز شاخصی پویاتر از التهاب حاد است. IgG index یا میزان سنتز IgG داخل CNS ممکن است پس از corticosteroid کاهش یابد؛ بنابراین در میان گزینه‌ها OCB پایدارترین پاسخ است.",
+      "optionExplanations": [
+        "Gadolinium enhancement می‌تواند با کاهش التهاب و ترمیم نسبی Blood-brain barrier پس از corticosteroid کاهش یابد یا ناپدید شود.",
+        "IgG index ممکن است پس از درمان با corticosteroid کاهش یابد؛ بنابراین نمی‌توان آن را یافته‌ای دانست که به‌طور قابل اتکا بدون تغییر باقی می‌ماند.",
+        "درست است. OCBهای اختصاصی CSF معمولاً پس از دوره کوتاه corticosteroid باقی می‌مانند، هرچند به‌ندرت تغییر یا کاهش آن‌ها گزارش شده است.",
+        "CSF leukocyte count یک شاخص پویاتر التهاب است و ممکن است با فروکش‌کردن التهاب حاد کاهش یابد."
+      ],
+      "examTip": "OCB در MS نشانگر intrathecal IgG synthesis است و می‌تواند به‌عنوان مدرک Dissemination in time در چارچوب معیارهای تشخیصی مورد استفاده قرار گیرد.",
+      "examTrap": "IgG index و OCB یکسان نیستند. corticosteroid می‌تواند میزان سنتز IgG یا IgG index را کاهش دهد، در حالی که OCBها معمولاً پایدار می‌مانند. اگر سؤال صرفاً بپرسد کدام مورد مطلقاً هیچ تغییری نمی‌کند، صورت سؤال بیش از حد قطعی است.",
+      "source": "Anderson et al., Effect of ACTH and corticosteroids on CNS IgG synthesis in MS, 1981; Anderson et al., Methylprednisolone in MS exacerbation: changes in CSF parameters, 1990; contemporary MS MRI and CSF literature."
+    }
+  ]
+}
