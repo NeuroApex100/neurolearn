@@ -1,3 +1,4 @@
+
 :root {
   --primary: #1769aa;
   --primary-dark: #104d80;
@@ -149,7 +150,7 @@ button.secondary:hover {
   transition: width 0.2s ease;
 }
 
-/* کادر متن سؤال؛ رنگ قبلی حفظ شده است */
+/* کادر زرد کم‌رنگ متن سؤال */
 .question-stem {
   margin: 16px 0 20px;
   padding: 18px;
@@ -161,7 +162,6 @@ button.secondary:hover {
   font-weight: 600;
   line-height: 2;
   white-space: pre-wrap;
-  unicode-bidi: plaintext;
 }
 
 .options-container {
@@ -171,8 +171,6 @@ button.secondary:hover {
 
 .option {
   display: flex;
-  flex-direction: row;
-  direction: rtl;
   align-items: flex-start;
   gap: 10px;
   width: 100%;
@@ -195,25 +193,10 @@ button.secondary:hover {
   cursor: default;
 }
 
-/* جداسازی کامل حرف گزینه از متن آن */
 .option-label {
-  display: inline-block;
   flex: 0 0 auto;
   color: var(--primary);
   font-weight: bold;
-  direction: ltr;
-  unicode-bidi: isolate;
-  white-space: nowrap;
-}
-
-/* مدیریت متن فارسی و انگلیسی داخل گزینه‌ها */
-.option > span:not(.option-label) {
-  flex: 1;
-  min-width: 0;
-  direction: rtl;
-  unicode-bidi: plaintext;
-  text-align: right;
-  overflow-wrap: anywhere;
 }
 
 .option.correct {
@@ -240,59 +223,14 @@ button.secondary:hover {
 
 .feedback-box p {
   white-space: pre-wrap;
-  direction: rtl;
-  unicode-bidi: plaintext;
-  text-align: right;
 }
 
-/* توضیحات گزینه‌ها: برچسب و متن کاملاً مستقل هستند */
 .option-explanation {
-  display: flex;
-  flex-direction: row;
-  direction: rtl;
-  align-items: flex-start;
-  gap: 10px;
   margin: 10px 0;
   padding: 10px 12px;
   border-right: 3px solid #a9b9ca;
-  border-radius: 5px;
   background: white;
-  text-align: right;
-  line-height: 1.9;
-}
-
-/* حرف A/B/C/D در ستون مستقل */
-.option-explanation > strong {
-  display: inline-flex;
-  flex: 0 0 30px;
-  min-width: 30px;
-  justify-content: center;
-  align-items: flex-start;
-  color: #d32f2f;
-  font-weight: 800;
-  direction: ltr;
-  unicode-bidi: isolate;
-  text-align: center;
-  white-space: nowrap;
-}
-
-/* متن توضیح با جهت مستقل و تشخیص خودکار متن ترکیبی */
-.option-explanation > span {
-  display: block;
-  flex: 1 1 auto;
-  min-width: 0;
-  direction: rtl;
-  unicode-bidi: plaintext;
-  text-align: right;
-  overflow-wrap: anywhere;
-  word-break: normal;
-  line-height: 1.9;
-}
-
-#answerFeedback {
-  direction: rtl;
-  unicode-bidi: plaintext;
-  text-align: right;
+  border-radius: 5px;
 }
 
 .exam-tip {
@@ -300,9 +238,6 @@ button.secondary:hover {
   padding: 12px;
   border-radius: 8px;
   background: #eaf2ff;
-  direction: rtl;
-  unicode-bidi: plaintext;
-  text-align: right;
 }
 
 .quiz-actions {
@@ -460,10 +395,5 @@ th {
 
   .question-stem {
     padding: 14px;
-  }
-
-  .option-explanation {
-    gap: 8px;
-    padding: 9px 10px;
   }
 }
