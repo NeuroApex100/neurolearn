@@ -1,9 +1,9 @@
 {
-  "topic_title": "بیماری‌های دمیلینه (Demyelinating Diseases)",
+  "topic_title": "بیماری‌های دمیلینه‌کننده سیستم عصبی",
   "questions": [
     {
       "id": "DM-001",
-      "stem": "کدام‌یک از درمان‌های به‌کاررفته در Neuromyelitis Optica Spectrum Disorder (NMOSD) به‌طور اختصاصی بر B cellها تأثیر می‌گذارد؟",
+      "stem": "کدام درمان مورد استفاده در Neuromyelitis Optica (NMO/NMOSD) به‌طور اختصاصی‌تر سلول‌های B را هدف قرار می‌دهد؟",
       "options": [
         "Azathioprine",
         "Mycophenolate mofetil",
@@ -11,20 +11,20 @@
         "Mitoxantrone"
       ],
       "correctIndex": 2,
-      "explanation": "Rituximab یک آنتی‌بادی مونوکلونال ضد CD20 است که B cellهای بالغ را کاهش می‌دهد و سال‌هاست به‌صورت off-label در NMOSD استفاده می‌شود. داروهای جدیدتر هدف‌گیرنده سلول‌های B شامل Inebilizumab (ضد CD19) نیز هستند؛ این دارو در گزینه‌ها وجود ندارد. انتخاب درمان نگهدارنده NMOSD امروزه علاوه بر Rituximab شامل داروهایی مانند Inebilizumab، Satralizumab و مهارکننده‌های Complement است و باید بر اساس AQP4-IgG status، شدت بیماری، دسترسی و شرایط بیمار انجام شود.",
+      "explanation": "Rituximab یک آنتی‌بادی مونوکلونال ضد CD20 است و با کاهش B cellهای بالغ، در کاهش فعالیت بیماری در NMOSD به‌کار رفته است. این دارو مستقیماً همه پلاسماسل‌ها را حذف نمی‌کند، زیرا بسیاری از پلاسماسل‌ها CD20 ندارند.",
       "optionExplanations": [
-        "Azathioprine یک antimetabolite و purine synthesis inhibitor است و به‌صورت اختصاصی B cell را هدف نمی‌گیرد.",
-        "Mycophenolate mofetil با مهار inosine monophosphate dehydrogenase، سنتز de novo پورین را در لنفوسیت‌ها مهار می‌کند؛ اختصاصی B cell نیست.",
-        "درست است. Rituximab آنتی‌بادی مونوکلونال ضد CD20 است و با depletion سلول‌های B دارای CD20 عمل می‌کند؛ plasma cellهای بالغ معمولاً CD20 ندارند.",
-        "Mitoxantrone یک cytotoxic immunosuppressant است که بر سلول‌های در حال تکثیر اثر می‌گذارد و درمان اختصاصی ضد B cell محسوب نمی‌شود."
+        "Azathioprine یک داروی سرکوب‌کننده ایمنی با اثر ضدتکثیری بر لنفوسیت‌هاست، اما اختصاصاً B cell را هدف نمی‌گیرد.",
+        "Mycophenolate mofetil با مهار IMPDH و کاهش سنتز پورین، تکثیر لنفوسیت‌های T و B را مهار می‌کند؛ اختصاصی B cell نیست.",
+        "Rituximab آنتی‌بادی ضد CD20 است و B cellهای CD20-positive را کاهش می‌دهد؛ بنابراین بهترین پاسخ است.",
+        "Mitoxantrone یک داروی سیتوتوکسیک/سرکوب‌کننده ایمنی است و هدف اختصاصی آن CD20 یا B cell نیست."
       ],
-      "examTip": "در NMOSD، Rituximab ضد CD20 و Inebilizumab ضد CD19 هستند. Inebilizumab علاوه بر B cellها، بخشی از plasmablastهای CD19-positive را نیز هدف می‌گیرد.",
-      "examTrap": "Rituximab را با Ocrelizumab یا Ofatumumab که در MS به‌کار می‌روند یکسان‌سازی نکنید؛ اثربخشی و جایگاه داروهای ضد CD20 در NMOSD و MS یکسان نیست.",
-      "source": "Continuum: Neuromyelitis Optica Spectrum Disorder, 2026; NEMOS recommendations, 2023; 2025 Brazilian NMOSD guideline."
+      "examTip": "Rituximab = anti-CD20 B-cell depletion. در NMOSD داروهای هدفمند دیگری مانند eculizumab، inebilizumab و satralizumab نیز مطرح‌اند.",
+      "examTrap": "Rituximab را با inebilizumab اشتباه نکنید؛ هر دو مسیر B-cell را هدف می‌گیرند، اما inebilizumab نیز anti-CD19 است.",
+      "source": "Wingerchuk et al. International consensus diagnostic criteria for NMOSD; contemporary NMOSD treatment reviews and prescribing information."
     },
     {
       "id": "DM-002",
-      "stem": "در خانم ۳۰ ساله مبتلا به Multiple Sclerosis (MS) با اختلال کنترل مثانه و Nocturia آزاردهنده، در صورتی که علت غالب Nocturnal polyuria باشد، کدام دارو برای کاهش Nocturia مناسب‌تر است؟",
+      "stem": "در خانم ۳۰ ساله مبتلا به Multiple Sclerosis (MS) با اختلال کنترل مثانه و Nocturia آزاردهنده، در صورتی که علت اصلی Nocturnal polyuria باشد، کدام دارو می‌تواند مناسب‌تر باشد؟",
       "options": [
         "Prazosin",
         "Tadalafil",
@@ -32,37 +32,394 @@
         "Tamsulosin"
       ],
       "correctIndex": 2,
-      "explanation": "در بیمار مبتلا به MS، درمان اختلالات ادراری باید بر اساس مکانیسم غالب انتخاب شود. اگر بررسی‌ها Nocturnal polyuria را نشان دهند، Desmopressin می‌تواند با کاهش دفع شبانه ادرار، Nocturia را کم کند. پیش از تجویز باید الگوی دفع با frequency-volume chart، عملکرد کلیه و Serum sodium ارزیابی شود و خطر Hyponatremia توضیح داده شود. اگر مشکل اصلی Neurogenic detrusor overactivity یا تخلیه ناکامل مثانه باشد، درمان متفاوت خواهد بود.",
+      "explanation": "Desmopressin با اثر مشابه Vasopressin موجب کاهش دفع ادرار شبانه می‌شود و در بیماران منتخب مبتلا به Nocturnal polyuria می‌تواند کمک‌کننده باشد. پیش از تجویز باید علت علائم مشخص و خطر Hyponatremia ارزیابی شود؛ پایش Sodium به‌ویژه در شروع درمان و افراد پرخطر اهمیت دارد.",
       "optionExplanations": [
-        "Prazosin یک alpha-1 adrenergic blocker است و درمان انتخابی Nocturnal polyuria یا Nocturia ناشی از MS نیست.",
-        "Tadalafil یک phosphodiesterase-5 inhibitor است که در برخی بیماران برای Erectile dysfunction یا Lower urinary tract symptoms استفاده می‌شود؛ برای Nocturnal polyuria درمان ارجح نیست.",
-        "درست است، مشروط بر اینکه علت غالب Nocturnal polyuria باشد. Desmopressin یک Vasopressin V2 receptor agonist است و دفع آب آزاد را کاهش می‌دهد. پایش Serum sodium به‌ویژه به علت خطر Hyponatremia ضروری است.",
-        "Tamsulosin یک alpha-1A adrenergic blocker است که در خروجی مثانه و علائم انسدادی، به‌ویژه در مردان دارای Benign prostatic hyperplasia، کاربرد دارد و درمان اختصاصی Nocturnal polyuria نیست."
+        "Prazosin یک alpha-1 blocker است و درمان استاندارد Nocturnal polyuria ناشی از MS نیست.",
+        "Tadalafil یک PDE-5 inhibitor است و در برخی اختلالات ادراری مردان کاربرد دارد، اما پاسخ معمول این سناریو نیست.",
+        "Desmopressin دفع ادرار شبانه را کاهش می‌دهد؛ فقط در بیمار منتخب و با رعایت محدودیت مایعات و پایش Sodium استفاده می‌شود.",
+        "Tamsulosin با شل کردن عضله صاف پروستات و گردن مثانه برای علائم انسدادی به‌کار می‌رود و درمان Nocturnal polyuria نیست."
       ],
-      "examTip": "در MS، ابتدا مشخص کنید مشکل Urgency/Neurogenic detrusor overactivity، urinary retention یا Nocturnal polyuria است؛ درمان این سه وضعیت متفاوت است.",
-      "examTrap": "Desmopressin را برای هر نوع Nocturia تجویز نکنید. در زنان و افراد دارای عوامل خطر، Hyponatremia اهمیت ویژه دارد؛ Sodium باید پیش از درمان و پس از شروع طبق پروتکل پایش شود.",
-      "source": "Nocturia in Patients With Multiple Sclerosis, 2019; Canadian Urological Association Best Practice Report on Nocturia, 2022; NeuroGED guideline, 2025."
+      "examTip": "در MS ابتدا مشخص کنید مشکل Storage است یا Voiding و آیا Nocturia ناشی از Nocturnal polyuria است.",
+      "examTrap": "Desmopressin برای همه بیماران مبتلا به Nocturia مناسب نیست؛ Hyponatremia عارضه مهم و بالقوه خطرناک آن است.",
+      "source": "MS bladder dysfunction reviews; desmopressin prescribing information and safety recommendations."
     },
     {
       "id": "DM-003",
-      "stem": "در خانم ۲۸ ساله با یک‌طرفه Optic neuritis و شک به Multiple Sclerosis (MS)، در MRI چند ضایعه T2-hyperintense دیده شده است. بیمار اخیراً یک دوره Pulse corticosteroid دریافت کرده است. کدام‌یک از یافته‌های زیر معمولاً پس از این درمان پایدارتر باقی می‌ماند؟",
+      "stem": "در خانم ۲۸ ساله با Optic neuritis یک‌طرفه و MRI دارای چند ضایعه T2-hyperintense مشکوک به MS که اخیراً Pulse corticosteroid دریافت کرده است، کدام یافته معمولاً پس از درمان تغییر پایدار و قابل اتکایی نمی‌کند؟",
       "options": [
-        "Gadolinium enhancement ضایعات",
-        "IgG index در CSF",
+        "Enhancement ضایعات",
+        "IgG index",
         "Oligoclonal bands (OCB) در CSF",
         "تعداد سلول‌های CSF"
       ],
       "correctIndex": 2,
-      "explanation": "Oligoclonal bands نشان‌دهنده پاسخ ایمنی داخل CNS و تولید پایدار IgG به‌صورت intrathecal هستند و معمولاً پس از یک دوره کوتاه corticosteroid همچنان قابل شناسایی باقی می‌مانند. در مقابل، Gadolinium enhancement نشانگر اختلال فعال و گذرای Blood-brain barrier است و ممکن است پس از corticosteroid کاهش یابد. CSF pleocytosis نیز شاخصی پویاتر از التهاب حاد است. IgG index یا میزان سنتز IgG داخل CNS ممکن است پس از corticosteroid کاهش یابد؛ بنابراین در میان گزینه‌ها OCB پایدارترین پاسخ است.",
+      "explanation": "OCBهای اختصاصی CSF معمولاً پس از درمان کوتاه‌مدت با corticosteroid از بین نمی‌روند و می‌توانند همچنان قابل شناسایی باشند. Steroid ممکن است برخی شاخص‌های التهابی یا تعداد سلول‌ها را تغییر دهد و Enhancement ضایعات نیز با فروکش التهاب کاهش یابد.",
       "optionExplanations": [
-        "Gadolinium enhancement می‌تواند با کاهش التهاب و ترمیم نسبی Blood-brain barrier پس از corticosteroid کاهش یابد یا ناپدید شود.",
-        "IgG index ممکن است پس از درمان با corticosteroid کاهش یابد؛ بنابراین نمی‌توان آن را یافته‌ای دانست که به‌طور قابل اتکا بدون تغییر باقی می‌ماند.",
-        "درست است. OCBهای اختصاصی CSF معمولاً پس از دوره کوتاه corticosteroid باقی می‌مانند، هرچند به‌ندرت تغییر یا کاهش آن‌ها گزارش شده است.",
-        "CSF leukocyte count یک شاخص پویاتر التهاب است و ممکن است با فروکش‌کردن التهاب حاد کاهش یابد."
+        "Enhancement ناشی از اختلال سد خونی‌ـ‌مغزی است و ممکن است با کاهش التهاب پس از corticosteroid فروکش کند.",
+        "IgG index ممکن است در کوتاه‌مدت به اندازه OCB پایدار نباشد؛ تفسیر آن به زمان نمونه‌گیری و شرایط بالینی وابسته است.",
+        "OCBهای CSF در MS معمولاً پایدارند و یک دوره کوتاه corticosteroid معمولاً آن‌ها را حذف نمی‌کند.",
+        "Pleocytosis در صورت وجود ممکن است با فروکش التهاب کاهش یابد."
       ],
-      "examTip": "OCB در MS نشانگر intrathecal IgG synthesis است و می‌تواند به‌عنوان مدرک Dissemination in time در چارچوب معیارهای تشخیصی مورد استفاده قرار گیرد.",
-      "examTrap": "IgG index و OCB یکسان نیستند. corticosteroid می‌تواند میزان سنتز IgG یا IgG index را کاهش دهد، در حالی که OCBها معمولاً پایدار می‌مانند. اگر سؤال صرفاً بپرسد کدام مورد مطلقاً هیچ تغییری نمی‌کند، صورت سؤال بیش از حد قطعی است.",
-      "source": "Anderson et al., Effect of ACTH and corticosteroids on CNS IgG synthesis in MS, 1981; Anderson et al., Methylprednisolone in MS exacerbation: changes in CSF parameters, 1990; contemporary MS MRI and CSF literature."
+      "examTip": "CSF-restricted OCB یک یافته حمایتی مهم برای MS است و معمولاً با Pulse steroid منفی نمی‌شود.",
+      "examTrap": "OCB به‌تنهایی تشخیص MS را ثابت نمی‌کند؛ باید با تابلوی بالینی و MRI و معیارهای تشخیصی تطبیق داده شود.",
+      "source": "2017 McDonald criteria; contemporary MS diagnostic and CSF biomarker reviews."
+    },
+    {
+      "id": "DM-004",
+      "stem": "خانم ۳۶ ساله مبتلا به MS از یک هفته قبل دچار ضعف اندام‌های تحتانی شده که سپس خودبه‌خود بهتر شده است. او قصد تزریق واکسن Influenza و Varicella را دارد. کدام توصیه دقیق‌تر است؟",
+      "options": [
+        "واکسن Influenza دو هفته پس از حمله قابل تزریق است، ولی Varicella در همه بیماران MS ممنوع است.",
+        "هر دو واکسن را می‌توان بدون توجه به فعالیت بیماری و نوع درمان، دو هفته بعد تزریق کرد.",
+        "واکسن Varicella دو هفته بعد توصیه می‌شود، ولی واکسن Influenza ممنوع است.",
+        "بهتر است واکسیناسیون تا تثبیت حمله، معمولاً حدود ۴ تا ۶ هفته، به تعویق افتد؛ سپس نوع واکسن و درمان تعدیل‌کننده بیماری بررسی شود."
+      ],
+      "correctIndex": 3,
+      "explanation": "در زمان عود حاد، واکسیناسیون معمولاً تا تثبیت وضعیت بالینی به تعویق می‌افتد؛ در منابع آموزشی بازه حدود ۴ تا ۶ هفته پس از شروع حمله ذکر می‌شود. واکسن تزریقی Influenza غیرفعال است و عموماً در MS ایمن محسوب می‌شود. Varicella واکسن زنده تضعیف‌شده است و فقط در فرد غیرایمن و در شرایط مناسب، پیش از شروع یا با فاصله ایمن از برخی درمان‌های سرکوب‌کننده ایمنی قابل بررسی است؛ بنابراین ممنوعیت همگانی برای تمام بیماران MS درست نیست.",
+      "optionExplanations": [
+        "واکسن Influenza غیرفعال معمولاً ممنوع نیست؛ همچنین Varicella برای همه بیماران MS ممنوعیت مطلق ندارد و وضعیت ایمنی و نوع DMT تعیین‌کننده است.",
+        "تزریق در خلال عود فعال توصیه نمی‌شود و واکسن زنده Varicella در حین برخی درمان‌های سرکوب‌کننده ایمنی می‌تواند خطرناک باشد.",
+        "این گزینه برعکس است؛ واکسن Influenza غیرفعال عموماً قابل استفاده است، در حالی که Varicella زنده محدودیت‌های مهمی دارد.",
+        "این گزینه بهترین توصیه کلی آزمونی است، با این توضیح که زمان و امکان واکسن زنده باید با توجه به DMT، وضعیت ایمنی و سابقه ایمنی نسبت به Varicella تعیین شود."
+      ],
+      "examTip": "Inactivated influenza vaccine عموماً در MS ایمن است؛ Live attenuated vaccines در بیماران تحت immunosuppressive DMT معمولاً اجتناب می‌شوند.",
+      "examTrap": "عبارت «واکسن Varicella در تمام بیماران MS کنتراندیکه است» بیش از حد مطلق است.",
+      "source": "ECTRIMS/EAN vaccination consensus for people with MS; national immunization guidance and DMT prescribing information."
+    },
+    {
+      "id": "DM-005",
+      "stem": "دختر ۱۶ ساله‌ای چهار روز پس از تب و بثورات سازگار با Varicella، با اختلال تعادل، Ataxia و خواب‌آلودگی مراجعه می‌کند. کدام یافته بیشتر به ضرر تشخیص ADEM است؟",
+      "options": [
+        "منفی بودن CSF viral PCR",
+        "وجود ضایعات T2-hyperintense در ماده سفید MRI",
+        "افزایش پروتئین CSF",
+        "تب بالا و پایدار هنگام مراجعه"
+      ],
+      "correctIndex": 3,
+      "explanation": "ADEM معمولاً یک سندرم التهابی پس از عفونت یا واکسیناسیون است و بیمار هنگام بروز علائم عصبی اغلب تب پایدار و بالا ندارد. تب بالا و مداوم باید احتمال عفونت فعال CNS را جدی‌تر مطرح کند. با این حال، هیچ‌یک از این یافته‌ها به‌تنهایی تشخیصی یا排除کننده قطعی نیست.",
+      "optionExplanations": [
+        "منفی بودن PCR ویروسی CSF با ADEM سازگار است، هرچند حساسیت PCR به ویروس، زمان نمونه‌گیری و نوع آزمون وابسته است.",
+        "ضایعات T2-hyperintense ماده سفید از یافته‌های شایع MRI در ADEM هستند.",
+        "افزایش خفیف پروتئین CSF می‌تواند در ADEM دیده شود.",
+        "تب بالا و پایدار در زمان مراجعه بیشتر نگرانی برای عفونت فعال CNS ایجاد می‌کند و علیه تشخیص ساده ADEM است."
+      ],
+      "examTip": "ADEM اغلب پس از یک عفونت رخ می‌دهد و Encephalopathy همراه با علائم چندکانونی عصبی از ویژگی‌های کلیدی آن است.",
+      "examTrap": "وجود تب یا افزایش پروتئین CSF به‌تنهایی ADEM را رد نمی‌کند؛ تداوم تب بالا و شواهد عفونت فعال مهم‌ترند.",
+      "source": "International Pediatric Multiple Sclerosis Study Group criteria for ADEM; pediatric acquired demyelinating syndrome reviews."
+    },
+    {
+      "id": "DM-006",
+      "stem": "خانم ۲۶ ساله مبتلا به MS تحت درمان با Glatiramer acetate است. بلافاصله پس از تزریق دچار تپش قلب، احساس خفگی، تعریق و درد شدید قفسه سینه شده است؛ ECG طبیعی است. کدام اقدام صحیح‌تر است؟",
+      "options": [
+        "این علائم قطعاً عارضه بی‌خطر دارو هستند و طی ۱۵ تا ۳۰ دقیقه برطرف می‌شوند.",
+        "در صورت تکرار علائم، بدون بررسی بیشتر فقط دوز دارو کاهش یابد.",
+        "با وجود ECG طبیعی، ارزیابی بیشتر برای رد علل قلبی و سایر علل خطرناک درد قفسه سینه لازم است.",
+        "سطح آنتی‌بادی خنثی‌کننده دارو اندازه‌گیری و بر اساس آن تصمیم‌گیری شود."
+      ],
+      "correctIndex": 2,
+      "explanation": "Glatiramer acetate می‌تواند Immediate post-injection reaction ایجاد کند که با flushing، chest tightness، dyspnea، palpitations و اضطراب همراه است و اغلب خودمحدودشونده است. با این حال، درد شدید قفسه سینه را نباید صرفاً به این واکنش نسبت داد؛ ECG طبیعی به‌تنهایی علل قلبی مهم را رد نمی‌کند و ارزیابی بالینی متناسب با خطر ضروری است. همچنین هشدارهایی درباره Anaphylaxis با این دارو منتشر شده است.",
+      "optionExplanations": [
+        "واکنش پس از تزریق اغلب خودمحدودشونده است، اما با وجود درد شدید قفسه سینه نمی‌توان بدون ارزیابی آن را بی‌خطر فرض کرد.",
+        "کاهش دوز راهکار استاندارد برای این سناریو نیست؛ ابتدا باید واکنش دارویی جدی، Anaphylaxis و علل قلبی بررسی شوند.",
+        "درد شدید قفسه سینه نیازمند ارزیابی است؛ ECG طبیعی به‌تنهایی همه علل مهم را排除 نمی‌کند.",
+        "اندازه‌گیری neutralizing antibodies برای بررسی این واکنش حاد پس از تزریق کاربرد ندارد."
+      ],
+      "examTip": "Immediate post-injection reaction با Glatiramer acetate معمولاً کوتاه‌مدت است، اما Anaphylaxis نیز باید مدنظر باشد.",
+      "examTrap": "آشنایی با عارضه شایع نباید باعث نادیده گرفتن red flag مانند درد شدید قفسه سینه یا علائم راه هوایی شود.",
+      "source": "FDA Glatiramer acetate safety communications and prescribing information."
+    },
+    {
+      "id": "DM-007",
+      "stem": "خانم ۲۰ ساله‌ای با سرگیجه و ضعف حاد اندام‌های تحتانی، Urinary incontinence و سطح حسی تا ناف مراجعه کرده است. در معاینه Paraparesis و اختلال تست‌های مخچه‌ای دارد. MRI ضایعات متعدد ماده سفید در مغز و مخچه را نشان می‌دهد که همگی Enhancement دارند. در CSF حدود ۵۰ سلول با غلبه لنفوسیت، افزایش خفیف پروتئین و قند طبیعی وجود دارد. محتمل‌ترین تشخیص کدام است؟",
+      "options": [
+        "ADEM",
+        "Multiple sclerosis",
+        "PML",
+        "CADASIL"
+      ],
+      "correctIndex": 0,
+      "explanation": "با توجه به سن پایین، شروع حاد چندکانونی، درگیری هم‌زمان مغز و نخاع، Encephalopathic/سیستمیک بودن احتمالی تابلوی بالینی و CSF التهابی، ADEM در میان گزینه‌ها محتمل‌تر است. با این حال، برای تشخیص قطعی ADEM وجود Encephalopathy و معمولاً سابقه عفونت یا واکسیناسیون اخیر اهمیت دارد؛ اطلاعات سؤال برای احراز کامل معیارها کافی نیست.",
+      "optionExplanations": [
+        "ADEM می‌تواند با علائم چندکانونی حاد، ضایعات متعدد و گاه بزرگ ماده سفید و CSF دارای pleocytosis لنفوسیتی تظاهر کند.",
+        "MS معمولاً سیر حمله‌ای یا پیش‌رونده با انتشار ضایعات در زمان و مکان دارد؛ CSF با ۵۰ سلول باید بررسی تشخیص‌های جایگزین را نیز برانگیزد.",
+        "PML معمولاً در زمینه نقص ایمنی رخ می‌دهد، سیر تحت‌حاد دارد و معمولاً ضایعات کلاسیک آن Enhancement واضح و متعدد ندارند؛ هرچند الگوهای غیرمعمول ممکن‌اند.",
+        "CADASIL یک بیماری ارثی عروق کوچک با سیر مزمن و MRI مشخص است و با این سندرم التهابی حاد سازگار نیست."
+      ],
+      "examTip": "در ADEM، Encephalopathy همراه با حمله چندکانونی عصبی و ضایعات عمدتاً بزرگ و poorly demarcated در MRI اهمیت دارد.",
+      "examTrap": "بدون ذکر Encephalopathy یا trigger عفونی، تشخیص ADEM از نظر معیارهای رسمی کاملاً قطعی نیست.",
+      "source": "IPMSSG consensus definitions for pediatric acquired demyelinating syndromes; ADEM diagnostic reviews."
+    },
+    {
+      "id": "DM-008",
+      "stem": "کدام عامل در احتمال عود MS پس از زایمان، برخلاف سایر گزینه‌ها، ارتباط مستقل و قطعی کمتری دارد؟",
+      "options": [
+        "کاهش سطح Vitamin D",
+        "کاهش سطح Estriol",
+        "Breastfeeding",
+        "عود بیماری در دوران بارداری"
+      ],
+      "correctIndex": 0,
+      "explanation": "کاهش Vitamin D از نظر زیستی و اپیدمیولوژیک با فعالیت MS ارتباط دارد، اما شواهد آن به‌عنوان پیش‌بینی‌کننده مستقل و مستقیم عود پس از زایمان قطعی نیست. عود پیش از بارداری یا حین بارداری و فعالیت بالای بیماری پیش از زایمان از عوامل مهم‌تر خطر عود پس از زایمان‌اند. Breastfeeding انحصاری در مطالعات مشاهده‌ای با کاهش عود همراه بوده، هرچند رابطه علّی قطعی نیست. افت Estriol نیز یک توضیح زیستی پیشنهادی است، نه یک شاخص بالینی مستقل و تثبیت‌شده.",
+      "optionExplanations": [
+        "Vitamin D با فعالیت MS ارتباط دارد، اما کاهش آن به‌تنهایی پیش‌بینی‌کننده مستقل و تثبیت‌شده عود postpartum نیست؛ از این رو پاسخ محتمل آزمونی است.",
+        "افت هورمون‌های استروژنی از جمله Estriol پس از زایمان از نظر زیستی به تغییر فعالیت ایمنی و عود احتمالی مرتبط دانسته شده است، ولی شواهد بالینی مستقیم محدود است.",
+        "Exclusive breastfeeding در مطالعات مشاهده‌ای با کاهش خطر عود postpartum همراه بوده است؛ با این حال، شواهد کاملاً قطعی نیست و نباید آن را درمان جایگزین DMT دانست.",
+        "فعالیت بیماری و عود در دوران بارداری، به‌ویژه در زمینه بیماری فعال پیش از بارداری، می‌تواند با خطر بالاتر عود پس از زایمان همراه باشد."
+      ],
+      "examTip": "فعالیت MS پیش از بارداری و در دوران بارداری از عوامل مهم در برآورد خطر postpartum relapse است.",
+      "examTrap": "ارتباط مشاهده‌ای breastfeeding با کاهش عود را نباید به‌صورت اثر محافظتی قطعی و مستقل تفسیر کرد.",
+      "source": "Postpartum MS relapse cohort studies; contemporary reviews of pregnancy and MS disease activity."
+    },
+    {
+      "id": "DM-009",
+      "stem": "کدام مورد معمولاً در تشخیص افتراقی استاندارد MS قرار نمی‌گیرد؟",
+      "options": [
+        "عوارض درمان با Anti-TNF در بیمار مبتلا به Rheumatoid arthritis",
+        "مصرف بیش از اندازه مس در رژیم غذایی",
+        "Spinal dural arteriovenous fistula",
+        "Susac syndrome"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anti-TNF therapies می‌توانند با بروز یا آشکار شدن بیماری‌های دمیلینه‌کننده همراه باشند؛ Spinal dural AV fistula می‌تواند میلوپاتی پیشرونده شبیه MS ایجاد کند و Susac syndrome نیز ممکن است با ضایعات ماده سفید اشتباه شود. مصرف معمول یا بیش از اندازه مس در رژیم غذایی، به‌خودی‌خود یک mimic شناخته‌شده و استاندارد MS نیست؛ البته اختلالات متابولیسم مس مانند Wilson disease یا Copper deficiency می‌توانند سندرم‌های عصبی ایجاد کنند.",
+      "optionExplanations": [
+        "درمان‌های Anti-TNF با رخداد یا تشدید سندرم‌های دمیلینه‌کننده CNS ارتباط گزارش‌شده دارند و باید در تشخیص افتراقی مدنظر باشند.",
+        "مصرف زیاد مس در رژیم غذایی، به‌تنهایی mimic معمول MS نیست؛ اما اختلالات متابولیسم مس می‌توانند تظاهرات عصبی متفاوتی ایجاد کنند.",
+        "Spinal dural AV fistula می‌تواند با venous congestive myelopathy و اختلال پیشرونده راه رفتن و اسفنکترها تظاهر کند.",
+        "Susac syndrome یک بیماری اندوتلیوپاتی خودایمنی است و با encephalopathy، branch retinal artery occlusion و hearing loss می‌تواند با MS اشتباه شود."
+      ],
+      "examTip": "در بیمار با myelopathy پیشرونده، به‌ویژه همراه اختلال اسفنکتر، Spinal dural AV fistula را فراموش نکنید.",
+      "examTrap": "«Copper deficiency» با «مصرف بیش از اندازه مس غذایی» یکی نیست؛ اولی می‌تواند myelopathy شبیه B12 deficiency ایجاد کند.",
+      "source": "MS differential diagnosis reviews; reviews of anti-TNF-associated demyelination, Susac syndrome and spinal dural AV fistula."
+    },
+    {
+      "id": "DM-010",
+      "stem": "کدام داروی مورد استفاده در MS از نظر ساختار/عملکرد ایمنی‌شناختی به Myelin Basic Protein (MBP) شباهت دارد؟",
+      "options": [
+        "Interferon beta-1a",
+        "Interferon beta-1b",
+        "Glatiramer acetate",
+        "Natalizumab"
+      ],
+      "correctIndex": 2,
+      "explanation": "Glatiramer acetate یک پلی‌پپتید سنتتیک متشکل از چهار اسیدآمینه است که به‌عنوان ترکیبی شبیه به اجزای پروتئین‌های میلین، از جمله MBP، طراحی شده و پاسخ ایمنی را تعدیل می‌کند.",
+      "optionExplanations": [
+        "Interferon beta-1a با تعدیل مسیرهای ایمنی و عبور سلول‌ها از سد خونی‌ـ‌مغزی اثر می‌کند و mimetic پروتئین میلین نیست.",
+        "Interferon beta-1b نیز یک immunomodulator است و شباهت ساختاری شناخته‌شده به MBP ندارد.",
+        "Glatiramer acetate یک synthetic polypeptide با ترکیب چهار اسیدآمینه است و به‌عنوان myelin basic protein mimic شناخته می‌شود.",
+        "Natalizumab آنتی‌بادی ضد alpha-4 integrin است و مهاجرت لکوسیت‌ها به CNS را کاهش می‌دهد."
+      ],
+      "examTip": "Glatiramer acetate = synthetic myelin basic protein-like polypeptide.",
+      "examTrap": "Natalizumab را به‌عنوان anti-alpha-4 integrin به خاطر بسپارید، نه داروی شبیه میلین.",
+      "source": "Glatiramer acetate prescribing information; MS disease-modifying therapy reviews."
+    },
+    {
+      "id": "DM-011",
+      "stem": "کدام داروی مطرح‌شده برای درمان خستگی بیماران مبتلا به MS، خطر ایجاد Seizure دارد؟",
+      "options": [
+        "Pemoline",
+        "Modafinil",
+        "Amantadine",
+        "3,4-diaminopyridine (Amifampridine)"
+      ],
+      "correctIndex": 3,
+      "explanation": "3,4-diaminopyridine یا Amifampridine با مهار voltage-gated potassium channels موجب افزایش آزادسازی ناقل عصبی می‌شود و می‌تواند آستانه تشنج را کاهش دهد. این دارو درمان استاندارد و روتین fatigue در MS نیست و در افراد مستعد تشنج باید از آن اجتناب شود.",
+      "optionExplanations": [
+        "Pemoline در گذشته برای fatigue مطرح بوده، اما به‌دلیل سمیت کبدی از کاربرد معمول کنار گذاشته شده است؛ پاسخ کلاسیک سؤال از نظر seizure risk، Amifampridine است.",
+        "Modafinil گاهی به‌صورت off-label برای fatigue بررسی شده، ولی شواهد اثربخشی در MS متناقض است و پاسخ موردنظر سؤال نیست.",
+        "Amantadine گاهی برای fatigue در MS استفاده می‌شود؛ اثر آن محدود و شواهد آن متغیر است.",
+        "Amifampridine خطر تشنج دارد و در بیماران دارای سابقه یا استعداد Seizure باید اجتناب شود."
+      ],
+      "examTip": "Amifampridine/3,4-DAP: potassium-channel blocker و دارای هشدار seizure risk.",
+      "examTrap": "3,4-DAP را با calcium-channel blocker اشتباه نگیرید.",
+      "source": "Amifampridine prescribing information; evidence reviews on fatigue management in MS."
+    },
+    {
+      "id": "DM-012",
+      "stem": "کدام عبارت درباره بیماران مبتلا به MS صحیح است؟",
+      "options": [
+        "Fatigue از شکایت‌های شایع بیماران مبتلا به MS است.",
+        "اختلال اسفنکتری در MS عمدتاً و تقریباً همیشه به‌صورت احتباس ادرار است.",
+        "Propantheline باعث انقباض عضله Detrusor می‌شود.",
+        "3,4-diaminopyridine یک Calcium-channel blocker است که برای fatigue مفید است."
+      ],
+      "correctIndex": 0,
+      "explanation": "Fatigue یکی از شایع‌ترین علائم MS است و می‌تواند مستقل از ضعف عضلانی یا حمله حاد وجود داشته باشد. اختلالات مثانه می‌توانند به‌صورت storage symptoms، urgency، frequency، urge incontinence یا voiding dysfunction و retention ظاهر شوند.",
+      "optionExplanations": [
+        "Fatigue در MS بسیار شایع است و ممکن است با فعالیت بیماری، اختلال خواب، افسردگی، داروها و عوامل دیگر مرتبط باشد.",
+        "اختلال مثانه در MS فقط retention نیست؛ علائم storage مانند urgency و frequency نیز شایع‌اند.",
+        "Propantheline یک antimuscarinic است و با مهار انقباض Detrusor برای برخی علائم overactive bladder به‌کار می‌رود؛ آن را منقبض نمی‌کند.",
+        "3,4-DAP یک potassium-channel blocker است، نه Calcium-channel blocker؛ استفاده از آن برای fatigue نیز درمان روتین استاندارد محسوب نمی‌شود."
+      ],
+      "examTip": "Fatigue، درد، اختلال شناختی و علائم ادراری از علائم شایع MS هستند و الزاماً نشان‌دهنده relapse نیستند.",
+      "examTrap": "Storage dysfunction و voiding dysfunction را از هم تفکیک کنید؛ هر دو در MS ممکن‌اند.",
+      "source": "MS symptom management reviews; neurogenic lower urinary tract dysfunction guidance."
+    },
+    {
+      "id": "DM-013",
+      "stem": "خانم ۲۶ ساله مبتلا به MS از حرکات تونیک دست و بازوی راست شکایت دارد. این حرکات هنگام Hyperventilation در EEG شروع و بیشتر می‌شوند. برای انتخاب درمان، کدام نکته صحیح‌تر است؟",
+      "options": [
+        "3,4-diaminopyridine",
+        "Sodium valproate",
+        "Pulse corticosteroid",
+        "Acetazolamide"
+      ],
+      "correctIndex": 1,
+      "explanation": "اگر حرکات واقعاً با ictal EEG correlate همراه باشند، درمان ضدتشنج مانند Sodium valproate می‌تواند مطرح باشد و در میان گزینه‌های داده‌شده پاسخ آزمونی است. با این حال، Paroxysmal tonic spasms در MS اغلب حملات کوتاه و کلیشه‌ای ناشی از دمیلیناسیون مسیرهای حرکتی هستند و معمولاً correlate صرعی در EEG ندارند؛ در این حالت Carbamazepine یا Oxcarbazepine معمولاً انتخاب‌های متداول‌تری هستند. شرح سؤال برای تمایز قطعی کافی نیست.",
+      "optionExplanations": [
+        "3,4-diaminopyridine درمان استاندارد paroxysmal tonic spasms یا seizure نیست و می‌تواند خطر تشنج را افزایش دهد.",
+        "Sodium valproate در صورت اثبات ماهیت epileptic حرکات می‌تواند درمان ضدتشنج مناسبی باشد؛ اما برای tonic spasms غیرصرعی MS معمولاً گزینه اول نیست.",
+        "Pulse corticosteroid فقط در صورت وجود relapse التهابی فعال و با ارزیابی بالینی مطرح است؛ درمان علامتی معمول tonic spasms نیست.",
+        "Acetazolamide درمان معمول tonic spasms یا تشنج در MS نیست."
+      ],
+      "examTip": "Paroxysmal tonic spasms در MS اغلب با Carbamazepine یا Oxcarbazepine پاسخ می‌دهند و ممکن است EEG طبیعی باشد.",
+      "examTrap": "صرف تحریک با Hyperventilation یا مشاهده حرکت در EEG، بدون ثبت ictal correlate، تشخیص Epileptic seizure را ثابت نمی‌کند.",
+      "source": "Reviews of paroxysmal symptoms in MS; contemporary seizure and MS symptom-management references."
+    },
+    {
+      "id": "DM-014",
+      "stem": "خانم ۲۷ ساله‌ای با تاری دید پیشرونده چشم راست از یک هفته قبل، درد با حرکات چشم و اختلال دید رنگی مراجعه کرده است. کدام عبارت درباره Optic neuritis صحیح‌تر است؟",
+      "options": [
+        "اگر MRI مغز طبیعی باشد، خطر تبدیل به MS کمتر از ۱۰ درصد است.",
+        "بیشتر بیماران بهبود قابل توجه بینایی را تجربه می‌کنند.",
+        "بیشترین خطر ابتلا به MS فقط در سال اول پس از Optic neuritis است.",
+        "وقوع Optic neuritis در کودکی الزاماً خطر ابتلا به MS را افزایش می‌دهد."
+      ],
+      "correctIndex": 1,
+      "explanation": "در typical demyelinating optic neuritis، بیشتر بیماران طی هفته‌ها تا ماه‌ها بهبود قابل توجه بینایی پیدا می‌کنند، هرچند ممکن است اختلال ظریف contrast sensitivity یا color vision باقی بماند. در Optic Neuritis Treatment Trial، خطر بلندمدت MS به یافته‌های baseline brain MRI وابسته بود؛ MRI طبیعی خطر را کاهش می‌دهد اما آن را به کمتر از ۱۰ درصد در همه جمعیت‌ها و همه بازه‌ها محدود نمی‌کند.",
+      "optionExplanations": [
+        "MRI طبیعی خطر MS را نسبت به وجود ضایعات مغزی کاهش می‌دهد، اما خطر صفر یا الزاماً کمتر از ۱۰ درصد در تمام مطالعات و بازه‌های زمانی نیست.",
+        "بهبود بینایی در اکثر بیماران با typical optic neuritis رخ می‌دهد؛ این گزینه صحیح‌تر است.",
+        "خطر تبدیل به MS محدود به سال اول نیست و در پیگیری طولانی‌مدت نیز موارد جدید رخ می‌دهند.",
+        "Optic neuritis کودکان از نظر فنوتیپ و احتمال ارتباط با MS متنوع است؛ وقوع در کودکی به‌تنهایی الزاماً خطر MS را افزایش نمی‌دهد."
+      ],
+      "examTip": "Typical optic neuritis: درد با حرکت چشم، کاهش دید رنگی و بهبود خودبه‌خودی نسبی در اغلب بیماران.",
+      "examTrap": "MRI طبیعی مغز خطر MS را کم می‌کند، اما MS را به‌طور کامل رد نمی‌کند.",
+      "source": "Optic Neuritis Treatment Trial (ONTT) long-term follow-up; contemporary optic neuritis reviews."
+    },
+    {
+      "id": "DM-015",
+      "stem": "در بیمار مبتلا به MS با Acute optic neuritis، در معاینه Ophthalmoscopy کدام یافته ممکن است دیده شود؟",
+      "options": [
+        "خونریزی اطراف Optic disc",
+        "طبیعی بودن سر عصب Optic",
+        "محو شدن کناره‌های سر عصب Optic در همه بیماران",
+        "دیده شدن حتمی Venous pulsation"
+      ],
+      "correctIndex": 1,
+      "explanation": "در Retrobulbar optic neuritis، معاینه اولیه Fundus در بسیاری از بیماران طبیعی است؛ به همین دلیل عبارت کلاسیک «the patient sees nothing and the doctor sees nothing» به‌کار می‌رود. در بخشی از بیماران Papillitis و optic disc edema دیده می‌شود.",
+      "optionExplanations": [
+        "Peripapillary hemorrhage یافته معمول typical MS optic neuritis نیست و باید تشخیص‌های دیگر را نیز بررسی کرد.",
+        "در Retrobulbar optic neuritis سر عصب در معاینه اولیه می‌تواند طبیعی باشد؛ این گزینه بهترین پاسخ است.",
+        "Disc swelling یا محو شدن حاشیه‌ها فقط در موارد anterior optic neuritis/papillitis رخ می‌دهد و در همه بیماران وجود ندارد.",
+        "وجود یا عدم وجود spontaneous venous pulsation یافته تشخیصی اختصاصی برای optic neuritis نیست."
+      ],
+      "examTip": "در typical MS optic neuritis اغلب Fundus طبیعی است، زیرا التهاب در بخش retrobulbar عصب قرار دارد.",
+      "examTrap": "طبیعی بودن Optic disc، Optic neuritis را رد نمی‌کند.",
+      "source": "Optic neuritis clinical reviews; ONTT."
+    },
+    {
+      "id": "DM-016",
+      "stem": "بیمار ۲۰ ساله‌ای با کاهش دید چشم چپ، اختلال کنترل ادرار و اختلال راه رفتن مراجعه کرده است. در معاینه Optic disc چپ pale، رفلکس‌های اندام‌ها افزایش‌یافته و gait ataxia دارد. کدام یافته تشخیص Neuromyelitis optica spectrum disorder (NMOSD) را رد می‌کند؟",
+      "options": [
+        "Negative anti-Aquaporin-4 antibody",
+        "دو ضایعه کوچک periventricular با سیگنال بالا در MRI مغز",
+        "ضایعه T2-hyperintense در نخاع گردنی از C3 تا C4",
+        "هیچ‌یک از موارد فوق به‌تنهایی تشخیص را رد نمی‌کند."
+      ],
+      "correctIndex": 3,
+      "explanation": "هیچ‌یک از این یافته‌ها به‌تنهایی NMOSD را به‌طور قطعی رد نمی‌کند. منفی بودن AQP4-IgG، NMOSD را کاملاً排除 نمی‌کند؛ برخی بیماران seronegative هستند. ضایعات کوچک periventricular ممکن است به نفع MS باشند، اما اختصاصی نیستند. ضایعه کوتاه نخاعی از C3 تا C4 نیز کمتر تیپیک NMOSD است، ولی به‌تنهایی ردکننده نیست. تشخیص باید با معیارهای بالینی، MRI و بررسی علل جایگزین انجام شود.",
+      "optionExplanations": [
+        "AQP4-IgG منفی، احتمال AQP4-positive NMOSD را کاهش می‌دهد، اما seronegative NMOSD وجود دارد و معیارهای تشخیصی جداگانه دارد.",
+        "ضایعات periventricular تیپیک می‌توانند MS را مطرح کنند، اما وجود آن‌ها به‌تنهایی NMOSD را رد نمی‌کند.",
+        "Longitudinally extensive transverse myelitis با درگیری حداقل سه قطعه مهره‌ای برای NMOSD تیپیک‌تر است؛ ضایعه کوتاه احتمال را کاهش می‌دهد ولی رد قطعی نیست.",
+        "هیچ‌یک از یافته‌های منفرد ذکرشده به‌تنهایی برای رد قطعی NMOSD کافی نیست؛ این پاسخ از نظر علمی دقیق‌تر است."
+      ],
+      "examTip": "LETM معمولاً به‌صورت ضایعه نخاعی با طول حداقل سه قطعه مهره‌ای تعریف می‌شود؛ اما NMOSD همیشه LETM ندارد.",
+      "examTrap": "AQP4-IgG منفی مساوی با رد NMOSD نیست؛ seronegative NMOSD و MOGAD را نیز در نظر بگیرید.",
+      "source": "2015 International Consensus Diagnostic Criteria for NMOSD; contemporary AQP4-IgG and MOGAD diagnostic guidance."
+    },
+    {
+      "id": "DM-017",
+      "stem": "کدام یافته بیشتر به ضرر تشخیص Neuromyelitis optica spectrum disorder (NMOSD) و به نفع MS است؟",
+      "options": [
+        "ضایعه نخاعی با طول بیش از سه قطعه مهره‌ای",
+        "وجود پلاک‌های متعدد تیپیک MS در MRI مغز از ابتدای بیماری",
+        "وجود آنتی‌بادی ضد Aquaporin-4",
+        "Optic neuritis"
+      ],
+      "correctIndex": 1,
+      "explanation": "وجود ضایعات متعدد با مورفولوژی و توزیع تیپیک MS، به‌ویژه در periventricular، juxtacortical/cortical و infratentorial regions، بیشتر به نفع MS است. در مقابل، LETM و AQP4-IgG از ویژگی‌های حمایتی مهم NMOSD هستند. Optic neuritis در هر دو بیماری دیده می‌شود و به‌تنهایی افتراق‌دهنده نیست.",
+      "optionExplanations": [
+        "LETM با طول حداقل سه قطعه مهره‌ای از ویژگی‌های کلاسیک NMOSD است.",
+        "پلاک‌های متعدد با الگوی تیپیک MS در MRI مغز علیه NMOSD و به نفع MS هستند؛ البته تفسیر نهایی باید با کل فنوتیپ انجام شود.",
+        "AQP4-IgG اختصاصیت بالایی برای AQP4-positive NMOSD دارد.",
+        "Optic neuritis در NMOSD شایع است، اما در MS نیز رخ می‌دهد و به‌تنهایی افتراق‌دهنده نیست."
+      ],
+      "examTip": "برای افتراق MS و NMOSD به morphology ضایعات مغزی، طول ضایعه نخاعی، الگوی optic neuritis و AQP4-IgG توجه کنید.",
+      "examTrap": "Optic neuritis به‌تنهایی به معنی MS نیست؛ در NMOSD و MOGAD نیز شایع است.",
+      "source": "2015 NMOSD consensus criteria; MS and NMOSD MRI differential diagnosis reviews."
+    },
+    {
+      "id": "DM-018",
+      "stem": "تمام تظاهرات چشمی زیر ممکن است در MS دیده شوند، به‌جز کدام مورد؟",
+      "options": [
+        "Papillitis",
+        "Uveitis",
+        "Sheathing of retinal veins",
+        "Central retinal artery occlusion"
+      ],
+      "correctIndex": 3,
+      "explanation": "Uveitis و periphlebitis/retinal venous sheathing در MS گزارش شده‌اند و optic neuritis با درگیری anterior یا posterior نیز ممکن است رخ دهد. Central retinal artery occlusion یک تظاهر معمول MS نیست و باید علل عروقی یا واسکولوپاتیک جداگانه بررسی شوند.",
+      "optionExplanations": [
+        "Papillitis یا anterior optic neuritis می‌تواند با تورم Optic disc همراه باشد.",
+        "Uveitis، به‌ویژه intermediate uveitis، با MS ارتباط شناخته‌شده‌ای دارد.",
+        "Retinal periphlebitis و sheathing وریدهای شبکیه در برخی بیماران MS دیده می‌شود.",
+        "Central retinal artery occlusion تظاهر معمول MS نیست و بیشتر یک رویداد ایسکمیک عروقی شبکیه محسوب می‌شود."
+      ],
+      "examTip": "MS می‌تواند علاوه بر optic neuritis با intermediate uveitis و retinal periphlebitis همراه باشد.",
+      "examTrap": "هر اختلال بینایی در بیمار MS را نباید به optic neuritis نسبت داد؛ علل عروقی شبکیه نیازمند ارزیابی مستقل‌اند.",
+      "source": "Ocular manifestations of multiple sclerosis reviews."
+    },
+    {
+      "id": "DM-019",
+      "stem": "شایع‌ترین Movement disorder در بیماران مبتلا به MS کدام است؟",
+      "options": [
+        "Tremor",
+        "Tonic spasm",
+        "Dystonia",
+        "Myoclonus"
+      ],
+      "correctIndex": 0,
+      "explanation": "Tremor شایع‌ترین اختلال حرکتی گزارش‌شده در MS است و معمولاً به‌صورت postural یا intention tremor، به‌ویژه در ارتباط با درگیری cerebellar pathways، دیده می‌شود.",
+      "optionExplanations": [
+        "Tremor شایع‌ترین movement disorder در MS است؛ نوع intention و postural اهمیت ویژه دارند.",
+        "Tonic spasms حملات کوتاه و پاروکسیسمال هستند و از علائم حرکتی شناخته‌شده MS محسوب می‌شوند، اما شایع‌ترین نیستند.",
+        "Dystonia ممکن است رخ دهد، ولی از Tremor کمتر شایع است.",
+        "Myoclonus ممکن است در برخی بیماران دیده شود، اما شایع‌ترین اختلال حرکتی MS نیست."
+      ],
+      "examTip": "MS-associated tremor اغلب intention یا postural است و درمان آن می‌تواند دشوار باشد.",
+      "examTrap": "Paroxysmal tonic spasms را با شایع‌ترین movement disorder اشتباه نگیرید.",
+      "source": "Movement disorders in multiple sclerosis reviews."
+    },
+    {
+      "id": "DM-020",
+      "stem": "در مورد واکسیناسیون در بیمار مبتلا به MS، همه موارد زیر صحیح‌اند، به‌جز کدام مورد؟",
+      "options": [
+        "واکسن‌های Hepatitis B و Tetanus عموماً در MS ایمن هستند.",
+        "واکسن Influenza خطر حمله MS را افزایش می‌دهد.",
+        "در زمان حمله حاد بهتر است واکسیناسیون تا تثبیت بالینی، معمولاً حدود ۴ تا ۶ هفته، به تعویق افتد.",
+        "در بیماری که با Mitoxantrone درمان می‌شود، تزریق واکسن زنده توصیه نمی‌شود."
+      ],
+      "correctIndex": 1,
+      "explanation": "واکسن غیرفعال Influenza به‌طور کلی خطر relapse در MS را افزایش نمی‌دهد و برای بسیاری از بیماران توصیه می‌شود. واکسن‌های غیرفعال مانند Hepatitis B و Tetanus عموماً ایمن‌اند. واکسن زنده در بیمار تحت درمان سرکوب‌کننده ایمنی مانند Mitoxantrone معمولاً نباید تجویز شود. واکسیناسیون در زمان relapse فعال معمولاً تا تثبیت بالینی به تعویق می‌افتد.",
+      "optionExplanations": [
+        "واکسن‌های غیرفعال Hepatitis B و Tetanus عموماً در MS ایمن هستند؛ پاسخ ایمنی ممکن است با برخی DMTها کاهش یابد.",
+        "واکسن Influenza غیرفعال به‌طور کلی افزایش relapse در MS را نشان نداده است؛ بنابراین این عبارت نادرست است.",
+        "در زمان relapse حاد، تعویق واکسیناسیون تا تثبیت بالینی رویکرد معقولی است؛ زمان دقیق باید با شرایط بیمار و نوع واکسن تطبیق داده شود.",
+        "Mitoxantrone سرکوب‌کننده ایمنی است و واکسن زنده در زمان درمان با آن به‌طور معمول توصیه نمی‌شود."
+      ],
+      "examTip": "Inactivated vaccines عموماً در MS ایمن‌اند؛ Live vaccines در درمان‌های immunosuppressive محدودیت دارند.",
+      "examTrap": "واکسن Influenza غیرفعال را با واکسن زنده اشتباه نگیرید؛ شواهد از افزایش relapse با واکسن غیرفعال حمایت نمی‌کنند.",
+      "source": "ECTRIMS/EAN consensus on vaccination in people with MS; DMT prescribing information."
     }
   ]
 }
