@@ -840,6 +840,216 @@
       "examTip": "OCB اختصاصی CSF و IgG index از یافته‌های حمایتی مهم MS هستند.",
       "examTrap": "MBP افزایش‌یافته را تست تأییدی یا اختصاصی MS ندانید.",
       "source": "Thompson et al. McDonald criteria; CSF biomarkers in MS reviews"
+    },
+    {
+      "id": "DM-041",
+      "stem": "مرد ۳۵ ساله‌ای پس از عفونت ریوی با تب، سردرد، Confusion، Ataxia، تشنج و Quadriparesis مراجعه کرده است. MRI ضایعات بزرگ، ادماتو و نامتقارن ماده سفید را نشان می‌دهد. کدام عبارت صحیح نیست؟",
+      "options": [
+        "با High-dose corticosteroid ممکن است نتیجه مطلوب حاصل شود.",
+        "در CSF معمولاً Glucose طبیعی و Protein افزایش‌یافته است.",
+        "بیمار به درمان نگهدارنده طولانی‌مدت نیاز دارد.",
+        "افزایش فشار CSF و وجود RBC در آن ممکن است دیده شود."
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال به Acute hemorrhagic leukoencephalitis (AHLE؛ نوع شدید و هموراژیک ADEM) می‌خورد. درمان فوری با High-dose corticosteroid و در موارد شدید سایر درمان‌های ایمنی‌درمانی انجام می‌شود. CSF ممکن است فشار بالا، Protein بالا و RBC داشته باشد. درمان نگهدارنده طولانی‌مدت معمولاً لازم نیست.",
+      "optionExplanations": [
+        "درست؛ High-dose corticosteroid درمان اولیه رایج است.",
+        "درست؛ Glucose اغلب طبیعی و Protein ممکن است افزایش‌یابد.",
+        "نادرست؛ AHLE بیماری حاد و fulminant است و معمولاً به درمان نگهدارنده طولانی‌مدت نیاز ندارد.",
+        "درست؛ در نوع هموراژیک افزایش فشار و RBC در CSF ممکن است دیده شود."
+      ],
+      "examTip": "تب، افت سریع وضعیت عصبی و ضایعات ادماتو/هموراژیک نامتقارن ماده سفید پس از عفونت، AHLE را مطرح می‌کند.",
+      "examTrap": "AHLE را با بیماری دمیلینه‌کننده عودکننده نیازمند DMT نگهدارنده اشتباه نگیرید.",
+      "source": "Acute hemorrhagic leukoencephalitis reviews; ADEM treatment reviews"
+    },
+    {
+      "id": "DM-042",
+      "stem": "کدام ویژگی بیشتر به نفع Myelitis در زمینه Multiple Sclerosis است؟",
+      "options": [
+        "استقرار علائم طی یک تا دو هفته",
+        "قرینه بودن علائم",
+        "دردناک بودن",
+        "همراه بودن با تب"
+      ],
+      "correctIndex": 0,
+      "explanation": "علائم myelitis مرتبط با MS معمولاً طی چند ساعت تا چند روز و گاهی تا حدود یک تا دو هفته تکامل می‌یابند. درگیری اغلب نامتقارن است. تب واقعی باید احتمال عفونت یا علت دیگری را مطرح کند. درد ممکن است وجود داشته باشد اما اختصاصی نیست.",
+      "optionExplanations": [
+        "درست؛ سیر تحت‌حاد طی روزها تا حدود یک تا دو هفته با حمله التهابی نخاعی سازگار است.",
+        "نادرست؛ علائم اغلب نامتقارن‌اند.",
+        "نادرست؛ درد ممکن است همراه باشد اما ویژگی اختصاصی نیست.",
+        "نادرست؛ تب واقعی هنگام شروع نیازمند بررسی عفونت یا علت سیستمیک است."
+      ],
+      "examTip": "در MS myelitis ضایعه نخاعی معمولاً کوتاه‌تر از سه سگمان و علائم اغلب نامتقارن‌اند.",
+      "examTrap": "درد به‌تنهایی MS myelitis را رد یا تأیید نمی‌کند.",
+      "source": "MS spinal cord relapse reviews; McDonald diagnostic framework"
+    },
+    {
+      "id": "DM-043",
+      "stem": "در مورد رابطه Serum uric acid با NMOSD کدام گزینه با شواهد سازگارتر است؟",
+      "options": [
+        "غلظت اسید اوریک سرم در بیماران مبتلا به MS و NMO می‌تواند از گروه کنترل پایین‌تر باشد.",
+        "غلظت اسید اوریک در NMO با میزان ناتوانی رابطه‌ای ندارد.",
+        "غلظت اسید اوریک در NMO با مدت بیماری رابطه‌ای ندارد.",
+        "غلظت اسید اوریک در بیماران NMO با OCB مثبت مختصری بیشتر است."
+      ],
+      "correctIndex": 0,
+      "explanation": "مطالعات مشاهده‌ای کاهش Serum uric acid در NMO نسبت به افراد سالم و نیز کاهش آن در MS را گزارش کرده‌اند. نتایج درباره ارتباط با فعالیت، ناتوانی و مدت بیماری متناقض‌اند؛ یک مطالعه ارتباطی با disability یا duration نیافت، اما مطالعه دیگری ارتباط با EDSS و مدت بیماری گزارش کرد. بنابراین A بهترین پاسخ کلی است و uric acid biomarker استاندارد تشخیصی یا درمانی نیست.",
+      "optionExplanations": [
+        "بهترین پاسخ؛ کاهش uric acid در NMO نسبت به کنترل سالم و نیز در MS در مطالعاتی گزارش شده است.",
+        "در یک مطالعه عدم ارتباط گزارش شده، اما مطالعات دیگر نتایج متفاوت دارند؛ گزاره مطلق نیست.",
+        "شواهد متناقض‌اند و برخی مطالعات ارتباط با مدت بیماری را گزارش کرده‌اند.",
+        "افزایش uric acid در OCB-positive اثبات نشده؛ برخی داده‌ها گرایش به سطح پایین‌تر، بدون معنی‌داری آماری، نشان داده‌اند."
+      ],
+      "examTip": "Serum uric acid در NMO ممکن است کاهش یابد، اما biomarker تثبیت‌شده بالینی نیست.",
+      "examTrap": "نتیجه یک مطالعه کوچک را به تمام مطالعات تعمیم ندهید.",
+      "source": "Peng et al. Eur J Neurol. 2012;19:277-283. doi:10.1111/j.1468-1331.2011.03488.x; Peng et al. J Neurol. 2010;257:1021-1026"
+    },
+    {
+      "id": "DM-044",
+      "stem": "درمان دارویی مناسب برای Urinary retention در بیمار مبتلا به MS کدام است؟",
+      "options": [
+        "Oxybutynin",
+        "Propantheline",
+        "Bethanechol",
+        "Belladonna"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bethanechol آگونیست موسکارینی است و ممکن است در برخی بیماران برای افزایش انقباض Detrusor استفاده شود، اما اثربخشی آن در neurogenic bladder محدود و متغیر است. باید Post-void residual و علت احتباس بررسی شود؛ در بسیاری از بیماران Intermittent catheterization درمان اصلی است. Oxybutynin و Propantheline آنتی‌موسکارینی‌اند و ممکن است احتباس را بدتر کنند.",
+      "optionExplanations": [
+        "آنتی‌موسکارینی است و برای urgency به کار می‌رود؛ ممکن است retention را تشدید کند.",
+        "آنتی‌موسکارینی است و تخلیه مثانه را بدتر می‌کند.",
+        "بهترین گزینه از میان موارد؛ آگونیست موسکارینی است، هرچند اثربخشی محدود دارد و جایگزین ارزیابی و catheterization نیست.",
+        "اثر آنتی‌موسکارینی دارد و درمان احتباس نیست."
+      ],
+      "examTip": "برای urgency از آنتی‌موسکارینیک‌ها استفاده می‌شود؛ در retention ابتدا PVR و الگوی اختلال تخلیه را مشخص کنید.",
+      "examTrap": "هر اختلال ادراری در MS را با Oxybutynin درمان نکنید.",
+      "source": "AUA/SUFU Guideline on Adult Neurogenic Lower Urinary Tract Dysfunction"
+    },
+    {
+      "id": "DM-045",
+      "stem": "درمان نگهدارنده برای پیشگیری از حملات عودکننده NMOSD در میان گزینه‌های زیر کدام است؟",
+      "options": [
+        "Plasmapheresis",
+        "IVIG",
+        "Azathioprine",
+        "Interferons"
+      ],
+      "correctIndex": 2,
+      "explanation": "Azathioprine همراه corticosteroid از درمان‌های نگهدارنده تاریخی برای کاهش عود NMOSD بوده است. امروزه درمان‌های اختصاصی‌تر مانند Eculizumab، Inebilizumab و Satralizumab و نیز Rituximab مطرح‌اند. Plasmapheresis برای حمله حاد شدید یا مقاوم است و Interferon beta برای NMOSD مناسب نیست.",
+      "optionExplanations": [
+        "برای حمله حاد شدید یا مقاوم است، نه پیشگیری نگهدارنده معمول.",
+        "در شرایط خاص بررسی می‌شود اما گزینه نگهدارنده کلاسیک این فهرست نیست.",
+        "درست؛ درمان سرکوبگر ایمنی نگهدارنده تاریخی برای کاهش عود است.",
+        "برای MS است و در NMOSD ممکن است بی‌اثر یا زیان‌آور باشد."
+      ],
+      "examTip": "در NMOSD پیشگیری از عود اهمیت حیاتی دارد؛ درمان‌های هدفمند جدید نیز در دسترس‌اند.",
+      "examTrap": "درمان حمله حاد را با درمان پیشگیری از عود اشتباه نگیرید.",
+      "source": "NEMOS revised recommendations; PREVENT, N-MOmentum and SAkura trials"
+    },
+    {
+      "id": "DM-046",
+      "stem": "در MS، ضایعات دمیلینه‌کننده نخاع از نظر ارتباط با عروق معمولاً چه الگویی دارند؟",
+      "options": [
+        "درگیری شریان‌های Pial",
+        "توزیع Perivenular در اطراف وریدهای کوچک",
+        "درگیری اولیه ریشه‌های نخاعی",
+        "دمیلیناسیون کاملاً مستقل از عروق و بدون الگوی عروقی"
+      ],
+      "correctIndex": 1,
+      "explanation": "پلاک‌های MS معمولاً الگوی Perivenular دارند و در اطراف وریدهای کوچک مرکزی شکل می‌گیرند. عبارت «وریدهای Pial» در صورت اولیه دقیق نیست؛ منظور وریدهای کوچک داخل پارانشیم است، نه لزوماً عروق Pial.",
+      "optionExplanations": [
+        "MS بیماری دمیلینه‌کننده اولیه شریانی نیست.",
+        "درست؛ این گزینه بیان دقیق‌تری از الگوی Perivenular اطراف وریدهای کوچک داخل پارانشیم است.",
+        "درگیری ریشه‌های نخاعی ویژگی معمول پلاک‌های MS نیست.",
+        "ضایعات MS ارتباط مکانی مشخصی با وریدهای کوچک دارند."
+      ],
+      "examTip": "Central vein sign و الگوی perivenular از ویژگی‌های پاتولوژیک و تصویربرداری کمک‌کننده در MS هستند.",
+      "examTrap": "Perivenular demyelination را با vasculitis یا انسداد شریان اشتباه نگیرید.",
+      "source": "Lassmann. Multiple sclerosis pathology; central vein sign MRI literature"
+    },
+    {
+      "id": "DM-047",
+      "stem": "خانم ۲۶ ساله با Optic neuritis چشم راست، افزایش رفلکس‌ها و Clonus پاها مراجعه کرده است. برای اثبات MS پس از یک حمله بالینی بر اساس چارچوب کلاسیک McDonald، کدام ترکیب یافته کافی‌تر است؟",
+      "options": [
+        "یک پلاک Periventricular و یک پلاک Juxtacortical در MRI مغز",
+        "بروز یک New T2 lesion در Follow-up MRI",
+        "وجود یک پلاک Periventricular و یک پلاک Juxtacortical همراه با New T2 lesion در Follow-up MRI",
+        "وجود Oligoclonal bands در CSF"
+      ],
+      "correctIndex": 2,
+      "explanation": "پس از یک حمله بالینی، چارچوب کلاسیک McDonald نیازمند Dissemination in space (DIS) و Dissemination in time (DIT) است، مگر مسیر جایگزین معتبر برای DIT وجود داشته باشد. یک ضایعه Periventricular و یک ضایعه Juxtacortical می‌توانند DIS را فراهم کنند و ضایعه جدید T2 در پیگیری DIT را نشان می‌دهد. OCB می‌تواند در نسخه‌های مربوط جایگزین DIT شود، اما به‌تنهایی و بدون DIS کافی نیست.",
+      "optionExplanations": [
+        "این دو ناحیه می‌توانند DIS را فراهم کنند، اما بدون DIT تشخیص کامل نیست.",
+        "New T2 lesion می‌تواند DIT را نشان دهد، اما به‌تنهایی DIS را اثبات نمی‌کند.",
+        "درست؛ این ترکیب شواهد DIS و DIT را فراهم می‌کند.",
+        "OCB می‌تواند جایگزین DIT باشد، اما به‌تنهایی و بدون DIS کافی نیست."
+      ],
+      "examTip": "پس از یک حمله، DIS و DIT را جداگانه بررسی کنید.",
+      "examTrap": "OCB مثبت به‌تنهایی برای تشخیص MS کافی نیست؛ DIS نیز لازم است.",
+      "source": "Thompson et al. 2017 McDonald criteria; subsequent revisions"
+    },
+    {
+      "id": "DM-048",
+      "stem": "بیمار مبتلا به MS با حملات کوتاه و مکرر سفت‌شدن ناگهانی و دردناک عضلات پس از استرس و Hyperventilation مراجعه کرده است. حملات حدود یک دقیقه طول می‌کشند. مناسب‌ترین دارو از میان گزینه‌ها کدام است؟",
+      "options": [
+        "Amantadine",
+        "Acetazolamide",
+        "Clonazepam",
+        "Baclofen"
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال به Paroxysmal tonic spasms در MS شباهت دارد. درمان کلاسیک رایج Carbamazepine یا Oxcarbazepine است که در گزینه‌ها وجود ندارد. از میان گزینه‌های ارائه‌شده Clonazepam می‌تواند برای کنترل حملات مفید باشد و از Baclofen که بیشتر برای اسپاستیسیتی پایدار است مناسب‌تر است.",
+      "optionExplanations": [
+        "بیشتر برای fatigue در MS استفاده می‌شود.",
+        "درمان معمول Paroxysmal tonic spasms نیست.",
+        "بهترین گزینه موجود؛ می‌تواند در کنترل برخی حملات پاروکسیسمال مفید باشد، هرچند Carbamazepine/Oxcarbazepine کلاسیک‌ترند.",
+        "برای اسپاستیسیتی پایدار کاربرد دارد و درمان هدفمند خط اول این حملات نیست."
+      ],
+      "examTip": "حملات کوتاه، کلیشه‌ای، دردناک و تحریک‌شونده با Hyperventilation در MS، Paroxysmal tonic spasms را مطرح می‌کند.",
+      "examTrap": "داروی کلاسیک Carbamazepine/Oxcarbazepine در گزینه‌ها وجود ندارد؛ پاسخ از میان گزینه‌های موجود انتخاب شده است.",
+      "source": "MS paroxysmal symptoms reviews; Continuum: Symptomatic management in MS"
+    },
+    {
+      "id": "DM-049",
+      "stem": "Autoimmune thyroid disease از عوارض شناخته‌شده کدام Disease-modifying therapy در MS است؟",
+      "options": [
+        "Natalizumab",
+        "Dimethyl fumarate",
+        "Fingolimod",
+        "Alemtuzumab"
+      ],
+      "correctIndex": 3,
+      "explanation": "Alemtuzumab با عوارض خودایمنی ثانویه، به‌ویژه Autoimmune thyroid disorders، همراه است. پایش TSH و سایر عوارض خودایمنی برای چندین سال پس از درمان ضروری است.",
+      "optionExplanations": [
+        "بیشتر با خطر PML و واکنش‌های حساسیتی شناخته می‌شود.",
+        "بیشتر با flushing، عوارض گوارشی و lymphopenia همراه است.",
+        "با bradycardia، macular edema، lymphopenia و برخی عفونت‌ها مرتبط است.",
+        "درست؛ می‌تواند autoimmune thyroid disease، ITP و به‌ندرت سایر عوارض خودایمنی ایجاد کند."
+      ],
+      "examTip": "پس از Alemtuzumab، پایش طولانی‌مدت TSH و شمارش سلول‌های خونی ضروری است.",
+      "examTrap": "عوارض خودایمنی دیررس Alemtuzumab را با عوارض Fingolimod اشتباه نگیرید.",
+      "source": "CARE-MS trials; FDA Lemtrada Prescribing Information"
+    },
+    {
+      "id": "DM-050",
+      "stem": "کدام تظاهر در NMOSD غیرشایع‌تر است؟",
+      "options": [
+        "شروع بیماری با Optic neuritis یک‌طرفه",
+        "سیر Secondary progressive با بدتر شدن تدریجی بین حملات",
+        "وجود بیش از ۵ نوتروفیل در CSF در بیش از ۵۰ درصد بیماران",
+        "بهبودی بارز نقص عصبی پس از حمله اول"
+      ],
+      "correctIndex": 1,
+      "explanation": "NMOSD عمدتاً بیماری relapsing است و برخلاف MS معمولاً سیر Secondary progressive با بدترشدن مستقل از حملات ندارد. شروع با Optic neuritis یک‌طرفه ممکن است رخ دهد. CSF در حملات حاد می‌تواند neutrophilic pleocytosis داشته باشد. بهبودی پس از حمله ممکن است رخ دهد، هرچند حملات اغلب می‌توانند نقص باقی‌مانده ایجاد کنند.",
+      "optionExplanations": [
+        "ممکن است؛ Optic neuritis یک‌طرفه می‌تواند تظاهر آغازین باشد.",
+        "درست؛ پیشرفت تدریجی مستقل از حملات، برخلاف الگوی غالب NMOSD، غیرشایع است.",
+        "Neutrophilic pleocytosis در NMOSD ممکن است دیده شود؛ نسبت دقیق به جمعیت و تعریف آزمایشگاهی وابسته است.",
+        "بهبودی ممکن است رخ دهد، هرچند حملات می‌توانند نقص پایدار بر جای بگذارند."
+      ],
+      "examTip": "در NMOSD، پیشرفت ناتوانی عمدتاً ناشی از حملات است، نه progression مستقل بین حملات.",
+      "examTrap": "الگوی Secondary progressive کلاسیک MS را به NMOSD تعمیم ندهید.",
+      "source": "Wingerchuk et al. Neurology 2015; NEMOS recommendations; NMOSD clinical course reviews"
     }
   ]
 }
