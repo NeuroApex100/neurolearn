@@ -420,6 +420,426 @@
       "examTip": "Inactivated vaccines عموماً در MS ایمن‌اند؛ Live vaccines در درمان‌های immunosuppressive محدودیت دارند.",
       "examTrap": "واکسن Influenza غیرفعال را با واکسن زنده اشتباه نگیرید؛ شواهد از افزایش relapse با واکسن غیرفعال حمایت نمی‌کنند.",
       "source": "ECTRIMS/EAN consensus on vaccination in people with MS; DMT prescribing information."
+    },
+    {
+      "id": "DM-021",
+      "stem": "کدام عبارت درباره Natalizumab در MS صحیح است؟",
+      "options": [
+        "درمان خط اول برای همه RRMS است.",
+        "اثربخشی آن در RRMS از Interferon beta-1a بیشتر است.",
+        "درصد قابل‌توجهی از دریافت‌کنندگان دچار PML می‌شوند.",
+        "مهارکننده گیرنده S1P است."
+      ],
+      "correctIndex": 1,
+      "explanation": "Natalizumab آنتی‌بادی ضد α4-integrin است. در AFFIRM از Interferon beta-1a مؤثرتر بود. خطر PML نادر اما جدی است و به وضعیت anti-JCV antibody، مدت درمان و سابقه سرکوب ایمنی وابسته است.",
+      "optionExplanations": [
+        "برای همه بیماران خط اول نیست.",
+        "درست؛ AFFIRM برتری اثربخشی نسبت به Interferon beta-1a را نشان داد.",
+        "PML نادر اما بالقوه کشنده است، نه شایع در همه دریافت‌کنندگان.",
+        "هدف دارو α4-integrin است، نه گیرنده S1P."
+      ],
+      "examTip": "پیش از درمان و در طول آن، وضعیت JCV و عوامل خطر PML را ارزیابی کنید.",
+      "examTrap": "خطر PML را با شایع بودن اشتباه نگیرید.",
+      "source": "Polman et al. NEJM 2006; FDA Tysabri Prescribing Information"
+    },
+    {
+      "id": "DM-022",
+      "stem": "در Optic neuritis مرتبط با MS کدام توصیف درد معمول‌تر است؟",
+      "options": [
+        "درد اربیتال یا درد با حرکت چشم نزدیک شروع کاهش بینایی رخ می‌دهد.",
+        "درد معمولاً چندین هفته پس از شروع کاهش بینایی باقی می‌ماند.",
+        "تظاهر معمول آن Homonymous hemianopia است.",
+        "با لمس کره چشم، یک تا دو روز پیش از کاهش بینایی درد ایجاد می‌شود."
+      ],
+      "correctIndex": 0,
+      "explanation": "در Optic neuritis تیپیک، درد اطراف چشم یا درد با حرکت چشم شایع است و نزدیک شروع افت بینایی رخ می‌دهد. Homonymous hemianopia ضایعه مسیر بینایی پس از Chiasm را مطرح می‌کند.",
+      "optionExplanations": [
+        "درست؛ درد با حرکت چشم و شروع نزدیک افت بینایی شایع است.",
+        "درد معمولاً نزدیک شروع علائم بینایی رخ می‌دهد و الزاماً هفته‌ها ادامه ندارد.",
+        "این الگو بیشتر به ضایعه رتروکیاسماتیک مربوط است.",
+        "درد با حرکت چشم مطرح است، نه درد اختصاصی با لمس کره چشم."
+      ],
+      "examTip": "درد با حرکت چشم در افت دید تحت‌حاد به نفع Optic neuritis است.",
+      "examTrap": "Homonymous hemianopia موضع‌یابی متفاوتی دارد.",
+      "source": "Optic Neuritis Treatment Trial; Continuum: Optic Neuropathies"
+    },
+    {
+      "id": "DM-023",
+      "stem": "در Acute tumefactive MS کدام عبارت نادرست است؟",
+      "options": [
+        "در اغلب بیماران WBC در CSF بیش از ۵۰ است و OCB مثبت است.",
+        "چندین ضایعه بزرگ با Enhancement ممکن است دیده شود.",
+        "علائم چندکانونی CNS ممکن است هم‌زمان ظاهر شوند.",
+        "در سیر بدخیم ممکن است کاهش شدید سطح هوشیاری رخ دهد."
+      ],
+      "correctIndex": 0,
+      "explanation": "در Tumefactive demyelination ضایعات بزرگ و گاهی متعدد با Enhancement متغیر دیده می‌شوند. OCB ممکن است مثبت باشد، اما Pleocytosis شدید با WBC بیش از ۵۰ در اغلب بیماران انتظار نمی‌رود و باید عفونت و تشخیص‌های دیگر بررسی شوند.",
+      "optionExplanations": [
+        "نادرست؛ Pleocytosis شدید ویژگی معمول اغلب بیماران نیست و OCB همیشگی نیست.",
+        "ضایعات بزرگ و متعدد با Enhancement ممکن‌اند.",
+        "تظاهر چندکانونی بسته به محل ضایعات امکان‌پذیر است.",
+        "در موارد شدید و نادر، ادم و درگیری گسترده می‌تواند هوشیاری را مختل کند."
+      ],
+      "examTip": "Open/incomplete ring enhancement می‌تواند به نفع دمیلیناسیون باشد.",
+      "examTrap": "CSF با WBC بسیار بالا را بدون排除 عفونت به MS نسبت ندهید.",
+      "source": "Practical Neurology: Tumefactive demyelination; Neurology reviews"
+    },
+    {
+      "id": "DM-024",
+      "stem": "کدام یافته MRI در MS با ناتوانی بالینی ارتباط بیشتری دارد؟",
+      "options": [
+        "باقی ماندن T2 hyperintensity به‌عنوان نشانگر Remyelination",
+        "Atrophy مغز",
+        "تداوم Gadolinium enhancement حداکثر تا ۳ تا ۴ هفته",
+        "غیرمعمول بودن C-shaped ring enhancement"
+      ],
+      "correctIndex": 1,
+      "explanation": "آتروفی مغز و نخاع با آسیب عصبی و ناتوانی در MS ارتباط دارد. باقی ماندن T2 hyperintensity به معنی Remyelination نیست. Enhancement گذراست و Open/incomplete ring enhancement در برخی ضایعات دمیلینه‌کننده دیده می‌شود.",
+      "optionExplanations": [
+        "T2 hyperintensity پایدار نشانگر اختصاصی Remyelination نیست.",
+        "درست؛ Atrophy با آسیب بافتی و ناتوانی ارتباط دارد.",
+        "Enhancement معمولاً طی چند هفته فروکش می‌کند، اما محدودیت دقیق و مطلق ۳ تا ۴ هفته‌ای ندارد.",
+        "Open-ring enhancement می‌تواند در دمیلیناسیون دیده شود."
+      ],
+      "examTip": "Chronic T1 black holes و Atrophy شاخص‌های آسیب بافتی‌اند.",
+      "examTrap": "سیگنال T2 پایدار را معادل ترمیم میلین ندانید.",
+      "source": "Filippi et al. MRI in Multiple Sclerosis; MAGNIMS consensus"
+    },
+    {
+      "id": "DM-025",
+      "stem": "در معیارهای قدیمی MRI موسوم به Swanton برای CIS، کدام یافته در پیگیری می‌تواند Dissemination in time را نشان دهد؟",
+      "options": [
+        "یک ضایعه منفرد Brainstem برای Dissemination in space کافی است.",
+        "ضایعه جدید T2 در MRI پیگیری، دست‌کم ۳ ماه پس از MRI پایه.",
+        "هر ضایعه Enhancing در MRI جدید، بدون توجه به فاصله زمانی، همیشه Dissemination in time را ثابت می‌کند.",
+        "سه ضایعه Periventricular به‌تنهایی برای Dissemination in space کافی است."
+      ],
+      "correctIndex": 1,
+      "explanation": "در معیارهای قدیمی Swanton، ایجاد ضایعه جدید T2 در MRI پیگیری که دست‌کم سه ماه پس از MRI پایه انجام شود، می‌توانست Dissemination in time را نشان دهد. این معیارها تاریخی‌اند و نباید با نسخه‌های جدیدتر McDonald خلط شوند.",
+      "optionExplanations": [
+        "یک ضایعه منفرد Brainstem به‌تنهایی الزاماً Dissemination in space را ثابت نمی‌کند.",
+        "درست؛ با چارچوب زمانی معیارهای قدیمی Swanton سازگار است.",
+        "زمان MRI و معیارهای دقیق اهمیت دارند؛ هر Enhancement در هر فاصله‌ای کافی نیست.",
+        "تعداد و توزیع ضایعات باید مطابق نسخه معتبر معیار ارزیابی شود."
+      ],
+      "examTip": "در گزارش معیارهای تشخیصی، نسخه و سال معیار را مشخص کنید.",
+      "examTrap": "Swanton را با McDonald 2017 یا بازنگری‌های جدیدتر یکی ندانید.",
+      "source": "Swanton et al. MRI criteria; McDonald criteria revisions"
+    },
+    {
+      "id": "DM-026",
+      "stem": "کدام یافته MRI در MS بیشترین ارتباط را با آسیب آکسونی و ناتوانی پایدار دارد؟",
+      "options": [
+        "تداوم Gadolinium enhancement",
+        "Chronic T1 black hole",
+        "Total T2 lesion burden",
+        "Tumefactive lesion"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chronic T1 hypointense lesions یا Black holes نشانگر تخریب شدید بافتی و آسیب آکسونی‌اند و با ناتوانی ارتباط دارند. Enhancement بیشتر نشانگر التهاب فعال و اختلال گذرای سد خونی‌ـ‌مغزی است.",
+      "optionExplanations": [
+        "Enhancement بیشتر فعالیت التهابی اخیر را نشان می‌دهد.",
+        "درست؛ Chronic T1 black holes با آسیب پایدار و ناتوانی ارتباط دارند.",
+        "بار کلی T2 مفید است، اما اختصاصیت کمتری برای تخریب آکسونی دارد.",
+        "Tumefactive lesion به‌تنهایی بهترین نشانگر ناتوانی پایدار نیست."
+      ],
+      "examTip": "Chronic T1 black holes را از T1 hypointensity گذرا افتراق دهید.",
+      "examTrap": "هر ضایعه T1 hypointense حاد را Black hole مزمن ندانید.",
+      "source": "Filippi et al. MRI markers of tissue damage in MS; MAGNIMS"
+    },
+    {
+      "id": "DM-027",
+      "stem": "کدام تظاهر چشمی در MS نسبتاً نادرتر است؟",
+      "options": [
+        "Pendular nystagmus",
+        "One-and-a-half syndrome",
+        "Isolated sixth nerve palsy",
+        "Uveitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pendular nystagmus و سندرم‌های ساقه مغز مانند One-and-a-half syndrome در MS شناخته‌شده‌اند. Uveitis، به‌ویژه intermediate uveitis، نیز ارتباط دارد. فلج منفرد عصب ششم ممکن است رخ دهد اما کمتر تیپیک است.",
+      "optionExplanations": [
+        "Pendular nystagmus در MS شناخته شده است.",
+        "ضایعات ساقه مغز می‌توانند One-and-a-half syndrome ایجاد کنند.",
+        "درست؛ ممکن است رخ دهد اما کمتر تیپیک است.",
+        "Intermediate uveitis با MS ارتباط گزارش‌شده دارد."
+      ],
+      "examTip": "در Diplopia بیمار MS، ضایعات MLF و ساقه مغز را در نظر بگیرید.",
+      "examTrap": "تظاهرات چشمی را فقط به Optic neuritis محدود نکنید.",
+      "source": "Continuum: Neuro-ophthalmologic manifestations of MS; MS-associated uveitis reviews"
+    },
+    {
+      "id": "DM-028",
+      "stem": "بیمار MS تحت درمان با Mitoxantrone است. کدام واکسن را می‌توان با توجه به ماهیت واکسن تجویز کرد؟",
+      "options": [
+        "Varicella vaccine",
+        "MMR vaccine",
+        "Hepatitis B vaccine",
+        "همه موارد"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hepatitis B vaccine نوترکیب و غیرفعال است و قابل تجویز است، هرچند پاسخ ایمنی ممکن است کاهش یابد. Varicella و MMR واکسن زنده تضعیف‌شده‌اند و در زمان سرکوب ایمنی باید اجتناب شوند.",
+      "optionExplanations": [
+        "واکسن زنده Varicella در زمان سرکوب ایمنی نامناسب است.",
+        "MMR واکسن زنده تضعیف‌شده است.",
+        "درست؛ واکسن Hepatitis B نوترکیب/غیرفعال است.",
+        "واکسن‌های زنده در این وضعیت مناسب نیستند."
+      ],
+      "examTip": "وضعیت ایمنی و نوع DMT را پیش از واکسیناسیون بررسی کنید.",
+      "examTrap": "همه واکسن‌ها را یکسان تلقی نکنید؛ زنده یا غیرفعال بودن مهم است.",
+      "source": "CDC General Best Practice Guidelines; ECTRIMS/EAN vaccination consensus"
+    },
+    {
+      "id": "DM-029",
+      "stem": "کدام بیماری خودایمنی با NMOSD همراهی شناخته‌شده دارد؟",
+      "options": [
+        "Sjögren syndrome",
+        "SLE",
+        "Systemic sclerosis",
+        "اختلال تیروئید"
+      ],
+      "correctIndex": 0,
+      "explanation": "NMOSD می‌تواند همراه بیماری‌های خودایمنی، به‌ویژه Sjögren syndrome و SLE، دیده شود. در قالب تک‌پاسخی کلاسیک، Sjögren syndrome پاسخ شناخته‌شده‌ای است؛ SLE نیز همراهی معتبر دارد.",
+      "optionExplanations": [
+        "درست؛ Sjögren syndrome از همراهی‌های شناخته‌شده NMOSD است.",
+        "SLE نیز می‌تواند همراه NMOSD باشد؛ همراهی آن ردشدنی نیست.",
+        "همراهی ممکن است گزارش شود، اما از همراهی‌های کلاسیک کمتر است.",
+        "اختلالات تیروئید خودایمنی ممکن است هم‌زمان وجود داشته باشند، اما پاسخ کلاسیک نیست."
+      ],
+      "examTip": "در NMOSD بیماری‌های خودایمنی همراه و AQP4-IgG را بررسی کنید.",
+      "examTrap": "وجود SLE را به‌عنوان همراهی NMOSD رد نکنید؛ سؤال کاملاً اختصاصی نیست.",
+      "source": "Wingerchuk et al. International consensus diagnostic criteria for NMOSD, Neurology 2015"
+    },
+    {
+      "id": "DM-030",
+      "stem": "در Secondary Progressive MS کدام گزینه سابقه کاربرد در بیماری پیشرونده دارد؟",
+      "options": [
+        "Glatiramer acetate",
+        "دوره‌های متناوب Pulse methylprednisolone",
+        "Rituximab",
+        "Mitoxantrone"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mitoxantrone در گذشته برای برخی بیماران با MS پیشرونده و فعالیت بیماری به کار رفته، اما به علت سمیت قلبی و خطر بدخیمی مصرف آن بسیار محدود شده است. امروزه انتخاب درمان به فعال یا غیرفعال بودن SPMS و دسترسی به درمان‌هایی مانند Siponimod در SPMS فعال وابسته است؛ Mitoxantrone درمان روتین نیست.",
+      "optionExplanations": [
+        "برای SPMS غیرفعال درمان استاندارد اثبات‌شده‌ای نیست.",
+        "ممکن است برای عود حاد استفاده شود، نه تعدیل سیر SPMS.",
+        "در برخی شرایط off-label استفاده می‌شود، اما پاسخ تاریخی کلاسیک نیست.",
+        "درست در مفهوم تاریخی سؤال؛ برای موارد منتخب استفاده شده، ولی امروزه بسیار محدود است."
+      ],
+      "examTip": "در SPMS فعال، درمان‌های امروزی از جمله Siponimod را بررسی کنید.",
+      "examTrap": "Mitoxantrone را درمان روتین یا بی‌خطر SPMS معرفی نکنید.",
+      "source": "FDA Mitoxantrone labeling; EXPAND trial; AAN MS guidance"
+    },
+    {
+      "id": "DM-031",
+      "stem": "کدام عبارت درباره Fatigue در MS صحیح‌تر است؟",
+      "options": [
+        "ممکن است با فعالیت تشدید شود.",
+        "فقط در بیماران با ناتوانی شدید دیده می‌شود.",
+        "با افزایش مدت بیماری الزاماً در همه بیماران بدتر می‌شود.",
+        "فقط در ساعات بعدازظهر رخ می‌دهد."
+      ],
+      "correctIndex": 0,
+      "explanation": "Fatigue در MS شایع و چندعاملی است و ممکن است با فعالیت، گرما و کم‌خوابی تشدید شود. شدت آن الزاماً با ناتوانی یا مدت بیماری رابطه خطی ندارد و محدود به زمان خاصی از روز نیست.",
+      "optionExplanations": [
+        "درست؛ تشدید با فعالیت از ویژگی‌های شایع fatigue است.",
+        "در مراحل مختلف بیماری و حتی با ناتوانی کم دیده می‌شود.",
+        "رابطه قطعی و خطی برای همه بیماران وجود ندارد.",
+        "الگوی روزانه متغیر است و محدود به بعدازظهر نیست."
+      ],
+      "examTip": "Fatigue را از خواب‌آلودگی، افسردگی، اختلال خواب و عوارض دارویی افتراق دهید.",
+      "examTrap": "Fatigue را صرفاً معادل ناتوانی حرکتی ندانید.",
+      "source": "National MS Society; MS fatigue clinical reviews"
+    },
+    {
+      "id": "DM-032",
+      "stem": "کدام عبارت درباره عوامل ژنتیکی و محیطی MS صحیح است؟",
+      "options": [
+        "HLA-DR2 و IL-2 receptor loci از عوامل ژنتیکی شناخته‌شده‌اند.",
+        "شیوع بیماری در تمام مناطق جهان به‌صورت یکنواخت با عرض جغرافیایی افزایش می‌یابد.",
+        "اثر Vitamin D صرفاً ناشی از اثر ضدویروسی نور خورشید است.",
+        "Infectious mononucleosis با خطر MS ارتباطی ندارد."
+      ],
+      "correctIndex": 0,
+      "explanation": "ارتباط ژنتیکی MS با HLA-DRB1*15:01 (مرتبط با HLA-DR2) و جایگاه‌هایی مانند IL2RA شناخته شده است. الگوی جغرافیایی شیوع پیچیده است. سابقه Infectious mononucleosis ناشی از EBV با افزایش خطر MS ارتباط قوی دارد.",
+      "optionExplanations": [
+        "درست؛ HLA-DRB1*15:01 و IL2RA از عوامل ژنتیکی شناخته‌شده‌اند.",
+        "الگوی جغرافیایی پیچیده و متأثر از مهاجرت، ژنتیک و محیط است.",
+        "مکانیسم‌های Vitamin D و نور خورشید متعددند و به اثر ضدویروسی صرف محدود نیستند.",
+        "EBV و Infectious mononucleosis با خطر MS ارتباط قوی دارند."
+      ],
+      "examTip": "EBV، HLA-DRB1*15:01 و Vitamin D از نکات مهم اپیدمیولوژی MS هستند.",
+      "examTrap": "ارتباط EBV با MS را ضعیف یا ناموجود تلقی نکنید.",
+      "source": "International MS Genetics Consortium; Bjornevik et al. Science 2022"
+    },
+    {
+      "id": "DM-033",
+      "stem": "کدام عامل در انتخاب درمان Disease-modifying برای MS اهمیت بنیادی‌تری دارد؟",
+      "options": [
+        "سیر و فنوتیپ بیماری",
+        "فقط کمترین میزان Neutralizing antibodies در دارو",
+        "تجویز Interferon برای تمام فنوتیپ‌های MS",
+        "اختلاف اثربخشی اندک Natalizumab و سایر آنتی‌بادی‌های مونوکلونال با Interferon"
+      ],
+      "correctIndex": 0,
+      "explanation": "انتخاب DMT به فنوتیپ بیماری، فعالیت بالینی و MRI، شدت بیماری، بیماری‌های همراه، خطرات دارو و ترجیح بیمار وابسته است. Glatiramer acetate معمولاً Neutralizing antibodies ایجاد نمی‌کند، اما این ویژگی به‌تنهایی تعیین‌کننده درمان نیست. برخی درمان‌های high-efficacy به‌طور معنی‌دار از Interferon مؤثرترند.",
+      "optionExplanations": [
+        "درست؛ فنوتیپ و فعالیت بیماری محور اصلی انتخاب درمان هستند.",
+        "ایمنی‌زایی فقط یکی از عوامل متعدد انتخاب درمان است.",
+        "Interferon برای تمام فنوتیپ‌ها و بیماران مناسب نیست.",
+        "برخی درمان‌های high-efficacy اختلاف اثربخشی قابل‌توجهی با Interferon دارند."
+      ],
+      "examTip": "انتخاب DMT را بر اساس فعالیت بیماری و توازن efficacy/safety انجام دهید.",
+      "examTrap": "درمان را صرفاً بر اساس یک ویژگی آزمایشگاهی انتخاب نکنید.",
+      "source": "AAN Practice Guideline; ECTRIMS/EAN recommendations"
+    },
+    {
+      "id": "DM-034",
+      "stem": "کدام ویژگی در افتراق ADEM از MS از نظر پاتولوژی اختصاصی‌تر است؟",
+      "options": [
+        "الگوی Histopathology",
+        "یافته‌های بالینی و Neuroimaging",
+        "درگیری سیستم عصبی محیطی",
+        "درگیری مننژ"
+      ],
+      "correctIndex": 0,
+      "explanation": "در سطح بافت‌شناسی، ADEM معمولاً با perivenous demyelination و MS با ضایعات plaque-like شناخته می‌شود. در عمل بالینی تشخیص عمدتاً بر اساس سیر بالینی و MRI است و Biopsy به‌ندرت لازم می‌شود.",
+      "optionExplanations": [
+        "درست؛ تفاوت perivenous demyelination در ADEM و ضایعات پلاکی MS از نظر پاتولوژی کمک‌کننده‌تر است.",
+        "یافته‌های بالینی و MRI در تشخیص عملی بسیار مهم‌اند، اما پاسخ اختصاصی‌تر پاتولوژی نیستند.",
+        "درگیری PNS معیار اختصاصی افتراق نیست.",
+        "درگیری مننژ اختصاصیت کافی ندارد."
+      ],
+      "examTip": "ADEM کلاسیک معمولاً حمله چندکانونی همراه Encephalopathy است.",
+      "examTrap": "Biopsy روش روتین افتراق ADEM و MS نیست.",
+      "source": "Neuropathology reviews of ADEM and MS; IPMSSG criteria"
+    },
+    {
+      "id": "DM-035",
+      "stem": "کدام یافته بیشترین کمک را به افتراق NMOSD از MS می‌کند؟",
+      "options": [
+        "ضایعه نخاعی با طول حداکثر ۴ سگمان",
+        "مثبت بودن AQP4-IgG",
+        "منفی بودن Oligoclonal bands و IgG index",
+        "افزایش Pleocytosis و Protein در CSF"
+      ],
+      "correctIndex": 1,
+      "explanation": "مثبت بودن AQP4-IgG با روش Cell-based assay در زمینه فنوتیپ بالینی سازگار، یافته‌ای بسیار قوی به نفع NMOSD است. منفی بودن OCB و تغییرات CSF کمک‌کننده‌اند اما اختصاصی نیستند. ضایعه طولی گسترده نخاعی معمولاً بیش از سه سگمان مهره‌ای است.",
+      "optionExplanations": [
+        "ضایعات کوتاه نخاعی بیشتر با MS سازگارند، هرچند به‌تنهایی NMOSD را رد نمی‌کنند.",
+        "درست؛ AQP4-IgG مثبت با فنوتیپ سازگار از یافته‌های کلیدی NMOSD است.",
+        "منفی بودن OCB در NMOSD شایع‌تر از MS است اما به‌تنهایی تشخیصی نیست.",
+        "Pleocytosis و افزایش Protein ممکن است در NMOSD رخ دهند اما اختصاصی نیستند."
+      ],
+      "examTip": "برای AQP4-IgG از Cell-based assay استفاده کنید.",
+      "examTrap": "منفی بودن OCB به‌تنهایی تشخیص NMOSD را ثابت نمی‌کند.",
+      "source": "Wingerchuk et al. Neurology 2015; International NMOSD criteria"
+    },
+    {
+      "id": "DM-036",
+      "stem": "در MS کدام حوزه شناختی معمولاً نسبتاً کمتر از سایر حوزه‌ها درگیر می‌شود؟",
+      "options": [
+        "Attention",
+        "Concentration",
+        "Visuospatial skills",
+        "Immediate memory"
+      ],
+      "correctIndex": 3,
+      "explanation": "در MS، سرعت پردازش اطلاعات، توجه، حافظه کاری و عملکرد اجرایی از حوزه‌های شایعاً درگیر هستند. ثبت فوری اطلاعات (Immediate registration) ممکن است نسبتاً حفظ شود، در حالی که یادآوری تأخیری می‌تواند مختل باشد.",
+      "optionExplanations": [
+        "Attention از حوزه‌های شایعاً درگیر است.",
+        "مشکلات تمرکز و توجه شایع‌اند.",
+        "مهارت‌های visuospatial نیز ممکن است درگیر شوند.",
+        "درست؛ Immediate registration معمولاً نسبتاً حفظ می‌شود."
+      ],
+      "examTip": "در ارزیابی شناختی MS، Processing speed و حافظه کاری را بررسی کنید.",
+      "examTrap": "Immediate registration را با Delayed recall یکی ندانید.",
+      "source": "Rao et al. Cognitive dysfunction in MS; BICAMS recommendations"
+    },
+    {
+      "id": "DM-037",
+      "stem": "خانم ۳۵ ساله با Paraplegia حاد، سابقه Optic neuritis با بهبود ناقص، Sensory level در T3–T4، Optic atrophy و Hyperreflexia مراجعه کرده است. MRI ضایعه نخاعی C4–C7 با طول بیش از ۴ سگمان نشان می‌دهد و پس از ۷ روز Methylprednisolone وریدی با دوز ۱ گرم در روز بهبود ندارد. اقدام بعدی چیست؟",
+      "options": [
+        "Mitoxantrone",
+        "تکرار Pulse methylprednisolone",
+        "Glatiramer acetate",
+        "Plasma exchange"
+      ],
+      "correctIndex": 3,
+      "explanation": "ضایعه طولی گسترده نخاعی (LETM)، Optic neuritis شدید و پاسخ ناکافی به کورتیکواستروئید احتمال NMOSD را مطرح می‌کند. در حمله شدید و مقاوم به استروئید، Plasma exchange باید سریع انجام شود. ارزیابی AQP4-IgG و MOG-IgG لازم است اما نباید درمان نجات‌بخش را به تأخیر بیندازد.",
+      "optionExplanations": [
+        "درمان نجات‌بخش فوری برای حمله حاد مقاوم نیست.",
+        "پس از پاسخ ناکافی به استروئید، تکرار آن نباید Plasma exchange را به تأخیر بیندازد.",
+        "Glatiramer درمان پیشگیری از عود است و برای حمله حاد مناسب نیست.",
+        "درست؛ Plasma exchange درمان نجات‌بخش حمله شدید و steroid-refractory، به‌ویژه در NMOSD، است."
+      ],
+      "examTip": "در LETM شدید و مقاوم به IV methylprednisolone، Plasma exchange را زود مدنظر قرار دهید.",
+      "examTrap": "برای شروع Plasma exchange منتظر نتیجه AQP4-IgG نمانید.",
+      "source": "ASFA Guidelines for Therapeutic Apheresis; NMOSD attack treatment recommendations"
+    },
+    {
+      "id": "DM-038",
+      "stem": "کدام ویژگی درباره Schilder disease نادرست است؟",
+      "options": [
+        "سیر بیماری می‌تواند تحت‌حاد و پیشرونده باشد.",
+        "درگیری وسیع ماده سفید، از جمله Centrum semiovale، ممکن است دیده شود.",
+        "نوارهای متحدالمرکز متناوب تخریب و حفظ میلین مشخصه آن است.",
+        "افزایش Myelin basic protein ممکن است در CSF دیده شود."
+      ],
+      "correctIndex": 2,
+      "explanation": "Schilder disease یا diffuse myelinoclastic sclerosis با ضایعات وسیع ماده سفید و سیر تحت‌حاد یا پیشرونده توصیف شده است. نوارهای متحدالمرکز متناوب تخریب و حفظ میلین مشخصه Balo concentric sclerosis است.",
+      "optionExplanations": [
+        "سیر تحت‌حاد و پیشرونده ممکن است رخ دهد.",
+        "ضایعات وسیع ماده سفید از توصیف‌های کلاسیک بیماری است.",
+        "درست؛ این الگو مشخصه Balo concentric sclerosis است.",
+        "MBP ممکن است در جریان تخریب میلین افزایش یابد، اما اختصاصی نیست."
+      ],
+      "examTip": "Alternating concentric rings را به یاد Balo concentric sclerosis بیندازید.",
+      "examTrap": "Schilder و Balo دو الگوی متفاوت دمیلیناسیون‌اند.",
+      "source": "Neuropathology references: Schilder disease and Balo concentric sclerosis"
+    },
+    {
+      "id": "DM-039",
+      "stem": "مرد ۳۰ ساله با سردرد، MRI دارای چهار ضایعه Periventricular عمود بر Corpus callosum و یک ضایعه Juxtacortical، معاینه عصبی طبیعی و CSF با Oligoclonal bands مثبت است. بهترین رویکرد چیست؟",
+      "options": [
+        "Pulse methylprednisolone",
+        "شروع Interferon با دوز پایین",
+        "شروع Glatiramer acetate",
+        "عدم شروع خودکار درمان و ارزیابی خطر و پیگیری"
+      ],
+      "correctIndex": 3,
+      "explanation": "این بیمار ممکن است در طیف Radiologically Isolated Syndrome (RIS) قرار گیرد. OCB مثبت خطر تبدیل به MS بالینی را افزایش می‌دهد، اما به‌تنهایی اثبات‌کننده MS بالینی یا الزام قطعی برای شروع DMT نیست. باید معیارهای به‌روز RIS، MRI نخاع، ضایعات جدید و عوامل خطر بررسی شود و درباره پایش یا درمان در موارد پرخطر تصمیم مشترک گرفته شود. کارآزمایی‌های ARISE و TERIS نشان داده‌اند برخی DMTها در بیماران منتخب می‌توانند وقوع رویداد بالینی را به تأخیر بیندازند.",
+      "optionExplanations": [
+        "در نبود حمله بالینی، Pulse steroid اندیکاسیون روتین ندارد.",
+        "شروع خودکار Interferon برای همه افراد با یافته MRI اتفاقی توصیه نمی‌شود.",
+        "Glatiramer نیز درمان خودکار و الزامی برای هر RIS نیست.",
+        "درست؛ ارزیابی معیارهای RIS و عوامل خطر و تصمیم مشترک برای پایش یا درمان مناسب‌تر است."
+      ],
+      "examTip": "OCB مثبت و ضایعات نخاعی یا جدید، خطر تبدیل RIS به MS بالینی را افزایش می‌دهند.",
+      "examTrap": "RIS نه معادل MS بالینی است و نه کاملاً بی‌خطر؛ درمان در افراد منتخب قابل بحث است.",
+      "source": "ARISE trial, Ann Neurol 2023; TERIS trial, JAMA Neurol 2023; 2023 RIS criteria"
+    },
+    {
+      "id": "DM-040",
+      "stem": "در بیمار ۳۰ ساله با Optic neuritis، RAPD و چند ضایعه Periventricular در MRI، کدام یافته CSF ممکن است در MS دیده شود؟",
+      "options": [
+        "افزایش Myelin basic protein",
+        "Protein بیش از ۱۰۰ mg/dL",
+        "Mononuclear cells بیش از ۱۰۰/mm³",
+        "کاهش Gamma globulin"
+      ],
+      "correctIndex": 0,
+      "explanation": "افزایش Myelin basic protein (MBP) ممکن است در جریان آسیب فعال میلین رخ دهد، اما اختصاصی MS نیست و آزمایش روتین تشخیصی محسوب نمی‌شود. در MS معمولاً Protein طبیعی یا کمی بالا و شمارش سلولی طبیعی یا اندکی افزایش‌یافته است؛ OCB و افزایش تولید داخل‌نخاعی IgG یافته‌های حمایتی مهم‌تری هستند.",
+      "optionExplanations": [
+        "درست؛ MBP ممکن است در آسیب فعال میلین افزایش یابد، ولی اختصاصی نیست.",
+        "Protein بسیار بالا برای MS تیپیک نیست و بررسی تشخیص‌های دیگر را ضروری می‌کند.",
+        "Pleocytosis بیش از ۱۰۰ سلول در میلی‌متر مکعب برای MS معمول نیست.",
+        "در MS معمولاً تولید داخل‌نخاعی IgG و OCB افزایش می‌یابد، نه کاهش Gamma globulin."
+      ],
+      "examTip": "OCB اختصاصی CSF و IgG index از یافته‌های حمایتی مهم MS هستند.",
+      "examTrap": "MBP افزایش‌یافته را تست تأییدی یا اختصاصی MS ندانید.",
+      "source": "Thompson et al. McDonald criteria; CSF biomarkers in MS reviews"
     }
   ]
 }
