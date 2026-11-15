@@ -1050,6 +1050,426 @@
       "examTip": "در NMOSD، پیشرفت ناتوانی عمدتاً ناشی از حملات است، نه progression مستقل بین حملات.",
       "examTrap": "الگوی Secondary progressive کلاسیک MS را به NMOSD تعمیم ندهید.",
       "source": "Wingerchuk et al. Neurology 2015; NEMOS recommendations; NMOSD clinical course reviews"
+    },
+    {
+      "id": "DM-051",
+      "stem": "خانم ۳۵ ساله‌ای با تهوع و استفراغ مقاوم مراجعه کرده است. MRI ضایعه T2-hyperintense در Dorsal medulla نشان می‌دهد. چهار ماه بعد دچار تاری دید چشم راست می‌شود. محتمل‌ترین تشخیص کدام است؟",
+      "options": [
+        "NMOSD",
+        "Multiple sclerosis (MS)",
+        "ADEM",
+        "Susac syndrome"
+      ],
+      "correctIndex": 0,
+      "explanation": "تهوع و استفراغ مقاوم ناشی از درگیری Area postrema در Dorsal medulla از تظاهرات شاخص NMOSD است. Optic neuritis بعدی نیز با این تشخیص سازگار است.",
+      "optionExplanations": [
+        "درست؛ Area postrema syndrome همراه Optic neuritis قویاً NMOSD را مطرح می‌کند.",
+        "MS می‌تواند ساقه مغز و عصب بینایی را درگیر کند، اما Area postrema syndrome شاخص‌تر NMOSD است.",
+        "ADEM معمولاً حمله حاد چندکانونی همراه Encephalopathy است و این توالی تیپیک نیست.",
+        "Susac syndrome با انسداد شاخه‌های شریان شبکیه، کاهش شنوایی و Encephalopathy شناخته می‌شود."
+      ],
+      "examTip": "تهوع، استفراغ یا سکسکه مقاوم می‌تواند ناشی از Area postrema lesion باشد.",
+      "examTrap": "علائم گوارشی مقاوم را بدون بررسی Dorsal medulla صرفاً به بیماری گوارشی نسبت ندهید.",
+      "source": "2015 International Consensus Diagnostic Criteria for NMOSD; contemporary NMOSD reviews"
+    },
+    {
+      "id": "DM-052",
+      "stem": "کدام دارو در درمان Multiple sclerosis با سیر پیشرونده ثانویه (SPMS) کاربرد داشته است؟",
+      "options": [
+        "Mitoxantrone",
+        "Interferon beta-1a",
+        "Glatiramer acetate",
+        "Dimethyl fumarate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mitoxantrone در گذشته برای برخی بیماران SPMS، به‌ویژه بیماری فعال و رو به پیشرفت، استفاده می‌شد؛ امروزه به علت Cardiomyopathy و Therapy-related leukemia کاربرد آن بسیار محدود است. Interferon beta-1a نیز در SPMS فعال همراه عود می‌تواند فعالیت التهابی را کاهش دهد؛ بنابراین سؤال از نظر پاسخ یکتا کاملاً بی‌ابهام نیست.",
+      "optionExplanations": [
+        "بهترین پاسخ کلاسیک آزمونی است؛ سمیت قلبی و خطر بدخیمی مصرف امروزی را محدود کرده است.",
+        "در برخی بیماران SPMS فعال همراه relapse شواهد اثربخشی دارد؛ پس کاملاً بی‌کاربرد نیست.",
+        "عمدتاً برای فرم‌های عودکننده MS استفاده می‌شود و درمان تثبیت‌شده SPMS پیشرونده غیرفعال نیست.",
+        "برای فرم‌های عودکننده MS است و درمان استاندارد SPMS غیر فعال محسوب نمی‌شود."
+      ],
+      "examTip": "در SPMS بین نوع Active و Non-active تمایز بگذارید.",
+      "examTrap": "Mitoxantrone درمان روتین امروزی SPMS نیست.",
+      "source": "Mitoxantrone prescribing information; SPMS treatment reviews"
+    },
+    {
+      "id": "DM-053",
+      "stem": "کدام دارو در MS باعث کاهش بیش از ۹۰ درصدی ضایعات Gadolinium-enhancing در MRI در مطالعات بالینی شده است؟",
+      "options": [
+        "Interferon beta",
+        "Mitoxantrone",
+        "Glatiramer acetate",
+        "Natalizumab"
+      ],
+      "correctIndex": 3,
+      "explanation": "Natalizumab در کارآزمایی‌های بالینی کاهش بسیار چشمگیری در ضایعات فعال MRI ایجاد کرده است؛ کاهش ضایعات Gadolinium-enhancing در برخی تحلیل‌ها بیش از ۹۰٪ گزارش شده است. دارو با مهار α4-integrin مهاجرت سلول‌های ایمنی به CNS را کم می‌کند.",
+      "optionExplanations": [
+        "Interferon beta فعالیت MRI را کاهش می‌دهد، اما کاهش بیش از ۹۰٪ مشخصه کلاسیک آن نیست.",
+        "Mitoxantrone فعالیت التهابی را کاهش می‌دهد، اما پاسخ کلاسیک سؤال Natalizumab است.",
+        "Glatiramer acetate معمولاً به این میزان کاهش ضایعات فعال نمی‌رسد.",
+        "درست؛ Natalizumab ضایعات Gadolinium-enhancing را به‌شدت کاهش می‌دهد."
+      ],
+      "examTip": "Natalizumab از DMTهای با اثربخشی بالا در MS عودکننده است.",
+      "examTrap": "اثربخشی بالا را در کنار خطر PML و لزوم ارزیابی JCV در نظر بگیرید.",
+      "source": "AFFIRM trial; Natalizumab prescribing information"
+    },
+    {
+      "id": "DM-054",
+      "stem": "درمان مداخله‌ای قابل بررسی برای Intention tremor شدید و ناتوان‌کننده در MS کدام است؟",
+      "options": [
+        "تحریک یا ضایعه‌سازی Thalamus مقابل",
+        "تحریک Putamen مقابل",
+        "Anticholinergic",
+        "Beta-blocker"
+      ],
+      "correctIndex": 0,
+      "explanation": "در ترمور شدید و مقاوم MS، مداخلات هدف‌گیرنده Thalamus، به‌ویژه Ventral intermediate nucleus (VIM)، در بیماران بسیار منتخب بررسی می‌شوند. اثر درمان متغیر است و خطر اختلال گفتار، تعادل یا ضعف وجود دارد.",
+      "optionExplanations": [
+        "درست؛ VIM تالاموس هدف شناخته‌شده مداخله برای ترمور مقاوم است.",
+        "Putamen هدف استاندارد جراحی برای ترمور MS نیست.",
+        "Anticholinergic درمان مؤثر و استاندارد Intention tremor نیست.",
+        "Beta-blockerها بیشتر در Essential tremor کاربرد دارند و معمولاً در cerebellar tremor مؤثر نیستند."
+      ],
+      "examTip": "در ترمور مخچه‌ای شدید MS، پاسخ دارویی اغلب محدود است.",
+      "examTrap": "مداخله تالاموسی درمان روتین همه بیماران نیست.",
+      "source": "Neurosurgical and symptomatic treatment reviews of MS tremor"
+    },
+    {
+      "id": "DM-055",
+      "stem": "در بیمار مبتلا به MS که به‌دلیل PML مرتبط با Natalizumab دارو را قطع کرده است، درباره IRIS کدام عبارت صحیح‌تر است؟",
+      "options": [
+        "عارضه‌ای نسبتاً نادر و بی‌اهمیت است.",
+        "با مصرف هم‌زمان Natalizumab و Interferon ایجاد می‌شود.",
+        "با مصرف هم‌زمان Natalizumab و Fingolimod ایجاد می‌شود.",
+        "پس از قطع Natalizumab و بازگشت فعالیت ایمنی می‌تواند رخ دهد."
+      ],
+      "correctIndex": 3,
+      "explanation": "پس از قطع Natalizumab، بازگشت مهاجرت سلول‌های ایمنی به CNS در بیمار مبتلا به PML می‌تواند موجب PML-IRIS شود. التهاب ممکن است با ادم، enhancement و وخامت بالینی ظاهر شود.",
+      "optionExplanations": [
+        "PML-IRIS عارضه‌ای شناخته‌شده و بالقوه شدید است.",
+        "مصرف هم‌زمان Interferon مکانیسم کلاسیک IRIS نیست.",
+        "ترکیب این دو دارو علت معمول IRIS نیست.",
+        "درست؛ بازسازی پاسخ ایمنی پس از قطع Natalizumab می‌تواند التهاب مرتبط با PML ایجاد کند."
+      ],
+      "examTip": "پس از قطع Natalizumab در بیمار PML باید از نظر IRIS پایش انجام شود.",
+      "examTrap": "IRIS را با عود MS اشتباه نگیرید.",
+      "source": "Natalizumab prescribing information; PML-IRIS reviews"
+    },
+    {
+      "id": "DM-056",
+      "stem": "کدام علامت در فرد جوان، در مقایسه با سایر گزینه‌ها، کمتر به نفع MS است؟",
+      "options": [
+        "Seizure",
+        "Optic neuritis",
+        "Trigeminal neuralgia",
+        "Internuclear ophthalmoplegia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Optic neuritis، Trigeminal neuralgia و Internuclear ophthalmoplegia از تظاهرات شناخته‌شده MS هستند. Seizure ممکن است در MS رخ دهد، اما نسبت به سه علامت دیگر کمتر شایع و کمتر تیپیک است.",
+      "optionExplanations": [
+        "درست؛ تشنج در MS ممکن است رخ دهد اما تظاهر شاخص و شایع اولیه نیست.",
+        "Optic neuritis از تظاهرات کلاسیک MS است.",
+        "Trigeminal neuralgia، به‌ویژه در فرد جوان، می‌تواند ناشی از پلاک در مسیر عصب پنجم باشد.",
+        "INO ناشی از ضایعه Medial longitudinal fasciculus از علائم کلاسیک MS است."
+      ],
+      "examTip": "INO در فرد جوان، به‌ویژه اگر دوطرفه باشد، احتمال MS را مطرح می‌کند.",
+      "examTrap": "Seizure، MS را رد نمی‌کند؛ فقط کمتر تیپیک است.",
+      "source": "Multiple sclerosis clinical manifestations reviews"
+    },
+    {
+      "id": "DM-057",
+      "stem": "در MRI بیمار MS، کدام یافته بیشتر نشان‌دهنده تخریب بافتی و Axonal loss است و با Remyelination رابطه معکوس دارد؟",
+      "options": [
+        "T2-hypointense و Non-enhancing",
+        "T2-hyperintense و Enhancing",
+        "T1-hyperintense و Enhancing",
+        "T1-hypointense و Non-enhancing"
+      ],
+      "correctIndex": 3,
+      "explanation": "ضایعات پایدار T1-hypointense یا chronic black holes، به‌ویژه اگر در پیگیری باقی بمانند، با تخریب بافتی، از دست رفتن آکسون و ناتوانی بیشتر ارتباط دارند و ظرفیت برگشت آن‌ها کمتر است.",
+      "optionExplanations": [
+        "T2 معمولاً ضایعات دمیلینه را به شکل hyperintense نشان می‌دهد و این گزینه شاخص axonal loss نیست.",
+        "Enhancement در T1 بیشتر نشان‌دهنده التهاب فعال و اختلال سد خونی‌ـ‌مغزی است.",
+        "این الگو، توصیف کلاسیک chronic black hole نیست.",
+        "درست؛ T1-hypointense non-enhancing persistent lesions با تخریب آکسونی بیشتر همراه‌اند."
+      ],
+      "examTip": "Persistent T1 black holes با آسیب آکسونی و ناتوانی بیشتر ارتباط دارند.",
+      "examTrap": "هر T1-hypointense lesion تازه‌ای تخریب دائمی نیست؛ پایداری در پیگیری مهم است.",
+      "source": "MRI biomarkers and chronic T1 black holes in MS"
+    },
+    {
+      "id": "DM-058",
+      "stem": "تمام درمان‌های زیر ممکن است در NMOSD به‌کار روند، به‌جز کدام مورد؟",
+      "options": [
+        "Corticosteroids",
+        "Interferon beta-1a",
+        "Cyclophosphamide",
+        "Plasma exchange"
+      ],
+      "correctIndex": 1,
+      "explanation": "Interferon beta-1a درمان MS است و در NMOSD مؤثر نیست و ممکن است فعالیت بیماری را تشدید کند. Corticosteroids و Plasma exchange برای حمله حاد و Cyclophosphamide در شرایط منتخب مقاوم قابل استفاده‌اند.",
+      "optionExplanations": [
+        "درمان اولیه حمله حاد NMOSD است.",
+        "درست؛ Interferon beta برای NMOSD توصیه نمی‌شود و ممکن است بیماری را بدتر کند.",
+        "در موارد منتخب و مقاوم به‌عنوان immunosuppressant استفاده شده است.",
+        "برای حملات شدید یا پاسخ ناکافی به corticosteroids اهمیت دارد."
+      ],
+      "examTip": "در بیمار مشکوک به NMOSD، DMTهای MS مانند Interferon beta را خودکار شروع نکنید.",
+      "examTrap": "درمان MS را به NMOSD تعمیم ندهید.",
+      "source": "NEMOS recommendations; NMOSD treatment reviews"
+    },
+    {
+      "id": "DM-059",
+      "stem": "مهار چسبیدن Lymphocytes و Monocytes به اندوتلیوم و جلوگیری از مهاجرت آن‌ها به CNS، مکانیسم اثر کدام داروست؟",
+      "options": [
+        "Fingolimod",
+        "Natalizumab",
+        "Alemtuzumab",
+        "Glatiramer acetate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Natalizumab آنتی‌بادی ضد α4-integrin است و با مهار اتصال سلول‌های ایمنی به مولکول‌های چسبندگی اندوتلیال، عبور آن‌ها از سد خونی‌ـ‌مغزی را کاهش می‌دهد.",
+      "optionExplanations": [
+        "Fingolimod گیرنده S1P را تعدیل می‌کند و خروج لنفوسیت از غدد لنفاوی را مهار می‌کند.",
+        "درست؛ Natalizumab با مهار α4-integrin چسبندگی و مهاجرت سلول‌های ایمنی به CNS را مختل می‌کند.",
+        "Alemtuzumab ضد CD52 است و موجب depletion لنفوسیت‌ها می‌شود.",
+        "Glatiramer acetate یک immunomodulator است و این مکانیسم اختصاصی را ندارد."
+      ],
+      "examTip": "Natalizumab = anti-α4-integrin؛ Fingolimod = S1P receptor modulator.",
+      "examTrap": "Fingolimod خروج لنفوسیت از lymph node را کاهش می‌دهد، نه α4-integrin را.",
+      "source": "Natalizumab and fingolimod prescribing information"
+    },
+    {
+      "id": "DM-060",
+      "stem": "در Histopathology کدام یافته به افتراق ADEM از MS کمک می‌کند؟",
+      "options": [
+        "Meningeal infiltration در ADEM",
+        "Axonal injury در MS",
+        "وسیع بودن ضایعات دمیلینه در ADEM",
+        "نسبت دادن ضایعات Perivenular به MS"
+      ],
+      "correctIndex": 3,
+      "explanation": "ویژگی پاتولوژیک کلاسیک ADEM، Perivenous demyelination است؛ MS معمولاً پلاک‌های confluent ایجاد می‌کند. بنابراین نسبت دادن Perivenular demyelination به MS در گزینه D نادرست است و این الگو بیشتر به نفع ADEM است.",
+      "optionExplanations": [
+        "Meningeal inflammation یافته افتراقی قابل اتکایی به نفع ADEM نیست.",
+        "آسیب آکسونی در MS رخ می‌دهد، اما اختصاصی نیست و در ADEM نیز ممکن است.",
+        "وسعت ضایعات به‌تنهایی افتراق‌دهنده قطعی نیست.",
+        "درست؛ Perivenous demyelination الگوی کلاسیک ADEM است، نه پلاک تیپیک MS."
+      ],
+      "examTip": "ADEM: perivenous demyelination؛ MS: confluent demyelinating plaques.",
+      "examTrap": "آسیب آکسونی را مختص MS و ضایعات بزرگ را مختص ADEM فرض نکنید.",
+      "source": "Neuropathology reviews of ADEM and MS; IPMSSG consensus"
+    },
+    {
+      "id": "DM-061",
+      "stem": "خانم ۳۳ ساله مبتلا به MS برای اختلال راه رفتن داروی جدیدی دریافت کرده و پس از بهبود راه رفتن، دوز را خودسرانه سه برابر کرده است. سپس دو حمله Generalized tonic-clonic seizure رخ داده است. کدام دارو محتمل‌تر است؟",
+      "options": [
+        "Gabapentin",
+        "4-aminopyridine (Dalfampridine)",
+        "Baclofen",
+        "ارتباطی با دارو ندارد."
+      ],
+      "correctIndex": 1,
+      "explanation": "4-aminopyridine یا Dalfampridine برای بهبود سرعت راه رفتن برخی بیماران MS استفاده می‌شود. افزایش دوز، به‌ویژه فراتر از دوز توصیه‌شده، خطر تشنج وابسته به دوز را افزایش می‌دهد؛ اختلال عملکرد کلیه نیز خطر را بیشتر می‌کند.",
+      "optionExplanations": [
+        "در این سناریوی کلاسیک داروی محتمل نیست.",
+        "درست؛ Dalfampridine در دوز بالا می‌تواند تشنج ایجاد کند.",
+        "Baclofen عوارض عصبی دارد، اما تشنج پس از افزایش دوز 4-aminopyridine شناخته‌شده‌تر است.",
+        "ارتباط دارویی بسیار محتمل است."
+      ],
+      "examTip": "Dalfampridine برای gait impairment در MS است؛ دوز را نباید افزایش داد.",
+      "examTrap": "در صورت تشنج حین مصرف، دارو باید قطع و بیمار ارزیابی شود.",
+      "source": "Dalfampridine extended-release prescribing information"
+    },
+    {
+      "id": "DM-062",
+      "stem": "خانم ۲۵ ساله‌ای طی چند روز دچار پارزی دست راست شده است. سه سال قبل حمله تاری دید چشم چپ داشته که بهبود یافته است. MRI با MS سازگار است و بیمار از تزریق می‌ترسد. مناسب‌ترین گزینه از میان موارد زیر کدام است؟",
+      "options": [
+        "فعلاً عدم استفاده از DMT",
+        "Interferon beta-1a عضلانی",
+        "Cyclophosphamide",
+        "Plasma exchange"
+      ],
+      "correctIndex": 1,
+      "explanation": "دو رویداد بالینی مجزا در زمان و نواحی متفاوت همراه MRI سازگار، MS عودکننده را مطرح می‌کند و پس از ارزیابی باید DMT پیشنهاد شود. از میان گزینه‌های داده‌شده Interferon beta-1a عضلانی یک درمان شناخته‌شده است؛ با این حال امروزه گزینه‌های خوراکی نیز با توجه به ترجیح بیمار قابل بررسی‌اند.",
+      "optionExplanations": [
+        "در بیمار با حملات مجزا و MRI سازگار، عدم درمان بدون دلیل مشخص مطلوب نیست.",
+        "درست؛ از میان گزینه‌های داده‌شده DMT شناخته‌شده برای فرم عودکننده است، هرچند ترس از تزریق باید در انتخاب درمان لحاظ شود.",
+        "درمان روتین خط اول MS عودکننده نیست و سمیت قابل توجهی دارد.",
+        "برای حمله شدید مقاوم به corticosteroid است، نه درمان نگهدارنده."
+      ],
+      "examTip": "پس از تأیید MS عودکننده، شروع DMT و انتخاب مشترک درمان را بررسی کنید.",
+      "examTrap": "ترس از تزریق به معنی صرف‌نظر از درمان نیست؛ گزینه‌های غیرتزریقی نیز وجود دارند.",
+      "source": "AAN and ECTRIMS/EAN MS DMT recommendations"
+    },
+    {
+      "id": "DM-063",
+      "stem": "مرد ۳۸ ساله مبتلا به MS طی یک سال اخیر چهار حمله داشته و MRI سه ضایعه Gadolinium-enhancing نشان می‌دهد. با وجود Interferon بیماری فعال است. بیمار Diabetes و Bradycardia دارد. مناسب‌ترین تغییر درمانی از میان گزینه‌ها کدام است؟",
+      "options": [
+        "افزودن Azathioprine",
+        "تبدیل به Natalizumab",
+        "تبدیل به Fingolimod",
+        "تبدیل به Alemtuzumab"
+      ],
+      "correctIndex": 1,
+      "explanation": "فعالیت بالای بیماری با وجود Interferon، تغییر به درمان با اثربخشی بالاتر را مطرح می‌کند. Natalizumab گزینه high-efficacy است، مشروط به بررسی JCV antibody/index و خطر PML. Fingolimod می‌تواند موجب برادی‌کاردی شود. Diabetes به‌تنهایی منع مطلق Natalizumab نیست.",
+      "optionExplanations": [
+        "افزودن روتین Azathioprine به Interferon درمان استاندارد MS نیست.",
+        "درست؛ Natalizumab درمان مؤثر برای MS عودکننده فعال است، پس از ارزیابی خطر PML.",
+        "Bradycardia نگرانی مهمی برای Fingolimod است و انتخاب آن را نامناسب می‌کند.",
+        "در موارد منتخب استفاده می‌شود، اما خطرات خودایمنی و نیاز به پایش گسترده دارد."
+      ],
+      "examTip": "در breakthrough disease شدت فعالیت و عوامل خطر اختصاصی هر DMT را بسنجید.",
+      "examTrap": "Natalizumab بدون بررسی JCV risk نباید انتخاب شود.",
+      "source": "MS treatment guidance; natalizumab and fingolimod prescribing information"
+    },
+    {
+      "id": "DM-064",
+      "stem": "خانم ۳۲ ساله مبتلا به MS با Urinary frequency و Urge incontinence مراجعه کرده است. در پایان ادرار احساس تخلیه ناکامل و پس از برخاستن Dribbling دارد. مناسب‌ترین اقدام از میان گزینه‌ها کدام است؟",
+      "options": [
+        "Bethanechol",
+        "Tolterodine همراه Prazosin",
+        "Botulinum toxin",
+        "Intermittent catheterization"
+      ],
+      "correctIndex": 3,
+      "explanation": "احساس تخلیه ناکامل و post-void dribbling احتمال افزایش Post-void residual (PVR) را مطرح می‌کند. در عمل ابتدا باید PVR اندازه‌گیری و الگوی اختلال مثانه مشخص شود. در صورت تأیید retention، Intermittent catheterization گزینه مهم درمانی است. Antimuscarinicها و Botulinum toxin ممکن است احتباس را تشدید کنند.",
+      "optionExplanations": [
+        "Bethanechol در neurogenic retention اثربخشی محدود دارد و بدون ارزیابی PVR انتخاب اولیه نیست.",
+        "Tolterodine ممکن است retention را تشدید کند؛ Prazosin نیز درمان عمومی این الگو نیست.",
+        "برای detrusor overactivity مقاوم است، اما می‌تواند تخلیه را بدتر کند.",
+        "بهترین گزینه در صورت تأیید retention؛ در عمل ابتدا PVR را اندازه بگیرید."
+      ],
+      "examTip": "در شک به تخلیه ناکامل، پیش از antimuscarinic، PVR را اندازه بگیرید.",
+      "examTrap": "Urge incontinence به‌تنهایی به معنی مثانه بیش‌فعال خالص نیست.",
+      "source": "AUA/SUFU guideline on adult neurogenic lower urinary tract dysfunction"
+    },
+    {
+      "id": "DM-065",
+      "stem": "کدام عبارت درباره درمان MS صحیح‌تر است؟",
+      "options": [
+        "شناخت فنوتیپ بالینی تأثیر چندانی در شروع درمان ندارد.",
+        "میزان Neutralizing antibodies در تمام Interferonها تقریباً یکسان است.",
+        "برای کاهش عوارض تزریق Interferon از مسکن‌ها استفاده می‌شود، ولی corticosteroid به‌طور روتین توصیه نمی‌شود.",
+        "اثر تمام Monoclonal antibodies در MS به‌مراتب از Interferonها بیشتر است."
+      ],
+      "correctIndex": 2,
+      "explanation": "علائم شبه‌آنفلوانزا پس از Interferon beta را می‌توان با زمان‌بندی تزریق و داروهای ضدتب یا مسکن مانند Acetaminophen یا NSAID کاهش داد. مصرف روتین corticosteroid برای پیشگیری توصیه نمی‌شود. میزان Neutralizing antibodies بین فرآورده‌ها یکسان نیست و انتخاب DMT به phenotype و فعالیت بیماری وابسته است.",
+      "optionExplanations": [
+        "فنوتیپ، فعالیت التهاب و پیشرفت ناتوانی در انتخاب DMT اساسی‌اند.",
+        "Immunogenicity و میزان neutralizing antibodies بین فرآورده‌های Interferon تفاوت دارد.",
+        "درست؛ antipyretic/analgesicها برای flu-like symptoms استفاده می‌شوند و corticosteroid پیشگیری‌کننده روتین لازم نیست.",
+        "عبارت بیش از حد کلی است؛ اثربخشی و ایمنی Monoclonal antibodies متفاوت است."
+      ],
+      "examTip": "Flu-like symptoms ناشی از Interferon را می‌توان با مسکن/ضدتب کاهش داد.",
+      "examTrap": "همه Monoclonal antibodies از نظر اثربخشی و ایمنی یکسان نیستند.",
+      "source": "Interferon beta prescribing information; MS treatment recommendations"
+    },
+    {
+      "id": "DM-066",
+      "stem": "کدام عبارت درباره تغییر میزان عود MS در دوران بارداری و پس از زایمان صحیح‌تر است؟",
+      "options": [
+        "میزان عود پیش از بارداری حدود ۱٫۲ در هر سال است.",
+        "میزان عود در سه‌ماهه اول و دوم به‌طور ثابت بین ۰٫۵ تا ۰٫۲ در سال است.",
+        "میزان عود معمولاً در سه‌ماهه سوم بارداری به کمترین میزان می‌رسد.",
+        "میزان عود در سه ماه اول پس از زایمان فقط به ۰٫۹ برابر میزان پیش از بارداری می‌رسد."
+      ],
+      "correctIndex": 2,
+      "explanation": "در مطالعه کلاسیک PRIMS، میزان عود MS در طول بارداری کاهش می‌یابد و در سه‌ماهه سوم به کمترین مقدار می‌رسد؛ سپس در سه ماه نخست پس از زایمان افزایش می‌یابد. مقدار دقیق به فعالیت بیماری پیش از بارداری و درمان‌های قطع‌شده وابسته است.",
+      "optionExplanations": [
+        "عدد ۱٫۲ نرخ ثابت و عمومی پیش از بارداری نیست.",
+        "نرخ عود در بارداری با این بازه ثابت در همه سه‌ماهه‌ها توصیف نمی‌شود؛ روند کلی کاهشی است.",
+        "درست؛ کاهش عود معمولاً در سه‌ماهه سوم به اوج می‌رسد.",
+        "نادرست؛ در سه ماه نخست postpartum خطر عود افزایش می‌یابد و در PRIMS از نرخ پیش از بارداری بیشتر بود."
+      ],
+      "examTip": "الگوی کلاسیک: کاهش عود در بارداری، کمترین مقدار در سه‌ماهه سوم و افزایش پس از زایمان.",
+      "examTrap": "اعداد مطالعه‌ای را بدون توجه به جمعیت و درمان‌ها تعمیم ندهید.",
+      "source": "PRIMS study; pregnancy-related MS relapse reviews"
+    },
+    {
+      "id": "DM-067",
+      "stem": "مرد ۲۱ ساله‌ای چند هفته پس از عفونت تنفسی با Ataxia، علائم پیرامیدال، خواب‌آلودگی، تب و مننژیسم مراجعه کرده است. MRI ضایعات متعدد T2-hyperintense ماده سفید دارد که در DWI نیز دیده می‌شوند. پس از Methylprednisolone با دوز بالا، بهترین توصیه چیست؟",
+      "options": [
+        "شروع Interferon beta",
+        "شروع Glatiramer acetate",
+        "پیگیری و ارزیابی مجدد پس از رد عفونت و بررسی ADEM",
+        "شروع immunosuppressive therapy نگهدارنده طولانی‌مدت"
+      ],
+      "correctIndex": 2,
+      "explanation": "سن پایین، بیماری پس از عفونت، Encephalopathy و علائم چندکانونی با ADEM سازگارند. ADEM معمولاً monophasic است و پس از درمان حمله، DMTهای MS یا immunosuppression نگهدارنده به‌طور خودکار شروع نمی‌شوند. با وجود تب و مننژیسم، عفونت CNS باید به‌طور جدی رد شود.",
+      "optionExplanations": [
+        "Interferon beta برای MS عودکننده است و پس از ADEM خودکار شروع نمی‌شود.",
+        "Glatiramer acetate درمان روتین ADEM تک‌فازی نیست.",
+        "درست؛ عفونت باید رد و با پیگیری بالینی و MRI، سیر تک‌فازی بررسی شود.",
+        "درمان نگهدارنده طولانی‌مدت برای همه موارد ADEM لازم نیست."
+      ],
+      "examTip": "ADEM معمولاً monophasic است؛ DMT مربوط به MS را خودکار شروع نکنید.",
+      "examTrap": "تب و مننژیسم نیازمند排除 عفونت CNS است.",
+      "source": "IPMSSG ADEM criteria; ADEM treatment and follow-up reviews"
+    },
+    {
+      "id": "DM-068",
+      "stem": "خانم ۳۵ ساله با Paraplegia حاد، سطح حسی T3–T4 و علائم UMN مراجعه کرده است. سابقه اختلال دید دارد. MRI چند پلاک مغزی و ضایعه نخاعی بیش از سه سگمان (LETM) نشان می‌دهد. پس از هفت روز Pulse methylprednisolone بهبودی ندارد. اقدام بعدی چیست؟",
+      "options": [
+        "تکرار Pulse corticosteroid",
+        "Glatiramer acetate",
+        "Plasma exchange",
+        "Mitoxantrone"
+      ],
+      "correctIndex": 2,
+      "explanation": "LETM همراه سابقه Optic neuritis احتمال NMOSD را مطرح می‌کند. در حمله شدید و پاسخ ناکافی به corticosteroid، Plasma exchange باید زودهنگام انجام شود.",
+      "optionExplanations": [
+        "پس از دوره کافی و عدم پاسخ، تکرار خودکار پالس جایگزین درمان نجات‌بخش نیست.",
+        "Glatiramer acetate درمان نگهدارنده MS است و برای حمله حاد یا NMOSD مناسب نیست.",
+        "درست؛ Plasma exchange درمان نجات‌بخش مهم در حمله شدید NMOSD یا myelitis مقاوم به steroid است.",
+        "Mitoxantrone درمان فوری حمله حاد نیست."
+      ],
+      "examTip": "LETM بیش از سه سگمان و Optic neuritis، NMOSD را مطرح می‌کند؛ در حمله مقاوم PLEX را زود انجام دهید.",
+      "examTrap": "در NMOSD در شروع PLEX پس از پاسخ ناکافی به steroid تأخیر نکنید.",
+      "source": "NEMOS acute NMOSD attack recommendations; plasma exchange reviews"
+    },
+    {
+      "id": "DM-069",
+      "stem": "خانم ۲۸ ساله با Optic neuritis دردناک و سابقه حمله قبلی Paraparesis پس از Pulse corticosteroid نیازمند DMT است. بیمار در حال درمان ناباروری است و احتمال بارداری در آینده نزدیک دارد. کدام گزینه مناسب‌تر است؟",
+      "options": [
+        "Interferon beta",
+        "Monoclonal antibody therapy به‌صورت کلی",
+        "Glatiramer acetate",
+        "Fingolimod"
+      ],
+      "correctIndex": 2,
+      "explanation": "در بیمار دارای MS عودکننده و احتمال بارداری نزدیک، انتخاب DMT باید با برنامه باروری هماهنگ شود. Glatiramer acetate سابقه ایمنی بارداری نسبتاً مطلوبی دارد و گزینه کلاسیک مناسبی است. Interferon beta نیز در شرایطی قابل بررسی است، اما Fingolimod در بارداری مناسب نیست و نیازمند برنامه‌ریزی قطع دارو است.",
+      "optionExplanations": [
+        "Interferon beta در برخی بیماران با برنامه بارداری قابل بررسی است و منع مطلق ندارد؛ Glatiramer گزینه کلاسیک‌تر این سؤال است.",
+        "Monoclonal antibodies گروه ناهمگنی‌اند و نمی‌توان درباره همه آن‌ها یک حکم واحد داد.",
+        "درست؛ Glatiramer acetate تجربه ایمنی نسبتاً مطلوبی در حوالی بارداری دارد.",
+        "Fingolimod در بارداری توصیه نمی‌شود و قطع آن نیز می‌تواند rebound disease ایجاد کند."
+      ],
+      "examTip": "در برنامه بارداری، Glatiramer acetate و در شرایط منتخب Interferon beta از گزینه‌های با تجربه ایمنی بیشترند.",
+      "examTrap": "DMT را بدون برنامه‌ریزی زمان بارداری شروع یا قطع نکنید.",
+      "source": "ECTRIMS/EAN pregnancy and MS recommendations; DMT pregnancy safety reviews"
+    },
+    {
+      "id": "DM-070",
+      "stem": "خانم ۳۰ ساله مبتلا به MS پنج ساله، Interferon beta زیرجلدی را هفته‌ای سه بار دریافت می‌کند. در یک سال اخیر فقط یک حمله تاری دید داشته و MRI جدید فاقد ضایعه فعال یا T2 جدید است. بیمار دچار افسردگی شده و از Flu-like symptoms شدید شکایت دارد و دارو را نامنظم مصرف می‌کند. مناسب‌ترین تغییر درمانی کدام است؟",
+      "options": [
+        "تبدیل به Interferon عضلانی",
+        "Glatiramer acetate",
+        "Natalizumab",
+        "Azathioprine"
+      ],
+      "correctIndex": 1,
+      "explanation": "با وجود کنترل نسبتاً خوب MRI، عوارض شبه‌آنفلوانزا و نگرانی از تغییرات خلقی باعث کاهش پایبندی شده‌اند. Glatiramer acetate می‌تواند جایگزین مناسبی باشد و معمولاً flu-like symptoms ناشی از Interferon را ندارد. افسردگی باید مستقلاً ارزیابی و درمان شود.",
+      "optionExplanations": [
+        "فرم عضلانی ممکن است دفعات تزریق را کم کند، اما عوارض شبه‌آنفلوانزا و نگرانی‌های مرتبط با خلق را لزوماً برطرف نمی‌کند.",
+        "درست؛ Glatiramer acetate معمولاً flu-like symptoms ناشی از Interferon را ندارد و برای بیماری با فعالیت نه‌چندان بالا گزینه قابل‌بررسی است.",
+        "Natalizumab درمان high-efficacy با خطر PML است و با MRI پایدار ضرورت آشکاری برای آن وجود ندارد.",
+        "Azathioprine درمان ترجیحی استاندارد MS عودکننده در این سناریو نیست و سمیت خونی و کبدی دارد."
+      ],
+      "examTip": "عدم تحمل و عدم پایبندی به DMT را با انتخاب درمان قابل‌تحمل‌تر مدیریت کنید.",
+      "examTrap": "MRI پایدار به معنی نادیده گرفتن عوارض یا افسردگی نیست.",
+      "source": "Interferon beta and glatiramer acetate prescribing information; MS adherence reviews"
     }
   ]
 }
