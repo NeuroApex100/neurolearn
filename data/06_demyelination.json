@@ -1470,6 +1470,636 @@
       "examTip": "عدم تحمل و عدم پایبندی به DMT را با انتخاب درمان قابل‌تحمل‌تر مدیریت کنید.",
       "examTrap": "MRI پایدار به معنی نادیده گرفتن عوارض یا افسردگی نیست.",
       "source": "Interferon beta and glatiramer acetate prescribing information; MS adherence reviews"
+    },
+    {
+      "id": "DM-071",
+      "stem": "میزان Concordance بیماری Multiple Sclerosis در دوقلوهای تک‌تخمکی (A)، دوقلوهای دوتخمکی (B) و خواهران و برادران غیر‌دوقلو (C) با کدام ترتیب مطابقت دارد؟",
+      "options": [
+        "A > B > C",
+        "A > B = C",
+        "A = B < C",
+        "A < C < B"
+      ],
+      "correctIndex": 0,
+      "explanation": "Concordance در دوقلوهای تک‌تخمکی بیشترین است، در دوقلوهای دوتخمکی کمتر و در خواهران و برادران غیر‌دوقلو از همه کمتر است. این الگو نقش ژنتیک را نشان می‌دهد، اما concordance در دوقلوهای تک‌تخمکی بسیار کمتر از ۱۰۰٪ است و بر نقش عوامل محیطی نیز تأکید دارد.",
+      "optionExplanations": [
+        "درست؛ ترتیب معمول MZ > DZ > siblings است.",
+        "Concordance دوقلوهای دوتخمکی از خواهر و برادر غیر‌دوقلو بیشتر است، نه مساوی.",
+        "با داده‌های اپیدمیولوژیک سازگار نیست.",
+        "جهت رابطه را معکوس کرده است."
+      ],
+      "examTip": "Concordance در MZ حدود چندین برابر DZ است، اما کامل نیست.",
+      "examTrap": "وراثت‌پذیری بالا به معنی تعیین ژنتیکی قطعی بیماری نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-072",
+      "stem": "مرد ۴۰ ساله با اختلال رفتاری و راه‌رفتن پیشرونده طی سه ماه، چند تشنج، همی‌پارزی و راش ماکولر قرمز و حساس به لمس مراجعه کرده است. MRI ضایعات دوطرفه periventricular نشان می‌دهد. بیمار سابقه پیوند مغز استخوان دارد و یک سال است Immunosuppressant دریافت می‌کند. محتمل‌ترین تشخیص کدام است؟",
+      "options": [
+        "Progressive multifocal leukoencephalopathy (PML)",
+        "Intravascular lymphoma",
+        "Graft-versus-host disease (GVHD) با درگیری CNS",
+        "Isolated CNS vasculitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "در زمینه پیوند مغز استخوان، راش پوستی همراه با تظاهرات عصبی، GVHD را مطرح می‌کند؛ درگیری CNS نادر است و تشخیص آن پس از排除 عفونت‌ها و علل متابولیک/دارویی مطرح می‌شود. PML نیز در بیمار immunosuppressed مهم است، اما راش پوستی را توضیح نمی‌دهد. در عمل MRI دقیق، بررسی CSF برای JCV و ارزیابی پوست/بافت و پرونده پیوند لازم است.",
+      "optionExplanations": [
+        "PML می‌تواند ضایعات ماده سفید و افت شناختی ایجاد کند، اما راش را توضیح نمی‌دهد و باید با CSF JCV PCR بررسی شود.",
+        "Intravascular lymphoma می‌تواند پوست و CNS را درگیر کند، ولی سابقه پیوند و راش در این سناریو GVHD را برجسته می‌کند.",
+        "بهترین پاسخ در چارچوب سناریو؛ GVHD می‌تواند با راش پوستی همراه باشد و به‌ندرت CNS را درگیر کند.",
+        "واسکولیت منفرد CNS معمولاً راش پوستی و زمینه پیوند را به‌خوبی توضیح نمی‌دهد."
+      ],
+      "examTip": "در بیمار پیوندی با راش و علائم عصبی، GVHD را در کنار عفونت‌های فرصت‌طلب بررسی کنید.",
+      "examTrap": "در بیمار immunosuppressed نباید PML را صرفاً به دلیل وجود راش کنار گذاشت.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-073",
+      "stem": "همه داروهای زیر به‌صورت خوراکی برای درمان Multiple Sclerosis مطرح شده‌اند، به‌جز کدام؟",
+      "options": [
+        "Laquinimod",
+        "Teriflunomide",
+        "Dimethyl fumarate",
+        "Alemtuzumab"
+      ],
+      "correctIndex": 3,
+      "explanation": "Alemtuzumab به‌صورت انفوزیون وریدی تجویز می‌شود. Teriflunomide و dimethyl fumarate خوراکی‌اند. Laquinimod نیز داروی خوراکیِ مورد مطالعه در MS بوده، اما درمان استانداردِ تأییدشده در بسیاری از کشورها نیست.",
+      "optionExplanations": [
+        "Laquinimod داروی خوراکی تحقیقاتی بوده است؛ تأیید و دسترسی آن محدود است.",
+        "درست؛ Teriflunomide خوراکی است.",
+        "درست؛ Dimethyl fumarate خوراکی است.",
+        "درست؛ Alemtuzumab به‌صورت IV infusion تجویز می‌شود."
+      ],
+      "examTip": "Route of administration را از وضعیت approval دارو جدا کنید.",
+      "examTrap": "خوراکی بودن Laquinimod به معنی داروی تأییدشده و رایج بودن آن نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-074",
+      "stem": "بیمار مبتلا به secondary progressive MS تحت درمان با Mitoxantrone وریدی است. برای واکسیناسیون او کدام واکسن مجاز نیست؟",
+      "options": [
+        "Pneumococcal vaccine",
+        "Hepatitis vaccine",
+        "Inactivated influenza vaccine",
+        "BCG vaccine"
+      ],
+      "correctIndex": 3,
+      "explanation": "Mitoxantrone یک داروی immunosuppressive است؛ واکسن زنده BCG در بیمار تحت این درمان نباید تزریق شود. واکسن‌های غیرفعال مانند pneumococcal، hepatitis و influenza معمولاً از نظر ایمنی قابل استفاده‌اند، هرچند پاسخ ایمنی ممکن است کاهش یابد و زمان‌بندی باید با وضعیت درمان هماهنگ شود.",
+      "optionExplanations": [
+        "واکسن pneumococcal غیرفعال است و معمولاً قابل استفاده است.",
+        "واکسن‌های رایج hepatitis غیرفعال یا recombinant هستند.",
+        "واکسن تزریقی influenza غیرفعال است؛ از فرآورده زنده داخل بینی پرهیز می‌شود.",
+        "درست؛ BCG واکسن زنده است و در immunosuppression منع دارد."
+      ],
+      "examTip": "در درمان‌های immunosuppressive، واکسن زنده را از غیرفعال تفکیک کنید.",
+      "examTrap": "همه فرآورده‌های influenza یکسان نیستند؛ واکسن تزریقی غیرفعال با نوع زنده داخل بینی تفاوت دارد.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-075",
+      "stem": "خانم ۳۰ ساله مبتلا به Clinically Isolated Syndrome پس از دریافت ۵ گرم Methylprednisolone، CSF با OCB منفی و IgG index برابر 0.5 دارد. همه موارد زیر می‌توانند صحیح باشند، به‌جز کدام؟",
+      "options": [
+        "IgG index پایین ممکن است تحت تأثیر درمان کورتونی قرار گیرد.",
+        "منفی شدن OCB را می‌توان به‌سادگی به پالس کورتون نسبت داد.",
+        "در صورت شک بالینی و ناسازگاری نتایج، تکرار IgG index در زمان دیگر قابل بررسی است.",
+        "تکرار OCB در شرایط منتخب و با توجه به کیفیت نمونه/روش آزمایش قابل بررسی است."
+      ],
+      "correctIndex": 1,
+      "explanation": "کورتیکواستروئیدها می‌توانند شاخص‌های التهاب داخل‌تکالی را تغییر دهند، اما منفی شدن OCB را نباید به‌طور معمول و قطعی به پالس کورتون نسبت داد. OCB معمولاً یافته‌ای نسبتاً پایدارتر است. اگر شک بالینی باقی بماند، باید کیفیت نمونه، روش آزمایش و تشخیص‌های جایگزین بازبینی شود؛ تکرار آزمایش به‌صورت روتین برای همه بیماران لازم نیست.",
+      "optionExplanations": [
+        "تغییرات شاخص‌های تولید IgG داخل‌تکالی پس از درمان ضدالتهابی ممکن است رخ دهد.",
+        "درست؛ نسبت دادن OCB منفی به پالس کورتون بدون شواهد کافی، توجیه قابل اتکایی نیست.",
+        "در موارد منتخب و نتایج ناسازگار، تکرار می‌تواند مطرح شود؛ نه به‌عنوان اقدام روتین.",
+        "در موارد منتخب، به‌ویژه شک به خطای پیش‌تحلیلی/روش‌شناختی، تکرار قابل بررسی است."
+      ],
+      "examTip": "OCB منفی MS را رد نمی‌کند، اما آن را نباید بی‌درنگ به کورتون نسبت داد.",
+      "examTrap": "IgG index و OCB دو آزمون یکسان نیستند و تفسیر مستقل می‌خواهند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-076",
+      "stem": "خانم ۲۰ ساله مبتلا به MS از پزشک می‌خواهد بیماری‌اش را به خواستگار او نگوید. ارجح‌ترین رویکرد اخلاقی و حرفه‌ای کدام است؟",
+      "options": [
+        "افشای تشخیص در حضور بیمار، بدون کسب رضایت صریح او",
+        "افشای تشخیص در غیاب بیمار",
+        "حفظ محرمانگی، توضیح اهمیت گفت‌وگوی صادقانه و تشویق بیمار به افشای داوطلبانه؛ بدون افشا به‌جای او",
+        "انکار بیماری در غیاب بیمار"
+      ],
+      "correctIndex": 2,
+      "explanation": "اطلاعات پزشکی محرمانه است و پزشک نباید بدون رضایت بیمار آن را به خواستگار یا شخص ثالث افشا کند. بهتر است با همدلی درباره پیامدهای تصمیم، اهمیت اطلاع‌رسانی آگاهانه در رابطه و امکان حضور پزشک در گفت‌وگو صحبت شود. در عین حال پزشک نباید برای بیمار دروغ بگوید؛ اگر شخص ثالث مستقیماً سؤال کند، باید حدود محرمانگی را محترمانه بیان کرد.",
+      "optionExplanations": [
+        "بدون رضایت بیمار نقض محرمانگی است.",
+        "نقض محرمانگی است و غیبت بیمار آن را مجاز نمی‌کند.",
+        "درست؛ حفظ محرمانگی همراه با حمایت از تصمیم‌گیری آگاهانه بیمار، بدون دروغ‌گویی.",
+        "دروغ‌گویی حرفه‌ای نیست؛ می‌توان از پاسخ‌گویی درباره اطلاعات محرمانه خودداری کرد."
+      ],
+      "examTip": "محرمانگی پزشکی به رضایت بیمار وابسته است، نه به حضور یا غیبت او.",
+      "examTrap": "بین افشا نکردن اطلاعات و انکار دروغین تشخیص تفاوت وجود دارد.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-077",
+      "stem": "خانم جوان مبتلا به MS پس از حملات panic و فعالیت فیزیکی سنگین دچار اسپاسم‌های دردناک و انقباضات تونیک حمله‌ای اندام‌ها می‌شود که با پایان حمله و استراحت برطرف می‌شوند. درمان مناسب کدام است؟",
+      "options": [
+        "Carbamazepine",
+        "Gabapentin",
+        "Acetazolamide",
+        "Levetiracetam"
+      ],
+      "correctIndex": 0,
+      "explanation": "این حملات با paroxysmal tonic spasms در MS سازگارند؛ تحریک‌پذیری نابجای مسیرهای دمیلینه‌شده می‌تواند حملات کوتاه و دردناک ایجاد کند. Carbamazepine یا Oxcarbazepine درمان کلاسیک و معمولاً مؤثر است. در صورت عدم تحمل، داروهای دیگر بر اساس شرایط بیمار بررسی می‌شوند.",
+      "optionExplanations": [
+        "درست؛ Carbamazepine درمان کلاسیک tonic spasms است.",
+        "ممکن است در برخی دردهای نوروپاتیک کمک کند، اما انتخاب کلاسیک اول نیست.",
+        "درمان استاندارد این حملات نیست.",
+        "داروی ضدتشنج است، اما برای tonic spasms انتخاب معمول اول نیست."
+      ],
+      "examTip": "حملات تونیک دردناک و کوتاه در MS را با Carbamazepine/Oxcarbazepine به خاطر بسپارید.",
+      "examTrap": "این حملات الزاماً epileptic seizure نیستند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-078",
+      "stem": "خانم ۲۵ ساله مبتلا به MS که Interferon beta دریافت می‌کند، از fatigue در فعالیت‌های روزمره شکایت دارد. ارزیابی سیستمیک و قلبی طبیعی است و شواهدی از اختلال خلقی وجود ندارد. کدام دارو در گزینه‌های زیر برای کاهش fatigue مطرح‌تر است؟",
+      "options": [
+        "Amantadine 100–150 mg twice daily",
+        "Modafinil 100–400 mg once daily",
+        "Pemoline once daily",
+        "Methylphenidate 10 mg once daily"
+      ],
+      "correctIndex": 0,
+      "explanation": "در میان گزینه‌ها، Amantadine بیشترین سابقه استفاده برای fatigue مرتبط با MS را دارد، هرچند شواهد اثربخشی آن محدود و ناهمگون است و اثر آن برای همه بیماران ثابت نیست. Modafinil و محرک‌ها شواهد متناقض دارند؛ Pemoline به علت سمیت کبدی از مصرف معمول خارج شده است. ابتدا خواب، افسردگی، داروها، عفونت، کم‌خونی و اختلال تیروئید بررسی شوند.",
+      "optionExplanations": [
+        "درست؛ در میان گزینه‌ها انتخاب سنتی‌تر است، اما سود بالینی متوسط و شواهد محدودند.",
+        "شواهد کارآزمایی‌ها متناقض است و مصرف روتین توصیه نمی‌شود.",
+        "به‌علت خطر سمیت شدید کبدی دیگر گزینه مناسبی نیست.",
+        "شواهد کافی برای مصرف روتین وجود ندارد و عوارض محرک‌ها مطرح است."
+      ],
+      "examTip": "در fatigue، ابتدا علل قابل اصلاح را بررسی کنید؛ Amantadine فقط در برخی بیماران امتحان می‌شود.",
+      "examTrap": "هیچ‌یک از داروهای این فهرست درمان قطعی fatigue در MS نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-079",
+      "stem": "دختر ۱۴ ساله با Tetraparesis حاد بستری شده است. MRI نخاع ضایعه T2 به طول چهار سگمان گردنی و MRI مغز ضایعات FLAIR اطراف بطن سوم و چهارم نشان می‌دهد؛ VEP دوطرفه مختل است. برای پیشگیری از حملات بعدی، کدام درمان در میان گزینه‌ها مناسب‌تر است؟",
+      "options": [
+        "Interferon beta",
+        "Glatiramer acetate",
+        "Azathioprine 2 mg/kg/day",
+        "Cladribine"
+      ],
+      "correctIndex": 2,
+      "explanation": "ترکیب longitudinally extensive transverse myelitis، درگیری periependymal اطراف بطن سوم/چهارم و شواهد درگیری عصب بینایی، NMOSD را مطرح می‌کند. Interferon beta و Glatiramer acetate درمان‌های MS هستند و در NMOSD مناسب نیستند و ممکن است بیماری را بدتر کنند. در گزینه‌های موجود، Azathioprine درمان نگهدارنده کلاسیک است؛ در حمله حاد، درمان با IV methylprednisolone و در موارد شدید/مقاوم plasma exchange مطرح است. امروزه درمان‌های هدفمند نیز در دسترس‌اند.",
+      "optionExplanations": [
+        "برای NMOSD انتخاب مناسبی نیست و ممکن است بیماری را تشدید کند.",
+        "درمان استاندارد NMOSD نیست.",
+        "درست؛ از گزینه‌ها درمان نگهدارنده کلاسیک NMOSD است، پس از ارزیابی تخصصی و پایش سمیت.",
+        "درمان خوراکی MS است، نه درمان نگهدارنده معمول NMOSD."
+      ],
+      "examTip": "LETM همراه با optic pathway و periependymal brain lesions، NMOSD را مطرح می‌کند.",
+      "examTrap": "درمان نگهدارنده را با درمان حمله حاد اشتباه نگیرید.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-080",
+      "stem": "خانم ۴۲ ساله مبتلا به MS تحت درمان با Natalizumab طی چهار هفته دچار اختلال پیشرونده رفتار، حافظه، تکلم و میدان بینایی شده است. MRI ضایعات جدید subcortical غیرجذب‌کننده contrast و CSF بدون سلول با پروتئین و قند طبیعی نشان می‌دهد. بهترین اقدام درمانی کدام است؟",
+      "options": [
+        "ادامه Natalizumab و شروع pulse corticosteroid",
+        "قطع Natalizumab و شروع Fingolimod",
+        "ادامه Natalizumab و افزودن آنتی‌بیوتیک",
+        "قطع Natalizumab و انجام plasma exchange برای تسریع پاک‌سازی دارو"
+      ],
+      "correctIndex": 3,
+      "explanation": "سناریو به‌شدت به نفع Natalizumab-associated PML است. دوز بعدی Natalizumab باید متوقف شود و MRI دقیق با DWI/contrast و CSF JCV PCR (در صورت منفی بودن اولیه و تداوم شک، تکرار آزمون حساس) انجام شود. Plasma exchange برای تسریع حذف Natalizumab از گردش خون در موارد مشکوک/تأییدشده به‌کار می‌رود، هرچند می‌تواند خطر یا زمان‌بندی PML-IRIS را تغییر دهد و تصمیم باید تخصصی باشد.",
+      "optionExplanations": [
+        "در شک به PML نباید Natalizumab ادامه یابد و استروئید پیش از اثبات IRIS توصیه نمی‌شود.",
+        "شروع فوری Fingolimod در این وضعیت نامناسب است و می‌تواند تشخیص/مدیریت عفونت را پیچیده کند.",
+        "آنتی‌بیوتیک درمان JCV/PML نیست.",
+        "درست؛ قطع دارو و در موارد مناسب plasma exchange برای تسریع حذف Natalizumab انجام می‌شود."
+      ],
+      "examTip": "در Natalizumab، علائم عصبی تحت‌حاد جدید را تا رد شدن PML جدی بگیرید.",
+      "examTrap": "کورتون برای PML معمولی نیست؛ عمدتاً در PML-IRIS التهابیِ علامت‌دار استفاده می‌شود.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-081",
+      "stem": "دختر ۱۲ ساله پنج روز پس از عفونت تنفسی فوقانی دچار سردرد، مننژیسم، کاهش سطح هوشیاری و تشنج شده است. CSF فشار بالا، ۵۰۰ سلول/mm³، پروتئین ۷۵ و گلوکز طبیعی دارد. MRI ضایعات منتشر ماده سفید در T2/FLAIR نشان می‌دهد. محتمل‌ترین تشخیص کدام است؟",
+      "options": [
+        "Cerebritis ناشی از Aspergillus",
+        "Acute hemorrhagic leukoencephalitis",
+        "Acute disseminated encephalomyelitis (ADEM)",
+        "Pneumococcal meningoencephalitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "شروع پس از عفونت، encephalopathy، علائم چندکانونی و ضایعات منتشر ماده سفید با ADEM سازگار است. با این حال CSF با pleocytosis قابل توجه و فشار بالا، عفونت CNS را نیز جدی مطرح می‌کند؛ پیش از تثبیت تشخیص ADEM باید کشت/PCR و درمان تجربی مناسب عفونت بر اساس وضعیت بالینی انجام شود. نبود شواهد خونریزی در MRI، AHLE را کمتر محتمل می‌کند.",
+      "optionExplanations": [
+        "Aspergillus بیشتر در زمینه نقص ایمنی و با ضایعات عروقی/آبسه مطرح است.",
+        "AHLE معمولاً با سیر بسیار fulminant و شواهد خونریزی در MRI همراه است.",
+        "درست؛ الگوی post-infectious encephalopathy و ضایعات منتشر ماده سفید به نفع ADEM است.",
+        "CSF bacterial meningitis معمولاً کاهش glucose و الگوی باکتریایی دارد؛ با این حال باید ابتدا عفونت رد شود."
+      ],
+      "examTip": "ADEM معمولاً ۱–۲ هفته پس از عفونت با encephalopathy و علائم multifocal ظاهر می‌شود.",
+      "examTrap": "CSF التهابی شدید را بدون بررسی عفونت به ADEM نسبت ندهید.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-082",
+      "stem": "مرد ۱۹ ساله دو روز پس از بیماری تنفسی تب‌دار، با تب مجدد، سردرد، confusion، سفتی گردن و quadriparesis پیشرونده بستری شده است. WBC برابر ۲۷۰۰۰ و ESR بالا است. کدام رویکرد مناسب‌تر است؟",
+      "options": [
+        "شروع Rituximab",
+        "شروع Alemtuzumab",
+        "شروع Teriflunomide",
+        "عدم شروع DMT؛ ارزیابی فوری مننژوانسفالیت عفونی و آغاز درمان ضد‌میکروبی تجربی متناسب با سن و شرایط"
+      ],
+      "correctIndex": 3,
+      "explanation": "این تابلوی حاد تب‌دار با مننژیسم و افت هوشیاری، تا خلافش ثابت نشده یک CNS infection/meningoencephalitis است؛ هیچ‌یک از DMTهای MS در این مرحله اندیکاسیون ندارد. باید ارزیابی فوری، کشت خون و CSF در صورت ایمن بودن، تصویربرداری در موارد لازم و شروع درمان تجربی ضدباکتریایی و در صورت لزوم ضدویروسی انجام شود. ADEM نیز در تشخیص افتراقی باقی می‌ماند، اما پس از ارزیابی عفونت.",
+      "optionExplanations": [
+        "Rituximab در مننژوانسفالیت عفونی درمان نیست و immunosuppression را تشدید می‌کند.",
+        "Alemtuzumab درمان MS است و در عفونت فعال نباید آغاز شود.",
+        "Teriflunomide درمان عفونت یا حمله حاد دمیلینه‌کننده نیست.",
+        "درست؛ اولویت، رد/درمان فوری عفونت CNS است و DMT نباید شروع شود."
+      ],
+      "examTip": "تب، مننژیسم و leukocytosis شدید را تا خلافش ثابت نشده عفونت فرض کنید.",
+      "examTrap": "وجود antecedent respiratory infection به‌تنهایی ADEM را ثابت نمی‌کند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-083",
+      "stem": "در Neuromyelitis Optica Spectrum Disorder (NMOSD) کدام مورد صحیح نیست؟",
+      "options": [
+        "Area postrema syndrome به نفع NMOSD است.",
+        "ضایعات periependymal اطراف بطن سوم و چهارم می‌توانند به نفع NMOSD باشند.",
+        "فراوانی CSF-restricted oligoclonal bands در NMOSD بیش از ۵۰٪ است.",
+        "Rituximab می‌تواند برای پیشگیری از حملات در فاز مزمن استفاده شود."
+      ],
+      "correctIndex": 2,
+      "explanation": "OCB اختصاصی CSF در NMOSD نسبت به MS بسیار کمتر شایع است و در اغلب مجموعه‌ها در اقلیت بیماران دیده می‌شود؛ بنابراین ادعای شیوع بیش از ۵۰٪ نادرست است. Area postrema syndrome و ضایعات اطراف بطن سوم/چهارم از الگوهای شناخته‌شده NMOSD هستند. Rituximab نیز از درمان‌های پیشگیری از حمله است، هرچند امروزه درمان‌های هدفمند AQP4 نیز وجود دارند.",
+      "optionExplanations": [
+        "صحیح؛ سندرم area postrema از ویژگی‌های هسته‌ای NMOSD است.",
+        "صحیح؛ ضایعات periependymal به‌ویژه اطراف بطن سوم/چهارم شناخته‌شده‌اند.",
+        "نادرست؛ OCB در NMOSD معمولاً کمتر از MS و اغلب در اقلیت بیماران مثبت است.",
+        "صحیح؛ Rituximab در درمان پیشگیری از حملات به‌کار می‌رود."
+      ],
+      "examTip": "OCB مثبت در MS شایع‌تر است؛ در NMOSD مثبت بودن آن تشخیصی نیست.",
+      "examTrap": "OCB منفی به‌تنهایی NMOSD را ثابت نمی‌کند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-084",
+      "stem": "بیمار مدت کوتاهی پس از عفونت ویروسی دچار confusion، تشنج و علائم فوکال می‌شود. MRI ضایعات دوطرفه ماده سفید و بهبود تدریجی پس از pulse corticosteroid نشان می‌دهد. کدام گزاره درباره ADEM صحیح‌تر است؟",
+      "options": [
+        "فاصله زمانی با بیماری تب‌دار قبلی معمولاً بیش از چهار هفته است.",
+        "ADEM پس از mumps از varicella و rubella شایع‌تر است.",
+        "در کودکان اغلب پیش‌آگهی کلی مطلوب است، هرچند برخی بیماران ممکن است مشکلات شناختی یا رفتاری باقی‌مانده داشته باشند.",
+        "تب در کودکان مبتلا به ADEM به‌ندرت دیده می‌شود."
+      ],
+      "correctIndex": 2,
+      "explanation": "ADEM معمولاً حدود ۱–۲ هفته پس از عفونت رخ می‌دهد و در کودکان اغلب بهبود قابل توجهی دارد؛ با این حال در بخشی از بیماران مشکلات شناختی، رفتاری یا حرکتی باقی می‌ماند. تب و علائم سیستمیک در کودکان شایع‌اند. عامل عفونی پیشین متنوع است و نسبت‌دادن فراوانی قطعی به یک ویروس خاص از این گزینه‌ها قابل دفاع نیست.",
+      "optionExplanations": [
+        "نادرست؛ فاصله معمول اغلب حدود ۱–۲ هفته است، نه بیش از چهار هفته.",
+        "این مقایسه فراوانی قابل اتکایی ندارد و صورت سؤال آن را بیش از حد قطعی بیان می‌کند.",
+        "درست‌ترین گزاره؛ پیش‌آگهی کودکان غالباً خوب است، اما sequelae ممکن است رخ دهد.",
+        "نادرست؛ تب در تظاهر کودکان شایع است."
+      ],
+      "examTip": "Encephalopathy همراه با deficits multifocal پس از عفونت، الگوی کلاسیک ADEM است.",
+      "examTrap": "ADEM همیشه monophasic و بدون sequelae نیست، هرچند اغلب پیش‌آگهی خوبی دارد.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-085",
+      "stem": "خانم ۳۵ ساله مبتلا به MS هفت ماه پس از شروع درمان دچار کاهش وزن، tremor و تعریق ناشی از افزایش هورمون‌های تیروئیدی شده است. کدام دارو محتمل‌ترین علت است؟",
+      "options": [
+        "Rituximab",
+        "Alemtuzumab",
+        "Teriflunomide",
+        "Dimethyl fumarate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alemtuzumab می‌تواند موجب اختلالات خودایمنی تیروئید، از جمله Graves hyperthyroidism یا thyroiditis، شود. پایش منظم TSH پیش و پس از درمان برای چند سال توصیه می‌شود.",
+      "optionExplanations": [
+        "Rituximab ممکن است عوارض ایمنی داشته باشد، اما ارتباط کلاسیک این سناریو با Alemtuzumab است.",
+        "درست؛ autoimmune thyroid disease از عوارض شناخته‌شده Alemtuzumab است.",
+        "Teriflunomide عارضه تیروئیدی خودایمنی کلاسیک Alemtuzumab را ندارد.",
+        "Dimethyl fumarate بیشتر با flushing، عوارض گوارشی و lymphopenia شناخته می‌شود."
+      ],
+      "examTip": "Alemtuzumab: پایش CBC، کلیه و تیروئید را فراموش نکنید.",
+      "examTrap": "پرکاری تیروئید چند ماه پس از درمان می‌تواند یک عارضه خودایمنی دارویی باشد.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-086",
+      "stem": "خانم ۳۸ ساله با پارزی تحت‌حاد، تشنج و اختلال رفتاری مراجعه کرده است. MRI ضایعه confluent در splenium corpus callosum در T2 نشان می‌دهد که به centrum semiovale مجاور گسترش یافته است. بیمار دو سال قبل پیوند مغز استخوان داشته است. کدام تشخیص در زمینه پیوند باید جدی‌تر بررسی شود؟",
+      "options": [
+        "ADEM",
+        "Hurst disease (acute hemorrhagic leukoencephalitis)",
+        "CNS graft-versus-host disease",
+        "Devic disease"
+      ],
+      "correctIndex": 2,
+      "explanation": "در بیمار پس از پیوند آلوژنیک، CNS-GVHD یک تشخیص نادر اما مهم در حضور علائم عصبی و ضایعات منتشر ماده سفید است. با این حال ضایعه splenial به‌تنهایی اختصاصی نیست و می‌تواند در عفونت، toxic-metabolic encephalopathy، seizure-related changes، PRES و سایر بیماری‌های دمیلینه‌کننده نیز دیده شود. تشخیص نیازمند بررسی نوع پیوند، داروها، علائم سیستمیک GVHD و رد عفونت فرصت‌طلب است. عبارت Hurst disease معمولاً به AHLE اشاره دارد که انتظار می‌رود شواهد خونریزی/ادم شدید داشته باشد.",
+      "optionExplanations": [
+        "ADEM ممکن است پس از عفونت رخ دهد، اما زمینه پیوند تشخیص‌های دیگر را برجسته می‌کند.",
+        "Hurst/AHLE معمولاً با سیر fulminant و شواهد hemorrhagic همراه است؛ این MRI به‌تنهایی آن را اثبات نمی‌کند.",
+        "درست‌ترین تشخیص زمینه‌ای در بیمار پیوندی، CNS-GVHD است؛ اما قطعی نیست و باید تشخیص‌های دیگر رد شوند.",
+        "NMOSD با optic neuritis و LETM/الگوهای اختصاصی دیگر مطرح می‌شود و این سناریو تیپیک نیست."
+      ],
+      "examTip": "در بیمار پیوندی، CNS-GVHD و عفونت‌های فرصت‌طلب را در کنار PRES بررسی کنید.",
+      "examTrap": "ضایعه splenium به‌تنهایی پاتوگنومونیک هیچ‌یک از این تشخیص‌ها نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-087",
+      "stem": "خانم ۴۰ ساله مبتلا به MS که سه سال Natalizumab دریافت کرده، طی چند روز دچار اختلال شناختی و خلقی شده است. MRI ضایعات جدید منتشر و multifocal در hemispheres و brainstem نشان می‌دهد که عمدتاً enhancement ندارند. محتمل‌ترین تشخیص چیست؟",
+      "options": [
+        "PML",
+        "PML-IRIS",
+        "Lymphoma",
+        "Sarcoidosis"
+      ],
+      "correctIndex": 0,
+      "explanation": "درمان طولانی با Natalizumab و بروز علائم عصبی شناختی تحت‌حاد همراه با ضایعات جدید multifocal و عمدتاً non-enhancing، PML را در صدر تشخیص‌ها قرار می‌دهد. باید Natalizumab متوقف و MRI با DWI/contrast و CSF JCV PCR انجام شود. IRIS معمولاً پس از بازیابی ایمنی/قطع یا حذف دارو و با شواهد التهاب و اغلب enhancement مطرح می‌شود.",
+      "optionExplanations": [
+        "درست؛ الگوی بالینی و MRI در بیمار تحت Natalizumab بسیار مشکوک به PML است.",
+        "IRIS معمولاً پس از قطع دارو یا immune reconstitution و با شواهد التهابی بیشتر مطرح می‌شود.",
+        "ممکن است ضایعات CNS ایجاد کند، اما زمینه Natalizumab و الگوی بالینی PML را محتمل‌تر می‌کند.",
+        "می‌تواند CNS را درگیر کند، ولی سناریو تیپیک نیست."
+      ],
+      "examTip": "در بیمار Natalizumab-treated، PML را پیش از relapse MS رد کنید.",
+      "examTrap": "عدم enhancement، PML را رد نمی‌کند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-088",
+      "stem": "مرد ۴۰ ساله با ۱۸ ماه سیر پیشرونده ضعف اندام تحتانی، بدون حمله بالینی، spastic paraparesis و Lhermitte sign دارد. MRI نخاع گردنی سه ضایعه دارد و سایر علل رد شده‌اند. برای تشخیص Primary Progressive MS بر اساس معیارهای 2017 McDonald، کدام یافته به‌تنهایی یکی از اجزای معیار را تأمین می‌کند؟",
+      "options": [
+        "وجود حداقل یک ضایعه T2 در ناحیه تیپیک مغزی مانند periventricular",
+        "افزایش IgG index بدون CSF-specific OCB",
+        "Enhancement یک ضایعه نخاعی در MRI تکراری یک ماه بعد",
+        "آتروفی cortical غیرمتناسب با سن"
+      ],
+      "correctIndex": 0,
+      "explanation": "در PPMS باید حداقل یک سال progression مستقل از relapse وجود داشته باشد و دو مورد از سه معیار تکمیلی: حداقل یک ضایعه T2 تیپیک در مغز، حداقل دو ضایعه T2 نخاعی، یا CSF-specific OCB. بیمار از قبل معیار MRI نخاعی را با سه ضایعه دارد؛ یک ضایعه مغزی تیپیک می‌تواند معیار دوم را تکمیل کند. افزایش isolated IgG index جایگزین OCB در معیار 2017 نیست و cortical atrophy معیار تشخیصی محسوب نمی‌شود.",
+      "optionExplanations": [
+        "درست؛ یک ضایعه تیپیک مغزی یکی از سه معیار تکمیلی است و همراه با ≥2 ضایعه نخاعی معیارها را تکمیل می‌کند.",
+        "در معیار 2017، معیار CSF برای PPMS، CSF-specific OCB است؛ isolated IgG index کافی نیست.",
+        "Enhancement در یک ضایعه، معیار مستقل PPMS نیست؛ بیمار از قبل تعداد کافی ضایعات نخاعی دارد.",
+        "آتروفی cortical ممکن است در MS دیده شود اما معیار رسمی تشخیصی PPMS نیست."
+      ],
+      "examTip": "PPMS = یک سال progression + دو مورد از سه معیار MRI brain، MRI cord و CSF OCB.",
+      "examTrap": "Enhancement یا DIT را با معیارهای اختصاصی PPMS اشتباه نگیرید.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-089",
+      "stem": "کدام الگوی CSF در افتراق NMOSD از Relapsing-remitting MS بیشتر کمک‌کننده است؟",
+      "options": [
+        "Pleocytosis خفیف‌تر",
+        "Protein طبیعی",
+        "غلبه لنفوسیتی",
+        "فقدان CSF-restricted oligoclonal bands"
+      ],
+      "correctIndex": 3,
+      "explanation": "CSF-restricted OCB در MS شایع است، اما در NMOSD بسیار کمتر دیده می‌شود و ممکن است در بسیاری از بیماران وجود نداشته باشد. Pleocytosis و افزایش پروتئین در NMOSD می‌تواند رخ دهد و در حملات حاد حتی neutrophils نیز دیده می‌شوند؛ بنابراین نبود OCB از گزینه‌های داده‌شده کمک‌کننده‌تر است.",
+      "optionExplanations": [
+        "میزان pleocytosis به‌تنهایی افتراق‌دهنده قابل اتکایی نیست.",
+        "پروتئین طبیعی اختصاصی نیست و در هر دو بیماری ممکن است دیده شود.",
+        "غلبه لنفوسیتی اختصاصی نیست؛ در NMOSD ممکن است neutrophils نیز وجود داشته باشند.",
+        "درست؛ OCB در NMOSD نسبت به MS بسیار کمتر شایع است."
+      ],
+      "examTip": "OCB مثبت از یافته‌های حمایتی مهم MS است؛ در NMOSD کمتر شایع است.",
+      "examTrap": "OCB منفی به‌تنهایی برای تشخیص NMOSD کافی نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-090",
+      "stem": "پدیده Uhthoff در بیماران MS با کدام مکانیسم بهتر توضیح داده می‌شود؟",
+      "options": [
+        "Cross-talk",
+        "Ephaptic transmission",
+        "Conduction block",
+        "Compression and retraction"
+      ],
+      "correctIndex": 2,
+      "explanation": "افزایش دمای بدن در آکسون‌های دمیلینه‌شده می‌تواند ایمنی هدایت را کاهش دهد و با کوتاه‌کردن حاشیه ایمنی هدایت، conduction block موقت ایجاد کند. بنابراین علائم عصبی قبلی با تب، ورزش یا گرما تشدید می‌شوند و با خنک‌شدن بهبود می‌یابند.",
+      "optionExplanations": [
+        "Cross-talk مکانیسم اصلی Uhthoff نیست.",
+        "Ephaptic transmission می‌تواند در علائم پاروکسیسمال نقش داشته باشد، اما توضیح کلاسیک Uhthoff نیست.",
+        "درست؛ افزایش دما در آکسون دمیلینه‌شده موجب اختلال/بلوک موقت هدایت می‌شود.",
+        "مکانیسم اصلی پدیده Uhthoff نیست."
+      ],
+      "examTip": "Uhthoff = worsening of pre-existing neurologic deficits with increased body temperature.",
+      "examTrap": "این پدیده معمولاً pseudo-relapse است، نه الزاماً التهاب جدید.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-091",
+      "stem": "کدام عامل از نظر پاتوفیزیولوژیک در ایجاد fatigue اولیه در بیماران MS مطرح‌تر است؟",
+      "options": [
+        "Cytokines و تغییرات التهابی سیستمیک/مرکزی",
+        "صرفاً تعداد پلاک‌های موجود در مغز",
+        "صرفاً محل یک پلاک منفرد",
+        "مدت زمان ابتلا به بیماری به‌تنهایی"
+      ],
+      "correctIndex": 0,
+      "explanation": "Fatigue در MS چندعاملی است. در fatigue اولیه، اختلال شبکه‌های عصبی و مکانیسم‌های التهابی از جمله cytokines مطرح‌اند؛ همبستگی ساده و ثابتی با تعداد پلاک‌ها یا مدت بیماری وجود ندارد. اختلال خواب، افسردگی، داروها، کم‌خونی، عفونت و بیماری‌های همراه باید برای fatigue ثانویه بررسی شوند. از میان گزینه‌ها، cytokines بهترین پاسخ است، اما یک عامل منفرد و قطعی نیست.",
+      "optionExplanations": [
+        "درست‌ترین گزینه از نظر مکانیسم‌های fatigue اولیه، هرچند پدیده چندعاملی است.",
+        "بار ضایعات MRI به‌تنهایی شدت fatigue را به‌طور قابل اعتماد پیش‌بینی نمی‌کند.",
+        "برخی شبکه‌ها/مناطق ممکن است نقش داشته باشند، اما یک محل منفرد توضیح جامع نیست.",
+        "مدت بیماری به‌تنهایی علت یا پیش‌بینی‌کننده کافی نیست."
+      ],
+      "examTip": "Fatigue در MS را به primary و secondary تفکیک کنید و علل قابل درمان را جست‌وجو کنید.",
+      "examTrap": "تعداد پلاک‌ها یا EDSS به‌تنهایی شدت fatigue را توضیح نمی‌دهد.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-092",
+      "stem": "خانم ۳۰ ساله مبتلا به MS طی یک هفته دچار حملات کوتاه اسپاسم تونیک دردناک می‌شود که با hyperventilation تحریک می‌شوند. بهترین درمان دارویی کلاسیک کدام است؟",
+      "options": [
+        "Gabapentin",
+        "Amitriptyline",
+        "Sodium valproate",
+        "Carbamazepine"
+      ],
+      "correctIndex": 3,
+      "explanation": "این حملات با paroxysmal tonic spasms ناشی از MS سازگارند. Carbamazepine یا Oxcarbazepine درمان کلاسیک و معمولاً مؤثر است. از آنجا که در گزینه‌های اولیه داروی خط اول وجود نداشت، گزینه D برای اصلاح علمی سؤال به Carbamazepine تغییر داده شده است.",
+      "optionExplanations": [
+        "ممکن است برای درد نوروپاتیک مفید باشد، اما انتخاب کلاسیک این حملات نیست.",
+        "برای درد نوروپاتیک/سردرد کاربرد دارد و درمان معمول tonic spasms نیست.",
+        "درمان استاندارد انتخابی این حملات نیست.",
+        "درست؛ Carbamazepine درمان کلاسیک paroxysmal tonic spasms است."
+      ],
+      "examTip": "حملات کوتاه و دردناک با hyperventilation در MS: Carbamazepine/Oxcarbazepine.",
+      "examTrap": "این حملات را با generalized epileptic seizures اشتباه نگیرید.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-093",
+      "stem": "درگیری مغزی در NMOSD در کدام ناحیه از گزینه‌های زیر بیشتر به الگوی تیپیک بیماری نزدیک است؟",
+      "options": [
+        "Putamen",
+        "Hypothalamus",
+        "Caudate",
+        "External capsule"
+      ],
+      "correctIndex": 1,
+      "explanation": "ضایعات diencephalic اطراف بطن سوم، شامل hypothalamus و thalamus، از الگوهای شناخته‌شده NMOSD هستند و با بیان AQP4 در نواحی periependymal ارتباط دارند.",
+      "optionExplanations": [
+        "Putamen می‌تواند در مواردی درگیر شود، اما الگوی کلاسیک این گزینه‌ها نیست.",
+        "درست؛ ضایعات hypothalamic/periependymal اطراف بطن سوم از الگوهای شناخته‌شده NMOSD است.",
+        "Caudate محل تیپیک و شاخص NMOSD نیست.",
+        "External capsule الگوی اختصاصی NMOSD نیست."
+      ],
+      "examTip": "NMOSD: area postrema، periependymal third/fourth ventricle و hypothalamus را به خاطر بسپارید.",
+      "examTrap": "درگیری هر ناحیه‌ای به‌تنهایی تشخیص NMOSD را ثابت نمی‌کند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-094",
+      "stem": "مرد ۲۰ ساله با تب، سردرد، confusion، تشنج و quadriparesis پس از عفونت تنفسی مراجعه کرده است. MRI ضایعات بزرگ، ادماتو و نامتقارن همراه با petechial hemorrhage در ماده سفید و خاکستری نشان می‌دهد. کدام عامل عفونی پیشین بیشتر با این سندرم دمیلینه‌کننده مرتبط است؟",
+      "options": [
+        "Listeria monocytogenes",
+        "Campylobacter jejuni",
+        "Mycoplasma pneumoniae",
+        "Legionella pneumophila"
+      ],
+      "correctIndex": 2,
+      "explanation": "تصویر بالینی و MRI به نفع Acute hemorrhagic leukoencephalitis (AHLE؛ نوع fulminant و hemorrhagic از ADEM) است. AHLE می‌تواند پس از عفونت‌های مختلف رخ دهد؛ Mycoplasma pneumoniae از عوامل گزارش‌شده پس از عفونت تنفسی است. هیچ عامل منفردی در این سناریو قطعی نیست و تشخیص عفونت فعال باید جداگانه بررسی شود.",
+      "optionExplanations": [
+        "Listeria بیشتر مننژوانسفالیت و rhombencephalitis ایجاد می‌کند.",
+        "Campylobacter بیشتر با Guillain–Barré و گاه سایر عوارض پساعفونی مرتبط است.",
+        "درست‌ترین گزینه در زمینه عفونت تنفسی و سندرم post-infectious demyelination؛ ارتباط AHLE با Mycoplasma گزارش شده است.",
+        "Legionella می‌تواند encephalopathy ایجاد کند، اما ارتباط کلاسیک این الگو کمتر است."
+      ],
+      "examTip": "AHLE را با ضایعات ادماتو، نامتقارن و خونریزی‌های petechial به خاطر بسپارید.",
+      "examTrap": "وجود antecedent infection به معنی اثبات حضور مستقیم میکروب در CNS نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-095",
+      "stem": "بیمار ۵۷ ساله مبتلا به MS که دو سال Natalizumab دریافت کرده، طی دو هفته دچار اختلال حافظه و تغییر شخصیت و سپس ضعف چهار اندام، اختلال دید، عدم تعادل و dysarthria شده است. MRI درگیری منتشر ماده سفید را نشان می‌دهد. کدام اقدام نادرست است؟",
+      "options": [
+        "بررسی CSF برای JCV PCR",
+        "MRI مغز با و بدون gadolinium",
+        "شروع فوری corticosteroid پیش از排除 PML/IRIS",
+        "قطع موقت Natalizumab در صورت شک به PML"
+      ],
+      "correctIndex": 2,
+      "explanation": "در بیمار تحت Natalizumab با علائم جدید و MRI مشکوک، باید PML فوراً بررسی شود: Natalizumab موقتاً متوقف، MRI شامل DWI و contrast انجام و CSF برای JCV PCR فرستاده شود. استروئید به‌طور روتین برای PML شروع نمی‌شود و پیش از اثبات PML-IRIS می‌تواند نامناسب باشد؛ استروئید برای IRIS التهابیِ علامت‌دار مطرح است.",
+      "optionExplanations": [
+        "اقدام ضروری در ارزیابی PML است؛ در صورت شک بالا و PCR منفی اولیه ممکن است تکرار لازم باشد.",
+        "MRI با contrast و DWI به ارزیابی PML و افتراق IRIS کمک می‌کند.",
+        "درست؛ شروع فوری کورتون پیش از اثبات IRIS اقدام مناسبی نیست.",
+        "تعلیق/قطع Natalizumab در زمان بررسی PML ضروری است."
+      ],
+      "examTip": "در شک به PML، دارو را نگه دارید و بررسی JCV/MRI را سریع انجام دهید.",
+      "examTrap": "کورتون برای PML معمولی نیست؛ در PML-IRIS علامت‌دار مطرح می‌شود.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-096",
+      "stem": "مرد ۴۰ ساله مبتلا به RRMS با شکایت chronic fatigue مراجعه کرده است. کدام دارو برای درمان fatigue مرتبط با MS کمتر توصیه می‌شود؟",
+      "options": [
+        "Modafinil",
+        "Sertraline",
+        "Dalfampridine (Fampridine)",
+        "Amantadine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Sertraline درمان fatigue اولیه MS نیست؛ در صورت وجود افسردگی یا اضطراب می‌تواند برای همان اختلال خلقی تجویز شود. Amantadine گاهی برای fatigue امتحان می‌شود، هرچند شواهد محدود است. Modafinil شواهد متناقض دارد و Dalfampridine بیشتر برای بهبود راه‌رفتن در بیماران منتخب کاربرد دارد، نه درمان مستقیم fatigue.",
+      "optionExplanations": [
+        "شواهد اثربخشی برای fatigue متناقض است و مصرف روتین توصیه نمی‌شود.",
+        "درست؛ Sertraline درمان fatigue نیست، مگر آنکه اختلال خلقی همراه وجود داشته باشد.",
+        "اندیکاسیون اصلی آن بهبود walking speed در برخی بیماران است، نه درمان مستقیم fatigue.",
+        "گاهی به‌صورت trial در fatigue استفاده می‌شود، با شواهد محدود."
+      ],
+      "examTip": "داروی fatigue را با درمان افسردگی یا بهبود walking speed اشتباه نگیرید.",
+      "examTrap": "وجود fatigue به‌تنهایی اندیکاسیون SSRI نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-097",
+      "stem": "بیمار مبتلا به MS چند هفته پس از شروع Interferon beta با افزایش آنزیم‌های کبدی تا هشت برابر حد طبیعی مواجه شده است. محتمل‌ترین تفسیر کدام است؟",
+      "options": [
+        "Allergic reaction to drug",
+        "Systemic capillary leak syndrome",
+        "Interferon-associated drug-induced liver injury؛ در موارد نادر می‌تواند شدید و نکروزان باشد",
+        "Acute cholangitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Interferon beta می‌تواند موجب افزایش ALT/AST و به‌ندرت آسیب شدید کبدی یا autoimmune hepatitis شود. افزایش هشت‌برابری نیازمند توقف/بازبینی دارو بر اساس علائم، bilirubin، INR و روند آزمایش‌ها و بررسی علل دیگر است. عبارت necrotizing hepatitis در گزینه اصلی بیش از حد قطعی است؛ بدون شواهد بالینی/آزمایشگاهی نمی‌توان نکروز کبدی را تشخیص داد، بنابراین گزینه به توصیف دقیق‌تر drug-induced liver injury اصلاح شده است.",
+      "optionExplanations": [
+        "افزایش آنزیم‌های کبدی به‌تنهایی واکنش آلرژیک را ثابت نمی‌کند.",
+        "عارضه شناخته‌شده و معمول Interferon beta نیست.",
+        "درست؛ افزایش آنزیم‌ها می‌تواند drug-induced liver injury باشد؛ نکروز کبدی نادر و شدید است، نه نتیجه قطعی این آزمایش.",
+        "Cholangitis معمولاً با الگوی کلستاتیک و شواهد بالینی عفونت صفراوی همراه است."
+      ],
+      "examTip": "با ALT/AST بسیار بالا در مصرف Interferon، DILI را بررسی و شدت آسیب را با bilirubin/INR بسنجید.",
+      "examTrap": "افزایش ترانس‌آمیناز به‌تنهایی معادل necrotizing hepatitis نیست.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-098",
+      "stem": "در مورد یافته‌های CSF در Multiple Sclerosis کدام گزینه صحیح است؟",
+      "options": [
+        "افزایش IgG index فقط در یک‌سوم بیماران دیده می‌شود.",
+        "در بیشتر بیماران تعداد WBC کمتر از ۶/mm³ و پروتئین طبیعی است.",
+        "وجود OCB سایر بیماری‌های التهابی و عفونی CNS را رد می‌کند.",
+        "درمان با corticosteroid سبب از بین رفتن OCB می‌شود."
+      ],
+      "correctIndex": 1,
+      "explanation": "CSF در MS اغلب طبیعی یا نزدیک به طبیعی است؛ در بیشتر بیماران تعداد سلول‌ها کمتر از ۵–۶/mm³ و پروتئین طبیعی یا اندکی بالا است. افزایش IgG index و OCB شایع‌اند، اما OCB اختصاصی MS نیست و در بیماری‌های عفونی/التهابی دیگر نیز دیده می‌شود. استروئیدها معمولاً OCB را به‌طور قابل اتکا حذف نمی‌کنند.",
+      "optionExplanations": [
+        "IgG index در بخش قابل توجهی از بیماران افزایش می‌یابد و رقم یک‌سوم کم‌برآورد است.",
+        "درست؛ CSF معمولاً pleocytosis قابل توجه ندارد و protein اغلب طبیعی است.",
+        "OCB اختصاصی MS نیست و در عفونت‌ها و بیماری‌های التهابی دیگر نیز ممکن است مثبت شود.",
+        "کورتیکواستروئید معمولاً OCB را از بین نمی‌برد."
+      ],
+      "examTip": "در MS، OCB شایع اما غیر اختصاصی است؛ CSF معمولاً cell count پایین دارد.",
+      "examTrap": "پلئوسیتوز واضح یا protein بسیار بالا باید تشخیص‌های جایگزین را مطرح کند.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-099",
+      "stem": "مصرف کدام دارو در بیماران MS خطر بروز seizure را افزایش می‌دهد؟",
+      "options": [
+        "Amantadine",
+        "Tizanidine",
+        "Oxybutynin",
+        "4-aminopyridine (Dalfampridine)"
+      ],
+      "correctIndex": 3,
+      "explanation": "4-aminopyridine با مسدودکردن کانال‌های پتاسیمی می‌تواند هدایت عصبی را بهبود دهد، اما خطر seizure وابسته به دوز دارد؛ مصرف بیش از دوز توصیه‌شده یا اختلال عملکرد کلیه خطر را افزایش می‌دهد. Dalfampridine در بیمار با سابقه seizure منع مصرف دارد.",
+      "optionExplanations": [
+        "در دوزهای درمانی معمول، خطر seizure شاخص و اصلی این گزینه نیست.",
+        "عارضه اصلی آن خواب‌آلودگی، ضعف و افت فشار است.",
+        "آنتی‌کولینرژیک است و عارضه شاخص آن seizure نیست.",
+        "درست؛ خطر seizure عارضه مهم و وابسته به دوز Dalfampridine است."
+      ],
+      "examTip": "پیش از Dalfampridine، سابقه seizure و عملکرد کلیه را بررسی کنید.",
+      "examTrap": "افزایش دوز برای بهبود بیشتر راه‌رفتن خطرناک است و سود اضافه ندارد.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
+    },
+    {
+      "id": "DM-100",
+      "stem": "در مورد واکسیناسیون بیماران مبتلا به MS کدام گزینه صحیح است؟",
+      "options": [
+        "در بیمار دریافت‌کننده Mitoxantrone، واکسن‌های زنده مانند BCG و MMR ممنوع‌اند.",
+        "واکسن تزریقی influenza در RRMS سبب تشدید بیماری می‌شود.",
+        "اگر آخرین حمله دو هفته قبل بوده باشد، واکسن hepatitis همیشه ممنوع است.",
+        "واکسن Varicella-zoster موجب تشدید علائم MS می‌شود."
+      ],
+      "correctIndex": 0,
+      "explanation": "در بیمار تحت Mitoxantrone و سایر درمان‌های immunosuppressive، واکسن زنده تضعیف‌شده به علت خطر عفونت منتشر نباید تزریق شود. واکسن‌های غیرفعال از جمله influenza تزریقی معمولاً موجب افزایش relapse نمی‌شوند؛ زمان‌بندی واکسیناسیون باید با نوع DMT و وضعیت حمله هماهنگ شود. واکسن زنده zoster با فرآورده recombinant غیرزنده تفاوت دارد.",
+      "optionExplanations": [
+        "درست؛ واکسن‌های زنده در immunosuppression قابل توجه ممنوع‌اند.",
+        "نادرست؛ واکسن تزریقی غیرفعال influenza عموماً relapse را افزایش نمی‌دهد.",
+        "منع مطلق و همیشگی با فاصله دو هفته وجود ندارد؛ زمان‌بندی باید با ثبات بالینی و درمان هماهنگ شود.",
+        "این گزاره کلی نادرست است؛ باید نوع واکسن (live vs recombinant) و وضعیت immunosuppression مشخص شود."
+      ],
+      "examTip": "در MS واکسیناسیون معمولاً توصیه می‌شود؛ نوع واکسن و نوع DMT تعیین‌کننده‌اند.",
+      "examTrap": "واکسن زنده را با recombinant zoster vaccine غیرزنده اشتباه نگیرید.",
+      "source": "User-provided Iranian exam question 71–100; evidence review"
     }
   ]
 }
