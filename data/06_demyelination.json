@@ -3570,6 +3570,573 @@
       "examTip": "Rituximab و Ocrelizumab هر دو anti-CD20 هستند؛ Alemtuzumab anti-CD52 است.",
       "examTrap": "شباهت هدف مولکولی به معنی یکسان بودن مجوز، دوز یا ایمنی داروها نیست.",
       "source": "Ocrevus and Rituximab prescribing information; contemporary MS DMT mechanism reviews."
+    },
+    {
+      "id": "DM-171",
+      "stem": "خانم ۳۸ ساله با سابقه طولانی Psoriasis و Rheumatoid arthritis تحت درمان با Methotrexate و Prednisolone، پس از یک اپیزود درد و کاهش دید یک‌طرفه، در MRI مغز ضایعات متعدد ماده سفید دارد که برخی از آن‌ها Gadolinium enhancement نشان می‌دهند. CSF دارای CSF-restricted oligoclonal bands و IgG index برابر 1.4 است. کدام درمان تعدیل‌کننده بیماری ممکن است بیماری پوستی زمینه‌ای او را تشدید کند؟",
+      "options": [
+        "Interferon beta",
+        "Dimethyl fumarate",
+        "Rituximab",
+        "Glatiramer acetate"
+      ],
+      "correctIndex": 0,
+      "explanation": "Interferon beta می‌تواند در برخی بیماران موجب بروز یا تشدید Psoriasis شود و در بیمار دارای بیماری‌های خودایمنی همراه، انتخاب آن نیازمند احتیاط و هماهنگی با متخصص مربوط است. با این حال، شرح حال به‌تنهایی تشخیص قطعی MS را ثابت نمی‌کند و پیش از انتخاب Disease-modifying therapy باید علل جایگزین optic neuritis و ضایعات MRI بررسی شوند.",
+      "optionExplanations": [
+        "بهترین پاسخ در چارچوب سؤال است؛ Interferon beta در گزارش‌های بالینی با ایجاد یا تشدید Psoriasis همراه بوده است.",
+        "Dimethyl fumarate درمانی برای برخی انواع Psoriasis نیز بوده و معمولاً عامل شناخته‌شده تشدید آن نیست.",
+        "Rituximab با هدف‌گیری CD20 در برخی بیماری‌های خودایمنی کاربرد دارد و ارتباط کلاسیک با تشدید Psoriasis ندارد.",
+        "Glatiramer acetate درمان تعدیل‌کننده MS است و ارتباط شاخصی با تشدید Psoriasis ندارد."
+      ],
+      "examTip": "وجود بیماری خودایمنی همراه می‌تواند بر انتخاب DMT اثر بگذارد؛ خطر تشدید بیماری همراه را جدا از اثربخشی بر MS بسنجید.",
+      "examTrap": "CSF-restricted OCB و IgG index بالا به‌تنهایی برای تشخیص MS کافی نیستند. رابطه Interferon beta و Psoriasis نیز در همه بیماران یکسان و قطعی نیست.",
+      "source": "Interferon beta product information; reviews and case reports on interferon-associated psoriasis; contemporary MS DMT selection guidance."
+    },
+    {
+      "id": "DM-172",
+      "stem": "مرد ۳۵ ساله‌ای با سرگیجه و آتاکسی بستری شده است. MRI مغز چند ضایعه کوچک و غیراختصاصی ماده سفید نشان می‌دهد. کدام عبارت درباره Oligoclonal bands (OCB) در CSF صحیح‌تر است؟",
+      "options": [
+        "وجود OCB اختصاصی CSF نشان‌دهنده پاسخ ایمنی داخل CNS است و می‌تواند از تشخیص MS حمایت کند، اما به‌تنهایی تشخیصی نیست.",
+        "وجود حتی یک باند OCB تشخیص MS را قطعی می‌کند.",
+        "منفی بودن OCB تشخیص MS را به‌طور قطعی رد می‌کند.",
+        "مثبت بودن OCB در CSF، NMOSD را به‌طور قطعی رد می‌کند."
+      ],
+      "correctIndex": 0,
+      "explanation": "OCBهای اختصاصی CSF شواهدی از intrathecal IgG synthesis هستند و در زمینه بالینی و تصویربرداری مناسب از تشخیص MS حمایت می‌کنند. با این حال، OCB اختصاصی MS نیست و در برخی عفونت‌ها و بیماری‌های التهابی دیگر، از جمله بخشی از بیماران NMOSD، نیز ممکن است دیده شود. نتیجه منفی نیز MS را به‌طور مطلق رد نمی‌کند.",
+      "optionExplanations": [
+        "درست است؛ OCB یک یافته حمایتی است و باید در کنار تابلوی بالینی و MRI تفسیر شود.",
+        "نادرست است؛ وجود OCB به‌تنهایی معیار کافی برای تشخیص MS نیست.",
+        "نادرست است؛ بخشی از بیماران مبتلا به MS، به‌ویژه در برخی جمعیت‌ها، OCB منفی دارند.",
+        "نادرست است؛ OCB ممکن است در NMOSD نیز وجود داشته باشد و اختصاصی MS نیست."
+      ],
+      "examTip": "OCB اختصاصی CSF نشانگر intrathecal IgG synthesis است، نه یک آزمون اختصاصی برای MS.",
+      "examTrap": "وجود OCB را با اثبات قطعی MS یا رد قطعی NMOSD یکسان نگیرید.",
+      "source": "2017 and 2024 McDonald criteria; contemporary reviews of CSF biomarkers in MS and NMOSD."
+    },
+    {
+      "id": "DM-173",
+      "stem": "خانم جوان مبتلا به یک بیماری دمیلینه‌کننده عودکننده که تحت درمان با Interferon beta است، از خستگی مزمن شکایت دارد. پس از ارزیابی علل قابل اصلاح خستگی، کدام دارو را می‌توان به‌صورت یک آزمون درمانی و با تصمیم‌گیری مشترک پیشنهاد کرد؟",
+      "options": [
+        "Glatiramer acetate",
+        "Modafinil",
+        "Isoniazid",
+        "Pyridoxine"
+      ],
+      "correctIndex": 1,
+      "explanation": "Modafinil در برخی بیماران برای کاهش خستگی مرتبط با MS به‌صورت off-label امتحان می‌شود، اما شواهد اثربخشی آن متناقض است و مطالعات جدید برتری پایدار آن بر placebo را نشان نداده‌اند. پیش از درمان دارویی باید اختلال خواب، افسردگی، عفونت، کم‌خونی، عوارض داروها و عدم فعالیت بررسی شوند. NICE امکان آزمون دارویی از جمله Modafinil یا Amantadine را با تصمیم‌گیری مشترک و نظارت متخصص مطرح می‌کند.",
+      "optionExplanations": [
+        "Glatiramer acetate یک DMT است و درمان علامتی خستگی محسوب نمی‌شود.",
+        "پاسخ مورد انتظار آزمون است؛ Modafinil گاهی به‌صورت off-label امتحان می‌شود، ولی شواهد اثربخشی محدود و ناهمگون است.",
+        "Isoniazid درمان خستگی MS نیست و می‌تواند نوروپاتی محیطی ایجاد کند.",
+        "Pyridoxine فقط در کمبود یا اندیکاسیون مشخص کاربرد دارد و درمان روتین خستگی MS نیست."
+      ],
+      "examTip": "خستگی MS را ابتدا از علل ثانویه تفکیک کنید؛ درمان دارویی خستگی باید با اطلاع از شواهد محدود و عوارض انجام شود.",
+      "examTrap": "Modafinil درمان قطعی یا DMT برای MS نیست و در بارداری یا برنامه بارداری محدودیت‌های مهمی دارد.",
+      "source": "NICE NG220, 2022 recommendations 1.5.12–1.5.14; systematic reviews of pharmacological treatment of MS fatigue, 2024–2025."
+    },
+    {
+      "id": "DM-174",
+      "stem": "نوجوان ۱۴ ساله‌ای با سردرد، خواب‌آلودگی و تشنج به اورژانس آورده شده است. در معاینه Nuchal rigidity دارد. MRI مغز چند ضایعه در White matter هر دو Cerebral hemisphere نشان می‌دهد. CSF افزایش مختصر پروتئین و چند Lymphocyte دارد. پس ازرد عفونت فعال CNS، مناسب‌ترین درمان ضدالتهابی اولیه کدام است؟",
+      "options": [
+        "High-dose intravenous Methylprednisolone به مدت ۵ روز",
+        "Acyclovir وریدی با دوز 30 mg/kg/day به مدت ۱۴ روز",
+        "Doxycycline، 100 mg دو بار در روز به مدت ۲ هفته",
+        "Natalizumab، روزانه 1000 mg و تکرار آن ۲ هفته بعد"
+      ],
+      "correctIndex": 0,
+      "explanation": "سن پایین، انسفالوپاتی حاد، تشنج و ضایعات متعدد ماده سفید پس از رد عفونت، با ADEM سازگار است. درمان خط اول معمولاً high-dose IV Methylprednisolone برای ۳ تا ۵ روز است؛ در موارد مقاوم می‌توان IVIG یا Plasma exchange را در نظر گرفت. وجود تب یا مننژیسم الزاماً ADEM را ثابت نمی‌کند و بررسی عفونت باید پیش از سرکوب ایمنی انجام شود.",
+      "optionExplanations": [
+        "درست است؛ در ADEM پس از رد عفونت فعال، IV Methylprednisolone با دوز بالا درمان خط اول است.",
+        "Acyclovir در صورت شک به HSV encephalitis باید فوراً و تا روشن شدن بررسی‌ها شروع شود، اما درمان اختصاصی ADEM نیست.",
+        "Doxycycline فقط در عفونت‌های حساس و با شواهد اپیدمیولوژیک/آزمایشگاهی مناسب کاربرد دارد.",
+        "دوز و رژیم ذکرشده برای Natalizumab نادرست است؛ این دارو درمان ADEM نیست."
+      ],
+      "examTip": "در ADEM، درمان اولیه معمولاً IV Methylprednisolone با دوز بالا است؛ در عدم پاسخ، IVIG یا Plasma exchange مطرح می‌شود.",
+      "examTrap": "پیش از تجویز کورتون با دوز بالا، عفونت‌هایی مانند HSV encephalitis باید به‌طور مناسب بررسی و در صورت شک بالینی درمان تجربی شوند.",
+      "source": "ASFA 9th Special Issue, 2023; contemporary ADEM treatment reviews and pediatric demyelination guidance."
+    },
+    {
+      "id": "DM-175",
+      "stem": "خانمی مبتلا به MS که سه سال تحت درمان با Natalizumab بوده، طی سه هفته دچار اختلال شناختی و رفتاری پیشرونده شده است. MRI ضایعات جدید متعدد و دوطرفه ماده سفید با درگیری Corpus callosum و Gadolinium enhancement قابل توجه نشان می‌دهد. کدام تشخیص محتمل‌تر است؟",
+      "options": [
+        "Progressive multifocal leukoencephalopathy (PML)",
+        "PML-associated immune reconstitution inflammatory syndrome (IRIS)",
+        "Primary CNS lymphoma",
+        "MS relapse"
+      ],
+      "correctIndex": 0,
+      "explanation": "در بیمار دریافت‌کننده Natalizumab با علائم عصبی تحت‌حاد و پیشرونده و ضایعات جدید چندکانونی ماده سفید، PML باید در اولویت بررسی باشد. Gadolinium enhancement به‌تنهایی PML را رد نمی‌کند؛ در برخی موارد Natalizumab-associated PML، enhancement پیش از قطع دارو نیز دیده می‌شود. IRIS معمولاً پس از قطع یا پاک‌سازی Natalizumab و بازگشت پاسخ ایمنی، همراه با بدترشدن بالینی و شواهد التهاب MRI مطرح‌تر می‌شود. تشخیص با MRI اختصاصی و CSF JCV PCR پیگیری می‌شود.",
+      "optionExplanations": [
+        "محتمل‌ترین تشخیص اولیه است و باید فوراً بررسی شود؛ enhancement وجود PML را رد نمی‌کند.",
+        "بدون سابقه قطع/پاک‌سازی دارو یا شواهد بازگشت ایمنی، IRIS تشخیص اول نیست؛ البته early PML-IRIS نیز گزارش شده است.",
+        "در افتراق باقی می‌ماند، اما زمینه Natalizumab و الگوی ضایعات بیشتر PML را مطرح می‌کند.",
+        "Relapse معمول MS معمولاً این الگوی پیشرونده شناختی و ضایعات گسترده را توضیح نمی‌دهد و پیش از کورتون باید PML رد شود."
+      ],
+      "examTip": "در مصرف‌کننده Natalizumab، هر علامت عصبی جدید و پیشرونده را تا زمان رد شدن، PML فرض کنید.",
+      "examTrap": "Enhancement فقط پس از قطع Natalizumab رخ نمی‌دهد؛ IRIS را با زمان‌بندی قطع دارو و سیر بالینی تفسیر کنید.",
+      "source": "Natalizumab prescribing information; reviews of natalizumab-associated PML and PML-IRIS; 2024–2025 MS management consensus."
+    },
+    {
+      "id": "DM-176",
+      "stem": "در بیماری MS کدام‌یک از حوزه‌های زیر معمولاً نسبت به سایر حوزه‌های شناختی کمتر درگیر می‌شود؟",
+      "options": [
+        "Attention and concentration",
+        "Memory",
+        "Speech and language",
+        "Executive function"
+      ],
+      "correctIndex": 2,
+      "explanation": "اختلال شناختی در MS بیشتر شامل سرعت پردازش اطلاعات، توجه، حافظه و عملکردهای اجرایی است. زبان و گفتار در مقایسه با این حوزه‌ها معمولاً نسبتاً حفظ می‌شوند؛ البته در بیماری پیشرفته یا درگیری نواحی خاص CNS ممکن است اختلال گفتار نیز رخ دهد.",
+      "optionExplanations": [
+        "Attention و concentration از حوزه‌های شایع اختلال شناختی در MS هستند.",
+        "اختلال حافظه، به‌ویژه یادگیری و بازیابی، شایع است.",
+        "درست است؛ زبان و گفتار معمولاً نسبتاً حفظ می‌شوند، هرچند اختلال آن‌ها ناممکن نیست.",
+        "Executive function از حوزه‌های شناخته‌شده اختلال شناختی در MS است."
+      ],
+      "examTip": "کاهش processing speed از شاخص‌ترین مشکلات شناختی MS است؛ حافظه و executive function نیز شایعاً درگیر می‌شوند.",
+      "examTrap": "حفظ نسبی گفتار به معنای مصونیت کامل از dysarthria یا aphasia در MS نیست.",
+      "source": "National MS Society cognitive symptoms guidance; contemporary reviews of cognition in multiple sclerosis."
+    },
+    {
+      "id": "DM-177",
+      "stem": "خانم ۲۳ ساله مبتلا به RRMS کاندید شروع Interferon beta است. کدام سابقه بالینی بیش از سایر موارد، انتخاب این دارو را نامناسب می‌کند و نیازمند ارزیابی و کنترل دقیق پیش از شروع است؟",
+      "options": [
+        "حساسیت به NSAIDs که برای پیشگیری از Flu-like symptoms استفاده می‌شوند",
+        "سابقه افسردگی شدید",
+        "مصرف Benzodiazepine بیش از دو ماه",
+        "سابقه Migraine در بیمار یا خانواده"
+      ],
+      "correctIndex": 1,
+      "explanation": "Interferon beta می‌تواند با بروز یا تشدید علائم افسردگی همراه باشد؛ در بیمار دارای سابقه افسردگی شدید باید وضعیت روان‌پزشکی، خطر خودآسیبی و امکان پایش نزدیک ارزیابی شود و در افسردگی فعال یا کنترل‌نشده معمولاً گزینه دیگری ترجیح داده می‌شود. این مورد منع مطلق همیشگی نیست و تصمیم باید فردی باشد.",
+      "optionExplanations": [
+        "حساسیت به NSAIDs لزوماً منع مصرف Interferon beta نیست؛ می‌توان برای علائم شبه‌آنفلوانزا راهکار جایگزین در نظر گرفت.",
+        "بهترین پاسخ است؛ سابقه افسردگی شدید یک هشدار مهم برای انتخاب و پایش Interferon beta است.",
+        "مصرف Benzodiazepine به‌تنهایی منع مصرف اختصاصی Interferon beta نیست.",
+        "Migraine در بیمار یا خانواده، منع مصرف Interferon beta محسوب نمی‌شود."
+      ],
+      "examTip": "پیش از شروع Interferon beta، سابقه افسردگی و وضعیت خلقی بیمار را ارزیابی کنید.",
+      "examTrap": "افسردگی شدید را یک هشدار مهم بدانید، نه اینکه در تمام بیماران آن را منع مطلق و بدون استثنا تلقی کنید.",
+      "source": "Interferon beta product information; MS disease-modifying therapy safety reviews."
+    },
+    {
+      "id": "DM-178",
+      "stem": "خانمی ۲۲ ساله با سردرد و سپس Confusion، تشنج و افت پیشرونده سطح هوشیاری مراجعه کرده است. WBC برابر 30000 و ESR برابر 53 است. MRI مغز ضایعات بزرگ، ادماتو و نامتقارن دوطرفه در White matter همراه با کانون‌های خونریزی نشان می‌دهد. محتمل‌ترین تشخیص چیست؟",
+      "options": [
+        "Cerebral lupus",
+        "Herpes simplex encephalitis",
+        "Acute hemorrhagic leukoencephalitis",
+        "Acute disseminated encephalomyelitis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Acute hemorrhagic leukoencephalitis (AHLE یا Hurst disease) شکل بسیار شدید و برق‌آسای التهاب دمیلینه‌کننده پس از عفونت است. با انسفالوپاتی سریع، ضایعات بزرگ و نامتقارن ماده سفید، ادم شدید و خونریزی‌های داخل ضایعه همراه می‌شود. ADEM نیز می‌تواند پس از عفونت رخ دهد، اما خونریزی و تخریب شدید ماده سفید به نفع AHLE است.",
+      "optionExplanations": [
+        "Cerebral lupus می‌تواند علائم چندکانونی ایجاد کند، اما الگوی کلاسیک ضایعات هموراژیک ادماتو ماده سفید کمتر به نفع آن است.",
+        "HSV encephalitis معمولاً درگیری غالب Temporal و Inferior frontal lobe دارد، نه ضایعات گسترده هموراژیک ماده سفید.",
+        "درست است؛ سیر fulminant و ضایعات ادماتو هموراژیک ماده سفید مشخصه AHLE است.",
+        "ADEM در افتراق قرار دارد، اما خونریزی‌های متعدد و تخریب شدید ماده سفید بیشتر AHLE را مطرح می‌کند."
+      ],
+      "examTip": "وجود hemorrhagic white-matter lesions در یک سندرم دمیلینه‌کننده حاد و برق‌آسا، AHLE را مطرح می‌کند.",
+      "examTrap": "AHLE را با ADEM معمولی یکی ندانید؛ AHLE شکل شدیدتر و هموراژیک آن است.",
+      "source": "Acute hemorrhagic leukoencephalitis reviews; ASFA 2023 guidance for severe inflammatory CNS demyelination."
+    },
+    {
+      "id": "DM-179",
+      "stem": "خانمی ۳۶ ساله طی چند روز دچار کاهش دید دردناک در یک چشم و سپس چشم مقابل شده است. Perimetry یک Cecocentral scotoma نشان می‌دهد و MRI به نفع التهاب دمیلینه‌کننده عصب بینایی است. کدام عبارت صحیح‌تر است؟",
+      "options": [
+        "Cecocentral scotoma در این بیماری غیرمعمول است.",
+        "در Retrobulbar optic neuritis احتمال طبیعی بودن Fundoscopy از غیرطبیعی بودن آن بیشتر است.",
+        "OCT در ارزیابی این بیماری هیچ ارزشی ندارد.",
+        "پاسخ بینایی به Pulse corticosteroid معمولاً تازه از هفته چهارم آغاز می‌شود."
+      ],
+      "correctIndex": 1,
+      "explanation": "در typical demyelinating optic neuritis، ضایعه ممکن است پشت کره چشم باشد و در معاینه حاد Fundoscopy طبیعی بماند (Retrobulbar optic neuritis). Central یا cecocentral scotoma از نقایص شایع میدان بینایی است. OCT برای ارزیابی ساختاری Retinal nerve fiber layer و Ganglion cell layer در پیگیری مفید است. کورتیکواستروئید وریدی سرعت بهبود را افزایش می‌دهد، هرچند لزوماً نتیجه نهایی را تغییر نمی‌دهد.",
+      "optionExplanations": [
+        "نادرست است؛ central و گاهی cecocentral scotoma در optic neuritis دیده می‌شود.",
+        "درست است؛ در Retrobulbar optic neuritis دیسک بینایی در معاینه اولیه ممکن است طبیعی باشد.",
+        "نادرست است؛ OCT برای ارزیابی آسیب و پیگیری ساختاری عصب بینایی مفید است.",
+        "نادرست است؛ بهبود بینایی اغلب طی هفته‌های نخست آغاز می‌شود و کورتون سرعت آن را افزایش می‌دهد."
+      ],
+      "examTip": "در optic neuritis تیپیک، Fundoscopy می‌تواند طبیعی باشد؛ طبیعی بودن دیسک، تشخیص را رد نمی‌کند.",
+      "examTrap": "درگیری دوطرفه همزمان، شدت زیاد یا سیر غیرمعمول باید بررسی NMOSD و MOGAD را نیز مطرح کند.",
+      "source": "Optic neuritis clinical reviews; ONTT; 2025 consensus statement on diagnosis and management of optic neuritis."
+    },
+    {
+      "id": "DM-180",
+      "stem": "در میان فرآورده‌های زیر، کدام‌یک کمترین احتمال ایجاد Neutralizing antibodies را دارد؟",
+      "options": [
+        "Interferon beta-1a، عضلانی، هفته‌ای یک بار",
+        "Interferon beta-1a، زیرجلدی، یک روز در میان",
+        "Interferon beta-1a، زیرجلدی، سه بار در هفته",
+        "Natalizumab، وریدی، ماهانه"
+      ],
+      "correctIndex": 0,
+      "explanation": "در میان فرآورده‌های Interferon beta، Interferon beta-1a عضلانی هفتگی (Avonex) معمولاً کمترین immunogenicity و کمترین میزان Neutralizing antibodies را دارد. تزریق زیرجلدی با دوز و دفعات بیشتر، به‌ویژه در برخی فرآورده‌ها، احتمال آنتی‌بادی خنثی‌کننده را افزایش می‌دهد. Natalizumab آنتی‌بادی ضد داروی خود را می‌تواند ایجاد کند، اما این پرسش درباره مقایسه فرآورده‌های Interferon beta است.",
+      "optionExplanations": [
+        "درست است؛ هفتگی و عضلانی بودن این فرآورده با نرخ پایین‌تر Neutralizing antibodies همراه است.",
+        "این الگو از نظر دفعات تزریق و مسیر، معمولاً immunogenicity بیشتری دارد؛ ضمن اینکه رژیم یک روز در میان معمولاً به Interferon beta-1b مربوط است نه beta-1a.",
+        "فرآورده زیرجلدی سه بار در هفته می‌تواند نسبت به فرآورده عضلانی هفتگی آنتی‌بادی بیشتری ایجاد کند.",
+        "Natalizumab می‌تواند anti-drug antibodies ایجاد کند، اما با Neutralizing antibodies علیه Interferon beta قابل مقایسه مستقیم نیست."
+      ],
+      "examTip": "Interferon beta-1a عضلانی هفتگی معمولاً کمترین میزان neutralizing antibodies را در بین فرآورده‌های متداول Interferon beta دارد.",
+      "examTrap": "گزینه B از نظر نام فرآورده نیز اشکال دارد: رژیم یک روز در میان به‌طور کلاسیک برای Interferon beta-1b است.",
+      "source": "Comparative immunogenicity studies of interferon beta preparations; PMID 11282547; PMID 1737963."
+    },
+    {
+      "id": "DM-181",
+      "stem": "کدام دارو با هدف‌گیری CD52، تعداد هر دو گروه Lymphocyteهای نوع B و T را در خون محیطی به‌سرعت کاهش می‌دهد؟",
+      "options": [
+        "Rituximab",
+        "Natalizumab",
+        "Alemtuzumab",
+        "Glatiramer acetate"
+      ],
+      "correctIndex": 2,
+      "explanation": "Alemtuzumab یک آنتی‌بادی مونوکلونال ضد CD52 است. CD52 روی سطح لنفوسیت‌های T و B به میزان زیاد بیان می‌شود و اتصال دارو موجب depletion سریع هر دو جمعیت می‌گردد. بازسازی B cellها معمولاً سریع‌تر از T cellها رخ می‌دهد. Rituximab عمدتاً CD20-positive B cells را هدف می‌گیرد.",
+      "optionExplanations": [
+        "Rituximab عمدتاً B cellهای CD20-positive را کاهش می‌دهد و depletion مستقیم گسترده T cell ایجاد نمی‌کند.",
+        "Natalizumab با مهار α4-integrin مهاجرت لکوسیت‌ها به CNS را کاهش می‌دهد، نه اینکه هر دو جمعیت T و B را مستقیماً حذف کند.",
+        "درست است؛ Alemtuzumab با اتصال به CD52 موجب depletion هر دو گروه B و T می‌شود.",
+        "Glatiramer acetate یک immunomodulator است و باعث depletion سریع هر دو جمعیت لنفوسیتی نمی‌شود."
+      ],
+      "examTip": "Alemtuzumab = anti-CD52؛ Rituximab و Ocrelizumab = anti-CD20.",
+      "examTrap": "کاهش شمارش لنفوسیت‌ها با مهار trafficking لنفوسیت‌ها توسط Natalizumab یک مکانیسم واحد نیست.",
+      "source": "Clinical pharmacology of alemtuzumab in MS; PMID 30144037; contemporary DMT mechanism reviews."
+    },
+    {
+      "id": "DM-182",
+      "stem": "در MRI روتین مغز بیماران مبتلا به MS، کدام محل آناتومیک احتمال بیشتری دارد که نسبت به سایر محل‌ها کمتر شناسایی یا گزارش شود؟",
+      "options": [
+        "Corpus callosum",
+        "Cerebral cortex",
+        "Brainstem",
+        "Spinal cord"
+      ],
+      "correctIndex": 1,
+      "explanation": "ضایعات Cortical و به‌ویژه ضایعات کاملاً داخل قشر مغز در MRI روتین و پروتکل‌های متداول کمتر از ضایعات Periventricular، Corpus callosum یا Infratentorial شناسایی می‌شوند. حساسیت تشخیص با توالی‌های اختصاصی مانند Double inversion recovery و برخی پروتکل‌های بهینه‌شده افزایش می‌یابد.",
+      "optionExplanations": [
+        "ضایعات Corpus callosum از یافته‌های شناخته‌شده و نسبتاً شاخص MS هستند.",
+        "درست است؛ ضایعات Cortical به‌ویژه با MRI روتین کمتر دیده می‌شوند.",
+        "ضایعات Brainstem در توالی‌های استاندارد قابل شناسایی‌اند، هرچند ضایعات کوچک ممکن است از دست بروند.",
+        "MRI نخاع برای یافتن ضایعات Spinal cord ضروری است و در صورت انجام پروتکل مناسب حساسیت خوبی دارد."
+      ],
+      "examTip": "ضایعات Cortical در MRI روتین کمتر از ضایعات ماده سفید دیده می‌شوند؛ DIR می‌تواند حساسیت را افزایش دهد.",
+      "examTrap": "کمتر دیده‌شدن ضایعات Cortical به معنای نادر بودن آن‌ها در پاتولوژی MS نیست.",
+      "source": "MRI practical guidelines for multiple sclerosis; cortical lesion detection reviews."
+    },
+    {
+      "id": "DM-183",
+      "stem": "مرد ۴۵ ساله مبتلا به MS که سال‌ها تحت درمان با Natalizumab بوده، طی سه هفته دچار اختلال حافظه، میدان بینایی، آتاکسی و آفازی شده است. MRI افزایش سیگنال جدید در Parieto-occipital white matter بدون enhancement نشان می‌دهد. با توجه به تشخیص محتمل، کدام عبارت نادرست است؟",
+      "options": [
+        "CSF analysis می‌تواند در تشخیص کمک‌کننده باشد.",
+        "عامل ایجادکننده بیماری یک ویروس است.",
+        "وجود اختلالات بینایی به‌شدت به ضرر این تشخیص است.",
+        "تشنج در بخشی از بیماران مبتلا رخ می‌دهد و شیوع آن حدود ۱۰ درصد گزارش شده است."
+      ],
+      "correctIndex": 2,
+      "explanation": "شرح حال و MRI در بیمار دریافت‌کننده Natalizumab به‌شدت PML را مطرح می‌کند؛ عامل آن JC virus است و CSF JCV PCR در تشخیص کمک‌کننده است، هرچند PCR منفی با حساسیت پایین یا در مراحل اولیه بیماری آن را کاملاً رد نمی‌کند. اختلالات بینایی، از جمله نقص میدان بینایی، می‌توانند در PML رخ دهند و به ضرر تشخیص نیستند. تشنج نیز ممکن است رخ دهد.",
+      "optionExplanations": [
+        "درست است؛ CSF JCV PCR بخش مهمی از ارزیابی تشخیصی است.",
+        "درست است؛ PML ناشی از JC polyomavirus است.",
+        "نادرست است و پاسخ سؤال محسوب می‌شود؛ visual field deficit از تظاهرات شناخته‌شده PML است.",
+        "تشنج در PML ممکن است رخ دهد، هرچند میزان آن بسته به جمعیت و محل ضایعات متفاوت است."
+      ],
+      "examTip": "PML می‌تواند با cognitive decline، aphasia، ataxia، visual field defects و گاهی seizures بروز کند.",
+      "examTrap": "CSF JCV PCR منفی، به‌ویژه در مراحل اولیه، PML را به‌طور قطعی رد نمی‌کند؛ در صورت شک بالا، تکرار بررسی لازم است.",
+      "source": "AAN consensus diagnostic criteria for PML; natalizumab-associated PML clinical reviews; current product information."
+    },
+    {
+      "id": "DM-184",
+      "stem": "خانم ۲۵ ساله مبتلا به MS که ۲۸ ماه تحت درمان با Natalizumab بوده، Anti-JCV antibody index برابر 2.4 دارد. در صورت تصمیم به قطع Natalizumab به علت خطر بالای PML، کدام راهبرد کلی برای انتقال درمان مناسب‌تر است؟",
+      "options": [
+        "ادامه Natalizumab و اندازه‌گیری Anti-JCV index هر سه ماه، بدون تغییر درمان",
+        "ادامه Natalizumab همراه با افزودن یک DMT دیگر",
+        "قطع Natalizumab و شروع DMT جایگزین با فاصله کوتاه و کنترل‌شده، معمولاً حدود ۴ تا ۶ هفته پس از آخرین دوز، بر اساس داروی جایگزین و ارزیابی PML",
+        "قطع Natalizumab و به‌طور روتین شش ماه انتظار پیش از شروع هر DMT جایگزین"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anti-JCV antibody index بالا، مدت درمان بیش از دو سال و سابقه مصرف immunosuppressantها از عوامل مهم افزایش خطر PML در درمان Natalizumab هستند. در بیمار پرخطر، تغییر درمان باید با برنامه‌ریزی دقیق انجام شود تا هم خطر PML پایش شود و هم خطر rebound فعالیت MS کاهش یابد. در بسیاری از راهبردهای انتقال، فاصله کوتاه حدود ۴ تا ۶ هفته مطرح است؛ زمان دقیق به DMT جایگزین، MRI و وضعیت بالینی وابسته است.",
+      "optionExplanations": [
+        "پایش آنتی‌بادی به‌تنهایی خطر بالای PML را خنثی نمی‌کند و ادامه درمان باید با ارزیابی مجدد سود و زیان باشد.",
+        "ترکیب دو DMT به‌طور روتین برای کاهش خطر PML توصیه نمی‌شود و ممکن است خطر سرکوب ایمنی را افزایش دهد.",
+        "بهترین پاسخ کلی است؛ انتقال با فاصله کوتاه می‌تواند خطر rebound را کاهش دهد، مشروط به ارزیابی PML و انتخاب مناسب داروی بعدی.",
+        "وقفه شش‌ماهه برای همه بیماران توصیه نمی‌شود و ممکن است خطر rebound فعالیت MS را افزایش دهد."
+      ],
+      "examTip": "Anti-JCV index بالا به‌ویژه پس از بیش از ۲۴ ماه Natalizumab، نیازمند بازنگری جدی در درمان و پایش MRI برای PML است.",
+      "examTrap": "عدد ۴ تا ۶ هفته یک قاعده ثابت برای تمام DMTها نیست؛ انتقال باید با توجه به داروی جایگزین و رد PML فردی‌سازی شود.",
+      "source": "2025 Australian and New Zealand MS consensus; natalizumab PML risk stratification and switching reviews."
+    },
+    {
+      "id": "DM-185",
+      "stem": "در افتراق Primary progressive MS از Cervical spondylotic myelopathy در بیماری با ضعف پیشرونده اندام‌ها، کدام یافته CSF کمترین ارزش افتراقی را دارد؟",
+      "options": [
+        "Erectile dysfunction",
+        "اختلال کنترل ادرار",
+        "افزایش CSF total protein",
+        "افزایش CSF IgG index"
+      ],
+      "correctIndex": 2,
+      "explanation": "اختلال عملکرد جنسی و ادراری ممکن است در هر دو بیماری به‌علت درگیری نخاع دیده شوند و اختصاصی نیستند. افزایش IgG index می‌تواند از intrathecal IgG synthesis و یک فرایند التهابی مانند MS حمایت کند. افزایش خفیف total protein در CSF غیراختصاصی است و به‌تنهایی افتراق قابل اتکایی ایجاد نمی‌کند.",
+      "optionExplanations": [
+        "Erectile dysfunction در هر دو اختلال نخاعی ممکن است دیده شود و به‌تنهایی افتراق‌دهنده نیست.",
+        "اختلال ادراری در هر دو بیماری ممکن است رخ دهد و اختصاصی نیست.",
+        "درست است؛ افزایش مختصر total protein غیراختصاصی است و ارزش افتراقی کمی دارد.",
+        "افزایش IgG index می‌تواند به نفع التهاب داخل CNS باشد و در زمینه مناسب به افتراق کمک کند."
+      ],
+      "examTip": "CSF total protein به‌تنهایی شاخص اختصاصی MS نیست؛ IgG index و CSF-restricted OCBها شواهد قوی‌تری از intrathecal inflammation هستند.",
+      "examTrap": "افزایش IgG index نیز به‌تنهایی تشخیص MS را قطعی نمی‌کند و باید در کنار MRI و معیارهای بالینی تفسیر شود.",
+      "source": "McDonald diagnostic criteria; reviews of CSF biomarkers in MS; cervical spondylotic myelopathy differential diagnosis reviews."
+    },
+    {
+      "id": "DM-186",
+      "stem": "درباره تغییرات CSF در بیماری‌های دمیلینه‌کننده، همه عبارات زیر صحیح هستند به‌جز کدام مورد؟",
+      "options": [
+        "در حملات شدید ممکن است WBC در CSF تا حدود 50 cells/µL افزایش یابد.",
+        "در برخی جمعیت‌های آسیایی، OCB در درصد کمتری از بیماران MS مثبت گزارش شده است.",
+        "اگر CSF protein بالاتر از 45 mg/dL باشد، تشخیص‌های دیگر به‌طور قابل اعتماد رد می‌شوند.",
+        "بررسی OCB در زمینه بالینی مناسب و سیر عودکننده-فروکش‌کننده می‌تواند به تشخیص کمک کند."
+      ],
+      "correctIndex": 2,
+      "explanation": "افزایش خفیف CSF protein غیراختصاصی است و نه MS را اثبات می‌کند و نه تشخیص‌های دیگر را رد می‌کند. در MS معمولاً pleocytosis خفیف ممکن است دیده شود و شمارش بیش از 50 cells/µL باید بررسی تشخیص‌های جایگزین را جدی‌تر کند. میزان مثبت‌شدن OCB میان جمعیت‌ها متفاوت گزارش شده است، اما OCB اختصاصی MS نیست.",
+      "optionExplanations": [
+        "درست است؛ pleocytosis خفیف ممکن است دیده شود، هرچند WBC بالاتر از 50 باید موجب بررسی جایگزین‌ها شود.",
+        "در برخی مطالعات، شیوع OCB در جمعیت‌های آسیایی کمتر گزارش شده، هرچند تفاوت‌ها به روش و جمعیت وابسته‌اند.",
+        "نادرست است و پاسخ سؤال محسوب می‌شود؛ CSF protein بالاتر از 45 mg/dL غیراختصاصی است و هیچ تشخیصی را به‌تنهایی رد نمی‌کند.",
+        "درست است؛ OCB می‌تواند در زمینه بالینی مناسب به تشخیص کمک کند، اما به‌تنهایی تشخیصی نیست."
+      ],
+      "examTip": "CSF protein بالا یا pleocytosis قابل توجه، یافته اختصاصی MS نیست و باید علل دیگر را نیز بررسی کرد.",
+      "examTrap": "آستانه 45 mg/dL یک حد مطلق برای رد یا اثبات MS نیست؛ محدوده مرجع به آزمایشگاه و سن وابسته است.",
+      "source": "CSF findings in MS reviews; 2024 McDonald criteria; contemporary diagnostic differential guidance."
+    },
+    {
+      "id": "DM-187",
+      "stem": "خانم ۲۹ ساله مبتلا به MS که تحت درمان با Natalizumab است، طی سه هفته دچار اختلال تدریجی رفتار، حافظه، تکلم و بینایی شده است. MRI ضایعات جدید Subcortical white matter بدون Gadolinium enhancement نشان می‌دهد. CSF دارای پروتئین 45 mg/dL، بدون سلول و با قند طبیعی است. مناسب‌ترین اقدام درمانی چیست؟",
+      "options": [
+        "ادامه Natalizumab و شروع Pulse corticosteroid",
+        "قطع Natalizumab و شروع فوری Fingolimod بدون بررسی بیشتر",
+        "ادامه Natalizumab و شروع آنتی‌بیوتیک",
+        "قطع Natalizumab و انجام Plasma exchange در صورت تأیید یا شک بالای PML، همراه با پایش IRIS"
+      ],
+      "correctIndex": 3,
+      "explanation": "تابلوی تحت‌حاد و پیشرونده عصبی همراه با ضایعات جدید subcortical در بیمار دریافت‌کننده Natalizumab، PML را مطرح می‌کند. Natalizumab باید فوراً قطع شود و MRI و CSF JCV PCR انجام شود؛ در PML تأییدشده یا شک بالای بالینی، Plasma exchange برای تسریع پاک‌سازی دارو ممکن است در نظر گرفته شود. پس از بازگشت ایمنی، بیمار باید از نظر PML-IRIS به‌دقت پایش شود.",
+      "optionExplanations": [
+        "کورتیکواستروئید بدون رد PML ممکن است وضعیت را پیچیده کند و ادامه Natalizumab نامناسب است.",
+        "شروع فوری Fingolimod بدون بررسی PML خطرناک است و انتقال درمان باید پس از ارزیابی دقیق انجام شود.",
+        "آنتی‌بیوتیک درمان PML ناشی از JC virus نیست.",
+        "درست است؛ قطع Natalizumab، بررسی JCV و در موارد مناسب Plasma exchange و پایش IRIS اقدام منطقی است."
+      ],
+      "examTip": "در شک به PML ناشی از Natalizumab، دارو را قطع کنید و CSF JCV PCR و MRI را پیگیری کنید؛ PLEX ممکن است پاک‌سازی دارو را تسریع کند.",
+      "examTrap": "PLEX درمان مستقیم ویروس JC نیست و ممکن است با تسریع بازگشت ایمنی، خطر یا سرعت بروز IRIS را افزایش دهد.",
+      "source": "Natalizumab prescribing information; PML management and IRIS reviews; AAN PML diagnostic criteria."
+    },
+    {
+      "id": "DM-188",
+      "stem": "خانمی ۳۸ ساله با پاراپارزی حاد و سطح حسی T3–T4 مراجعه کرده است. سابقه کاهش دید با بهبود ناقص دارد. MRI ضایعه طولی نخاع از T3 تا T6 نشان می‌دهد. پس از ۷ روز درمان با IV Methylprednisolone بهبود واضحی حاصل نشده است. مناسب‌ترین اقدام بعدی چیست؟",
+      "options": [
+        "تکرار دوره Pulse corticosteroid به‌تنهایی",
+        "Plasma exchange",
+        "شروع Interferon beta",
+        "شروع Mitoxantrone"
+      ],
+      "correctIndex": 1,
+      "explanation": "ضایعه طولی گسترده نخاع (Longitudinally extensive transverse myelitis) همراه با سابقه optic neuritis و پاسخ ناکافی به کورتیکواستروئید، NMOSD یا MOGAD را مطرح می‌کند. در حمله شدید و پاسخ ناکافی به IV corticosteroid، باید زودهنگام Plasma exchange انجام شود و هم‌زمان AQP4-IgG و MOG-IgG بررسی شوند.",
+      "optionExplanations": [
+        "تکرار کورتون به‌تنهایی در حمله شدید و مقاوم، نباید Plasma exchange را به تأخیر بیندازد.",
+        "درست است؛ Plasma exchange درمان نجات‌بخش مهم در حملات شدید و steroid-refractory myelitis است.",
+        "Interferon beta درمان حمله حاد نیست و در NMOSD می‌تواند نامناسب یا مضر باشد.",
+        "Mitoxantrone درمان حاد این حمله نیست و انتخاب مناسبی در شک به NMOSD محسوب نمی‌شود."
+      ],
+      "examTip": "در severe myelitis یا عدم پاسخ کافی به IV corticosteroid، Plasma exchange را زودهنگام در نظر بگیرید.",
+      "examTrap": "ضایعه نخاعی طولی بیش از سه سگمان، الگوی تیپیک MS نیست و بررسی NMOSD/MOGAD را ضروری می‌کند.",
+      "source": "NEMOS revised recommendations, 2023; ASFA 9th Special Issue, 2023."
+    },
+    {
+      "id": "DM-189",
+      "stem": "مکانیسم اصلی اثر Natalizumab در درمان MS کدام است؟",
+      "options": [
+        "Lymphocyte cell lysis",
+        "Complement fixation",
+        "DNA cross-linking",
+        "Prevention of leukocyte adhesion and migration into the CNS"
+      ],
+      "correctIndex": 3,
+      "explanation": "Natalizumab یک آنتی‌بادی مونوکلونال ضد α4-integrin است. با مهار اتصال leukocyteها به مولکول‌های چسبندگی اندوتلیال و جلوگیری از عبور آن‌ها از Blood–brain barrier، ورود سلول‌های التهابی به CNS را کاهش می‌دهد.",
+      "optionExplanations": [
+        "Natalizumab به‌طور اصلی موجب lysis مستقیم لنفوسیت‌ها نمی‌شود.",
+        "Complement fixation مکانیسم اصلی اثر این دارو نیست.",
+        "DNA cross-linking مکانیسم داروهای cytotoxic مانند برخی alkylating agents است، نه Natalizumab.",
+        "درست است؛ مهار α4-integrin اتصال و مهاجرت leukocyteها به CNS را کاهش می‌دهد."
+      ],
+      "examTip": "Natalizumab = anti-α4-integrin؛ مهار leukocyte adhesion و transmigration.",
+      "examTrap": "مکانیسم Natalizumab را با lymphocyte depletion ناشی از Alemtuzumab یا anti-CD20ها اشتباه نگیرید.",
+      "source": "Natalizumab mechanism of action; prescribing information; MS DMT pharmacology reviews."
+    },
+    {
+      "id": "DM-190",
+      "stem": "در صورت تجویز کدام دارو برای MS، ارزیابی پایه چشم و پیگیری از نظر Macular edema اهمیت ویژه دارد؟",
+      "options": [
+        "Dimethyl fumarate",
+        "Fingolimod",
+        "Glatiramer acetate",
+        "Teriflunomide"
+      ],
+      "correctIndex": 1,
+      "explanation": "Fingolimod با افزایش خطر macular edema همراه است؛ معاینه چشم پیش از شروع درمان و پیگیری پس از شروع، به‌ویژه در بیماران مبتلا به Diabetes mellitus یا سابقه Uveitis، توصیه می‌شود. زمان و تکرار معاینه باید مطابق برچسب دارو و شرایط بیمار باشد.",
+      "optionExplanations": [
+        "Dimethyl fumarate عارضه شاخص macular edema ندارد.",
+        "درست است؛ Fingolimod با macular edema ارتباط دارد و ارزیابی ophthalmologic پایه و پیگیری لازم است.",
+        "Glatiramer acetate عارضه شاخص macular edema ندارد.",
+        "Teriflunomide عارضه شاخص macular edema محسوب نمی‌شود."
+      ],
+      "examTip": "Fingolimod: ارزیابی چشم پیش از درمان و پایش Macular edema را فراموش نکنید.",
+      "examTrap": "خطر Macular edema در بیماران دارای Diabetes یا سابقه Uveitis بیشتر است.",
+      "source": "Fingolimod prescribing information; MS DMT safety monitoring recommendations."
+    },
+    {
+      "id": "DM-191",
+      "stem": "خانم مبتلا به MS از دشواری شروع ادرار، جریان ضعیف و گاهی بی‌اختیاری قطره‌ای شکایت دارد. در سونوگرافی، Post-void residual برابر 80 mL است. در صورت تأیید هم‌زمان detrusor overactivity و اختلال خروجی مثانه، کدام ترکیب دارویی از میان گزینه‌ها مناسب‌تر است؟",
+      "options": [
+        "Bethanechol + Oxybutynin",
+        "Oxybutynin + Tamsulosin",
+        "Finasteride + Tolterodine",
+        "Tolterodine + Propantheline"
+      ],
+      "correctIndex": 1,
+      "explanation": "در MS ممکن است detrusor overactivity همراه با اختلال تخلیه یا detrusor-sphincter dyssynergia وجود داشته باشد. در صورت اثبات هر دو مؤلفه، antimuscarinic مانند Oxybutynin برای ذخیره‌سازی و α1-blocker مانند Tamsulosin برای کاهش مقاومت خروجی ممکن است در بیمار منتخب استفاده شود؛ اما antimuscarinic می‌تواند احتباس را تشدید کند. PVR باید پایش شود و ارزیابی urodynamic و راهبردهای تخلیه مثانه بر اساس یافته‌ها انجام گیرد.",
+      "optionExplanations": [
+        "Bethanechol ممکن است در برخی موارد منتخب detrusor underactivity مطرح شود، اما همراهی آن با Oxybutynin از نظر اثرات متضاد معمولاً انتخاب منطقی روتین نیست.",
+        "بهترین پاسخ در صورت اثبات هم‌زمان detrusor overactivity و اختلال خروجی است؛ با پایش دقیق PVR و علائم احتباس.",
+        "Finasteride برای Benign prostatic hyperplasia در مردان کاربرد دارد و در این خانم مناسب نیست.",
+        "ترکیب دو داروی antimuscarinic می‌تواند عوارض آنتی‌کولینرژیک و احتباس ادراری را افزایش دهد."
+      ],
+      "examTip": "در MS ابتدا storage dysfunction را از voiding dysfunction تفکیک کنید؛ PVR و در موارد لازم urodynamic assessment در انتخاب درمان مهم‌اند.",
+      "examTrap": "PVR برابر 80 mL به‌تنهایی اندیکاسیون قطعی ترکیب دارویی نیست؛ اگر احتباس قابل توجه باشد، antimuscarinic ممکن است وضعیت را بدتر کند.",
+      "source": "NICE NG220; contemporary neuro-urology guidance for lower urinary tract dysfunction in MS; 2024–2025 MS management guidelines."
+    },
+    {
+      "id": "DM-192",
+      "stem": "خانم ۳۸ ساله‌ای به‌علت خستگی و اضطراب MRI انجام داده است. در MRI هفت ضایعه Periventricular و سه ضایعه Juxtacortical دیده می‌شود، اما معاینه نورولوژیک طبیعی است و هیچ حمله بالینی سازگار با demyelination در شرح حال وجود ندارد. مناسب‌ترین اقدام چیست؟",
+      "options": [
+        "شروع Interferon beta بر اساس MRI به‌تنهایی",
+        "انجام Visual و Auditory evoked potentials و شروع درمان در صورت غیرطبیعی بودن",
+        "شروع DMT در صورت مثبت بودن OCB، بدون ارزیابی بیشتر",
+        "پیگیری بالینی و MRI و تکمیل ارزیابی خطر Radiologically isolated syndrome"
+      ],
+      "correctIndex": 3,
+      "explanation": "یافته‌های MRI ممکن است با Radiologically isolated syndrome (RIS) سازگار باشند، اما تشخیص MS و شروع DMT صرفاً بر اساس تعداد ضایعات و بدون بررسی ویژگی‌های ضایعات، زمان‌بندی، CSF، spinal MRI و علل جایگزین مناسب نیست. در بیمار بدون علائم بالینی، ارزیابی تخصصی و پیگیری بالینی و MRI راهبرد معقول است. معیارهای 2024 McDonald مسیرهای تشخیصی را گسترش داده‌اند، اما همچنان باید اختصاصیت یافته‌ها و خطر misdiagnosis در نظر گرفته شود.",
+      "optionExplanations": [
+        "شروع DMT بر اساس MRI بدون ارزیابی کامل و معیارهای تشخیصی مناسب نیست.",
+        "Evoked potentials ممکن است در موارد خاص کمک‌کننده باشند، اما به‌تنهایی مبنای شروع درمان نیستند.",
+        "OCB مثبت به‌تنهایی برای تشخیص MS یا شروع خودکار DMT کافی نیست.",
+        "درست است؛ پیگیری و ارزیابی تکمیلی با توجه به MRI و ریسک‌فاکتورهای RIS مناسب است."
+      ],
+      "examTip": "در فرد بدون حمله بالینی، ضایعات MRI را با دقت از nonspecific white-matter lesions و RIS تفکیک کنید.",
+      "examTrap": "با معیارهای 2024 McDonald، برخی افراد بدون حمله بالینی نیز ممکن است معیار تشخیص را احراز کنند؛ بنابراین ارزیابی باید بر اساس کل داده‌ها باشد، نه صرفاً پیگیری منفعل یا OCB تنها.",
+      "source": "2024 McDonald criteria revisions; 2023 RIS diagnostic criteria; 2024–2025 reviews of radiologically isolated syndrome."
+    },
+    {
+      "id": "DM-193",
+      "stem": "کدام داروی تعدیل‌کننده سیر MS با مهار اتصال α4-integrin روی لنفوسیت‌ها به مولکول‌های چسبندگی اندوتلیال، ورود سلول‌های التهابی به CNS را کاهش می‌دهد؟",
+      "options": [
+        "Natalizumab",
+        "Teriflunomide",
+        "Dimethyl fumarate",
+        "Fingolimod"
+      ],
+      "correctIndex": 0,
+      "explanation": "Natalizumab با اتصال به α4-integrin، تعامل leukocyteها با مولکول‌های چسبندگی اندوتلیال را مهار می‌کند و از مهاجرت آن‌ها از عروق به CNS می‌کاهد. Fingolimod مکانیسم متفاوتی دارد و با تعدیل S1P receptor، خروج lymphocyteها از lymph node را کاهش می‌دهد.",
+      "optionExplanations": [
+        "درست است؛ Natalizumab با مهار α4-integrin، leukocyte adhesion و transmigration را کاهش می‌دهد.",
+        "Teriflunomide با مهار dihydro-orotate dehydrogenase، سنتز de novo pyrimidine را مهار می‌کند.",
+        "Dimethyl fumarate عمدتاً مسیر Nrf2 و پاسخ‌های ضدالتهابی/آنتی‌اکسیدانی را تحت تأثیر قرار می‌دهد.",
+        "Fingolimod با نگه‌داشتن lymphocyteها در lymph node عمل می‌کند، نه با مهار اتصال α4-integrin."
+      ],
+      "examTip": "Natalizumab = blockade of α4-integrin; Fingolimod = S1P receptor modulation.",
+      "examTrap": "مهار adhesion به‌وسیله Natalizumab را با lymphocyte sequestration ناشی از Fingolimod اشتباه نکنید.",
+      "source": "Natalizumab and fingolimod mechanisms of action; MS DMT pharmacology reviews."
+    },
+    {
+      "id": "DM-194",
+      "stem": "بیمار مبتلا به MS که تحت درمان با Natalizumab است، به PML مبتلا شده است. کدام اقدام درمانی در مدیریت این عارضه می‌تواند برای تسریع حذف دارو از گردش خون به‌کار رود؟",
+      "options": [
+        "Plasma exchange",
+        "Zidovudine",
+        "Vidarabine",
+        "IVIG به‌عنوان درمان اختصاصی JC virus"
+      ],
+      "correctIndex": 0,
+      "explanation": "در Natalizumab-associated PML، دارو باید قطع شود. Plasma exchange یا immunoadsorption می‌تواند پاک‌سازی Natalizumab را تسریع کند و بازگشت عملکرد ایمنی را سرعت دهد؛ با این حال درمان مستقیم ضدویروسی اثبات‌شده‌ای برای JC virus وجود ندارد و بیمار باید از نظر PML-IRIS پایش شود. PLEX درمان قطعی ویروس نیست.",
+      "optionExplanations": [
+        "درست است؛ Plasma exchange برای تسریع clearance دارو استفاده می‌شود و باید خطر IRIS پایش شود.",
+        "Zidovudine درمان اختصاصی JC virus یا PML نیست.",
+        "Vidarabine درمان استاندارد PML نیست.",
+        "IVIG درمان اختصاصی اثبات‌شده برای PML ناشی از JC virus محسوب نمی‌شود."
+      ],
+      "examTip": "در Natalizumab-associated PML، قطع دارو و در موارد مناسب Plasma exchange برای تسریع clearance مطرح است.",
+      "examTrap": "پس از PLEX ممکن است IRIS زودتر رخ دهد؛ worsening بالینی و MRI enhancement را پایش کنید.",
+      "source": "Natalizumab prescribing information; PML management reviews; clinical reviews of PML-IRIS."
+    },
+    {
+      "id": "DM-195",
+      "stem": "مرد ۳۰ ساله‌ای طی دو هفته دچار حملات کوتاه و مکرر اسپاسم ناگهانی اندام فوقانی راست شده است که موجب Flexion مچ و Extension آرنج می‌شود. هوشیاری حفظ می‌شود و حملات با Hyperventilation تشدید می‌شوند. MRI نخاع گردنی ضایعه T2-hyperintense در C2 نشان می‌دهد. مناسب‌ترین درمان علامتی از میان گزینه‌ها چیست؟",
+      "options": [
+        "Lamotrigine",
+        "Acetazolamide",
+        "Gabapentin",
+        "Tizanidine"
+      ],
+      "correctIndex": 2,
+      "explanation": "حملات کوتاه، کلیشه‌ای و تکرارشونده tonic spasm در بیمار دارای ضایعه دمیلینه‌کننده نخاعی، با paroxysmal tonic spasms سازگار است. داروهای مهارکننده کانال سدیم مانند Carbamazepine یا Oxcarbazepine معمولاً از درمان‌های مؤثرند؛ در گزینه‌های موجود، Gabapentin می‌تواند برای کنترل علائم پاروکسیسمال به‌کار رود. Tizanidine بیشتر برای spasticity پایدار مناسب است.",
+      "optionExplanations": [
+        "Lamotrigine گاهی در اختلالات پاروکسیسمال یا تشنجی استفاده می‌شود، اما در این مجموعه گزینه‌ها انتخاب معمول‌تر نیست.",
+        "Acetazolamide در برخی سندرم‌های پاروکسیسمال خاص کاربرد دارد، اما انتخاب معمول برای tonic spasms ناشی از MS نیست.",
+        "درست‌ترین گزینه موجود است؛ Gabapentin می‌تواند در برخی بیماران برای کنترل علائم پاروکسیسمال کمک‌کننده باشد.",
+        "Tizanidine برای افزایش تون و spasticity پایدار به‌کار می‌رود و برای حملات کوتاه tonic spasm انتخاب ارجح نیست."
+      ],
+      "examTip": "Paroxysmal tonic spasms در MS اغلب به Carbamazepine یا Oxcarbazepine پاسخ می‌دهند؛ در نبود این گزینه‌ها Gabapentin می‌تواند جایگزین باشد.",
+      "examTrap": "پرسش گزینه‌ای کامل نیست، زیرا Carbamazepine که از درمان‌های متداول‌تر است در گزینه‌ها وجود ندارد؛ پاسخ بر اساس بهترین گزینه موجود انتخاب شده است.",
+      "source": "Paroxysmal symptoms in multiple sclerosis reviews; symptomatic treatment of tonic spasms and painful paroxysmal dystonia."
+    },
+    {
+      "id": "DM-196",
+      "stem": "در بیمار مبتلا به MS که سابقه تزریق وریدی مواد دارد و اکنون با علائم فوکال عصبی مراجعه کرده است، MRI با کنتراست ضایعه ring-enhancing نشان می‌دهد. کدام ویژگی بیشتر به نفع demyelinating plaque و در افتراق از Brain abscess کمک‌کننده است؟",
+      "options": [
+        "Incomplete open-ring enhancement با بخش باز رو به Cortex یا Gray matter",
+        "Complete, smooth and uniformly enhancing ring",
+        "Central restricted diffusion داخل ضایعه",
+        "وجود edema شدید همراه با central diffusion restriction"
+      ],
+      "correctIndex": 0,
+      "explanation": "Open-ring enhancement، به‌ویژه هنگامی که بخش باز حلقه به سمت Cortex یا Gray matter باشد، از ویژگی‌هایی است که به نفع tumefactive demyelination و در افتراق از abscess یا neoplasm کمک می‌کند. Brain abscess معمولاً ring enhancement کامل‌تر و central restricted diffusion دارد. با توجه به سابقه تزریق وریدی مواد، احتمال عفونت و abscess باید جدی بررسی شود و صرفاً بر اساس MRI نباید درمان ضدعفونی را کنار گذاشت.",
+      "optionExplanations": [
+        "درست است؛ open-ring enhancement با جهت بازشدگی به سمت gray matter/cortex از نشانه‌های کمک‌کننده به نفع demyelination است.",
+        "حلقه کامل و یکنواخت می‌تواند در abscess دیده شود و به‌تنهایی اختصاصی نیست.",
+        "Central restricted diffusion از یافته‌های کلاسیک به نفع abscess است.",
+        "ترکیب edema و central restricted diffusion بیشتر احتمال abscess را مطرح می‌کند."
+      ],
+      "examTip": "Open-ring enhancement به نفع tumefactive demyelination است؛ central restricted diffusion به نفع abscess است.",
+      "examTrap": "جهت بازشدگی حلقه باید نسبت به cortex/gray matter توصیف شود؛ عبارت مبهم «بازشدگی مدیال» به‌تنهایی معیار استاندارد و قطعی نیست.",
+      "source": "MRI practical guidelines for multiple sclerosis; imaging differential of tumefactive demyelination and cerebral abscess."
+    },
+    {
+      "id": "DM-197",
+      "stem": "بیمار مبتلا به MS از حملات بسیار کوتاه و مکرر اسپاسم دردناک پاها شکایت دارد که هر بار حدود یک دقیقه طول می‌کشد و روزانه ۲۰ تا ۳۰ بار تکرار می‌شود. کدام دارو در میان گزینه‌ها کمترین پشتوانه را برای درمان اختصاصی این حملات دارد؟",
+      "options": [
+        "Pregabalin",
+        "Lamotrigine",
+        "Acetazolamide",
+        "Carbamazepine"
+      ],
+      "correctIndex": 0,
+      "explanation": "این حملات با paroxysmal tonic spasms یا painful paroxysmal symptoms در MS سازگارند. Carbamazepine از درمان‌های کلاسیک و مؤثر است؛ Lamotrigine و Acetazolamide نیز در برخی بیماران یا انواع علائم پاروکسیسمال به‌کار رفته‌اند. Pregabalin ممکن است برای درد نوروپاتیک همراه مفید باشد، اما شواهد اختصاصی آن برای توقف حملات tonic spasms محدودتر است؛ بنابراین در چارچوب گزینه‌ها کمترین پشتوانه اختصاصی را دارد.",
+      "optionExplanations": [
+        "بهترین پاسخ به‌عنوان کمترین پشتوانه اختصاصی برای paroxysmal tonic spasms؛ ممکن است برای درد نوروپاتیک همراه کاربرد داشته باشد.",
+        "Lamotrigine در برخی علائم پاروکسیسمال یا دردهای نوروپاتیک ممکن است استفاده شود، هرچند شواهد آن محدود است.",
+        "Acetazolamide در برخی علائم پاروکسیسمال دمیلینه‌کننده استفاده شده است، اما پاسخ متغیر است.",
+        "Carbamazepine از درمان‌های کلاسیک و معمولاً مؤثر برای paroxysmal tonic spasms است."
+      ],
+      "examTip": "برای tonic spasms ناشی از MS، Carbamazepine یا Oxcarbazepine از گزینه‌های متداول خط اول هستند.",
+      "examTrap": "صورت سؤال «منع مصرف» را القا نکند؛ Pregabalin منع مطلق ندارد، بلکه پشتوانه اختصاصی کمتری برای این نوع حملات دارد.",
+      "source": "Paroxysmal symptoms in multiple sclerosis reviews; symptomatic treatment of tonic spasms."
     }
   ]
 }
