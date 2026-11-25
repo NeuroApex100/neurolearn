@@ -1,1 +1,213 @@
 
+[
+  {
+    "id": "SD-001",
+    "stem": "کدام یک از هسته‌های هیپوتالاموس نورون‌های هیستامینرژیک دارد و در زمان بیداری فعال است؟",
+    "options": [
+      "هسته سوپرااپتیک (Supraoptic nucleus)",
+      "هسته توبرو‌مامیلاری (Tuberomammillary nucleus)",
+      "هسته پاراونتریکولار (Paraventricular nucleus)",
+      "ناحیه سپتال (Septal area)"
+    ],
+    "correctIndex": 1,
+    "explanation": "نورون‌های هیستامینرژیک بیداری‌زا عمدتاً در Tuberomammillary nucleus در هیپوتالاموس خلفی قرار دارند. فعالیت این نورون‌ها در بیداری بیشتر است و در خواب کاهش می‌یابد. توجه کنید که Mammillary nucleus با Tuberomammillary nucleus یکسان نیست.",
+    "optionExplanations": [
+      "Supraoptic nucleus عمدتاً در تنظیم تعادل آب و ترشح Vasopressin نقش دارد و منبع اصلی هیستامین مغزی نیست.",
+      "صحیح است؛ Tuberomammillary nucleus منبع اصلی نورون‌های هیستامینرژیک بیداری‌زا است.",
+      "Paraventricular nucleus در عملکردهای نورواندوکرین و خودکار نقش دارد و هسته اصلی هیستامینرژیک بیداری نیست.",
+      "Septal area در مدارهای لیمبیک و تنظیم رفتار نقش دارد، اما منبع اصلی هیستامین بیداری‌زا محسوب نمی‌شود."
+    ],
+    "examTip": "Histamine بیداری‌زا را با Tuberomammillary nucleus در Posterior hypothalamus به خاطر بسپارید.",
+    "examTrap": "Mammillary body/nucleus را با Tuberomammillary nucleus اشتباه نکنید.",
+    "source": "Principles and Practice of Sleep Medicine; standard neuroanatomy and sleep-wake neurobiology references."
+  },
+  {
+    "id": "SD-002",
+    "stem": "مرد ۲۷ ساله‌ای با حملات غیرقابل‌کنترل خواب‌آلودگی در حین فعالیت روزانه مراجعه کرده است. حملات حدود ۱۰ دقیقه طول می‌کشند. او همچنین پس از خندیدن دچار افت ناگهانی تون عضلانی و زمین‌خوردن می‌شود، درحالی‌که هوشیاری خود را حفظ می‌کند؛ علائم طی ۱ تا ۲ دقیقه برطرف می‌شوند. مناسب‌ترین دارو برای کنترل هم‌زمان خواب‌آلودگی روزانه و Cataplexy کدام است؟",
+    "options": [
+      "Modafinil",
+      "Imipramine",
+      "Sodium oxybate",
+      "Methylphenidate"
+    ],
+    "correctIndex": 2,
+    "explanation": "شرح حال با Narcolepsy type 1 همراه با Cataplexy سازگار است. Sodium oxybate می‌تواند هم Excessive daytime sleepiness و هم Cataplexy را بهبود دهد؛ بنابراین در میان گزینه‌ها مناسب‌ترین انتخاب برای کنترل هر دو علامت است.",
+    "optionExplanations": [
+      "Modafinil عمدتاً برای کاهش Excessive daytime sleepiness به کار می‌رود و اثر قابل اتکایی برای کنترل Cataplexy ندارد.",
+      "Imipramine از داروهای ضدافسردگی سه‌حلقه‌ای است که می‌تواند Cataplexy را کاهش دهد، اما درمان مناسبی برای خواب‌آلودگی روزانه به‌تنهایی نیست.",
+      "صحیح است؛ Sodium oxybate می‌تواند هر دو مؤلفه خواب‌آلودگی روزانه و Cataplexy را کاهش دهد.",
+      "Methylphenidate محرک بیداری است و خواب‌آلودگی روزانه را هدف می‌گیرد، اما Cataplexy را به‌طور اختصاصی درمان نمی‌کند."
+    ],
+    "examTip": "حفظ هوشیاری هنگام افت تون عضلانی بر اثر خنده، نشانه شاخص Cataplexy است.",
+    "examTrap": "اگر سؤال کنترل هم‌زمان EDS و Cataplexy را بخواهد، دارویی را انتخاب کنید که هر دو را پوشش دهد، نه صرفاً محرک بیداری.",
+    "source": "AASM clinical practice guidance for central disorders of hypersomnolence; standard narcolepsy treatment references."
+  },
+  {
+    "id": "SD-003",
+    "stem": "کدام یک از داروهای زیر ممکن است علائم سندرم پای بی‌قرار (Restless legs syndrome; RLS) را تشدید کند؟",
+    "options": [
+      "Carbamazepine",
+      "Sertraline",
+      "Propoxyphene",
+      "Temazepam"
+    ],
+    "correctIndex": 1,
+    "explanation": "داروهای سروتونرژیک، به‌ویژه برخی SSRIها مانند Sertraline، در بعضی بیماران می‌توانند علائم RLS یا حرکات دوره‌ای اندام‌ها در خواب (PLMS) را تشدید کنند. این اثر در همه بیماران رخ نمی‌دهد، اما از ارتباطات دارویی شناخته‌شده است.",
+    "optionExplanations": [
+      "Carbamazepine به‌طور معمول از عوامل شاخص تشدید RLS محسوب نمی‌شود و در برخی شرایط ممکن است علائم حرکتی را کاهش دهد.",
+      "صحیح است؛ Sertraline و دیگر داروهای سروتونرژیک ممکن است RLS/PLMS را تشدید کنند.",
+      "Opioidها در موارد منتخب و مقاوم RLS می‌توانند علائم را کاهش دهند؛ بنابراین گزینه معمول برای تشدید علائم نیست.",
+      "Temazepam یک Benzodiazepine است و ممکن است خواب را بهبود دهد، هرچند درمان اختصاصی و خط اول RLS نیست."
+    ],
+    "examTip": "در بیمار مبتلا به RLS، داروهای سروتونرژیک، آنتی‌هیستامین‌های سداتیو و برخی داروهای ضد دوپامین را از نظر تشدید علائم مرور کنید.",
+    "examTrap": "تشدید RLS با SSRIها احتمالی و وابسته به بیمار است، نه یک اثر قطعی در همه افراد.",
+    "source": "AASM clinical practice guideline for treatment of RLS and PLMD; medication-associated RLS references."
+  },
+  {
+    "id": "SD-004",
+    "stem": "پسر ۱۶ ساله‌ای هر سال به مدت چندین هفته دچار پرخوابی، پرخوری، کاهش توجه، کندی تفکر و گوشه‌گیری می‌شود و بین دوره‌ها به وضعیت طبیعی بازمی‌گردد. کدام تشخیص این تابلوی دوره‌ای را بهتر توجیه می‌کند؟",
+    "options": [
+      "Narcolepsy",
+      "Kleine-Levin syndrome",
+      "Klüver-Bucy syndrome",
+      "Frontal lobe epilepsy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Kleine-Levin syndrome یک اختلال نادر با دوره‌های عودکننده Hypersomnolence است که ممکن است با Hyperphagia، تغییرات رفتاری، اختلال شناختی و گاهی تغییرات ادراکی همراه باشد. بازگشت به عملکرد تقریباً طبیعی بین حملات از ویژگی‌های مهم آن است.",
+    "optionExplanations": [
+      "Narcolepsy معمولاً با خواب‌آلودگی مزمن روزانه و گاه Cataplexy، Sleep paralysis یا Hallucinationهای مرتبط با خواب تظاهر می‌کند، نه دوره‌های چند هفته‌ای سالانه با بهبودی کامل بین آنها.",
+      "صحیح است؛ دوره‌های چند هفته‌ای پرخوابی همراه با پرخوری و تغییرات شناختی/رفتاری مشخصه Kleine-Levin syndrome است.",
+      "Klüver-Bucy syndrome معمولاً در اثر آسیب دوطرفه لوب تمپورال ایجاد می‌شود و با Hyperorality، تغییر رفتار جنسی، کاهش ترس و اختلالات شناختی همراه است؛ سیر دوره‌ای تیپیک ندارد.",
+      "Frontal lobe epilepsy می‌تواند رفتارهای غیرطبیعی شبانه ایجاد کند، اما دوره‌های چند هفته‌ای Hypersomnolence و Hyperphagia با بهبودی بین حملات را توضیح نمی‌دهد."
+    ],
+    "examTip": "ترکیب حملات چندروزه تا چند‌هفته‌ای Hypersomnolence با Hyperphagia و تغییر رفتار، Kleine-Levin syndrome را مطرح می‌کند.",
+    "examTrap": "Hallucination یا تغییر رفتار به‌تنهایی به معنی بیماری روان‌پزشکی اولیه نیست؛ الگوی دوره‌ای و پرخوابی شدید مهم است.",
+    "source": "ICSD-3-TR; standard reviews of recurrent hypersomnia and Kleine-Levin syndrome."
+  },
+  {
+    "id": "SD-005",
+    "stem": "در فردی که برای چندین هفته دچار محرومیت از خواب بوده است، پس از فراهم‌شدن فرصت خواب، کدام تغییر اختصاصی‌تر با جبران محرومیت از خواب REM سازگار است؟",
+    "options": [
+      "افزایش Sleep efficiency و کوتاه‌شدن Sleep latency",
+      "کاهش REM latency و بروز REM rebound",
+      "کوتاه‌ترشدن مرحله REM در دومین شب پس از محرومیت از خواب",
+      "طولانی‌شدن مرحله N3 به مدت چندین ساعت در یک چرخه پیوسته"
+    ],
+    "correctIndex": 1,
+    "explanation": "پس از محرومیت از خواب، به‌ویژه اگر محرومیت REM نیز وجود داشته باشد، REM rebound رخ می‌دهد و REM latency می‌تواند کاهش یابد. افزایش Sleep efficiency و کوتاه‌شدن Sleep latency نیز ممکن است پس از محرومیت کلی از خواب دیده شود، اما اختصاصی REM نیست.",
+    "optionExplanations": [
+      "این تغییرات پس از محرومیت از خواب ممکن‌اند، اما نشانگر اختصاصی جبران محرومیت REM نیستند.",
+      "صحیح است؛ کاهش REM latency و افزایش سهم یا شدت REM در قالب REM rebound از پاسخ‌های شناخته‌شده به محرومیت REM هستند.",
+      "به‌طور معمول انتظار REM rebound داریم، نه کوتاه‌شدن اختصاصی REM در شب دوم.",
+      "N3 یا Slow-wave sleep ممکن است پس از محرومیت افزایش یابد، اما چند ساعت تداوم پیوسته مرحله ۳/۴ توصیف طبیعی پاسخ جبرانی نیست."
+    ],
+    "examTip": "محرومیت REM را با REM rebound و کاهش REM latency مرتبط کنید.",
+    "examTrap": "گزینه مربوط به افزایش Sleep efficiency یا کاهش Sleep latency می‌تواند درستِ کلی باشد؛ سؤال درباره تغییر اختصاصی‌تر REM است.",
+    "source": "Principles and Practice of Sleep Medicine; standard sleep homeostasis and REM rebound references."
+  },
+  {
+    "id": "SD-006",
+    "stem": "کدام اقدام زیر در درمان Central sleep apnea نقش بالینی کمتر تثبیت‌شده‌ای دارد؟",
+    "options": [
+      "مصرف Trazodone",
+      "کاربرد CPAP",
+      "مصرف Hydroxyprogesterone",
+      "مصرف Acetazolamide"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trazodone درمان استاندارد یا دارای نقش تثبیت‌شده برای Central sleep apnea نیست. CPAP در برخی بیماران و فنوتیپ‌ها استفاده می‌شود و Acetazolamide نیز در شرایط منتخب می‌تواند مطرح باشد. داروهای پروژستینی مانند Medroxyprogesterone در مطالعات قدیمی‌تر بررسی شده‌اند، اما درمان روتین امروزی محسوب نمی‌شوند. اصطلاح Hydroxyprogesterone در متن سؤال حفظ شده است؛ از نظر نام دارویی نباید آن را بدون بررسی با Medroxyprogesterone یکسان فرض کرد.",
+    "optionExplanations": [
+      "صحیح است؛ Trazodone درمان تثبیت‌شده Central sleep apnea محسوب نمی‌شود.",
+      "CPAP در برخی انواع Central sleep apnea، با توجه به علت و پاسخ بیمار، ممکن است به کار رود؛ انتخاب آن وابسته به فنوتیپ است.",
+      "داروهای پروژستینی در برخی مطالعات قدیمی بررسی شده‌اند، اما Hydroxyprogesterone درمان روتین و استاندارد CSA نیست؛ نام دارو در صورت سؤال نیازمند تطبیق با منبع اصلی است.",
+      "Acetazolamide در برخی انواع CSA، از جمله موارد مرتبط با ارتفاع یا برخی فنوتیپ‌های منتخب، می‌تواند درمان دارویی مورد استفاده باشد."
+    ],
+    "examTip": "در Central sleep apnea ابتدا علت زمینه‌ای و فنوتیپ را مشخص کنید؛ درمان‌ها شامل PAPهای مناسب و در موارد منتخب Acetazolamide هستند.",
+    "examTrap": "CPAP برای همه انواع CSA به یک اندازه مؤثر نیست؛ همچنین نام Hydroxyprogesterone را با Medroxyprogesterone خودکار معادل نگیرید.",
+    "source": "AASM clinical practice guidance on central sleep apnea; standard reviews of pharmacologic treatment of CSA."
+  },
+  {
+    "id": "SD-007",
+    "stem": "در مورد تأثیر سن بر مراحل خواب طبیعی، کدام عبارت صحیح است؟",
+    "options": [
+      "حدود نیمی از خواب نوزاد در مرحله REM یا Active sleep سپری می‌شود.",
+      "در بزرگسالان جوان، فقط ۲۵ درصد خواب را NREM تشکیل می‌دهد.",
+      "بخش عمده خواب افراد سالمند در مرحله N3 یا مرحله ۴ NREM سپری می‌شود.",
+      "مراحل پایانی خواب شبانه طبیعی عمدتاً در مرحله N3 سپری می‌شوند."
+    ],
+    "correctIndex": 0,
+    "explanation": "در نوزادان، حدود ۵۰ درصد خواب به‌صورت REM یا Active sleep است. در بزرگسالان، حدود ۷۵ تا ۸۰ درصد خواب NREM و حدود ۲۰ تا ۲۵ درصد REM است. خواب عمیق N3 با افزایش سن کاهش می‌یابد و REM بیشتر در نیمه دوم شب دیده می‌شود.",
+    "optionExplanations": [
+      "صحیح است؛ سهم REM/Active sleep در نوزادان تقریباً نصف کل خواب است.",
+      "نادرست است؛ در بزرگسالان جوان، NREM حدود ۷۵ تا ۸۰ درصد خواب را تشکیل می‌دهد، نه ۲۵ درصد.",
+      "نادرست است؛ N3 با افزایش سن کاهش می‌یابد و در سالمندان سهم کمتری دارد.",
+      "نادرست است؛ N3 عمدتاً در اوایل شب و REM بیشتر در نیمه پایانی شب رخ می‌دهد."
+    ],
+    "examTip": "با افزایش سن، خواب عمیق N3 کاهش می‌یابد؛ در نوزادان سهم REM بسیار بیشتر از بزرگسالان است.",
+    "examTrap": "مرحله ۴ در طبقه‌بندی قدیمی معادل بخشی از N3 در طبقه‌بندی جدید است.",
+    "source": "AASM Manual for the Scoring of Sleep and Associated Events; standard lifespan sleep architecture references."
+  },
+  {
+    "id": "SD-008",
+    "stem": "از بین رفتن یا غیرفعال‌شدن نورون‌های حاوی Hypocretin (Orexin) در هیپوتالاموس جانبی، یا اختلال عملکرد گیرنده‌های این پپتید، با کدام اختلال خواب ارتباط دارد؟",
+    "options": [
+      "Familial fatal insomnia",
+      "Somnambulism",
+      "Kleine-Levin syndrome",
+      "Narcolepsy type 1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Narcolepsy type 1 با فقدان یا کاهش شدید نورون‌های تولیدکننده Hypocretin/Orexin در Lateral hypothalamus و معمولاً کاهش Hypocretin-1 در CSF ارتباط دارد. این سیستم در تثبیت حالت بیداری و مرزبندی پایدار خواب و بیداری نقش دارد.",
+    "optionExplanations": [
+      "Familial fatal insomnia یک بیماری پریونی مرتبط با جهش PRNP است و با تخریب ساختارهای تالاموسی و بی‌خوابی پیشرونده شناخته می‌شود.",
+      "Somnambulism یک پاراسومنیا از خواب NREM است و ناشی از فقدان نورون‌های Hypocretin نیست.",
+      "Kleine-Levin syndrome با دوره‌های عودکننده Hypersomnolence شناخته می‌شود و مکانیسم آن معادل فقدان نورون‌های Hypocretin در Narcolepsy type 1 نیست.",
+      "صحیح است؛ کاهش شدید Hypocretin/Orexin مشخصه زیستی مهم Narcolepsy type 1 است."
+    ],
+    "examTip": "Hypocretin/Orexin deficiency را به Narcolepsy type 1 پیوند دهید؛ Cataplexy نیز به‌شدت به نفع این نوع است.",
+    "examTrap": "Narcolepsy type 1 با type 2 یکسان نیست؛ کمبود Hypocretin و Cataplexy بیشتر به نفع type 1 هستند.",
+    "source": "ICSD-3-TR; standard narcolepsy pathophysiology references."
+  },
+  {
+    "id": "SD-009",
+    "stem": "مرد ۴۰ ساله‌ای با ترس و آشفتگی از خواب بیدار می‌شود و حدود ۴ دقیقه حرکات پیچیده غیرارادی شامل حرکات Choreoathetoid و Ballistic منتشر نشان می‌دهد. کدام عبارت درباره بررسی EEG در این بیمار صحیح‌تر است؟",
+    "options": [
+      "در هر دو فاز Ictal و Interictal، EEG معمولاً طبیعی است.",
+      "در فاز Interictal گاهی ممکن است امواج Epileptiform مانند Frontal spikes در EEG دیده شوند.",
+      "EEG در فاز Ictal همیشه غیرطبیعی و در فاز Interictal همیشه طبیعی است.",
+      "برای ثبت امواج صرعی، ثبت Interictal به‌تنهایی کافی است و ثبت حمله ضرورتی ندارد."
+    ],
+    "correctIndex": 1,
+    "explanation": "شرح حملات کوتاه، کلیشه‌ای و حرکتی پیچیده حین خواب می‌تواند با Sleep-related hypermotor epilepsy (SHE؛ نام قدیمی‌تر: Nocturnal frontal lobe epilepsy) سازگار باشد. در برخی بیماران، Interictal frontal spikes دیده می‌شود؛ بااین‌حال EEG سطحی ممکن است طبیعی یا غیرتشخیصی باشد و EEG طبیعی بیماری را رد نمی‌کند. Video-EEG طولانی‌مدت برای ثبت حمله می‌تواند کمک‌کننده باشد.",
+    "optionExplanations": [
+      "EEG ممکن است طبیعی باشد، اما این حکم همیشگی نیست؛ در بعضی بیماران یافته‌های Interictal یا Ictal قابل ثبت است.",
+      "صحیح است؛ Interictal epileptiform discharges از جمله Frontal spikes ممکن است در برخی بیماران دیده شوند، هرچند حساسیت EEG سطحی محدود است.",
+      "نادرست است؛ EEG در فاز Ictal الزاماً غیرطبیعی نیست و آرتیفکت حرکتی یا منشأ عمقی می‌تواند ثبت را دشوار کند.",
+      "نادرست است؛ ثبت طولانی‌مدت Video-EEG و ثبت رویدادهای شبانه ممکن است برای تشخیص لازم باشد؛ Interictal recording به‌تنهایی همیشه کافی نیست."
+    ],
+    "examTip": "در SHE، حملات معمولاً کوتاه، ناگهانی، کلیشه‌ای و با حرکات پیچیده یا هایپرموتور هستند.",
+    "examTrap": "EEG سطحی طبیعی، Sleep-related hypermotor epilepsy را رد نمی‌کند؛ به‌ویژه اگر منشأ حمله عمقی یا ثبت با آرتیفکت همراه باشد.",
+    "source": "International consensus on sleep-related hypermotor epilepsy; standard epilepsy and video-EEG references."
+  },
+  {
+    "id": "SD-010",
+    "stem": "پسر ۱۵ ساله‌ای دچار دوره‌های عودکننده چند‌هفته‌ای می‌شود که طی آنها بیش از ۱۸ ساعت در شبانه‌روز می‌خوابد و فقط برای مدت کوتاهی جهت غذاخوردن بیدار می‌شود. گاهی هنگام بیداری دچار توهم و پرخوری است. بین دوره‌ها چرخه خواب و بیداری و عملکرد او طبیعی می‌شود. تشخیص کدام است؟",
+    "options": [
+      "سندرم انسفالیت (Encephalitis-related syndrome)",
+      "Kleine-Levin syndrome",
+      "تومور مزانسفال (Mesencephalic tumor)",
+      "تریپانوزومیازیس (Trypanosomiasis)"
+    ],
+    "correctIndex": 1,
+    "explanation": "دوره‌های چند‌هفته‌ای Hypersomnolence شدید همراه با Hyperphagia و گاهی Hallucination یا تغییرات رفتاری، با Kleine-Levin syndrome سازگار است. طبیعی‌شدن وضعیت خواب و رفتار بین دوره‌ها از سرنخ‌های مهم تشخیصی است.",
+    "optionExplanations": [
+      "انسفالیت معمولاً با سیر حاد یا تحت‌حاد و شواهد بالینی/آزمایشگاهی التهاب دستگاه عصبی مرکزی همراه است و الگوی عودکننده تیپیک با بهبودی کامل بین دوره‌ها کمتر مطرح است.",
+      "صحیح است؛ حملات دوره‌ای پرخوابی شدید همراه با پرخوری و تغییرات ادراکی یا رفتاری، الگوی کلاسیک Kleine-Levin syndrome است.",
+      "تومور مزانسفال معمولاً علائم موضعی یا پیشرونده ایجاد می‌کند و دوره‌های چند‌هفته‌ای با بهبودی کامل بین حملات را به‌خوبی توضیح نمی‌دهد.",
+      "Trypanosomiasis می‌تواند اختلال چرخه خواب و بیداری ایجاد کند، اما معمولاً زمینه اپیدمیولوژیک و سیر بالینی متفاوتی دارد و با این الگوی دوره‌ای تیپیک سازگار نیست."
+    ],
+    "examTip": "در نوجوان با حملات عودکننده پرخوابی بسیار شدید، Hyperphagia و بازگشت به حالت طبیعی بین حملات، Kleine-Levin syndrome را در نظر بگیرید.",
+    "examTrap": "اختلال چرخه خواب در Trypanosomiasis معمولاً با بیماری عفونی زمینه‌ای همراه است؛ دوره‌های مجزای چند‌هفته‌ای با بهبودی کامل بیشتر به نفع Kleine-Levin syndrome است.",
+    "source": "ICSD-3-TR; standard reviews of Kleine-Levin syndrome and secondary hypersomnolence."
+  }
+]
