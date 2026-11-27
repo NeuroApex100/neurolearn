@@ -208,5 +208,635 @@
     "examTip": "در نوجوان با حملات عودکننده پرخوابی بسیار شدید، Hyperphagia و بازگشت به حالت طبیعی بین حملات، Kleine-Levin syndrome را در نظر بگیرید.",
     "examTrap": "اختلال چرخه خواب در Trypanosomiasis معمولاً با بیماری عفونی زمینه‌ای همراه است؛ دوره‌های مجزای چند‌هفته‌ای با بهبودی کامل بیشتر به نفع Kleine-Levin syndrome است.",
     "source": "ICSD-3-TR; standard reviews of Kleine-Levin syndrome and secondary hypersomnolence."
+  },
+  {
+    "id": "SD-011",
+    "stem": "پس از حدود ۱۰۰ ساعت محرومیت از خواب، در نخستین شب بازیابی خواب کدام تغییر از همه محتمل‌تر است؟",
+    "options": [
+      "افزایش سهم و مدت خواب عمیق N3 (معادل مراحل ۳ و ۴ در طبقه‌بندی قدیمی)",
+      "ورود فوری و مستقیم به REM بدون گذر از NREM",
+      "کاهش واضح N3 همراه با افزایش N1",
+      "حذف کامل چرخه‌های NREM در نیمه اول شب"
+    ],
+    "correctIndex": 0,
+    "explanation": "پس از محرومیت طولانی از خواب، فشار همئوستاتیک خواب باعث rebound خواب موج‌آهسته می‌شود؛ بنابراین افزایش N3 در نخستین شب بازیابی انتظار می‌رود. REM rebound نیز ممکن است رخ دهد، اما الگوی زمانی و شدت آن به نوع محرومیت و پروتکل بستگی دارد.",
+    "optionExplanations": [
+      "صحیح است؛ Slow-wave sleep یا N3 معمولاً در نخستین شب بازیابی افزایش می‌یابد.",
+      "ورود مستقیم و الزامی به REM پاسخ معمول به محرومیت کلی خواب نیست.",
+      "با rebound خواب موج‌آهسته سازگار نیست.",
+      "چرخه‌های NREM حذف نمی‌شوند؛ معماری خواب تغییر می‌کند."
+    ],
+    "examTip": "محرومیت کلی خواب را با افزایش rebound در N3 و محرومیت REM را با REM rebound مرتبط کنید.",
+    "examTrap": "Stage 4 در طبقه‌بندی قدیمی جداگانه نیست و همراه Stage 3 در N3 ادغام شده است.",
+    "source": "AASM clinical practice guidance; ICSD-3-TR; Principles and Practice of Sleep Medicine; standard sleep medicine references."
+  },
+  {
+    "id": "SD-012",
+    "stem": "مرد ۲۲ ساله‌ای با Insomnia و علائم افسردگی مراجعه کرده است. از میان داروهای زیر، کدام گزینه در این بیمار می‌تواند برای بهبود خواب مناسب‌تر باشد؟",
+    "options": [
+      "Melatonin",
+      "Trazodone",
+      "Triazolam",
+      "Alprazolam"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trazodone به دلیل اثرات سداتیو در عمل گاهی برای بی‌خوابی همراه با افسردگی تجویز می‌شود و از گزینه‌های مطرح‌شده مناسب‌تر است؛ بااین‌حال درمان خط اول Insomnia مزمن، CBT-I است و Trazodone نیز به‌طور روتین برای همه بیماران توصیه نمی‌شود. ارزیابی و درمان خود افسردگی ضروری است.",
+    "optionExplanations": [
+      "Melatonin بیشتر در اختلالات ریتم شبانه‌روزی یا برخی شرایط خاص کاربرد دارد و درمان اصلی افسردگی همراه بی‌خوابی نیست.",
+      "صحیح است؛ Trazodone اثر سداتیو دارد و ممکن است در بیمار منتخب با افسردگی و بی‌خوابی استفاده شود.",
+      "Triazolam یک Benzodiazepine کوتاه‌اثر است و خطر وابستگی، تحمل و اختلال شناختی دارد؛ درمان افسردگی نیست.",
+      "Alprazolam برای درمان بی‌خوابی انتخاب مناسبی نیست و خطر وابستگی دارد."
+    ],
+    "examTip": "در Insomnia مزمن، CBT-I درمان خط اول است؛ انتخاب دارو باید با توجه به بیماری همراه انجام شود.",
+    "examTrap": "رواج تجویز Trazodone به معنی توصیه آن به‌عنوان درمان خط اول و همگانی Insomnia نیست.",
+    "source": " AASM pharmacologic treatment guideline for chronic insomnia; standard depression and insomnia references."
+  },
+  {
+    "id": "SD-013",
+    "stem": "خانم ۳۰ ساله‌ای پس از بازگشت از آمریکا به‌دنبال سه ماه اقامت، دچار اختلال خواب ناشی از جابه‌جایی منطقه زمانی شده است. از میان گزینه‌های زیر کدام دارو می‌تواند برای تنظیم خواب مناسب‌تر باشد؟",
+    "options": [
+      "Ramelteon",
+      "Trazodone",
+      "Zolpidem",
+      "Triazolam"
+    ],
+    "correctIndex": 0,
+    "explanation": "شرح حال با Jet lag و اختلال گذرای ریتم شبانه‌روزی سازگار است. Ramelteon آگونیست گیرنده‌های MT1/MT2 ملاتونین است و می‌تواند در تنظیم زمان خواب کمک‌کننده باشد. بااین‌حال، Melatonin زمان‌بندی‌شده از گزینه‌های شناخته‌شده‌تر برای Jet lag است و در فهرست گزینه‌ها وجود ندارد؛ شواهد Ramelteon برای Jet lag محدودتر است.",
+    "optionExplanations": [
+      "صحیح‌ترین گزینه از میان موارد داده‌شده است؛ Ramelteon بر گیرنده‌های ملاتونین اثر می‌گذارد، هرچند شواهد اختصاصی Jet lag محدود است.",
+      "Trazodone داروی تنظیم‌کننده فاز شبانه‌روزی نیست.",
+      "Zolpidem ممکن است به‌طور کوتاه‌مدت خواب را تسهیل کند، اما ساعت زیستی را مستقیماً تنظیم نمی‌کند.",
+      "Triazolam نیز خواب‌آور است، نه درمان اختصاصی اختلال ریتم شبانه‌روزی."
+    ],
+    "examTip": "در Jet lag، زمان‌بندی نور و Melatonin نسبت به صرفاً خواب‌آور بودن دارو اهمیت دارد.",
+    "examTrap": "خواب‌آور بودن یک دارو لزوماً به معنی اصلاح فاز Circadian نیست.",
+    "source": "AASM clinical practice guidance; ICSD-3-TR; Principles and Practice of Sleep Medicine; standard sleep medicine references."
+  },
+  {
+    "id": "SD-014",
+    "stem": "در کدام مرحله خواب، افزایش ICP (Intracranial pressure) بیشتر انتظار می‌رود؟",
+    "options": [
+      "N2",
+      "N3",
+      "REM",
+      "ICP در تمام مراحل خواب کاملاً ثابت است."
+    ],
+    "correctIndex": 2,
+    "explanation": "در REM به‌علت تغییرات خودکار، نوسانات تنفسی و همودینامیک و تغییرات جریان خون مغزی، نوسانات ICP می‌تواند بیشتر شود. پاسخ دقیق در بیماران به وضعیت زمینه‌ای و مکانیسم افزایش فشار داخل جمجمه وابسته است.",
+    "optionExplanations": [
+      "N2 مرحله‌ای از NREM است و معمولاً نوسانات شاخص REM را ندارد.",
+      "N3 خواب موج‌آهسته است و الگوی خودکار آن با REM تفاوت دارد.",
+      "صحیح است؛ نوسانات ICP در REM می‌تواند برجسته‌تر باشد.",
+      "ICP در خواب الزاماً ثابت نمی‌ماند و با مراحل خواب و تغییرات فیزیولوژیک نوسان می‌کند."
+    ],
+    "examTip": "REM با نوسانات خودکار و تنفسی بیشتر همراه است.",
+    "examTrap": "تغییرات ICP به زمینه بالینی وابسته است؛ از تعمیم مطلق به همه بیماران پرهیز کنید.",
+    "source": "AASM clinical practice guidance; ICSD-3-TR; Principles and Practice of Sleep Medicine; standard sleep medicine references."
+  },
+  {
+    "id": "SD-015",
+    "stem": "مرد ۴۲ ساله‌ای با Insomnia مراجعه کرده و علت آن Restless legs syndrome (RLS) تشخیص داده شده است. کدام اقدام یا عبارت نادرست است؟",
+    "options": [
+      "بررسی وضعیت آهن و اصلاح کمبود در صورت وجود",
+      "شروع روتین درمان با L-dopa/carbidopa به‌عنوان داروی انتخاب اول",
+      "در برخی رژیم‌های دارویی، زمان تجویز می‌تواند متناسب با زمان بروز علائم تنظیم شود",
+      "Temazepam ممکن است خواب را تسهیل کند، اما درمان اختصاصی RLS نیست"
+    ],
+    "correctIndex": 1,
+    "explanation": "بررسی Ferritin و شاخص‌های آهن و اصلاح کمبود، بخش مهمی از ارزیابی RLS است. Levodopa/carbidopa به‌علت خطر Augmentation برای درمان روتین و خط اول مناسب نیست. راهنماهای جدید در بسیاری از بیماران Gabapentinoids را بر Dopamine agonists ترجیح می‌دهند؛ داروهای دوپامینرژیک در موارد منتخب با احتیاط استفاده می‌شوند.",
+    "optionExplanations": [
+      "درست است؛ وضعیت آهن باید بررسی و در صورت لزوم اصلاح شود.",
+      "صحیح است؛ این عبارت نادرست است. Levodopa به‌علت Augmentation انتخاب روتین خط اول نیست.",
+      "زمان‌بندی درمان بر اساس زمان بروز علائم انجام می‌شود؛ تقسیم دوز ممکن است در موارد منتخب مطرح باشد، ولی رژیم استاندارد همگانی نیست.",
+      "Temazepam ممکن است خواب را بهتر کند، اما درمان پاتوفیزیولوژیک RLS محسوب نمی‌شود."
+    ],
+    "examTip": "در RLS ابتدا آهن و عوامل تشدیدکننده را بررسی کنید؛ Gabapentin و داروهای مرتبط در بسیاری از بیماران گزینه‌های مهم‌اند.",
+    "examTrap": "Levodopa ممکن است در کوتاه‌مدت مؤثر باشد، اما Augmentation مصرف طولانی‌مدت آن را محدود می‌کند.",
+    "source": "AASM clinical practice guideline for RLS and PLMD; current RLS treatment recommendations."
+  },
+  {
+    "id": "SD-016",
+    "stem": "Narcolepsy و Idiopathic hypersomnia در کدام یافته آزمایشگاهی خواب می‌توانند با یکدیگر اشتراک داشته باشند؟",
+    "options": [
+      "وجود Cataplexy",
+      "وجود چند دوره Sleep-onset REM در MSLT",
+      "کاهش Mean sleep latency در Multiple Sleep Latency Test (MSLT)",
+      "کاهش شدید Hypocretin در CSF"
+    ],
+    "correctIndex": 2,
+    "explanation": "در هر دو اختلال ممکن است Mean sleep latency در MSLT کاهش یابد و نشان‌دهنده خواب‌آلودگی فیزیولوژیک باشد. وجود دو یا چند Sleep-onset REM period بیشتر به نفع Narcolepsy است؛ کاهش Hypocretin در CSF و Cataplexy به‌ویژه با Narcolepsy type 1 ارتباط دارند.",
+    "optionExplanations": [
+      "Cataplexy ویژگی Narcolepsy type 1 است و در Idiopathic hypersomnia انتظار نمی‌رود.",
+      "دو یا چند SOREMP به نفع Narcolepsy است و وجه اشتراک معمول این دو بیماری نیست.",
+      "صحیح است؛ کوتاه‌شدن Mean sleep latency در MSLT می‌تواند در هر دو دیده شود.",
+      "کاهش شدید CSF Hypocretin مشخصه مهم Narcolepsy type 1 است، نه Idiopathic hypersomnia."
+    ],
+    "examTip": "MSLT کوتاه‌شدن latency را نشان می‌دهد؛ SOREMPها در افتراق Narcolepsy اهمیت دارند.",
+    "examTrap": "کاهش Mean sleep latency به‌تنهایی برای تشخیص Narcolepsy کافی نیست.",
+    "source": "ICSD-3-TR; AASM protocol for MSLT and MWT."
+  },
+  {
+    "id": "SD-017",
+    "stem": "مرد ۴۵ ساله با BMI برابر ۳۲، خواب‌آلودگی و خستگی روزانه و خرخر شبانه مراجعه کرده است. کدام عبارت درباره Obstructive sleep apnea (OSA) نادرست است؟",
+    "options": [
+      "مدت خواب کل در همه بیماران الزاماً کاهش می‌یابد.",
+      "معماری و پیوستگی خواب بیمار ممکن است مختل شود.",
+      "بیمار ممکن است پس از رویدادهای انسدادی به‌راحتی یا با برانگیختگی‌های کوتاه از خواب خارج شود.",
+      "درمان دارویی به‌تنهایی معمولاً درمان رضایت‌بخش و قطعی OSA نیست."
+    ],
+    "correctIndex": 0,
+    "explanation": "OSA با انسدادهای مکرر راه هوایی، برانگیختگی‌های کوتاه و Fragmentation خواب همراه است؛ اما Total sleep time الزاماً در همه بیماران کاهش نمی‌یابد. درمان بر اساس شدت و شرایط بیمار شامل PAP، اقدامات رفتاری و در موارد منتخب درمان‌های دیگر است؛ دارو به‌تنهایی درمان قطعی محسوب نمی‌شود.",
+    "optionExplanations": [
+      "صحیح است؛ این عبارت نادرست است، زیرا Total sleep time می‌تواند طبیعی باشد و کاهش آن الزامی نیست.",
+      "درست است؛ تکرار arousalها معماری و پیوستگی خواب را مختل می‌کند.",
+      "برانگیختگی‌های کوتاه برای خاتمه رویداد انسدادی رخ می‌دهند؛ عبارت «به‌راحتی بیدار می‌شود» معیار تشخیصی مستقل نیست.",
+      "درست است؛ درمان دارویی به‌تنهایی جایگزین درمان‌های مؤثر OSA نیست."
+    ],
+    "examTip": "OSA را با خرخر، وقفه تنفسی، arousal و خواب‌آلودگی روزانه به خاطر بسپارید.",
+    "examTrap": "خواب‌آلودگی روزانه به معنی کاهش قطعی Total sleep time نیست.",
+    "source": "AASM clinical practice guideline for adult OSA; standard sleep medicine references."
+  },
+  {
+    "id": "SD-018",
+    "stem": "کدام عبارت درباره وقایع فیزیولوژیک خواب صحیح است؟",
+    "options": [
+      "بیشترین کاهش دمای مرکزی بدن الزاماً در REM رخ می‌دهد.",
+      "در Non-phasic REM نوسانات تنگ و گشاد شدن مردمک مشخصه اصلی است.",
+      "حرکات سریع چشم در REM معمولاً به‌صورت conjugate و اغلب افقی هستند.",
+      "کورتیزول خون در شروع خواب به‌طور طبیعی افزایش ناگهانی می‌یابد."
+    ],
+    "correctIndex": 2,
+    "explanation": "حرکات سریع چشم در REM معمولاً conjugate و عمدتاً افقی‌اند. در REM فازیک تغییرات خودکار و حرکات چشم برجسته‌ترند؛ کورتیزول معمولاً در نیمه اول شب پایین‌تر است و نزدیک صبح افزایش می‌یابد.",
+    "optionExplanations": [
+      "تغییرات دمای بدن با ریتم شبانه‌روزی و خواب مرتبط است، اما این عبارت توصیف اختصاصی و قابل اتکایی برای REM نیست.",
+      "تغییرات فازیک خودکار و حرکات چشم در Phasic REM برجسته‌ترند، نه Non-phasic REM.",
+      "صحیح است؛ حرکات سریع چشم در REM غالباً conjugate و بیشتر افقی هستند.",
+      "کورتیزول در شروع خواب معمولاً کاهش می‌یابد و افزایش آن به ساعات پایانی شب/صبح نزدیک‌تر است."
+    ],
+    "examTip": "REM را با حرکات سریع چشم، آتونی عضلانی و نوسانات خودکار به خاطر بسپارید.",
+    "examTrap": "افزایش صبحگاهی Cortisol را با شروع خواب اشتباه نکنید.",
+    "source": "AASM clinical practice guidance; ICSD-3-TR; Principles and Practice of Sleep Medicine; standard sleep medicine references."
+  },
+  {
+    "id": "SD-019",
+    "stem": "بیماری با احساس ناخوشایند، درد و کشیدگی ساق پا که در استراحت تشدید و با حرکت بهتر می‌شود مراجعه کرده است. معاینه طبیعی است. از میان گزینه‌های زیر کدام دارو برای کاهش علائم RLS مؤثر است؟",
+    "options": [
+      "Amitriptyline",
+      "Pramipexole",
+      "Carbamazepine",
+      "Phenytoin"
+    ],
+    "correctIndex": 1,
+    "explanation": "شرح حال با RLS سازگار است. Pramipexole یک Dopamine agonist است و می‌تواند علائم را کاهش دهد؛ بااین‌حال به‌دلیل خطر Augmentation، راهنماهای جدید برای بسیاری از بیماران Gabapentinoids را ترجیح می‌دهند و Dopamine agonists را با احتیاط به‌کار می‌برند.",
+    "optionExplanations": [
+      "Amitriptyline ممکن است RLS را تشدید کند.",
+      "صحیح است؛ Pramipexole می‌تواند علائم RLS را کاهش دهد، هرچند نگرانی Augmentation وجود دارد.",
+      "Carbamazepine درمان استاندارد یا انتخاب معمول RLS نیست.",
+      "Phenytoin درمان RLS محسوب نمی‌شود و می‌تواند عوارض عصبی ایجاد کند."
+    ],
+    "examTip": "درمان RLS شامل اصلاح آهن و در بسیاری از بیماران Gabapentinoids است؛ Dopamine agonists با توجه به Augmentation انتخاب می‌شوند.",
+    "examTrap": "مؤثر بودن کوتاه‌مدت Dopamine agonist به معنی انتخاب اول برای همه بیماران نیست.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-020",
+    "stem": "Nocturnal enuresis کلاسیکاً بیشتر در کدام مرحله خواب رخ می‌دهد؟",
+    "options": [
+      "NREM stage 3 (N3)",
+      "NREM stage 2",
+      "NREM stage 1",
+      "REM"
+    ],
+    "correctIndex": 0,
+    "explanation": "در منابع کلاسیک، شب‌ادراری کودکان بیشتر با خواب عمیق NREM یا Slow-wave sleep (N3) مرتبط دانسته شده است؛ بااین‌حال می‌تواند در مراحل دیگر نیز رخ دهد و محدود به N3 نیست.",
+    "optionExplanations": [
+      "صحیح است؛ ارتباط کلاسیک Nocturnal enuresis با N3 است.",
+      "N2 مرحله شایع خواب است، اما ارتباط کلاسیک شب‌ادراری با N3 است.",
+      "N1 مرحله گذار به خواب است و مرحله کلاسیک شب‌ادراری نیست.",
+      "شب‌ادراری به REM محدود نیست."
+    ],
+    "examTip": "ارتباط کلاسیک شب‌ادراری را با N3 به خاطر بسپارید.",
+    "examTrap": "رخداد شب‌ادراری منحصر به N3 نیست.",
+    "source": "Standard pediatric sleep and enuresis references."
+  },
+  {
+    "id": "SD-021",
+    "stem": "مرد ۵۵ ساله‌ای از سه ماه قبل هنگام به‌خواب‌رفتن دچار احساس ناخوشایند و Dysesthesia در هر دو ساق می‌شود که با حرکت پاها برطرف می‌گردد. کدام دارو می‌تواند علائم RLS را تشدید کند؟",
+    "options": [
+      "Amitriptyline",
+      "Gabapentin",
+      "Levodopa",
+      "Iron در صورت کمبود"
+    ],
+    "correctIndex": 0,
+    "explanation": "شرح حال با RLS سازگار است. داروهای سروتونرژیک و برخی داروهای ضدافسردگی از جمله Amitriptyline ممکن است علائم RLS یا PLMS را تشدید کنند. Gabapentin می‌تواند درمان باشد و Levodopa نیز ممکن است علائم را کاهش دهد، هرچند خطر Augmentation دارد.",
+    "optionExplanations": [
+      "صحیح است؛ Amitriptyline می‌تواند RLS را تشدید کند.",
+      "Gabapentin از گزینه‌های درمانی RLS است.",
+      "Levodopa ممکن است علائم را کاهش دهد، ولی مصرف طولانی‌مدت به‌علت Augmentation محدود می‌شود.",
+      "اصلاح کمبود آهن می‌تواند به بهبود RLS کمک کند."
+    ],
+    "examTip": "در بیمار RLS داروهای تشدیدکننده، به‌ویژه برخی antidepressants و antihistamines را مرور کنید.",
+    "examTrap": "دارویی که خواب را بهتر می‌کند الزاماً RLS را درمان نمی‌کند؛ در این سؤال Amitriptyline عامل تشدیدکننده است.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-022",
+    "stem": "در درمان Restless legs syndrome کدام گزینه در مقایسه با سایر موارد کمتر مؤثر و کمتر استاندارد است؟",
+    "options": [
+      "Pramipexole",
+      "Propoxyphene",
+      "Carbamazepine",
+      "Gabapentin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Carbamazepine درمان استاندارد RLS نیست و شواهد اثربخشی آن محدودتر است. Pramipexole و Gabapentin از داروهای مؤثرند؛ Opioidها در موارد شدید و مقاوم و با ملاحظات ایمنی ممکن است استفاده شوند.",
+    "optionExplanations": [
+      "Pramipexole می‌تواند علائم را کاهش دهد، هرچند خطر Augmentation دارد.",
+      "Opioidها در موارد مقاوم منتخب ممکن است مؤثر باشند؛ Propoxyphene امروزه به‌دلیل محدودیت‌های ایمنی و دسترسی انتخاب معمول نیست.",
+      "صحیح است؛ Carbamazepine درمان استاندارد RLS نیست و اثربخشی آن محدود است.",
+      "Gabapentin از گزینه‌های مؤثر و در راهنماهای جدید مهم درمان RLS است."
+    ],
+    "examTip": "Gabapentinoids در راهنماهای جدید جایگاه مهمی دارند؛ Opioidها فقط برای موارد منتخب و مقاوم مطرح‌اند.",
+    "examTrap": "Propoxyphene یک opioid قدیمی است و نباید آن را گزینه روتین امروزی تلقی کرد.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-023",
+    "stem": "اختلال خواب پس از انفارکتوس درگیری کدام ناحیه را بیشتر مطرح می‌کند؟",
+    "options": [
+      "انفارکتوس لاکونار Pulvinar",
+      "انفارکتوس لاکونار نیمکره‌ای",
+      "انفارکتوس Pons با درگیری tegmental raphe nuclei",
+      "انفارکتوس مخچه"
+    ],
+    "correctIndex": 2,
+    "explanation": "ساختارهای ساقه مغز از جمله هسته‌های Raphe در تنظیم چرخه خواب و بیداری نقش دارند. ضایعه پونتین با درگیری tegmental raphe nuclei می‌تواند با اختلال خواب همراه شود.",
+    "optionExplanations": [
+      "Pulvinar در تالاموس در پردازش حسی و توجه نقش دارد و پاسخ کلاسیک این سؤال نیست.",
+      "انفارکتوس لاکونار نیمکره‌ای به‌طور اختصاصی هسته‌های تنظیم‌کننده خواب را هدف نمی‌گیرد.",
+      "صحیح است؛ هسته‌های Raphe در ساقه مغز در تنظیم خواب و بیداری نقش دارند.",
+      "ضایعه مخچه می‌تواند پیامدهای عصبی مختلف داشته باشد، اما محل کلاسیک مورد سؤال نیست."
+    ],
+    "examTip": "هسته‌های Raphe ساقه مغز را در شبکه‌های تنظیم خواب و بیداری به خاطر بسپارید.",
+    "examTrap": "هر سکته‌ای که با خواب‌آلودگی همراه باشد لزوماً محل تنظیم خواب را درگیر نکرده است.",
+    "source": "Standard neuroanatomy of sleep-wake regulation."
+  },
+  {
+    "id": "SD-024",
+    "stem": "بیماری با افتادگی ناگهانی سر هنگام خنده شدید، بدون کاهش سطح هوشیاری، و خواب‌آلودگی روزانه مراجعه کرده است. کدام دارو برای کنترل Cataplexy مؤثر است؟",
+    "options": [
+      "Modafinil",
+      "Methylphenidate",
+      "Venlafaxine",
+      "Dextroamphetamine"
+    ],
+    "correctIndex": 2,
+    "explanation": "شرح حال با Narcolepsy همراه با Cataplexy سازگار است. Venlafaxine با مهار بازجذب Serotonin و Norepinephrine می‌تواند Cataplexy را کاهش دهد. داروهای محرک و Modafinil عمدتاً Excessive daytime sleepiness را هدف می‌گیرند.",
+    "optionExplanations": [
+      "Modafinil عمدتاً خواب‌آلودگی روزانه را درمان می‌کند و اثر اصلی آن بر Cataplexy نیست.",
+      "Methylphenidate محرک بیداری است و درمان اصلی Cataplexy محسوب نمی‌شود.",
+      "صحیح است؛ Venlafaxine از داروهای ضدافسردگی مؤثر بر Cataplexy است.",
+      "Dextroamphetamine عمدتاً برای خواب‌آلودگی روزانه به‌کار می‌رود."
+    ],
+    "examTip": "Cataplexy را از EDS جدا کنید: داروهای ضدافسردگی خاص می‌توانند Cataplexy را کاهش دهند.",
+    "examTrap": "Modafinil برای EDS است و به‌تنهایی درمان اختصاصی Cataplexy نیست.",
+    "source": "AASM guidance for central disorders of hypersomnolence; narcolepsy treatment references."
+  },
+  {
+    "id": "SD-025",
+    "stem": "کدام دارو ممکن است علائم Restless legs syndrome را تشدید کند؟",
+    "options": [
+      "Levodopa",
+      "Carbamazepine",
+      "Amitriptyline",
+      "Gabapentin"
+    ],
+    "correctIndex": 2,
+    "explanation": "Amitriptyline از داروهایی است که ممکن است RLS یا PLMS را تشدید کند. Gabapentin می‌تواند درمان باشد؛ Levodopa ممکن است کوتاه‌مدت علائم را کم کند اما با Augmentation همراه است.",
+    "optionExplanations": [
+      "Levodopa می‌تواند علائم را موقتاً کاهش دهد، هرچند خطر Augmentation دارد.",
+      "Carbamazepine درمان استاندارد RLS نیست، اما عامل کلاسیک تشدیدکننده در این گزینه‌ها محسوب نمی‌شود.",
+      "صحیح است؛ Amitriptyline می‌تواند علائم RLS را تشدید کند.",
+      "Gabapentin از گزینه‌های درمانی RLS است."
+    ],
+    "examTip": "داروهای ضدافسردگی سه‌حلقه‌ای را در مرور داروهای تشدیدکننده RLS در نظر بگیرید.",
+    "examTrap": "Levodopa بیشتر به‌دلیل Augmentation محدود می‌شود؛ Amitriptyline می‌تواند علائم را تشدید کند.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-026",
+    "stem": "کاهش شدید یا فقدان Hypocretin-1 (Orexin) در CSF بیشتر در کدام اختلال خواب دیده می‌شود؟",
+    "options": [
+      "Narcolepsy type 1",
+      "Idiopathic hypersomnia",
+      "Kleine-Levin syndrome",
+      "Sleep-related epilepsy"
+    ],
+    "correctIndex": 0,
+    "explanation": "کاهش شدید CSF Hypocretin-1 یافته زیستی شاخص Narcolepsy type 1 است و معمولاً با Cataplexy همراهی دارد. این یافته در Idiopathic hypersomnia یا Kleine-Levin syndrome ویژگی تشخیصی معمول نیست.",
+    "optionExplanations": [
+      "صحیح است؛ کمبود Hypocretin-1 در CSF از معیارهای زیستی Narcolepsy type 1 است.",
+      "در Idiopathic hypersomnia کاهش شدید Hypocretin انتظار نمی‌رود.",
+      "Kleine-Levin syndrome با دوره‌های عودکننده پرخوابی شناخته می‌شود، نه فقدان مشخص Hypocretin.",
+      "صرع مرتبط با خواب با فقدان Hypocretin تعریف نمی‌شود."
+    ],
+    "examTip": "Hypocretin deficiency و Cataplexy را به Narcolepsy type 1 پیوند دهید.",
+    "examTrap": "Narcolepsy type 2 معمولاً با کاهش شدید CSF Hypocretin تعریف نمی‌شود.",
+    "source": "ICSD-3-TR; narcolepsy pathophysiology and diagnostic criteria."
+  },
+  {
+    "id": "SD-027",
+    "stem": "Vertex waves و Sleep spindles از ویژگی‌های کدام مرحله خواب هستند؟",
+    "options": [
+      "N1",
+      "N2",
+      "N3",
+      "REM"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sleep spindles و K-complexها از شاخص‌های اصلی N2 هستند. Vertex sharp waves بیشتر در گذار به خواب و N1 دیده می‌شوند، اما ممکن است در N2 نیز ثبت شوند؛ وجود Sleep spindle شاخص قوی‌تری برای N2 است.",
+    "optionExplanations": [
+      "Vertex waves بیشتر با N1 و گذار به خواب مرتبط‌اند؛ Sleep spindle شاخص N2 است.",
+      "صحیح است؛ Sleep spindles از ویژگی‌های اصلی N2 هستند و Vertex waves نیز ممکن است در حوالی این مرحله دیده شوند.",
+      "N3 با امواج دلتا با دامنه بالا مشخص می‌شود.",
+      "REM با EEG کم‌ولتاژ و فرکانس مختلط و آتونی عضلانی شناخته می‌شود."
+    ],
+    "examTip": "Sleep spindle و K-complex را به N2 نسبت دهید.",
+    "examTrap": "Vertex wave به‌تنهایی شاخص اختصاصی N2 نیست؛ Sleep spindle راهنمای مهم‌تر است.",
+    "source": "AASM Manual for the Scoring of Sleep and Associated Events."
+  },
+  {
+    "id": "SD-028",
+    "stem": "در مورد REM sleep behavior disorder (RBD) کدام عبارت صحیح است؟",
+    "options": [
+      "این عارضه در اغلب بیماران کاملاً Idiopathic باقی می‌ماند.",
+      "بیماران باید در درجه اول از نظر Temporal lobe epilepsy بررسی شوند.",
+      "RBD به‌ویژه با بیماری‌های نورودژنراتیو مانند Parkinson disease و Dementia with Lewy bodies ارتباط دارد.",
+      "Bupropion در همه بیماران و به‌طور قطعی RBD را تشدید می‌کند."
+    ],
+    "correctIndex": 2,
+    "explanation": "RBD با از بین رفتن آتونی طبیعی REM و بروز رفتارهای حرکتی حین رؤیا همراه است. این اختلال ارتباط قوی با Synucleinopathies از جمله Parkinson disease و Dementia with Lewy bodies دارد و ممکن است سال‌ها پیش از علائم حرکتی یا شناختی ظاهر شود. برخی داروهای ضدافسردگی می‌توانند RBD را آشکار یا تشدید کنند.",
+    "optionExplanations": [
+      "بسیاری از موارد به‌ویژه در سنین بالاتر با Synucleinopathy زمینه‌ای ارتباط دارند؛ idiopathic بودن را نباید پیش‌فرض گرفت.",
+      "صرع در افتراق مطرح می‌شود، اما ارتباط برجسته RBD با Synucleinopathy است.",
+      "صحیح است؛ ارتباط با Parkinson disease و Dementia with Lewy bodies شناخته‌شده است.",
+      "اثر Bupropion قطعی و همگانی نیست؛ برخی antidepressants ممکن است RBD را تشدید یا آشکار کنند."
+    ],
+    "examTip": "RBD در سالمندان می‌تواند نشانگر زودرس Synucleinopathy باشد.",
+    "examTrap": "وجود RBD را صرفاً یک پاراسومنیا بی‌خطر و مستقل تلقی نکنید؛ ارزیابی نورودژنراتیو اهمیت دارد.",
+    "source": "ICSD-3-TR; AASM guideline for RBD; reviews of prodromal synucleinopathy."
+  },
+  {
+    "id": "SD-029",
+    "stem": "بیماری با پارکینسونیسم متقارن، دمانس، توهم‌های بینایی و REM sleep behavior disorder مراجعه کرده است. کدام دارو را به‌علت خطر حساسیت شدید به Neuroleptic توصیه نمی‌کنید؟",
+    "options": [
+      "Rivastigmine",
+      "Haloperidol",
+      "Clonazepam",
+      "Donepezil"
+    ],
+    "correctIndex": 1,
+    "explanation": "شرح حال به نفع Dementia with Lewy bodies است. این بیماران ممکن است حساسیت شدید به داروهای مسدودکننده Dopamine، به‌ویژه Typical antipsychotics مانند Haloperidol، داشته باشند؛ بنابراین باید از آنها اجتناب کرد. Cholinesterase inhibitors می‌توانند علائم شناختی و گاه روان‌پریشی را بهبود دهند.",
+    "optionExplanations": [
+      "Rivastigmine می‌تواند برای علائم شناختی DLB مفید باشد.",
+      "صحیح است؛ Haloperidol می‌تواند حساسیت شدید Neuroleptic و بدترشدن پارکینسونیسم ایجاد کند.",
+      "Clonazepam در برخی بیماران RBD استفاده می‌شود، اما در سالمندان باید خطر سقوط، گیجی و آپنه خواب سنجیده شود.",
+      "Donepezil نیز از مهارکننده‌های Cholinesterase است و ممکن است برای علائم شناختی مفید باشد."
+    ],
+    "examTip": "در DLB از Typical antipsychotics مانند Haloperidol پرهیز کنید.",
+    "examTrap": "Clonazepam برای RBD بدون خطر نیست؛ اما خطر کلاسیک حساسیت شدید Neuroleptic مربوط به Haloperidol است.",
+    "source": "DLB consensus criteria; AASM RBD guideline; dementia treatment references."
+  },
+  {
+    "id": "SD-030",
+    "stem": "کدام اختلال خواب عمدتاً در REM رخ می‌دهد و ممکن است در شرایط REM rebound برجسته‌تر شود؟",
+    "options": [
+      "Night terror",
+      "Nightmare",
+      "Sleepwalking (somnambulism)",
+      "Nocturnal enuresis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nightmareها معمولاً در REM رخ می‌دهند و پس از بیداری اغلب رؤیا به یاد آورده می‌شود. REM rebound می‌تواند رؤیاهای واضح و Nightmare را افزایش دهد. Night terror و Sleepwalking عمدتاً از NREM عمیق، به‌ویژه N3، منشأ می‌گیرند.",
+    "optionExplanations": [
+      "Night terror معمولاً از N3 و با بیداری ناقص همراه است.",
+      "صحیح است؛ Nightmare عمدتاً در REM رخ می‌دهد و ممکن است با REM rebound افزایش یابد.",
+      "Sleepwalking عمدتاً پاراسومنیا NREM و مرتبط با N3 است.",
+      "Nocturnal enuresis کلاسیکاً با N3 ارتباط دارد."
+    ],
+    "examTip": "Nightmare را به REM و Night terror/Sleepwalking را به N3 نسبت دهید.",
+    "examTrap": "ترس شبانه با کابوس یکسان نیست؛ زمان وقوع و یادآوری رؤیا در افتراق کمک می‌کند.",
+    "source": "ICSD-3-TR; standard parasomnia references."
+  },
+  {
+    "id": "SD-031",
+    "stem": "مرد ۴۸ ساله‌ای با احساس ناخوشایند و حرکت کرم‌مانند در پاها هنگام درازکشیدن که با حرکت بهتر می‌شود، مراجعه کرده است. در بررسی RLS کدام اقدام تشخیصی به‌طور روتین ضرورت ندارد؟",
+    "options": [
+      "اندازه‌گیری Calcium سرم بر اساس زمینه بالینی",
+      "بررسی عملکرد تیروئید بر اساس شرح حال و معاینه",
+      "CBC و بررسی شاخص‌های آهن",
+      "Nerve conduction study و EMG به‌صورت روتین"
+    ],
+    "correctIndex": 3,
+    "explanation": "RLS یک تشخیص بالینی بر اساس معیارهای مشخص است. بررسی CBC، Ferritin و شاخص‌های آهن اهمیت دارد؛ سایر آزمایش‌ها مانند تیروئید یا کلسیم بر اساس شک بالینی درخواست می‌شوند. Nerve conduction study و EMG برای تشخیص روتین RLS لازم نیستند و فقط در صورت شک به نوروپاتی یا تشخیص جایگزین انجام می‌شوند.",
+    "optionExplanations": [
+      "آزمایش کلسیم در صورت وجود شواهد بالینی یا شک به اختلال متابولیک قابل انجام است، اما برای همه الزامی نیست.",
+      "تست تیروئید بر اساس زمینه بالینی می‌تواند درخواست شود.",
+      "CBC و Iron studies از بررسی‌های مهم در RLS هستند.",
+      "صحیح است؛ EMG/NCS برای تشخیص معمول RLS ضرورت ندارد."
+    ],
+    "examTip": "RLS تشخیص بالینی است؛ Ferritin و Iron studies را فراموش نکنید.",
+    "examTrap": "EMG/NCS تست تأییدی روتین RLS نیست؛ آن را برای تشخیص‌های افتراقی نگه دارید.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-032",
+    "stem": "بیشترین سهم خواب شبانه در یک فرد بالغ سالم معمولاً مربوط به کدام مرحله است؟",
+    "options": [
+      "N1",
+      "N2",
+      "N3",
+      "REM"
+    ],
+    "correctIndex": 1,
+    "explanation": "N2 معمولاً حدود ۴۵ تا ۵۵ درصد خواب شبانه بزرگسالان را تشکیل می‌دهد و از نظر مدت، بزرگ‌ترین مرحله خواب است.",
+    "optionExplanations": [
+      "N1 سهم اندکی از خواب شبانه دارد.",
+      "صحیح است؛ N2 بیشترین سهم خواب بزرگسالان را تشکیل می‌دهد.",
+      "N3 سهم کمتری دارد و با افزایش سن کاهش می‌یابد.",
+      "REM معمولاً حدود ۲۰ تا ۲۵ درصد خواب بزرگسالان است."
+    ],
+    "examTip": "در بزرگسالان: N2 حدود نصف خواب، N3 حدود ۱۵ تا ۲۰ درصد و REM حدود یک‌پنجم تا یک‌چهارم است.",
+    "examTrap": "بیشترین سهم خواب را با عمیق‌ترین مرحله اشتباه نکنید؛ بیشترین سهم مربوط به N2 است.",
+    "source": "AASM sleep scoring manual; standard adult sleep architecture references."
+  },
+  {
+    "id": "SD-033",
+    "stem": "در بیمار مبتلا به RLS، کدام گزینه در اولویت درمانی معمول قرار ندارد؟",
+    "options": [
+      "بررسی و اصلاح کمبود آهن",
+      "Temazepam",
+      "Gabapentin",
+      "Levodopa/benserazide (Madopar)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Temazepam ممکن است خواب را تسهیل کند، اما درمان اختصاصی RLS نیست و در اولویت درمان قرار ندارد. بررسی و اصلاح کمبود آهن و استفاده از Gabapentinoids در بسیاری از بیماران اهمیت دارند. Levodopa می‌تواند علائم را کاهش دهد، اما به‌دلیل Augmentation برای مصرف روتین طولانی‌مدت مناسب نیست.",
+    "optionExplanations": [
+      "درست است؛ اصلاح کمبود آهن از اقدامات پایه درمان است.",
+      "صحیح است؛ Temazepam درمان اختصاصی یا اولویت معمول RLS نیست.",
+      "Gabapentin از گزینه‌های درمانی مهم RLS است.",
+      "Levodopa ممکن است مؤثر باشد، اما خطر Augmentation کاربرد طولانی‌مدت آن را محدود می‌کند."
+    ],
+    "examTip": "در RLS ابتدا آهن و عوامل تشدیدکننده را بررسی کنید؛ Gabapentinoids در بسیاری از بیماران جایگاه مهمی دارند.",
+    "examTrap": "داروهای خواب‌آور مانند Benzodiazepines ممکن است خواب را بهتر کنند، اما خود RLS را به‌طور اختصاصی درمان نمی‌کنند.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-034",
+    "stem": "مرد ۲۴ ساله مبتلا به Epilepsy تحت درمان با Valproate، از Maintenance و Late insomnia شکایت دارد. از میان داروهای زیر کدام گزینه برای بهبود تداوم خواب مناسب‌تر است؟",
+    "options": [
+      "Zolpidem",
+      "Eszopiclone",
+      "Clonazepam",
+      "Zaleplon"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eszopiclone می‌تواند برای شروع خواب و حفظ خواب مؤثر باشد و در میان گزینه‌های داده‌شده برای Maintenance/Late insomnia مناسب‌تر است. انتخاب دارو در بیمار مبتلا به صرع باید با توجه به کنترل تشنج، تداخلات دارویی، عوارض شناختی و علت بی‌خوابی انجام شود.",
+    "optionExplanations": [
+      "Zolpidem بیشتر برای شروع خواب و در برخی فرمولاسیون‌ها برای حفظ خواب به‌کار می‌رود، اما گزینه طولانی‌اثرتر این فهرست Eszopiclone است.",
+      "صحیح است؛ Eszopiclone می‌تواند به حفظ خواب نیز کمک کند.",
+      "Clonazepam داروی ضدتشنج در برخی سندرم‌هاست، اما انتخاب روتین برای درمان Insomnia نیست و می‌تواند وابستگی و عوارض روزانه ایجاد کند.",
+      "Zaleplon نیمه‌عمر کوتاهی دارد و بیشتر برای شروع خواب مناسب است، نه بیداری‌های نیمه دوم شب."
+    ],
+    "examTip": "در Maintenance insomnia نیمه‌عمر و اثر دارو بر حفظ خواب اهمیت دارد.",
+    "examTrap": "در بیمار مبتلا به Epilepsy، درمان بی‌خوابی باید با مرور داروها و کنترل تشنج همراه باشد.",
+    "source": "AASM pharmacologic treatment guideline for chronic insomnia; antiseizure medication and sleep references."
+  },
+  {
+    "id": "SD-035",
+    "stem": "مرد ۲۸ ساله‌ای دوره‌های پرخوابی شدید دارد؛ در هر دوره حدود ۱۴ ساعت در شبانه‌روز می‌خوابد، فقط برای نیازهای ضروری بیدار می‌شود و دچار Hyperphagia و اختلال تمرکز و حافظه است. کدام عبارت درباره این اختلال صحیح‌تر است؟",
+    "options": [
+      "در CSF افزایش Hypocretin وجود دارد.",
+      "در CSF کاهش شدید Hypocretin انتظار می‌رود.",
+      "معماری REM و NREM ممکن است بین دوره‌ها طبیعی باشد.",
+      "Imipramine درمان قطعی و انتخاب اول بیماری است."
+    ],
+    "correctIndex": 2,
+    "explanation": "شرح حال به نفع Kleine-Levin syndrome است؛ اختلالی با دوره‌های عودکننده Hypersomnolence، Hyperphagia و تغییرات شناختی/رفتاری. معماری خواب ممکن است بین دوره‌ها طبیعی باشد. کاهش شدید Hypocretin مانند Narcolepsy type 1 ویژگی معمول این بیماری نیست و درمان دارویی قطعی تثبیت‌شده‌ای وجود ندارد.",
+    "optionExplanations": [
+      "افزایش Hypocretin یافته تشخیصی شناخته‌شده این سندرم نیست.",
+      "کاهش شدید Hypocretin بیشتر به نفع Narcolepsy type 1 است.",
+      "صحیح است؛ بین حملات ممکن است معماری خواب طبیعی شود.",
+      "Imipramine درمان قطعی یا انتخاب اول Kleine-Levin syndrome نیست."
+    ],
+    "examTip": "پرخوابی دوره‌ای همراه Hyperphagia و بهبودی بین حملات، Kleine-Levin syndrome را مطرح می‌کند.",
+    "examTrap": "کاهش CSF Hypocretin را با Narcolepsy type 1 مرتبط کنید، نه Kleine-Levin syndrome.",
+    "source": "ICSD-3-TR; reviews of Kleine-Levin syndrome."
+  },
+  {
+    "id": "SD-036",
+    "stem": "مرد ۶۷ ساله مبتلا به Parkinson disease که Levodopa و یک Beta-blocker مصرف می‌کند، به‌علت Excessive daytime sleepiness مراجعه کرده است. کدام عبارت نادرست است؟",
+    "options": [
+      "Parkinson disease می‌تواند در ایجاد EDS نقش داشته باشد.",
+      "باید از نظر Sleep apnea بررسی شود.",
+      "Beta-blockerها در برخی بیماران می‌توانند به خواب‌آلودگی کمک کنند.",
+      "درمان مؤثر با Levodopa به‌طور قابل اتکا EDS را کاهش می‌دهد."
+    ],
+    "correctIndex": 3,
+    "explanation": "EDS در Parkinson disease چندعاملی است و می‌تواند از خود بیماری، اختلالات خواب همراه مانند OSA، داروهای دوپامینرژیک و سایر داروها ناشی شود. Levodopa الزاماً EDS را کاهش نمی‌دهد و در برخی بیماران داروهای دوپامینرژیک حتی می‌توانند خواب‌آلودگی ایجاد کنند.",
+    "optionExplanations": [
+      "درست است؛ خود Parkinson disease و اختلالات همراه می‌توانند EDS ایجاد کنند.",
+      "درست است؛ OSA باید در ارزیابی EDS بررسی شود.",
+      "درست است؛ برخی Beta-blockers ممکن است با خستگی یا خواب‌آلودگی همراه باشند.",
+      "صحیح است؛ این عبارت نادرست است، زیرا Levodopa درمان قابل اتکای EDS نیست و ممکن است خواب‌آلودگی را تشدید کند."
+    ],
+    "examTip": "EDS در Parkinson disease را چندعاملی بررسی کنید: بیماری، OSA و داروها.",
+    "examTrap": "بهبود علائم حرکتی با Levodopa لزوماً به معنی بهبود خواب‌آلودگی روزانه نیست.",
+    "source": "Parkinson disease sleep disorder reviews; AASM guidance on EDS."
+  },
+  {
+    "id": "SD-037",
+    "stem": "در EEG ثبت‌شده در ساعت ۱۰ صبح، پس از چند دقیقه حرکات سریع چشم، EEG کم‌ولتاژ با فرکانس مختلط دیده می‌شود و در کانال Chin EMG آتونی واضح وجود دارد. این الگو با کدام گزینه تطابق ندارد؟",
+    "options": [
+      "Sleep deprivation",
+      "REM sleep behavior disorder",
+      "قطع داروهای مهارکننده REM",
+      "Narcolepsy"
+    ],
+    "correctIndex": 1,
+    "explanation": "EEG کم‌ولتاژ با فرکانس مختلط همراه با حرکات سریع چشم و آتونی عضلات چانه با REM طبیعی سازگار است. در REM sleep behavior disorder ویژگی کلیدی فقدان آتونی طبیعی REM یا REM without atonia است؛ بنابراین وجود آتونی واضح با RBD تطابق ندارد. Sleep deprivation، REM rebound و Narcolepsy می‌توانند احتمال ورود زودهنگام به REM را افزایش دهند.",
+    "optionExplanations": [
+      "Sleep deprivation می‌تواند REM rebound یا تغییر زمان‌بندی REM ایجاد کند.",
+      "صحیح است؛ RBD با REM without atonia مشخص می‌شود، نه آتونی طبیعی و حفظ‌شده.",
+      "قطع داروهای مهارکننده REM ممکن است REM rebound ایجاد کند.",
+      "در Narcolepsy ممکن است Sleep-onset REM رخ دهد."
+    ],
+    "examTip": "RBD را با REM without atonia تشخیص دهید؛ Chin EMG برای این ارزیابی اهمیت دارد.",
+    "examTrap": "ثبت REM به‌تنهایی برای تشخیص RBD کافی نیست؛ باید فقدان آتونی REM وجود داشته باشد.",
+    "source": "ICSD-3-TR; AASM scoring manual and RBD guideline."
+  },
+  {
+    "id": "SD-038",
+    "stem": "داروهای ضدافسردگی سه‌حلقه‌ای (Tricyclic antidepressants) ممکن است کدام اختلال خواب را تشدید کنند؟",
+    "options": [
+      "Sleep paralysis",
+      "Obstructive sleep apnea",
+      "Periodic limb movements of sleep",
+      "Night terrors"
+    ],
+    "correctIndex": 2,
+    "explanation": "داروهای ضدافسردگی سه‌حلقه‌ای و برخی داروهای سروتونرژیک می‌توانند Periodic limb movements of sleep یا علائم RLS را تشدید کنند. شدت این اثر بین افراد متفاوت است.",
+    "optionExplanations": [
+      "ارتباط اصلی و شناخته‌شده TCAها در این سؤال با Sleep paralysis نیست.",
+      "TCAها درمان OSA نیستند، اما تشدید مستقیم و شاخص OSA پاسخ کلاسیک این سؤال نیست.",
+      "صحیح است؛ TCAها می‌توانند PLMS را تشدید کنند.",
+      "Night terror عمدتاً پاراسومنیا NREM است و ارتباط شاخص این سؤال با TCAها نیست."
+    ],
+    "examTip": "در PLMS/RLS، داروهای ضدافسردگی را به‌عنوان عوامل بالقوه تشدیدکننده مرور کنید.",
+    "examTrap": "تشدید PLMS با TCA در همه بیماران رخ نمی‌دهد، اما ارتباط بالینی شناخته‌شده‌ای است.",
+    "source": "AASM clinical practice guideline for RLS and PLMD."
+  },
+  {
+    "id": "SD-039",
+    "stem": "در بیماران مبتلا به بیماری‌های Neuromuscular، خطر اختلال تنفسی حین خواب معمولاً در کدام مرحله بیشتر است؟",
+    "options": [
+      "NREM2",
+      "NREM3",
+      "مرحله انتقالی از بیداری به خواب",
+      "REM"
+    ],
+    "correctIndex": 3,
+    "explanation": "در REM آتونی فیزیولوژیک عضلات اسکلتی رخ می‌دهد و فعالیت عضلات کمکی تنفس کاهش می‌یابد. در بیماران مبتلا به بیماری‌های Neuromuscular، این کاهش تون می‌تواند ضعف تهویه و اختلال تنفسی را آشکارتر کند.",
+    "optionExplanations": [
+      "NREM2 معمولاً آتونی عضلانی REM را ندارد.",
+      "NREM3 خواب موج‌آهسته است، اما کاهش تون عضلات کمکی به اندازه REM برجسته نیست.",
+      "مرحله گذار ممکن است تغییرات تنفسی داشته باشد، اما پاسخ کلاسیک REM است.",
+      "صحیح است؛ آتونی REM می‌تواند در بیماری Neuromuscular ضعف تهویه را تشدید کند."
+    ],
+    "examTip": "در بیماری‌های Neuromuscular، REM به‌علت کاهش فعالیت عضلات کمکی تنفس مرحله پرخطر است.",
+    "examTrap": "اختلال تنفسی خواب در بیماری‌های عصبی‌عضلانی ممکن است در REM ابتدا آشکار شود.",
+    "source": "Sleep-related hypoventilation and neuromuscular disease references."
+  },
+  {
+    "id": "SD-040",
+    "stem": "خانم جوانی در اوایل شب از تخت خارج می‌شود، به آشپزخانه می‌رود و پس از باز و بسته‌کردن یخچال به تخت بازمی‌گردد؛ صبح روز بعد چیزی به یاد نمی‌آورد. EEG طبیعی است. از میان گزینه‌های زیر کدام دارو در موارد منتخب و شدید این اختلال ممکن است به‌کار رود؟",
+    "options": [
+      "Temazepam",
+      "Carbamazepine",
+      "Clozapine",
+      "Modafinil"
+    ],
+    "correctIndex": 0,
+    "explanation": "شرح حال با Sleepwalking (Somnambulism)، یک پاراسومنیا NREM که اغلب از N3 و در اوایل شب رخ می‌دهد، سازگار است. اقدام نخست شامل ایمن‌سازی محیط، خواب کافی، نظم خواب و درمان عوامل محرک است. در موارد شدید و مکرر، Benzodiazepines ممکن است با احتیاط در نظر گرفته شوند؛ از میان گزینه‌ها Temazepam نزدیک‌ترین انتخاب است، هرچند Clonazepam در منابع بیشتر مطرح شده است.",
+    "optionExplanations": [
+      "صحیح‌ترین گزینه از میان موارد داده‌شده است؛ Benzodiazepines ممکن است در موارد شدید و منتخب به‌کار روند، اما Temazepam درمان خط اول نیست.",
+      "Carbamazepine درمان روتین Somnambulism نیست؛ در صورت شک به صرع، تشخیص و درمان جداگانه انجام می‌شود.",
+      "Clozapine درمان Sleepwalking نیست و عوارض مهمی دارد.",
+      "Modafinil داروی بیداری‌زا است و برای درمان Somnambulism کاربرد ندارد."
+    ],
+    "examTip": "Sleepwalking معمولاً در N3 و اوایل شب رخ می‌دهد؛ ایمن‌سازی و اصلاح محرک‌ها خط اول است.",
+    "examTrap": "دارو درمان خط اول نیست؛ Benzodiazepine فقط برای موارد شدید و منتخب و پس از سنجش خطرات مطرح می‌شود.",
+    "source": "ICSD-3-TR; AASM guidance on disorders of arousal from NREM sleep."
   }
 ]
